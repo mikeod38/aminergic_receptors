@@ -1,0 +1,34 @@
+==========================================================================================
+CROSS-SPECIES CHECK: dop-6 ortholog identity (independently realigned) and locus palindrome
+==========================================================================================
+
+Cbr-dop-6  caenorhabditis_briggsae
+   X:9433023-9438080 strand +1  CBG14393b.1 710 aa, 20 exons
+   global realignment vs Cel DOP-6 (692 aa): 676/691 aligned positions identical = 97.8 %  (Compara reported a coverage-weighted number)
+   locus X:9421023-9450080 (29058 bp) self-blast: 0 repeat hit(s) >200 bp
+      -> NO internal repeat: the dop-6 locus is single-copy in this species
+
+Cbn-dop-6  caenorhabditis_brenneri
+   Cbre_Contig0:2567014-2571804 strand +1  CBN19707.1 708 aa, 16 exons
+   global realignment vs Cel DOP-6 (692 aa): 679/692 aligned positions identical = 98.1 %  (Compara reported a coverage-weighted number)
+   locus Cbre_Contig0:2555014-2583804 (28791 bp) self-blast: 0 repeat hit(s) >200 bp
+      -> NO internal repeat: the dop-6 locus is single-copy in this species
+
+Cre-dop-6  caenorhabditis_remanei_gca010183535v1rs
+   NC_071333.1:11335854-11340602 strand +1  XM_053735786.1 708 aa, 16 exons
+   global realignment vs Cel DOP-6 (692 aa): 681/692 aligned positions identical = 98.4 %  (Compara reported a coverage-weighted number)
+   locus NC_071333.1:11323854-11352602 (28749 bp) self-blast: 0 repeat hit(s) >200 bp
+      -> NO internal repeat: the dop-6 locus is single-copy in this species
+
+Cja-dop-6  caenorhabditis_japonica
+   Cjap.Contig17084:108674-115377 strand -1  CJA41806b.1 326 aa, 8 exons
+   global realignment vs Cel DOP-6 (692 aa): 321/325 aligned positions identical = 98.8 %  (Compara reported a coverage-weighted number)
+   locus Cjap.Contig17084:96674-127377 (30704 bp) self-blast: 0 repeat hit(s) >200 bp
+      -> NO internal repeat: the dop-6 locus is single-copy in this species
+
+Ppa-dop-6  pristionchus_pacificus
+   PPA_ChrI:36122554-36132838 strand +1  PPA00437.1 793 aa, 25 exons
+   global realignment vs Cel DOP-6 (692 aa): 459/641 aligned positions identical = 71.6 %  (Compara reported a coverage-weighted number)
+   locus PPA_ChrI:36110554-36144838 (34285 bp) self-blast: 2 repeat hit(s) >200 bp
+      q26609-27201  s27201-26609  89.362 % over 611 bp  (minus)
+      q23299-23810  s23810-23299  86.641 % over 524 bp  (minus)

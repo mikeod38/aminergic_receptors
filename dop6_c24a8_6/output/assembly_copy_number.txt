@@ -1,0 +1,226 @@
+====================================================================================================
+IS THE dop-6 PALINDROME PRESENT IN INDEPENDENT LONG-READ ASSEMBLIES?
+====================================================================================================
+probe_unique_ex4 : dop-6 exon 4, single copy in WBcel235       -> expect 1 hit
+probe_arm_ex15   : 405 bp inside arm A, two copies in WBcel235 -> expect 2 hits if palindrome present
+junc_*           : 300 bp spanning each repeat boundary        -> expect 1 hit each if arrangement matches
+
+
+GCA_028201515.1  N2 (Bristol) long-read, U. Oregon
+  assembly 101 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   CP116371.1:4326844-4327141 (100.0%)
+  probe_arm_ex15     2 hit(s) >=97% over >=80% of probe   CP116371.1:4332207-4332611 (100.0%), CP116371.1:4336161-4335757 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   CP116371.1:4329505-4329804 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   CP116371.1:4333435-4333734 (100.0%)
+  junc_armB_start    1 hit(s) >=97% over >=80% of probe   CP116371.1:4334631-4334930 (100.0%)
+  junc_armB_end      1 hit(s) >=97% over >=80% of probe   CP116371.1:4338564-4338863 (100.0%)
+
+GCA_028201415.1  CB4856 (Hawaiian) long-read, U. Oregon
+  assembly 100 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   CP116377.1:4206075-4206372 (100.0%)
+  probe_arm_ex15     1 hit(s) >=97% over >=80% of probe   CP116377.1:4211439-4211843 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   CP116377.1:4208737-4209036 (99.7%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   CP116377.1:4212660-4212959 (100.0%)
+  junc_armB_start    0 hit(s) >=97% over >=80% of probe   
+  junc_armB_end      0 hit(s) >=97% over >=80% of probe   
+
+GCA_052911875.1  CGC1 complete
+  assembly 107 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   AP038779.1:4857014-4857311 (100.0%)
+  probe_arm_ex15     2 hit(s) >=97% over >=80% of probe   AP038779.1:4862377-4862781 (100.0%), AP038779.1:4866332-4865928 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   AP038779.1:4859675-4859974 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   AP038779.1:4863606-4863905 (100.0%)
+  junc_armB_start    1 hit(s) >=97% over >=80% of probe   AP038779.1:4864802-4865101 (100.0%)
+  junc_armB_end      1 hit(s) >=97% over >=80% of probe   AP038779.1:4868735-4869034 (100.0%)
+
+GCA_016989125.1  XZ1516 (divergent isotype)
+  assembly 107 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFEUA010000099.1:277433-277730 (100.0%)
+  probe_arm_ex15     1 hit(s) >=97% over >=80% of probe   JAFEUA010000099.1:282804-283208 (99.8%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFEUA010000099.1:280102-280401 (99.7%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFEUA010000099.1:284035-284334 (99.7%)
+  junc_armB_start    0 hit(s) >=97% over >=80% of probe   
+  junc_armB_end      0 hit(s) >=97% over >=80% of probe   
+
+GCA_016989505.1  DL238 (divergent isotype)
+  assembly 104 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFETN010000007.1:1322574-1322871 (100.0%)
+  probe_arm_ex15     1 hit(s) >=97% over >=80% of probe   JAFETN010000007.1:1327938-1328342 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFETN010000007.1:1325236-1325535 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFETN010000007.1:1329165-1329464 (99.7%)
+  junc_armB_start    0 hit(s) >=97% over >=80% of probe   
+  junc_armB_end      0 hit(s) >=97% over >=80% of probe   
+
+GCA_016989235.1  MY2147
+  assembly 105 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFETV010000007.1:2802668-2802371 (100.0%)
+  probe_arm_ex15     1 hit(s) >=97% over >=80% of probe   JAFETV010000007.1:2797304-2796900 (99.8%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFETV010000007.1:2800006-2799707 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFETV010000007.1:2796081-2795782 (100.0%)
+  junc_armB_start    0 hit(s) >=97% over >=80% of probe   
+  junc_armB_end      0 hit(s) >=97% over >=80% of probe   
+downloading GCA_016989295.1 (EG4725) ...
+
+GCA_016989295.1  EG4725
+  assembly 105 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFETQ010000035.1:285768-286065 (100.0%)
+  probe_arm_ex15     2 hit(s) >=97% over >=80% of probe   JAFETQ010000035.1:291131-291535 (100.0%), JAFETQ010000035.1:295086-294682 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFETQ010000035.1:288429-288728 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFETQ010000035.1:292360-292659 (100.0%)
+  junc_armB_start    1 hit(s) >=97% over >=80% of probe   JAFETQ010000035.1:293556-293855 (100.0%)
+  junc_armB_end      1 hit(s) >=97% over >=80% of probe   JAFETQ010000035.1:297489-297788 (100.0%)
+downloading GCA_016989245.1 (JU2600) ...
+
+GCA_016989245.1  JU2600
+  assembly 105 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFETT010000007.1:1317285-1317582 (100.0%)
+  probe_arm_ex15     1 hit(s) >=97% over >=80% of probe   JAFETT010000007.1:1322648-1323052 (99.8%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFETT010000007.1:1319946-1320245 (99.7%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFETT010000007.1:1323875-1324174 (100.0%)
+  junc_armB_start    0 hit(s) >=97% over >=80% of probe   
+  junc_armB_end      0 hit(s) >=97% over >=80% of probe   
+downloading GCA_016989455.1 (ECA36) ...
+
+GCA_016989455.1  ECA36
+  assembly 106 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFETO010000002.1:6154311-6154014 (100.0%)
+  probe_arm_ex15     1 hit(s) >=97% over >=80% of probe   JAFETO010000002.1:6148943-6148539 (99.8%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFETO010000002.1:6151645-6151346 (99.7%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFETO010000002.1:6147719-6147425 (97.7%)
+  junc_armB_start    0 hit(s) >=97% over >=80% of probe   
+  junc_armB_end      0 hit(s) >=97% over >=80% of probe   
+downloading GCA_016989115.1 (NIC526) ...
+
+GCA_016989115.1  NIC526
+  assembly 105 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFETY010000041.1:753744-753447 (100.0%)
+  probe_arm_ex15     2 hit(s) >=97% over >=80% of probe   JAFETY010000041.1:744430-744834 (100.0%), JAFETY010000041.1:748381-747977 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFETY010000041.1:751083-750784 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFETY010000041.1:747152-746853 (100.0%)
+  junc_armB_start    1 hit(s) >=97% over >=80% of probe   JAFETY010000041.1:745956-745657 (100.0%)
+  junc_armB_end      1 hit(s) >=97% over >=80% of probe   JAFETY010000041.1:742027-741728 (100.0%)
+downloading GCA_016989365.1 (JU1400) ...
+
+GCA_016989365.1  JU1400
+  assembly 104 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFETR010000034.1:751267-750970 (100.0%)
+  probe_arm_ex15     2 hit(s) >=97% over >=80% of probe   JAFETR010000034.1:741948-742352 (100.0%), JAFETR010000034.1:745904-745500 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFETR010000034.1:748606-748307 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFETR010000034.1:744674-744375 (100.0%)
+  junc_armB_start    1 hit(s) >=97% over >=80% of probe   JAFETR010000034.1:743478-743179 (100.0%)
+  junc_armB_end      1 hit(s) >=97% over >=80% of probe   JAFETR010000034.1:739545-739246 (100.0%)
+downloading GCA_016989285.1 (JU2526) ...
+
+GCA_016989285.1  JU2526
+  assembly 104 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFETS010000038.1:755352-755055 (100.0%)
+  probe_arm_ex15     1 hit(s) >=97% over >=80% of probe   JAFETS010000038.1:749985-749581 (99.8%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFETS010000038.1:752686-752387 (99.7%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFETS010000038.1:748750-748450 (99.3%)
+  junc_armB_start    0 hit(s) >=97% over >=80% of probe   
+  junc_armB_end      0 hit(s) >=97% over >=80% of probe   
+downloading GCA_016989105.1 (MY2693) ...
+
+GCA_016989105.1  MY2693
+  assembly 104 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFETW010000027.1:279471-279768 (100.0%)
+  probe_arm_ex15     2 hit(s) >=97% over >=80% of probe   JAFETW010000027.1:284833-285237 (100.0%), JAFETW010000027.1:288787-288383 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFETW010000027.1:282132-282431 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFETW010000027.1:286062-286361 (100.0%)
+  junc_armB_start    1 hit(s) >=97% over >=80% of probe   JAFETW010000027.1:287258-287557 (100.0%)
+  junc_armB_end      1 hit(s) >=97% over >=80% of probe   JAFETW010000027.1:291190-291489 (100.0%)
+downloading GCA_016989275.1 (JU310) ...
+
+GCA_016989275.1  JU310
+  assembly 115 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFETU010000113.1:741428-741131 (100.0%)
+  probe_arm_ex15     2 hit(s) >=97% over >=80% of probe   JAFETU010000113.1:732113-732517 (100.0%), JAFETU010000113.1:736065-735661 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFETU010000113.1:738767-738468 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFETU010000113.1:734838-734539 (100.0%)
+  junc_armB_start    1 hit(s) >=97% over >=80% of probe   JAFETU010000113.1:733642-733343 (100.0%)
+  junc_armB_end      1 hit(s) >=97% over >=80% of probe   JAFETU010000113.1:729710-729411 (100.0%)
+downloading GCA_016989385.1 (ECA396) ...
+
+GCA_016989385.1  ECA396
+  assembly 104 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFETP010000085.1:285757-286054 (100.0%)
+  probe_arm_ex15     1 hit(s) >=97% over >=80% of probe   JAFETP010000085.1:291113-291517 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFETP010000085.1:288411-288710 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFETP010000085.1:292339-292638 (100.0%)
+  junc_armB_start    0 hit(s) >=97% over >=80% of probe   
+  junc_armB_end      0 hit(s) >=97% over >=80% of probe   
+downloading GCA_016989095.1 (QX1794) ...
+
+GCA_016989095.1  QX1794
+  assembly 110 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFETZ010000043.1:749395-749098 (100.0%)
+  probe_arm_ex15     1 hit(s) >=97% over >=80% of probe   JAFETZ010000043.1:744031-743627 (99.8%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFETZ010000043.1:746733-746434 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFETZ010000043.1:742809-742510 (100.0%)
+  junc_armB_start    0 hit(s) >=97% over >=80% of probe   
+  junc_armB_end      0 hit(s) >=97% over >=80% of probe   
+downloading GCA_016989145.1 (NIC2) ...
+
+GCA_016989145.1  NIC2
+  assembly 104 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   JAFETX010000033.1:727266-726969 (100.0%)
+  probe_arm_ex15     2 hit(s) >=97% over >=80% of probe   JAFETX010000033.1:717952-718356 (100.0%), JAFETX010000033.1:721903-721499 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   JAFETX010000033.1:724605-724306 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   JAFETX010000033.1:720677-720378 (100.0%)
+  junc_armB_start    1 hit(s) >=97% over >=80% of probe   JAFETX010000033.1:719481-719182 (100.0%)
+  junc_armB_end      1 hit(s) >=97% over >=80% of probe   JAFETX010000033.1:715549-715250 (100.0%)
+downloading GCA_020450165.1 (CB4856 (Seoul, independent assembly)) ...
+
+GCA_020450165.1  CB4856 (Seoul, independent assembly)
+  assembly 104 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   CP084674.1:4398246-4398543 (100.0%)
+  probe_arm_ex15     1 hit(s) >=97% over >=80% of probe   CP084674.1:4403610-4404014 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   CP084674.1:4400908-4401207 (99.7%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   CP084674.1:4404831-4405130 (100.0%)
+  junc_armB_start    0 hit(s) >=97% over >=80% of probe   
+  junc_armB_end      0 hit(s) >=97% over >=80% of probe   
+downloading GCA_022984815.1 (DL226 (Seoul)) ...
+
+GCA_022984815.1  DL226 (Seoul)
+  assembly 104 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   CM041011.1:4523430-4523727 (100.0%)
+  probe_arm_ex15     2 hit(s) >=97% over >=80% of probe   CM041011.1:4528793-4529197 (100.0%), CM041011.1:4532747-4532343 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   CM041011.1:4526091-4526390 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   CM041011.1:4530023-4530322 (100.0%)
+  junc_armB_start    1 hit(s) >=97% over >=80% of probe   CM041011.1:4531219-4531518 (100.0%)
+  junc_armB_end      1 hit(s) >=97% over >=80% of probe   CM041011.1:4535149-4535448 (100.0%)
+downloading GCA_054661295.1 (KR314) ...
+
+GCA_054661295.1  KR314
+  assembly 106 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   BAAGBR010000012.1:4826548-4826845 (100.0%)
+  probe_arm_ex15     2 hit(s) >=97% over >=80% of probe   BAAGBR010000012.1:4831911-4832315 (100.0%), BAAGBR010000012.1:4835862-4835458 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   BAAGBR010000012.1:4829209-4829508 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   BAAGBR010000012.1:4833138-4833437 (100.0%)
+  junc_armB_start    1 hit(s) >=97% over >=80% of probe   BAAGBR010000012.1:4834334-4834633 (100.0%)
+  junc_armB_end      1 hit(s) >=97% over >=80% of probe   BAAGBR010000012.1:4838265-4838564 (100.0%)
+downloading GCA_054661375.1 (CB4855) ...
+
+GCA_054661375.1  CB4855
+  assembly 106 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   BAAGBN010000019.1:332906-333203 (100.0%)
+  probe_arm_ex15     2 hit(s) >=97% over >=80% of probe   BAAGBN010000019.1:338269-338673 (100.0%), BAAGBN010000019.1:342222-341818 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   BAAGBN010000019.1:335567-335866 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   BAAGBN010000019.1:339496-339795 (100.0%)
+  junc_armB_start    1 hit(s) >=97% over >=80% of probe   BAAGBN010000019.1:340692-340991 (100.0%)
+  junc_armB_end      1 hit(s) >=97% over >=80% of probe   BAAGBN010000019.1:344625-344924 (100.0%)
+downloading GCA_045866515.1 (AB1) ...
+  GCA_045866515.1: download failed (URL can't contain control characters. '/genomes/all/GCA/045/866/515/GCA_045866515.1_C. elegans_AB1_1.0/GCA_045866515.1_C. elegans_AB1_1.0_genomic.fna.gz' (found at least ' '))
+downloading GCA_054661275.1 (RC301) ...
+
+GCA_054661275.1  RC301
+  assembly 106 Mb
+  probe_unique_ex4   1 hit(s) >=97% over >=80% of probe   BAAGBS010000029.1:330282-330579 (100.0%)
+  probe_arm_ex15     2 hit(s) >=97% over >=80% of probe   BAAGBS010000029.1:335645-336049 (100.0%), BAAGBS010000029.1:339595-339191 (100.0%)
+  junc_armA_start    1 hit(s) >=97% over >=80% of probe   BAAGBS010000029.1:332943-333242 (100.0%)
+  junc_armA_end      1 hit(s) >=97% over >=80% of probe   BAAGBS010000029.1:336871-337170 (100.0%)
+  junc_armB_start    1 hit(s) >=97% over >=80% of probe   BAAGBS010000029.1:338067-338366 (100.0%)
+  junc_armB_end      1 hit(s) >=97% over >=80% of probe   BAAGBS010000029.1:341998-342297 (100.0%)
+
+Reading: probe_arm_ex15 = 2 means the duplication is present in that assembly; = 1 means that
+assembly is single-copy there. The junction probes say whether the arrangement is the same one.

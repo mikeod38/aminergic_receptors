@@ -1,0 +1,9 @@
+group	n	segment	S	pi	nonsyn	syn	piN	piS	piN_piS
+all isolates	56	N-half 1-405	3	0.000352	0	3	0.000000	0.010588	0.0000
+all isolates	56	C-half 406-692	7	0.000931	0	7	0.000000	0.036458	0.0000
+carriers (2 copies)	36	N-half 1-405	0	0.000000	0	0	0.000000	0.000000	nan
+carriers (2 copies)	36	C-half 406-692	1	0.000125	0	1	0.000000	0.005208	0.0000
+non-carriers (1 copy)	19	N-half 1-405	3	0.000674	0	3	0.000000	0.010588	0.0000
+non-carriers (1 copy)	19	C-half 406-692	5	0.000893	0	5	0.000000	0.026042	0.0000
+CaeNDR VCF (684 isotypes)	684	N-half exons	10						
+CaeNDR VCF (684 isotypes)	684	C-half exons	0						

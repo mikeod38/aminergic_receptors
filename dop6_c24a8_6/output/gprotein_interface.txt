@@ -1,0 +1,46 @@
+================================================================================================
+CAN DOP-6 406-692 (= C24A8.6) BIND A G PROTEIN?
+================================================================================================
+interface defined from 3SN6 (beta2AR-Gs complex), contacts at <= 4.5 A, from coordinates
+chains present: A:349 res, B:340 res, G:58 res, N:128 res, R:443 res
+
+beta2AR residues contacting Galpha-s: 26
+beta2AR residues contacting Gbeta   : 2
+receptor chain observed residues 30-1160 (443 modelled; gaps are unmodelled loops)
+
+beta2AR 413 aa vs DOP-6 692 aa: 396 aligned positions
+NOTE: 3SN6 numbering is the beta2AR UniProt numbering for the receptor portion, but the
+      construct has an unmodelled ICL3; only modelled residues can contribute contacts.
+
+------------------------------------------------------------------------------------------------
+WHERE THE G-PROTEIN INTERFACE LANDS ON DOP-6
+------------------------------------------------------------------------------------------------
+
+Galpha-s: 26 contact residues, 26 of them alignable to DOP-6 (0 fall in unalignable stretches)
+  in DOP-6 1-405  (LOST from the fragment): 22
+  in DOP-6 406-692 (RETAINED in C24A8.6)  : 4
+  -> the fragment retains 15 % of the alignable interface
+  lost    : D130->D120, R131->R121, A134->A124, I135->A125, T136->T126, P138->P128, F139->A129, K140->E130, Y141->Y131, Q142->K132, S143->T133, V222->I206, E225->T209, A226->L210, R228->K212, Q229->R213, L230->L214, K232->A216, I233->I217, K235->L219, S236->Q220, R239->Q226
+  retained: K270->R470, A271->A471, T274->L474, L275->V475
+
+Gbeta: 2 contact residues, 2 of them alignable to DOP-6 (0 fall in unalignable stretches)
+  in DOP-6 1-405  (LOST from the fragment): 2
+  in DOP-6 406-692 (RETAINED in C24A8.6)  : 0
+  -> the fragment retains 0 % of the alignable interface
+  lost    : E62->K51, R63->S52
+  retained: 
+
+------------------------------------------------------------------------------------------------
+CLASS-A MOTIFS IN DOP-6 AND WHICH SIDE OF RESIDUE 405 THEY SIT ON
+------------------------------------------------------------------------------------------------
+  D(E)RY  — TM3 cytoplasmic end, R3.50 is the central Galpha contact DRL at 120  ->  LOST (1-405)
+  CWxP    — TM6 rotamer toggle                                   CWLP at 485  ->  RETAINED (406-692)
+
+------------------------------------------------------------------------------------------------
+READING
+------------------------------------------------------------------------------------------------
+The alpha5 helix of Galpha inserts into a cavity whose walls are TM3, TM5, TM6 and ICL2/ICL3.
+A fragment starting at 406 brings TM6, TM7 and the tail, but not TM3 (with its D/ERY arginine),
+not ICL2, and not TM5 — and without TM1-5 there is no cavity for alpha5 to enter, because the
+cavity is formed by the outward swing of TM6 AWAY from TM3. Contact residues are necessary,
+not sufficient: they only work assembled into the seven-helix bundle.

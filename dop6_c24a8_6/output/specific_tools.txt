@@ -1,0 +1,70 @@
+============================================================================================
+REAGENTS THAT DISTINGUISH dop-6 FROM C24A8.6
+============================================================================================
+single-copy regions of the locus:
+  dop-6 5' half   X:4320863-4324177   3315 bp   (exons 1-9, codons 1-405)
+  spacer          X:4328107-4329302   1196 bp   (C24A8.5)
+everything in X:4324178-4328106 and X:4329303-4333231 exists in two perfect copies.
+
+--------------------------------------------------------------------------------------------
+1. SpCas9 GUIDES IN dop-6 UNIQUE EXONS (protospacer + PAM, genome-verified)
+--------------------------------------------------------------------------------------------
+190 candidate protospacers in exons 1-9; BLASTing each against WBcel235 ...
+190 are unique in the genome (1 perfect full-length hit).
+
+exon  codon  str protospacer (20 nt)    PAM    GC%    cut at X:
+   2     68    - AATGCGCCAACTATTAAATC   CAG     35      4321114
+   2     77    + GCGCATTTGTAATGCCTTTC   CAG     45      4321141
+   3     86    - TGGCAAGTGCCAGTGAAGAC   CGG     55      4321219
+   3     88    - ATAGTGGCAAGTGCCAGTGA   AAG     50      4321223
+   3     89    - GACAAATAGTGGCAAGTGCC   CAG     50      4321228
+   3     91    - ATAACAGACAAATAGTGGCA   AAG     35      4321234
+   3     96    - CAAGACGCAATAGAAATAAC   CAG     35      4321249
+   3     99    - TGCAACATCCAAGACGCAAT   TAG     45      4321258
+   3    104    + TATTGCGTCTTGGATGTTGC   CAG     45      4321271
+   3    105    + GCGTCTTGGATGTTGCAGCA   AAG     55      4321275
+   3    102    - AGTGCTTGCTGCAACATCCA   AAG     50      4321267
+   3    109    - ACGAGATGAATAATAGACGA   AAG     35      4321287
+   3    115    - TGTCAATACTTATCAAGACG   GAG     35      4321304
+   3    119    + TCGTCTTGATAAGTATTGAC   CAG     35      4321317
+
+-> all 190 unique guides in output/dop6_guides.tsv
+NOTE: a guide anywhere in dop-6 exons 10-17 has TWO perfect targets (the second in C24A8.6);
+      two cuts 9 kb apart in inverted orientation delete or invert the intervening DNA.
+      (for reference, exons 10-17 contain 124 protospacers, every one of them doubled)
+
+--------------------------------------------------------------------------------------------
+2. dop-6-SPECIFIC RT-PCR / qPCR PRIMERS (amplicon inside exons 1-9, spans an intron)
+--------------------------------------------------------------------------------------------
+exons 1-9 spliced = 1200 nt; exon junctions in mRNA at [183, 249, 362, 660, 739, 852, 918, 1028]
+0 candidate pairs; checking the best few for genome uniqueness
+
+
+--------------------------------------------------------------------------------------------
+3. DIAGNOSTIC PCRs ACROSS THE PALINDROME JUNCTIONS
+--------------------------------------------------------------------------------------------
+The palindrome is a 3.9 kb inverted repeat with a 1.2 kb loop: it will not amplify or clone
+easily as one piece. Each junction is best tested with one primer in unique flanking DNA and
+one in the spacer, giving a product that exists only if the arm is present and in that orientation.
+
+  proximal (dop-6 side, arm A start)     junction at X:4324178
+  armA -> spacer                         junction at X:4328106
+  spacer -> armB                         junction at X:4329303
+  distal (cst-2 side, arm B end)         junction at X:4333231
+
+  Unique anchors available: X:<4,324,178 (dop-6 exons 1-9 side) and X:4,328,107-4,329,302
+  (spacer) and X:>4,333,231 (cst-2 side). Arm-internal primers are ambiguous by construction.
+
+--------------------------------------------------------------------------------------------
+4. CAN C24A8.6 BE DELETED WITHOUT TOUCHING dop-6?
+--------------------------------------------------------------------------------------------
+C24A8.6 X:4330076-4332405 lies wholly inside arm B, so no
+guide inside it is specific. The only specific cut sites flanking arm B are in the spacer
+(X:4328107-4329302, unique) and distal to X:4333231.
+BUT arm B overlaps cst-2 by 175 bp: cst-2 exon 9 runs X:4333057-4333346 and its 5' 175 bp are inside the arm.
+So a spacer-to-distal deletion removes all of C24A8.6 and leaves dop-6 intact, but it also
+truncates cst-2 unless the distal cut is placed inside the overlap and cst-2 is restored by HDR.
+
+Practical consequence: the decisive experiment is not a C24A8.6 null. It is a dop-6 null made
+in the unique 5' half (leaving both palindrome arms untouched) plus cDNA rescue. That assigns
+the phenotype to dop-6 without ever having to separate the two copies.

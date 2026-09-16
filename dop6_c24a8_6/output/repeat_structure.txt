@@ -1,0 +1,91 @@
+==============================================================================
+1. THE REPEAT
+arm A  X:4324178-4328106  3929 bp
+arm B  X:4329303-4333231  3929 bp   (reverse complement of arm A)
+identity 3929/3929 = 100.0000 %   mismatches 0
+spacer X:4328107-4329302  1196 bp   (between the arms; contains C24A8.5)
+whole palindrome X:4324178-4333231 = 9054 bp
+
+junction sequences (20 bp each side; | = repeat boundary)
+  arm A start  ...CTAAAATTTGGTCATGCAAC|TCCACTATCTCAACACTTTG...
+  arm A end    ...CAAAAAAATCGAAAACTTAT|TCTTGCTACTTTATTTTTTG...
+  arm B start  ...TGAGTAAAGAAATAATGCAG|ATAAGTTTTCGATTTTTTTG...
+  arm B end    ...CAAAGTGTTGAGATAGTGGA|TGAAAGTTTGGACCGGTTCC...
+spacer self-complementarity: 158/598 bp match between its two halves (26.4 %) — not palindromic
+
+==============================================================================
+2. WHICH PARTS OF EACH GENE SIT IN THE REPEAT
+
+dop-6     X:4320863-4327331 (6469 bp) strand +1  in armA 3154 bp, in armB 0 bp, unique 3315 bp
+  C24A8.1.1 (692 aa)
+     exon  1 X:4320863-4321045   183 bp  unique
+     exon  2 X:4321093-4321158    66 bp  unique
+     exon  3 X:4321209-4321321   113 bp  unique
+     exon  4 X:4321367-4321664   298 bp  unique
+     exon  5 X:4321721-4321799    79 bp  unique
+     exon  6 X:4321856-4321968   113 bp  unique
+     exon  7 X:4322923-4322988    66 bp  unique
+     exon  8 X:4323057-4323166   110 bp  unique
+     exon  9 X:4323228-4323399   172 bp  unique
+     exon 10 X:4324989-4325129   141 bp  in repeat
+     exon 11 X:4325530-4325626    97 bp  in repeat
+     exon 12 X:4325676-4325845   170 bp  in repeat
+     exon 13 X:4326165-4326262    98 bp  in repeat
+     exon 14 X:4326309-4326380    72 bp  in repeat
+     exon 15 X:4326730-4326834   105 bp  in repeat
+     exon 16 X:4327087-4327176    90 bp  in repeat
+     exon 17 X:4327226-4327331   106 bp  in repeat
+
+C24A8.5   X:4328400-4328916 (517 bp) strand -1  in armA 0 bp, in armB 0 bp, unique 517 bp
+  C24A8.5.1 (137 aa)
+     exon  1 X:4328792-4328916   125 bp  unique
+     exon  2 X:4328400-4328731   332 bp  unique
+
+C24A8.6   X:4330076-4332405 (2330 bp) strand -1  in armA 0 bp, in armB 2330 bp, unique 0 bp
+  C24A8.6a.1 (287 aa)
+     exon  1 X:4332280-4332405   126 bp  in repeat
+     exon  2 X:4331783-4331879    97 bp  in repeat
+     exon  3 X:4331564-4331733   170 bp  in repeat
+     exon  4 X:4331147-4331244    98 bp  in repeat
+     exon  5 X:4331029-4331100    72 bp  in repeat
+     exon  6 X:4330575-4330679   105 bp  in repeat
+     exon  7 X:4330233-4330322    90 bp  in repeat
+     exon  8 X:4330078-4330183   106 bp  in repeat
+  C24A8.6b.1 (304 aa)
+     exon  1 X:4332280-4332405   126 bp  in repeat
+     exon  2 X:4331783-4331879    97 bp  in repeat
+     exon  3 X:4331564-4331733   170 bp  in repeat
+     exon  4 X:4331147-4331244    98 bp  in repeat
+     exon  5 X:4331029-4331100    72 bp  in repeat
+     exon  6 X:4330915-4330965    51 bp  in repeat
+     exon  7 X:4330575-4330679   105 bp  in repeat
+     exon  8 X:4330233-4330322    90 bp  in repeat
+     exon  9 X:4330078-4330183   106 bp  in repeat
+
+cst-2     X:4333057-4336050 (2994 bp) strand -1  in armA 0 bp, in armB 175 bp, unique 2819 bp
+  C24A8.4.1 (421 aa)
+     exon  1 X:4335985-4336050    66 bp  unique
+     exon  2 X:4335838-4335918    81 bp  unique
+     exon  3 X:4335611-4335791   181 bp  unique
+     exon  4 X:4335183-4335338   156 bp  unique
+     exon  5 X:4334763-4335140   378 bp  unique
+     exon  6 X:4333784-4333876    93 bp  unique
+     exon  7 X:4333645-4333735    91 bp  unique
+     exon  8 X:4333395-4333475    81 bp  unique
+     exon  9 X:4333057-4333346   290 bp  PARTLY in repeat
+
+==============================================================================
+3. PROTEIN-LEVEL RELATIONSHIP
+dop-6 / C24A8.1  692 aa
+
+C24A8.6|C24A8.6a.1  287 aa
+  local aln 287 cols, 287 identical = 100.0 %
+  dop-6 406-692  vs  C24A8.6a.1 1-287
+  -> C24A8.6a.1 is an EXACT substring of dop-6 over the aligned region
+  -> full C24A8.6a.1 protein is an exact substring of the dop-6 protein
+
+C24A8.6|C24A8.6b.1  304 aa
+  local aln 304 cols, 287 identical = 94.4 %
+  dop-6 406-692  vs  C24A8.6b.1 1-304
+  -> C24A8.6b.1 is NOT an exact substring of dop-6 over the aligned region
+  -> full C24A8.6b.1 protein is NOT an exact substring of the dop-6 protein

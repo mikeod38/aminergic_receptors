@@ -1,0 +1,50 @@
+tip	galpha_coupling	source
+Cbn-dop-6_CBN19707.1	?	textbook reference receptor
+Cbr-dop-6_CBG14393b.1	?	textbook reference receptor
+Cre-dop-6_XM_053735786.1	?	textbook reference receptor
+Ppa-dop-6_PPA00437.1	?	textbook reference receptor
+bmOAR1	?	textbook reference receptor
+cel_F35H10.10		Koelle 2018 WormBook Table 1
+cel_F59D12.1		Koelle 2018 WormBook Table 1
+cel_T21B4.4		Koelle 2018 WormBook Table 1
+cel_dop-1	Gq	Koelle 2018 WormBook Table 1
+cel_dop-2	Gi/o	Koelle 2018 WormBook Table 1
+cel_dop-3	Go	Koelle 2018 WormBook Table 1
+cel_dop-4	Gs	Koelle 2018 WormBook Table 1
+cel_dop-5		Koelle 2018 WormBook Table 1
+cel_dop-6		Koelle 2018 WormBook Table 1
+cel_gar-3	Gq+Gi/o	Koelle 2018 WormBook Table 1
+cel_octr-1	Go	Koelle 2018 WormBook Table 1
+cel_ser-1	Gq	Koelle 2018 WormBook Table 1
+cel_ser-2	Gi/o	Koelle 2018 WormBook Table 1
+cel_ser-3	Gq	Koelle 2018 WormBook Table 1
+cel_ser-4	Gi/o	Koelle 2018 WormBook Table 1
+cel_ser-5	Gs*	Koelle 2018 WormBook Table 1
+cel_ser-6	Gs	Koelle 2018 WormBook Table 1
+cel_ser-7	Gs	Koelle 2018 WormBook Table 1
+cel_tyra-2	Gi/o	Koelle 2018 WormBook Table 1
+cel_tyra-3	Gq	Koelle 2018 WormBook Table 1
+dmDop1R1	Gs	textbook reference receptor
+dmDop2R	Gi/o	textbook reference receptor
+dmOAMB	Gq	textbook reference receptor
+dmOctA2R	Gi/o	textbook reference receptor
+dmOctB1R	Gs	textbook reference receptor
+dmOctB2R	Gs	textbook reference receptor
+dmOctB3R	Gs	textbook reference receptor
+dmOctTyrR_P22270	Gi/o	textbook reference receptor
+dmTyrRII_Q9VEG2	Gi/o	textbook reference receptor
+dmTyrR_Q9VEG1	Gi/o	textbook reference receptor
+hADRA1A	Gq	textbook reference receptor
+hADRA1B	Gq	textbook reference receptor
+hADRA1D	Gq	textbook reference receptor
+hADRA2A	Gi/o	textbook reference receptor
+hADRA2C	Gi/o	textbook reference receptor
+hADRB1	Gs	textbook reference receptor
+hADRB2	Gs	textbook reference receptor
+hCHRM1	Gq	textbook reference receptor
+hCHRM3	Gq	textbook reference receptor
+hDRD1	Gs	textbook reference receptor
+hDRD2	Gi/o	textbook reference receptor
+hHTR1A	Gi/o	textbook reference receptor
+hHTR2A	Gq	textbook reference receptor
+plADRA1	?	textbook reference receptor

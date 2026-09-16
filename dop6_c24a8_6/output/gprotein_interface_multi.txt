@@ -1,0 +1,31 @@
+====================================================================================================
+THE RECEPTOR / G-PROTEIN INTERFACE ON DOP-6, ACROSS Galpha CLASSES
+====================================================================================================
+Chain assignment is done by sequence, not by trusting a chain label or a remembered PDB ID.
+A chain is called Galpha if it matches a UniProt Galpha at >=70 % identity over >=150 aa,
+and the receptor chain is the one matching beta2AR over >=150 aa.
+
+PDB    receptor chain Galpha     %id  contacts  lost 1-405  kept 406-692  % kept  title
+------------------------------------------------------------------------------------------------------------------------------------
+3SN6   R (443 aa)     Gs         100        26          22             4      15  CRYSTAL STRUCTURE OF THE BETA2 ADRENERGIC RE
+6DDF   R (281 aa)     Gi1        100        28          22             6      21  MU OPIOID RECEPTOR-GI PROTEIN COMPLEX
+6CMO   R (323 aa)     Gi1         99        21          13             8      38  RHODOPSIN-GI COMPLEX
+6OIK   R (278 aa)     Go          98        22          13             9      41  MUSCARINIC ACETYLCHOLINE RECEPTOR 2-GO COMPL
+6OIJ   R (293 aa)     G11         92        27          16            11      41  MUSCARINIC ACETYLCHOLINE RECEPTOR 1-G11 PROT
+7JVR   R (269 aa)     Gi1         98        22          16             6      27  CRYO-EM STRUCTURE OF BROMOCRIPTINE-BOUND DOP
+6VMS   R (278 aa)     Gi1         99        24          13            11      46  STRUCTURE OF A D2 DOPAMINE RECEPTOR-G-PROTEI
+7CKW   R (273 aa)     Gs          99        37          28             8      22  CRYO-EM STRUCTURE OF FENOLDOPAM BOUND DOPAMI
+6GDG   A (264 aa)     Gs          97        27          17            10      37  CRYO-EM STRUCTURE OF THE ADENOSINE A2A RECEP
+7DFL   R (275 aa)     Gq          92        24          15             9      38  CRYO-EM STRUCTURE OF HISTAMINE H1 RECEPTOR G
+6WHA   A (244 aa)     Gs          89        24          14            10      42  HTR2A BOUND TO 25-CN-NBOH IN COMPLEX WITH A 
+
+mean % of the alignable interface retained by DOP-6 406-692, by Galpha class:
+  G11       41 %   (n = 1 structure(s))
+  Gi1       33 %   (n = 4 structure(s))
+  Go        41 %   (n = 1 structure(s))
+  Gq        38 %   (n = 1 structure(s))
+  Gs        29 %   (n = 4 structure(s))
+
+The Galpha contact surface is dominated by TM3/ICL2 and TM5/ICL3 in every class, and those
+are all N-terminal to residue 405. Which Galpha a receptor prefers is decided largely by the
+SAME regions the fragment lacks, so no Galpha class rescues it.

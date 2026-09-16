@@ -1,0 +1,28 @@
+15 windows of 10000 bp along chromosome X, offsets relative to X:4324000
+
+   offset from dop-6           carriers       non-carriers   difference
+--------------------------------------------------------------------------
+             -3.0 Mb            99.748%            99.602%       0.146
+             -1.0 Mb            99.975%            99.708%       0.267  <-- still N2-like
+             -500 kb            99.918%            99.656%       0.261  <-- still N2-like
+             -200 kb            99.996%            99.689%       0.307  <-- still N2-like
+             -100 kb            99.975%            99.623%       0.352  <-- still N2-like
+              -50 kb            99.997%            99.793%       0.204  <-- still N2-like
+              -20 kb            99.998%            99.557%       0.441  <-- still N2-like
+              +20 kb            99.976%            99.519%       0.457  <-- still N2-like
+              +50 kb            99.934%            99.532%       0.402  <-- still N2-like
+             +100 kb            99.996%            99.752%       0.244  <-- still N2-like
+             +200 kb            99.962%            99.680%       0.282  <-- still N2-like
+             +500 kb            99.462%            98.763%       0.699  <-- still N2-like
+             +1.0 Mb            99.917%            99.623%       0.294  <-- still N2-like
+             +3.0 Mb            99.764%            99.691%       0.073
+             +6.0 Mb            99.499%            99.484%       0.015
+
+at the locus itself (from haplotype_context.py): carriers 99.977 %, non-carriers 99.477 %,
+difference 0.500 over the 16 kb window immediately left of the palindrome
+
+the carrier-specific N2-like haplotype is still detectable from -1000 kb to +1000 kb around the locus
+
+CAVEAT: C. elegans reproduces mainly by selfing, so effective recombination is very low and
+haplotype blocks persist far longer than in an outcrossing species. Block length bounds the
+event only loosely and should not be converted into a date.

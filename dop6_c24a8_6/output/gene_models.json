@@ -1,0 +1,336 @@
+{
+ "dop-6": {
+  "name": "dop-6",
+  "id": "WBGene00016037",
+  "chr": "X",
+  "start": 4320863,
+  "end": 4327331,
+  "strand": 1,
+  "biotype": "protein_coding",
+  "description": "G_PROTEIN_RECEP_F1_2 domain-containing protein [Source:NCBI gene;Acc:180706]",
+  "transcripts": [
+   {
+    "id": "C24A8.1.1",
+    "biotype": "protein_coding",
+    "start": 4320863,
+    "end": 4327331,
+    "canonical": true,
+    "exons": [
+     [
+      4320863,
+      4321045
+     ],
+     [
+      4321093,
+      4321158
+     ],
+     [
+      4321209,
+      4321321
+     ],
+     [
+      4321367,
+      4321664
+     ],
+     [
+      4321721,
+      4321799
+     ],
+     [
+      4321856,
+      4321968
+     ],
+     [
+      4322923,
+      4322988
+     ],
+     [
+      4323057,
+      4323166
+     ],
+     [
+      4323228,
+      4323399
+     ],
+     [
+      4324989,
+      4325129
+     ],
+     [
+      4325530,
+      4325626
+     ],
+     [
+      4325676,
+      4325845
+     ],
+     [
+      4326165,
+      4326262
+     ],
+     [
+      4326309,
+      4326380
+     ],
+     [
+      4326730,
+      4326834
+     ],
+     [
+      4327087,
+      4327176
+     ],
+     [
+      4327226,
+      4327331
+     ]
+    ],
+    "protein_length": 692,
+    "protein": "MNESEIAAAVAAMELEDELLQPEWAYLVLSIVPLVCILGNLMVVAAVWTTKSLQTPTNHLLVSLAMADLIVGAFVMPFSIYLSVNRLHWHLPLFVCYFYCVLDVAASTSSIIHLVLISIDRLVAATKPAEYKTVKHRKRVYLAIAITWIFSIALSLPLGTGFNTRTSYFLVIEHHCGIYNPIYMLGSSIFAFYLPCLIMIFTYGYIFYTLRKRLRAIQLQEMAGGQFLGFGADVSNITTSAIQSVIGIAPKNRNMITWEKPLLKKIEETAAEHASSLNDSEREQLQTILEAVHPSSSGSQENTTIEEDPDRPPSVLLEAVTLKCEIDTSGPILELPRPTYTKNMSRRFSDAVNSISSRGRMKSVSFGTSRKRRHSHQPQGNREVVTSEESKKLHSLKPPLVEKRKMRRLSEMISDWERPSRSSISNMYLYARRESVYIARKKLAGLKDWALDLLAKLKSKQGMAIRRETRATKLVATVMVVFLVCWLPFFTLNMIKIYKLIFNVWSADLEIWFHWFTALGYLNSSLNFFIYSTINPKFRHSFRRLLGFRRSSRRQREKSWMLPPRDSSRGPAKCGCGFHKIVKSPLRKTSSAGPMNNRKISMQKPEIVIDEISPNRISISAGGNTTFRRSSDDCIRRSSSEIIGGITLPSQSSNDKRRGSGMSNSSASLHIHETRMTFEAMVNDQADCEIFV",
+    "cds_len": 2079
+   }
+  ]
+ },
+ "C24A8.5": {
+  "name": "C24A8.5",
+  "id": "WBGene00016039",
+  "chr": "X",
+  "start": 4328400,
+  "end": 4328916,
+  "strand": -1,
+  "biotype": "protein_coding",
+  "description": "Uncharacterized protein [Source:NCBI gene;Acc:182831]",
+  "transcripts": [
+   {
+    "id": "C24A8.5.1",
+    "biotype": "protein_coding",
+    "start": 4328400,
+    "end": 4328916,
+    "canonical": true,
+    "exons": [
+     [
+      4328400,
+      4328731
+     ],
+     [
+      4328792,
+      4328916
+     ]
+    ],
+    "protein_length": 137,
+    "protein": "MNSYDKTRFDVLSHLTDIPMLGKQYVPGLWKQFEDGHVTSRHEQSTEHRVGQESISQRNITETSPSTQRTRMNATLENERGLTRSTEKVDSEFLILVSQFDSLYSLHSITTLLLSPTGQECLKFAVKSRTLNPLYIY",
+    "cds_len": 414
+   }
+  ]
+ },
+ "C24A8.6": {
+  "name": "C24A8.6",
+  "id": "WBGene00044004",
+  "chr": "X",
+  "start": 4330076,
+  "end": 4332405,
+  "strand": -1,
+  "biotype": "protein_coding",
+  "description": "G_PROTEIN_RECEP_F1_2 domain-containing protein [Source:NCBI gene;Acc:4363124]",
+  "transcripts": [
+   {
+    "id": "C24A8.6a.1",
+    "biotype": "protein_coding",
+    "start": 4330078,
+    "end": 4332405,
+    "canonical": false,
+    "exons": [
+     [
+      4330078,
+      4330183
+     ],
+     [
+      4330233,
+      4330322
+     ],
+     [
+      4330575,
+      4330679
+     ],
+     [
+      4331029,
+      4331100
+     ],
+     [
+      4331147,
+      4331244
+     ],
+     [
+      4331564,
+      4331733
+     ],
+     [
+      4331783,
+      4331879
+     ],
+     [
+      4332280,
+      4332405
+     ]
+    ],
+    "protein_length": 287,
+    "protein": "MRRLSEMISDWERPSRSSISNMYLYARRESVYIARKKLAGLKDWALDLLAKLKSKQGMAIRRETRATKLVATVMVVFLVCWLPFFTLNMIKIYKLIFNVWSADLEIWFHWFTALGYLNSSLNFFIYSTINPKFRHSFRRLLGFRRSSRRQREKSWMLPPRDSSRGPAKCGCGFHKIVKSPLRKTSSAGPMNNRKISMQKPEIVIDEISPNRISISAGGNTTFRRSSDDCIRRSSSEIIGGITLPSQSSNDKRRGSGMSNSSASLHIHETRMTFEAMVNDQADCEIFV",
+    "cds_len": 864
+   },
+   {
+    "id": "C24A8.6b.1",
+    "biotype": "protein_coding",
+    "start": 4330078,
+    "end": 4332405,
+    "canonical": true,
+    "exons": [
+     [
+      4330078,
+      4330183
+     ],
+     [
+      4330233,
+      4330322
+     ],
+     [
+      4330575,
+      4330679
+     ],
+     [
+      4330915,
+      4330965
+     ],
+     [
+      4331029,
+      4331100
+     ],
+     [
+      4331147,
+      4331244
+     ],
+     [
+      4331564,
+      4331733
+     ],
+     [
+      4331783,
+      4331879
+     ],
+     [
+      4332280,
+      4332405
+     ]
+    ],
+    "protein_length": 304,
+    "protein": "MRRLSEMISDWERPSRSSISNMYLYARRESVYIARKKLAGLKDWALDLLAKLKSKQGMAIRRETRATKLVATVMVVFLVCWLPFFTLNMIKIYKLIFNVWSADLEIWFHWFTALGYLNSSLNFFIYSTINPKFRHSFRRLLGFRRSSRRQREKSWMLPPRDSSRGPAKCGCGFHKIVKSPLRKTSSAGSDTSSSGQSFRNKIFKRPMNNRKISMQKPEIVIDEISPNRISISAGGNTTFRRSSDDCIRRSSSEIIGGITLPSQSSNDKRRGSGMSNSSASLHIHETRMTFEAMVNDQADCEIFV",
+    "cds_len": 915
+   },
+   {
+    "id": "C24A8.6c",
+    "biotype": "ncRNA",
+    "start": 4330076,
+    "end": 4332405,
+    "canonical": false,
+    "exons": [
+     [
+      4330076,
+      4330183
+     ],
+     [
+      4330233,
+      4330322
+     ],
+     [
+      4330485,
+      4330515
+     ],
+     [
+      4330575,
+      4330679
+     ],
+     [
+      4331029,
+      4331100
+     ],
+     [
+      4331147,
+      4331244
+     ],
+     [
+      4331564,
+      4331733
+     ],
+     [
+      4331783,
+      4331879
+     ],
+     [
+      4332280,
+      4332405
+     ]
+    ],
+    "protein_length": null
+   }
+  ]
+ },
+ "cst-2": {
+  "name": "cst-2",
+  "id": "WBGene00016038",
+  "chr": "X",
+  "start": 4333057,
+  "end": 4336050,
+  "strand": -1,
+  "biotype": "protein_coding",
+  "description": "Protein kinase domain-containing protein [Source:NCBI gene;Acc:180707]",
+  "transcripts": [
+   {
+    "id": "C24A8.4.1",
+    "biotype": "protein_coding",
+    "start": 4333057,
+    "end": 4336050,
+    "canonical": true,
+    "exons": [
+     [
+      4333057,
+      4333346
+     ],
+     [
+      4333395,
+      4333475
+     ],
+     [
+      4333645,
+      4333735
+     ],
+     [
+      4333784,
+      4333876
+     ],
+     [
+      4334763,
+      4335140
+     ],
+     [
+      4335183,
+      4335338
+     ],
+     [
+      4335611,
+      4335791
+     ],
+     [
+      4335838,
+      4335918
+     ],
+     [
+      4335985,
+      4336050
+     ]
+    ],
+    "protein_length": 421,
+    "protein": "MPPSTDSSRRNSEEGSSDGFKLDSSALNKPPEEVFDIVGKLGEGSYGSVHKAIHRESGHVLAIKKVPVDTDLQEIIKEISIMQQCKSKYVVKYYGSYFKHSDLWIVMEYCGAGSISDIMRARRKPLSEQEISAVLRDTLKGLQYLHDLKKIHRDIKAGNILLNTDGIAKLADFGVAGQLTDTMAKRNTVIGTPFWMAPEVIEEIGYDTKADIWSLGITAIEMAEGRPPYSDIHPMRAIFMIPTKPPPTFKKPEEWSSEFNDFIRSCLIKKPEERKTALRLCEHTFIKNAPGCDIMQLMIQDAQEKAILGQAPMAASSGNDATLLSEGMSTMIDGGESTLVQHKDNYVTAQSLRSQMESLRIGGEIPKSAYSSSKNGNSPRVQPPGHTASASDPSKNQPFAQDGTGPNFHPLSQHFVLVFII",
+    "cds_len": 1266
+   }
+  ]
+ }
+}

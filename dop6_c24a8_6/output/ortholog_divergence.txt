@@ -1,0 +1,21 @@
+Cel DOP-6 692 aa; CDS 2079 nt (3x692+3 = 2079)
+
+split at residue 405: N-half 1-405 = unique; C-half 406-692 = the segment duplicated as C24A8.6
+
+ortholog            protein                    nucleotide (CDS)          
+             half      ident/aln    %id      ident/aln    %id
+------------------------------------------------------------------------------
+Cbr-dop-6    N      390/404        96.5   1022/1212       84.3
+             C      286/287        99.7   710/864        82.2
+
+Cbn-dop-6    N      394/405        97.3   1037/1215       85.3
+             C      285/287        99.3   726/864        84.0
+
+Cre-dop-6    N      394/405        97.3   1045/1215       86.0
+             C      287/287       100.0   732/864        84.7
+
+Ppa-dop-6    N      255/361        70.6   701/1046       67.0
+             C      204/280        72.9   556/763        72.9
+
+Interpretation: synonymous sites saturate over Caenorhabditis divergence times, so a
+C-half nucleotide identity near 100 % cannot be produced by purifying selection.

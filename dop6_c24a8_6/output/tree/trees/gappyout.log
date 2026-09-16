@@ -1,0 +1,205 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jun 19 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Mikes-MacBook-Pro-2.local (SSE4.2, 24 GB RAM)
+Command: /Users/mikeodonnell/git/receptor_phylogeny/scripts/bin/iqtree3-mt -s /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/aln/panel.gappyout.faa -m MFP -B 1000 -alrt 1000 -T 4 --prefix /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/trees/gappyout -o hCHRM1,hCHRM3,cel_gar-3 --quiet -redo
+Seed:    511485 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep 16 18:28:10 2026
+Kernel:  SSE2 - 4 threads (12 CPU cores detected)
+
+Reading alignment file /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/aln/panel.gappyout.faa ... Fasta format detected
+Reading fasta file: done in 0.000140905 secs using 90.13% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000230074 secs using 73.45% CPU
+Alignment has 49 sequences with 307 columns, 306 distinct patterns
+283 parsimony-informative, 17 singleton sites, 7 constant sites
+                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.05991e-06 secs using 198.7% CPU
+   1  Cbn-dop-6_CBN19707.1        0.00%    passed     87.59%
+   2  Cbr-dop-6_CBG14393b.1       0.33%    passed     84.45%
+   3  Cre-dop-6_XM_053735786.1    0.00%    passed     88.13%
+   4  Ppa-dop-6_PPA00437.1        0.65%    passed     29.41%
+   5  bmOAR1                      0.00%    passed     89.06%
+   6  cel_F35H10.10               4.23%    passed     23.72%
+   7  cel_F59D12.1                8.47%    passed     17.17%
+   8  cel_T21B4.4                11.07%    passed     69.32%
+   9  cel_dop-1                   3.58%    passed     99.38%
+  10  cel_dop-2                   0.00%    passed     98.38%
+  11  cel_dop-3                   0.00%    passed     76.78%
+  12  cel_dop-4                   0.00%    passed     99.60%
+  13  cel_dop-5                   2.28%    passed     51.25%
+  14  cel_dop-6                   0.00%    passed     86.78%
+  15  cel_gar-3                   0.00%    passed     21.72%
+  16  cel_octr-1                  0.65%    passed     85.18%
+  17  cel_ser-1                   0.33%    passed     82.18%
+  18  cel_ser-2                   0.00%    passed     90.47%
+  19  cel_ser-3                   0.98%    passed     85.02%
+  20  cel_ser-4                   0.33%    passed     60.45%
+  21  cel_ser-5                   1.30%    passed     98.14%
+  22  cel_ser-6                   3.58%    passed     91.57%
+  23  cel_ser-7                   0.00%    passed     86.02%
+  24  cel_tyra-2                  0.00%    passed     98.85%
+  25  cel_tyra-3                  0.00%    passed     75.21%
+  26  dmDop1R1                    0.00%    passed     86.16%
+  27  dmDop2R                     0.00%    passed     96.18%
+  28  dmOAMB                      0.00%    passed     41.33%
+  29  dmOctA2R                    0.33%    passed     29.94%
+  30  dmOctB1R                    0.00%    passed     74.56%
+  31  dmOctB2R                    0.00%    passed     72.23%
+  32  dmOctB3R                    0.00%    passed     96.91%
+  33  dmOctTyrR_P22270            0.00%    passed     75.70%
+  34  dmTyrRII_Q9VEG2             0.00%    passed     41.26%
+  35  dmTyrR_Q9VEG1               0.00%    passed     99.97%
+  36  hADRA1A                     0.00%    passed     74.27%
+  37  hADRA1B                     0.00%    passed     77.03%
+  38  hADRA1D                     0.00%    failed      0.68%
+  39  hADRA2A                     0.00%    passed     79.80%
+  40  hADRA2C                     0.00%    passed      8.09%
+  41  hADRB1                      0.33%    passed     38.85%
+  42  hADRB2                      0.33%    passed     75.78%
+  43  hCHRM1                      0.00%    passed      7.77%
+  44  hCHRM3                      0.00%    passed     23.31%
+  45  hDRD1                       0.65%    passed     39.52%
+  46  hDRD2                       1.63%    passed     87.26%
+  47  hHTR1A                      0.00%    passed     87.75%
+  48  hHTR2A                      2.28%    passed     92.42%
+  49  plADRA1                     0.00%    passed     94.61%
+****  TOTAL                       0.88%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 5.60284e-05 secs using 82.1% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -25314.422
+Optimal log-likelihood: -25314.336
+Proportion of invariable sites: 0.021
+Gamma shape alpha: 0.913
+Parameters optimization took 1 rounds (0.026 sec)
+Time for fast ML tree search: 0.504 seconds
+
+NOTE: ModelFinder requires 25 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 307 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           LG+F+I+R6
+Corrected Akaike Information Criterion: LG+F+I+R5
+Bayesian Information Criterion:         LG+F+I+R5
+Best-fit model: LG+F+I+R5 chosen according to BIC
+
+All model information printed to /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/trees/gappyout.model.gz
+CPU time for ModelFinder: 278.804 seconds (0h:4m:38s)
+Wall-clock time for ModelFinder: 101.174 seconds (0h:1m:41s)
+Generating 1000 samples for ultrafast bootstrap (seed: 511485)...
+
+NOTE: 13 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -25191.934
+2. Current log-likelihood: -25183.186
+3. Current log-likelihood: -25182.632
+Optimal log-likelihood: -25182.575
+Proportion of invariable sites: 0.015
+Site proportion and rates:  (0.120,0.065) (0.150,0.198) (0.197,0.487) (0.315,1.085) (0.203,2.583)
+Parameters optimization took 3 rounds (0.298 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.110719 secs using 374% CPU
+Computing ML distances took 0.110810 sec (of wall-clock time) 0.414188 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 6.19888e-05 secs using 180.7% CPU
+Constructing RapidNJ tree: done in 0.00154686 secs using 53.85% CPU
+Computing RapidNJ tree took 0.001630 sec (of wall-clock time) 0.000961 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -25184.312
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.411 second
+Computing log-likelihood of 98 initial trees ... 1.293 seconds
+Current best score: -25182.575
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -25181.582
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -25134.272
+Iteration 10 / LogL: -25157.452 / Time: 0h:1m:47s
+Iteration 20 / LogL: -25165.159 / Time: 0h:1m:51s
+Finish initializing candidate tree set (20)
+Current best tree score: -25134.272 / CPU time: 9.672
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -25134.924 / Time: 0h:1m:54s (0h:0m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -25133.105
+Iteration 40 / LogL: -25196.592 / Time: 0h:1m:57s (0h:0m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -25132.345
+Iteration 50 / LogL: -25133.148 / Time: 0h:2m:0s (0h:0m:38s left)
+Log-likelihood cutoff on original alignment: -25180.723
+Iteration 60 / LogL: -25132.669 / Time: 0h:2m:3s (0h:0m:32s left)
+Iteration 70 / LogL: -25138.985 / Time: 0h:2m:6s (0h:0m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 72: -25131.614
+Iteration 80 / LogL: -25132.281 / Time: 0h:2m:9s (0h:0m:33s left)
+Iteration 90 / LogL: -25131.907 / Time: 0h:2m:12s (0h:0m:28s left)
+Iteration 100 / LogL: -25136.022 / Time: 0h:2m:15s (0h:0m:24s left)
+Log-likelihood cutoff on original alignment: -25180.601
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 110 / LogL: -25134.247 / Time: 0h:2m:17s (0h:0m:30s left)
+Iteration 120 / LogL: -25131.632 / Time: 0h:2m:20s (0h:0m:26s left)
+Iteration 130 / LogL: -25134.965 / Time: 0h:2m:23s (0h:0m:22s left)
+Iteration 140 / LogL: -25134.312 / Time: 0h:2m:25s (0h:0m:19s left)
+Iteration 150 / LogL: -25132.307 / Time: 0h:2m:28s (0h:0m:15s left)
+Log-likelihood cutoff on original alignment: -25180.601
+Iteration 160 / LogL: -25132.236 / Time: 0h:2m:31s (0h:0m:12s left)
+Iteration 170 / LogL: -25134.022 / Time: 0h:2m:34s (0h:0m:9s left)
+TREE SEARCH COMPLETED AFTER 173 ITERATIONS / Time: 0h:2m:34s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -25131.614
+2. Current log-likelihood: -25131.603
+Optimal log-likelihood: -25131.600
+Proportion of invariable sites: 0.014
+Site proportion and rates:  (0.102,0.058) (0.143,0.175) (0.212,0.457) (0.320,1.056) (0.210,2.553)
+Parameters optimization took 2 rounds (0.173 sec)
+BEST SCORE FOUND : -25131.600
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.083 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/trees/gappyout.splits.nex
+Total tree length: 58.711
+
+Total number of iterations: 173
+CPU time used for tree search: 107.691 sec (0h:1m:47s)
+Wall-clock time used for tree search: 53.321 sec (0h:0m:53s)
+Total CPU time used: 388.622 sec (0h:6m:28s)
+Total wall-clock time used: 155.286 sec (0h:2m:35s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/trees/gappyout.splits.nex...
+49 taxa and 614 splits.
+Consensus tree written to /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/trees/gappyout.contree
+Reading input trees file /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/trees/gappyout.contree
+Log-likelihood of consensus tree: -25133.970
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/trees/gappyout.iqtree
+  Maximum-likelihood tree:       /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/trees/gappyout.treefile
+  Likelihood distances:          /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/trees/gappyout.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/trees/gappyout.splits.nex
+  Consensus tree:                /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/trees/gappyout.contree
+  Screen log file:               /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/trees/gappyout.log
+
+Date and Time: Wed Sep 16 18:30:45 2026

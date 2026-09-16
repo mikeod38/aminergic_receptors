@@ -1,0 +1,68 @@
+========================================================================================================
+dop-6 PALINDROME ACROSS ALL AVAILABLE C. ELEGANS ASSEMBLIES
+========================================================================================================
+strain                 kind  accession          copies   arm-arm identity  note
+--------------------------------------------------------------------------------------------------------
+N2 reference (Sanger cosmids) ref   GCA_000002985.3         2 100.000 % / 3929 bp  
+N2 (U. Oregon)         lab   GCA_028201515.1         2 99.924 % / 3933 bp  
+N2 (Wellcome Sanger)   lab   GCA_963921025.1         2 99.949 % / 3930 bp  
+CGC1                   lab   GCA_052911875.1         2 99.949 % / 3933 bp  
+UA44                   lab   GCA_039880965.1         2 99.923 % / 3919 bp  
+BY250                  lab   GCA_029748435.1         2 99.872 % / 3919 bp  
+yA                     lab   GCA_054508145.1         2 99.949 % / 3932 bp  
+yA1244                 lab   GCA_056506345.1         2 99.949 % / 3932 bp  
+CB4856 (U. Oregon)     wild  GCA_028201415.1         1                     
+CB4856 (Seoul)         wild  GCA_020450165.1         1                     
+CB4856 (Sanger)        wild  GCA_963921145.1         1                     
+DL226                  wild  GCA_022984815.1         2 99.949 % / 3932 bp  
+XZ1516                 wild  GCA_016989125.1         1                     
+DL238                  wild  GCA_016989505.1         1                     
+DL238 (Sanger)         wild  GCA_963920975.1         1                     
+MY2147                 wild  GCA_016989235.1         1                     
+EG4725                 wild  GCA_016989295.1         2 99.924 % / 3933 bp  
+EG4725 (Sanger)        wild  GCA_963921005.1         2 99.847 % / 3932 bp  
+JU2600                 wild  GCA_016989245.1         1                     
+ECA36                  wild  GCA_016989455.1         1                     
+ECA36 (Sanger)         wild  GCA_963921125.1         1                     
+NIC526                 wild  GCA_016989115.1         2 99.898 % / 3931 bp  
+JU1400                 wild  GCA_016989365.1         2 99.975 % / 3933 bp  
+JU2526                 wild  GCA_016989285.1         1                     
+MY2693                 wild  GCA_016989105.1         2 99.949 % / 3932 bp  
+JU310                  wild  GCA_016989275.1         2 99.924 % / 3932 bp  
+ECA396                 wild  GCA_016989385.1         1                     
+QX1794                 wild  GCA_016989095.1         1                     
+NIC2                   wild  GCA_016989145.1         2 99.898 % / 3932 bp  
+KR314                  wild  GCA_054661295.1         2 99.949 % / 3931 bp  
+CB4855                 wild  GCA_054661375.1         2 99.898 % / 3933 bp  
+CB4858                 wild  GCA_054661335.1         2 99.898 % / 3933 bp  
+RC301                  wild  GCA_054661275.1         2 99.924 % / 3931 bp  
+AB1                    wild  GCA_045866515.1         -                  -  download failed: HTTP Error 404: Not Found
+AB3                    wild  GCA_054661435.1         2 99.898 % / 3933 bp  
+CB4857                 wild  GCA_054661355.1         2 99.949 % / 3931 bp  
+CB4853                 wild  GCA_054661395.1         2 99.746 % / 3939 bp  
+CB4932                 wild  GCA_054661315.1         2 99.949 % / 3931 bp  
+CB4852                 wild  GCA_054661415.1         2 99.975 % / 3930 bp  
+QX1791                 wild  GCA_963921135.1         1                     
+GXW1                   wild  GCA_963921055.1         2 99.924 % / 3929 bp  
+DL200                  wild  GCA_963920995.1         1                     
+PB306                  wild  GCA_963921035.1         2 100.000 % / 3930 bp  
+JU775                  wild  GCA_963921075.1         2 99.924 % / 3931 bp  
+AB1 (Sanger)           wild  GCA_963921105.1         2 99.949 % / 3930 bp  
+LKC34                  wild  GCA_963921115.1         2 99.949 % / 3930 bp  
+QX1211                 wild  GCA_963921155.1         1                     
+PS2025                 wild  GCA_963921015.1         2 99.898 % / 3933 bp  
+JT11398                wild  GCA_963921045.1         2 99.949 % / 3930 bp  
+JU751                  wild  GCA_963921065.1         2 99.949 % / 3929 bp  
+ECA248                 wild  GCA_963921085.1         2 99.873 % / 3934 bp  
+EG4946                 wild  GCA_963920985.1         2 99.975 % / 3929 bp  
+JU394                  wild  GCA_963920965.1         2 99.924 % / 3932 bp  
+MY23                   wild  GCA_963921095.1         1                     
+JU1395                 wild  GCA_013403715.1         2 99.515 % / 3919 bp  
+ALT1                   wild  GCA_027422445.1         1                     
+ALT2                   wild  GCA_027422425.1         1                     
+
+lab  : 2 copies x7
+wild : 1 copies x19, 2 copies x29
+ref  : 2 copies x1
+
+-> output/assembly_survey.tsv (56 assemblies), output/dop6_cds_isolates.fna (57 CDS)

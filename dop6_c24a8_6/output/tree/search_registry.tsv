@@ -1,0 +1,42 @@
+date	database	query	n_results	error
+2026-09-16	uniprot	gene_exact:ADRA1A AND organism_id:9606 AND reviewed:true	2	
+2026-09-16	uniprot	gene_exact:ADRA1B AND organism_id:9606 AND reviewed:true	1	
+2026-09-16	uniprot	gene_exact:ADRA2A AND organism_id:9606 AND reviewed:true	1	
+2026-09-16	uniprot	gene_exact:ADRA2C AND organism_id:9606 AND reviewed:true	1	
+2026-09-16	uniprot	gene_exact:ADRB1 AND organism_id:9606 AND reviewed:true	1	
+2026-09-16	uniprot	gene_exact:ADRB2 AND organism_id:9606 AND reviewed:true	1	
+2026-09-16	uniprot	gene_exact:DRD1 AND organism_id:9606 AND reviewed:true	1	
+2026-09-16	uniprot	gene_exact:DRD2 AND organism_id:9606 AND reviewed:true	1	
+2026-09-16	uniprot	gene_exact:HTR1A AND organism_id:9606 AND reviewed:true	1	
+2026-09-16	uniprot	gene_exact:HTR2A AND organism_id:9606 AND reviewed:true	1	
+2026-09-16	uniprot	gene_exact:CHRM1 AND organism_id:9606 AND reviewed:true	1	
+2026-09-16	uniprot	gene_exact:CHRM3 AND organism_id:9606 AND reviewed:true	1	
+2026-09-16	uniprot	gene_exact:Oamb AND organism_id:7227 AND reviewed:true	1	
+2026-09-16	uniprot	gene:Octalpha2R AND organism_id:7227	3	
+2026-09-16	uniprot	gene:Octbeta1R AND organism_id:7227	2	
+2026-09-16	uniprot	gene:Octbeta2R AND organism_id:7227	3	
+2026-09-16	uniprot	gene:Octbeta3R AND organism_id:7227	1	
+2026-09-16	uniprot	gene_exact:TyrR AND organism_id:7227 AND reviewed:true	1	
+2026-09-16	uniprot	gene:TyrRII AND organism_id:7227	2	
+2026-09-16	uniprot	gene:TyrRIII AND organism_id:7227	1	
+2026-09-16	uniprot	gene_exact:Dop1R1 AND organism_id:7227 AND reviewed:true	1	
+2026-09-16	uniprot	gene_exact:Dop2R AND organism_id:7227 AND reviewed:true	1	
+2026-09-16	uniprot	gene:adra AND organism_name:"Platynereis dumerilii"	0	
+2026-09-16	uniprot	gene:adrb AND organism_name:"Platynereis dumerilii"	0	
+2026-09-16	ensembl	symbol:dop-1	1	
+2026-09-16	ensembl	symbol:dop-2	1	
+2026-09-16	ensembl	symbol:dop-3	1	
+2026-09-16	ensembl	symbol:dop-4	1	
+2026-09-16	ensembl	symbol:dop-5	1	
+2026-09-16	ensembl	symbol:dop-6	1	
+2026-09-16	ensembl	symbol:ser-1	1	
+2026-09-16	ensembl	symbol:ser-2	1	
+2026-09-16	ensembl	symbol:ser-3	1	
+2026-09-16	ensembl	symbol:ser-4	1	
+2026-09-16	ensembl	symbol:ser-5	1	
+2026-09-16	ensembl	symbol:ser-6	1	
+2026-09-16	ensembl	symbol:ser-7	1	
+2026-09-16	ensembl	symbol:octr-1	1	
+2026-09-16	ensembl	symbol:tyra-2	1	
+2026-09-16	ensembl	symbol:tyra-3	1	
+2026-09-16	ensembl	symbol:gar-3	1	

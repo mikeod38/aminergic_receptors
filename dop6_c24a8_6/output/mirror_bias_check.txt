@@ -1,0 +1,48 @@
+==============================================================================================
+DOES THE N2 PALINDROME DEFLATE THE SUBSTITUTION RATE IN DOP-6 CODONS 406-692?
+==============================================================================================
+N-half = codons 1-405 (single copy in every strain)
+C-half = codons 406-692 (inside the inverted repeat in N2 only)
+
+N2 CDS 2079 nt / 692 aa
+
+----------------------------------------------------------------------------------------------
+TEST 1 — N2 vs palindrome-free wild isolates, per segment (nucleotide, whole CDS)
+----------------------------------------------------------------------------------------------
+isolate        N-half diffs/sites    %div       C-half diffs/sites    %div
+CB4856                     0/1215   0.000                    1/864   0.116
+XZ1516                     1/1215   0.082                    2/864   0.231
+DL238                      1/1215   0.082                    1/864   0.116
+MY2147                     1/1215   0.082                    2/864   0.231
+
+If the mirror suppressed substitution in N2, C-half %div would be systematically LOWER
+than N-half %div. These isolates are single-copy in both halves, so they supply the control.
+
+----------------------------------------------------------------------------------------------
+TEST 2 — NG86 dN/dS vs C. briggsae, computed from N2 vs from each single-copy wild isolate
+----------------------------------------------------------------------------------------------
+source of Cel seq    segment              codons      Nd        N       dN       dS
+N2 (reference)       N-half 1-405            404    26.7    929.5   0.0293   1.1208
+N2 (reference)       C-half 406-692          287    13.0    668.5   0.0197   2.6224
+CB4856               N-half 1-405            404    26.7    929.5   0.0293   1.1208
+CB4856               C-half 406-692          287    13.0    668.5   0.0197   2.6224
+XZ1516               N-half 1-405            404    26.7    929.5   0.0293   1.1052
+XZ1516               C-half 406-692          287    13.0    668.5   0.0197   2.4680
+DL238                N-half 1-405            404    26.7    929.5   0.0293   1.1052
+DL238                C-half 406-692          287    13.0    668.5   0.0197   2.6224
+MY2147               N-half 1-405            404    26.7    929.5   0.0293   1.1052
+MY2147               C-half 406-692          287    13.0    668.5   0.0197   2.8170
+
+----------------------------------------------------------------------------------------------
+IS THE N-half / C-half dN DIFFERENCE EVEN SIGNIFICANT?
+----------------------------------------------------------------------------------------------
+N2 (reference)       nonsyn diffs  N-half 27/929  vs  C-half 13/668   Fisher p = 0.258  (n.s.)
+CB4856               nonsyn diffs  N-half 27/929  vs  C-half 13/668   Fisher p = 0.258  (n.s.)
+XZ1516               nonsyn diffs  N-half 27/929  vs  C-half 13/668   Fisher p = 0.258  (n.s.)
+DL238                nonsyn diffs  N-half 27/929  vs  C-half 13/668   Fisher p = 0.258  (n.s.)
+MY2147               nonsyn diffs  N-half 27/929  vs  C-half 13/668   Fisher p = 0.258  (n.s.)
+
+Timing note, independent of both tests: the duplication is absent from CB4856, XZ1516,
+DL238 and MY2147, so it postdates the common ancestor of those isolates with N2 and is
+vastly younger than the C. elegans / C. briggsae split (dS saturated, > 1). For essentially
+the whole branch on which dN was measured, dop-6 was single-copy.

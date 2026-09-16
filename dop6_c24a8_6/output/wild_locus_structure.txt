@@ -1,0 +1,45 @@
+==================================================================================================
+THE dop-6 LOCUS IN EACH ASSEMBLY, LOCATED FROM dop-6 EXON 4
+==================================================================================================
+repeat unit = N2 X:4324178-4328106 (3929 bp) = dop-6 exons 10-17.
+In N2 it is present twice, in inverted orientation (the second copy is annotated C24A8.6).
+Question for each assembly: how many copies, in what orientation, at what identity?
+
+N2 (U. Oregon long-read)
+  contig CP116371.1  window 4320844-4343141 (22298 bp), dop-6 on the plus strand
+  copies of the 3,929 bp repeat unit: 2
+     window 8812-12741  plus   99.975 % identity over 3930 bp
+     window 17870-13938  minus  99.898 % identity over 3933 bp
+  self-alignment: INVERTED REPEAT 13938-17870 vs 12741-8812, 99.924 % over 3933 bp
+
+CGC1
+  contig AP038779.1  window 4851014-4873311 (22298 bp), dop-6 on the plus strand
+  copies of the 3,929 bp repeat unit: 2
+     window 8812-12742  plus   99.949 % identity over 3931 bp
+     window 17871-13939  minus  99.898 % identity over 3933 bp
+  self-alignment: INVERTED REPEAT 13939-17871 vs 12742-8812, 99.949 % over 3933 bp
+
+CB4856 (same pipeline as the N2 above)
+  contig CP116377.1  window 4200075-4222372 (22298 bp), dop-6 on the plus strand
+  copies of the 3,929 bp repeat unit: 1
+     window 8813-12735  plus   99.695 % identity over 3929 bp
+  self-alignment: no inverted repeat > 500 bp
+
+XZ1516
+  contig JAFEUA010000099.1  window 271433-293730 (22298 bp), dop-6 on the plus strand
+  copies of the 3,929 bp repeat unit: 1
+     window 8820-12752  plus   99.619 % identity over 3933 bp
+  self-alignment: no inverted repeat > 500 bp
+
+DL238
+  contig JAFETN010000007.1  window 1316574-1338871 (22298 bp), dop-6 on the plus strand
+  copies of the 3,929 bp repeat unit: 1
+     window 8813-12741  plus   99.847 % identity over 3930 bp
+  self-alignment: no inverted repeat > 500 bp
+
+MY2147
+  contig JAFETV010000007.1  window 2786668-2808371 (21704 bp), dop-6 on the plus strand
+  copies of the 3,929 bp repeat unit: 1
+     window 8516-12440  plus   99.745 % identity over 3929 bp
+  self-alignment: no inverted repeat > 500 bp
+
