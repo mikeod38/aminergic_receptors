@@ -1,0 +1,72 @@
+====================================================================================================
+TEST 1 - THE CATECHOL SERINES: CHEMISTRY, NOT FAMILY MEMBERSHIP
+====================================================================================================
+beta2AR S203/S204/S207 hydrogen-bond the two catechol hydroxyls. A receptor for a phenolamine
+(one ring hydroxyl) has no use for the full triad. Positions located from beta2AR numbering.
+   3.32 amine anchor    beta2AR residue 113 = D  -> alignment column 408
+   5.42 catechol        beta2AR residue 203 = S  -> alignment column 532
+   5.43 catechol        beta2AR residue 204 = S  -> alignment column 533
+   5.46 catechol        beta2AR residue 207 = S  -> alignment column 536
+
+  class  chemistry          n   5.42/5.43/5.46 states (count)
+  DA     catecholamine     11   SSS(11)
+  NE     catecholamine      9   SSS(6)  SCS(2)  SAS(1)
+  OA     phenolamine        9   SSS(5)  SAS(4)
+  TA     phenolamine        5   SAS(4)  SSS(1)
+  5HT    indoleamine       15   STA(8)  GSA(2)  GST(1)  ATS(1)
+  HA     imidazoleamine     4   TAN(1)  DGT(1)  ASE(1)  TSE(1)
+  ACh    ester              4   TAA(4)
+
+  catecholamine receptors (n=20): SSS x17, SCS x2, SAS x1
+  phenolamine   receptors (n=14): SAS x8, SSS x6
+  patterns shared by both chemistries: ['SAS', 'SSS']
+
+  cel_dop-6      SSA   UNIQUE - neither   (catechol n=0, phenol n=0)
+  cel_dop-5      SSS   ambiguous (both)   (catechol n=17, phenol n=6)
+  cel_dop-3      SSS   ambiguous (both)   (catechol n=17, phenol n=6)
+  cel_dop-2      SSS   ambiguous (both)   (catechol n=17, phenol n=6)
+  cel_octr-1     SSS   ambiguous (both)   (catechol n=17, phenol n=6)
+  cel_ser-3      SAS   ambiguous (both)   (catechol n=1, phenol n=8)
+  cel_ser-6      SAS   ambiguous (both)   (catechol n=1, phenol n=8)
+
+====================================================================================================
+TEST 2 - CONVERGENCE: WHERE LIGAND AND ANCESTRY DISAGREE, WHICH DOES THE POCKET FOLLOW?
+====================================================================================================
+The Drosophila Oct-beta receptors bind OCTOPAMINE but sit inside the beta-adrenergic/Gs block.
+They are the natural experiment: ligand and ancestry point different ways.
+Scored LEAVE-ONE-OUT, and additionally with every Drosophila OA receptor removed from the OA
+profile, so the call cannot come from their own relatives.
+
+  receptor     true  LOO call  no-dm-OA call  reading
+  dmOctB1R     OA    OA        NE             ancestry
+  dmOctB2R     OA    OA        NE             ancestry
+  dmOctB3R     OA    OA        NE             ancestry
+  cel_octr-1   OA    NE        NE             ancestry
+  cel_ser-3    OA    OA        NE             ancestry
+  cel_ser-6    OA    OA        NE             ancestry
+
+-> output/catechol_signature.txt
+
+====================================================================================================
+TEST 3 - IS THE 5.46 / RING-HYDROXYL LINK ITSELF JUST PHYLOGENY?
+====================================================================================================
+Same objection applies recursively. If 5.46 state and ligand chemistry were each confined to
+one clade, their correlation would be a single coincidence. Fitch parsimony counts how many
+times each turns over on the tree; many independent changes means the correlation is
+REPLICATED across lineages, which a profile-similarity score can never demonstrate.
+
+  5.46=S agrees with ring-hydroxyl chemistry in 55/57 = 96 % of receptors
+  5.46 S vs not          observed   8 changes, random mean  17.3, p=0.0005
+  ligand has ring-OH     observed   6 changes, random mean  18.2, p=0.0005
+
+  Both turn over 6-8 times independently, so the link is replicated, not a single-clade
+  coincidence. This is the part of the analysis that is NOT a restatement of ancestry.
+
+  DOP-6 5.46 = A  (dop-3 = S, dop-5 = S; all five dop-6 orthologues = A)
+
+CONCLUSION. DOP-6 keeps the 3.32 amine anchor but has lost the 5.46 serine, which every one
+of the 34 receptors in this panel that binds a ring-hydroxylated amine - dopamine,
+noradrenaline, OCTOPAMINE and tyramine alike - retains. Octopamine carries a para-hydroxyl,
+so this argues against octopamine on CHEMISTRY, by a route that does not go through ancestry.
+It argues equally against dopamine, which is what the homology score wrongly favoured.
+It does NOT say what DOP-6 binds; A at 5.46 is the indoleamine/ACh state.

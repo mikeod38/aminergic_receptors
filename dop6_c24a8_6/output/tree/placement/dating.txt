@@ -1,0 +1,40 @@
+====================================================================================================
+DATING THE dop-3/dop-5/dop-6 RADIATION BY PLACEMENT (268-taxon panel)
+====================================================================================================
+
+--- gt0.1
+   tips   SH/UFboot  nematode clades inside     first outside member
+      7       40/50  V                          -
+      8     100/100  IV, V                      -
+     17     95.1/85  III, IV, V                 -
+     22       48/67  III, IV, V                 -
+     33     86.6/73  I, III, IV, V              dmDop2R
+     36     95.5/78  I, III, IV, V              dmDop2R
+     46    98.1/100  I, III, IV, V              dm5HT2A
+
+  deepest clade with no non-nematode member: 22 tips, support 48/67
+  lineages represented: III, IV, V
+
+  SHALLOWEST clade containing dop-6 AND a clade-IV sequence: 8 tips, support 100/100
+     Cbn_dop_6                Compara/panel tip
+     Cbr_dop_6                Compara/panel tip
+     Cbri_A8XJW6              Caenorhabditis briggsae
+     Cre_dop_6                Compara/panel tip
+     Name_W2T1T3              Necator americanus
+     Ppa_dop_6                Compara/panel tip
+     Srat_A0A090LQI8          Strongyloides ratti
+     cel_dop-6                Compara/panel tip
+
+--- gappyout: not finished (no .iqtree) - SKIPPED, its treefile is not final
+
+--- gt0.2: not finished (no .iqtree) - SKIPPED, its treefile is not final
+
+--- gt0.3: not finished (no .iqtree) - SKIPPED, its treefile is not final
+
+====================================================================================================
+READING
+====================================================================================================
+A sequence from a lineage falling INSIDE a clade dates that clade to before the lineage split.
+This is the claim a reciprocal-best-hit table cannot make, and the reason the previous dating
+matrix was retracted: RBH sends a real orthologue to whichever paralogue scores highest, so a
+gene that is present is recorded as absent.

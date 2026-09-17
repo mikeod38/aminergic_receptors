@@ -1,0 +1,1244 @@
+IQ-TREE 3.1.3 built Jun 19 2026
+
+Input file name: output/tree/placement/panel.gappyout.faa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 409069
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 268 sequences with 270 amino-acid sites
+Number of constant sites: 2 (= 0.740741% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2 (= 0.740741% of all sites)
+Number of parsimony informative sites: 266
+Number of distinct site patterns: 270
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+I+R9
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0766
+  pi(R) = 0.0563
+  pi(N) = 0.0357
+  pi(D) = 0.0218
+  pi(C) = 0.0325
+  pi(Q) = 0.0188
+  pi(E) = 0.0185
+  pi(G) = 0.0380
+  pi(H) = 0.0127
+  pi(I) = 0.0991
+  pi(L) = 0.1266
+  pi(K) = 0.0399
+  pi(M) = 0.0297
+  pi(F) = 0.0694
+  pi(P) = 0.0360
+  pi(S) = 0.0686
+  pi(T) = 0.0575
+  pi(W) = 0.0266
+  pi(Y) = 0.0465
+  pi(V) = 0.0892
+
+Model of rate heterogeneity: Invar+FreeRate with 9 categories
+Proportion of invariable sites: 0.0071
+Site proportion and rates:  (0.0474,0.0438) (0.0785,0.1078) (0.1021,0.2205) (0.0926,0.3348) (0.1754,0.5762) (0.1238,0.8428) (0.1893,1.3902) (0.1484,2.2523) (0.0355,3.7557)
+
+ Category  Relative_rate  Proportion
+  0         0              0.0071
+  1         0.0438         0.0474
+  2         0.1078         0.0785
+  3         0.2205         0.1021
+  4         0.3348         0.0926
+  5         0.5762         0.1754
+  6         0.8428         0.1238
+  7         1.3902         0.1893
+  8         2.2523         0.1484
+  9         3.7557         0.0355
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -72438.1734 (s.e. 2245.9675)
+Unconstrained log-likelihood (without tree): -1511.5739
+Number of free parameters (#branches + #model parameters): 569
+Akaike information criterion (AIC) score: 146014.3468
+Corrected Akaike information criterion (AICc) score: 794674.3468
+Bayesian information criterion (BIC) score: 148061.8489
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 569
+Sample size (n, alignment length): 270
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 133.3809
+Sum of internal branch lengths: 53.5291 (40.1325% of tree length)
+
+WARNING: 12 near-zero internal branches (<0.0037) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'hCHRM1' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
+                                                   +-----Ajap_tr_A0A2G8K4C3_A0A2G8K4C3_APOJA
+                                                +--| (7.6/59)
+                                                |  +----Bflo_tr_A0A9J7MN32_A0A9J7MN32_BRAFL
+                                             +--| (95.4/95)
+                                             |  |       +--hADRB1
+                                             |  |    +--| (87.3/99)
+                                             |  |    |  +----hADRB3
+                                             |  +----| (100/100)
+                                             |       +--hADRB2
+                                          +**| (0/29)
+                                          |  |                   +**Bmal_A0A0K0JA15
+                                          |  |               +---| (100/100)
+                                          |  |               |   +**Bmal_A0A5S6PKE3
+                                          |  |            +--| (99.9/100)
+                                          |  |            |  |        +--Cbn_dop-1
+                                          |  |            |  |     +**| (76.5/89)
+                                          |  |            |  |     |  |  +--Cbri_A8XK01
+                                          |  |            |  |     |  +--| (87.1/89)
+                                          |  |            |  |     |     +--Cre_dop-1
+                                          |  |            |  |  +--| (97.5/95)
+                                          |  |            |  |  |  +--cel_dop-1
+                                          |  |            |  +--| (91.9/100)
+                                          |  |            |     +--Ppac_A0A2A6CU23
+                                          |  |        +---| (99.9/100)
+                                          |  |        |   +----dmDop1R1
+                                          |  |     +--| (83.4/61)
+                                          |  |     |  |    +--hDRD1
+                                          |  |     |  +----| (100/100)
+                                          |  |     |       +--hDRD5
+                                          |  |  +--| (29.9/49)
+                                          |  |  |  +---------hHRH2
+                                          |  +--| (90.2/85)
+                                          |     +------------hHTR6
+                                       +--| (94.7/80)
+                                       |  |     +---Myes_tr_A0A210PPR0_A0A210PPR0_MIZYE
+                                       |  |  +--| (99.8/100)
+                                       |  |  |  |  +--dmOctB1R
+                                       |  |  |  +--| (97.2/100)
+                                       |  |  |     |  +--dmOctB2R
+                                       |  |  |     +--| (36.2/97)
+                                       |  |  |        +--dmOctB3R
+                                       |  +--| (94.7/97)
+                                       |     |  +----hHTR4
+                                       |     +--| (93/98)
+                                       |        +-----------hTAAR1
+                                    +--| (88.9/62)
+                                    |  |        +--Apla_tr_A0A8B8A0D8_A0A8B8A0D8_ACAPL
+                                    |  |     +--| (99.8/100)
+                                    |  |     |  +--Pmin_tr_A0A914B379_A0A914B379_PATMI
+                                    |  |  +--| (99.9/100)
+                                    |  |  |  +--Spur_tr_A0A7M7HLT0_A0A7M7HLT0_STRPU
+                                    |  +--| (99.9/100)
+                                    |     |                            +--Cbn_dop-4
+                                    |     |                         +--| (69.2/100)
+                                    |     |                         |  +**Cbr_dop-4
+                                    |     |                      +--| (80.5/100)
+                                    |     |                      |  +--cel_dop-4
+                                    |     |                   +--| (100/100)
+                                    |     |                   |  +--Cre_dop-4
+                                    |     |                +**| (57.1/94)
+                                    |     |                |  +--Name_W2U1D4
+                                    |     |             +--| (91.5/99)
+                                    |     |             |  +--Hcon_A0A7I4Z6U1
+                                    |     |          +--| (48/73)
+                                    |     |          |  +--Ppac_A0A8R1Y7M0
+                                    |     |  +-------| (100/100)
+                                    |     |  |       +--Srat_A0A090KRY3
+                                    |     +--| (89.8/98)
+                                    |        |        +--Cvir_tr_A0A8B8F0Q5_A0A8B8F0Q5_CRAVI
+                                    |        |     +--| (95.5/100)
+                                    |        |     |  +--Myes_tr_A0A210PJ23_A0A210PJ23_MIZYE
+                                    |        |  +--| (93.9/100)
+                                    |        |  |  +--Lana_tr_A0A1S3K9Y2_A0A1S3K9Y2_LINAN
+                                    |        +--| (16/96)
+                                    |           |  +--Lpol_tr_A0ABM1BKJ6_A0ABM1BKJ6_LIMPO
+                                    |           +--| (99.8/100)
+                                    |              +--Lpol_tr_A0ABM1SBT5_A0ABM1SBT5_LIMPO
+                                 +--| (84.6/34)
+                                 |  |        +-----------------Hvul_tr_A0ABM4BNS4_A0ABM4BNS4_HYDVU
+                                 |  |     +--| (26.4/92)
+                                 |  |     |  +----------Nvec_tr_A7SM05_A7SM05_NEMVE
+                                 |  |  +--| (96.6/99)
+                                 |  |  |  +---------Nvec_tr_A7SM55_A7SM55_NEMVE
+                                 |  +--| (95.9/82)
+                                 |     |                          +**Mlei_KAL5257720.1
+                                 |     |            +-------------| (100/100)
+                                 |     |            |             +**Mlei_tr_A0ACF8YAQ5_A0ACF8YAQ5_MNELE
+                                 |     |        +---| (94.1/100)
+                                 |     |        |   +--------Mlei_KAL5268535.1
+                                 |     |     +--| (92.2/88)
+                                 |     |     |  |                   +------hGPR50
+                                 |     |     |  |                +--| (57/98)
+                                 |     |     |  |                |  +--hMTNR1A
+                                 |     |     |  +----------------| (100/100)
+                                 |     |     |                   +--hMTNR1B
+                                 |     |  +--| (7.9/56)
+                                 |     |  |  |                               +-----TEST_ckr-1
+                                 |     |  |  |                      +--------| (99.9/100)
+                                 |     |  |  |                      |        +---TEST_ckr-2
+                                 |     |  |  |                   +--| (43.6/74)
+                                 |     |  |  |                   |  +--------------------TEST_npr-34
+                                 |     |  |  |                +--| (83.8/92)
+                                 |     |  |  |                |  |           +-----------TEST_nmur-2
+                                 |     |  |  |                |  |        +--| (85/100)
+                                 |     |  |  |                |  |        |  +-------------TEST_nmur-3
+                                 |     |  |  |                |  |     +--| (80.5/99)
+                                 |     |  |  |                |  |     |  +----------------TEST_trhr-1
+                                 |     |  |  |                |  |  +--| (57.6/92)
+                                 |     |  |  |                |  |  |  +----------------------TEST_npr-24
+                                 |     |  |  |                |  +--| (79/69)
+                                 |     |  |  |                |     +---------------TEST_npr-20
+                                 |     |  |  |             +--| (0/61)
+                                 |     |  |  |             |  |         +--------TEST_tkr-1
+                                 |     |  |  |             |  +---------| (100/100)
+                                 |     |  |  |             |            +---------TEST_tkr-2
+                                 |     |  |  |          +--| (81.4/100)
+                                 |     |  |  |          |  +-------------TEST_npr-22
+                                 |     |  |  |     +----| (98.4/100)
+                                 |     |  |  |     |    +------------------TEST_npr-35
+                                 |     |  |  |  +--| (74/79)
+                                 |     |  |  |  |  +---------------Tadh_tr_B3RY65_B3RY65_TRIAD
+                                 |     |  |  +--| (84.2/81)
+                                 |     |  |     +-------------Tadh_tr_B3SDK6_B3SDK6_TRIAD
+                                 |     +--| (84.9/75)
+                                 |        |  +----------------------Nvec_tr_A7S987_A7S987_NEMVE
+                                 |        +--| (55.6/64)
+                                 |           +----------------Tadh_tr_B3S5Y6_B3S5Y6_TRIAD
+                              +--| (89/59)
+                              |  |                               +--Cbn_ser-3
+                              |  |                            +**| (47.5/97)
+                              |  |                            |  +--Cbr_ser-3
+                              |  |                         +--| (100/98)
+                              |  |                         |  +**cel_ser-3
+                              |  |                      +--| (53.4/57)
+                              |  |                      |  +--Hcon_A0A7I4XZW7
+                              |  |                   +--| (87.1/59)
+                              |  |                   |  |  +**Nam_ser-3
+                              |  |                   |  +**| (0/89)
+                              |  |                   |     +**Name_W2TC78
+                              |  |                +--| (36.7/67)
+                              |  |                |  +--Ppac_A0A2A6CC52
+                              |  |        +-------| (100/100)
+                              |  |        |       +--Srat_A0A090LFA9
+                              |  |     +--| (91.8/98)
+                              |  |     |  |               +--Cbr_ser-6
+                              |  |     |  |            +--| (99.8/100)
+                              |  |     |  |            |  +--cel_ser-6
+                              |  |     |  |         +--| (58.7/99)
+                              |  |     |  |         |  |  +--Hcon_W6NDZ2
+                              |  |     |  |         |  +--| (99.6/100)
+                              |  |     |  |         |     +--Name_W2T4W5
+                              |  |     |  |      +--| (90.7/100)
+                              |  |     |  |      |  +----Ppac_A0A2A6C2E8
+                              |  |     |  +------| (100/100)
+                              |  |     |         +---Srat_A0A090LP03
+                              |  |  +--| (95.8/99)
+                              |  |  |  |  +---Lana_tr_A0A1S3HJU9_A0A1S3HJU9_LINAN
+                              |  |  |  +--| (67/84)
+                              |  |  |     |        +--Lpol_tr_A0ABM1RX31_A0ABM1RX31_LIMPO
+                              |  |  |     |     +--| (92.9/100)
+                              |  |  |     |     |  +--dmOAMB
+                              |  |  |     |  +--| (14.3/81)
+                              |  |  |     |  |  +---Myes_tr_A0A210QLA7_A0A210QLA7_MIZYE
+                              |  |  |     +--| (92.8/86)
+                              |  |  |        +--Skow_tr_A0ACM8CU07_A0ACM8CU07_SACKO
+                              |  +--| (98.2/95)
+                              |     |                           +--Cbri_A8WW27
+                              |     |                        +--| (99.3/100)
+                              |     |                        |  +--cel_ser-5
+                              |     |                     +--| (93/97)
+                              |     |                     |  |  +--Hcon_A0A7I4XSN3
+                              |     |                     |  +--| (92.2/97)
+                              |     |                     |     +--Name_W2T2Z1
+                              |     |                  +--| (90.2/97)
+                              |     |                  |  +--Srat_A0A090L9N3
+                              |     |  +---------------| (100/100)
+                              |     |  |               +--Ppac_A0A2A6BV05
+                              |     +--| (52.3/79)
+                              |        |          +--Ebur_tr_A0A8C4N726_A0A8C4N726_EPTBU
+                              |        |       +--| (41.9/74)
+                              |        |       |  +--hADRA1A
+                              |        |    +--| (82.2/73)
+                              |        |    |  |  +--hADRA1B
+                              |        |    |  +--| (84.7/91)
+                              |        |    |     +--hADRA1D
+                              |        +----| (99.9/100)
+                              |             +--Ebur_tr_A0A8C4QW85_A0A8C4QW85_EPTBU
+                           +--| (75.6/27)
+                           |  |                    +----Bma_tyra-3
+                           |  |                 +--| (93.5/100)
+                           |  |                 |  +--Srat_A0A090L038
+                           |  |              +--| (71.5/99)
+                           |  |              |  |  +**Hcon_A0A7I4Z5B4
+                           |  |              |  +--| (96.7/100)
+                           |  |              |     +**Hcon_A0A7I5EER1
+                           |  |           +--| (91/97)
+                           |  |           |  |        +**Cbn_tyra-3
+                           |  |           |  |     +--| (91.2/95)
+                           |  |           |  |     |  +--cel_tyra-3
+                           |  |           |  |  +--| (39.5/95)
+                           |  |           |  |  |  +--Cbri_A8XK79
+                           |  |           |  +--| (94.2/95)
+                           |  |           |     +**Cre_tyra-3
+                           |  |        +--| (77.6/98)
+                           |  |        |  +--Ppac_A0A8R1YJL7
+                           |  |  +-----| (100/100)
+                           |  |  |     |      +--Tmur_A0A5S6QH67
+                           |  |  |     +------| (100/100)
+                           |  |  |            +--Tspi_E5SA85
+                           |  +--| (89.2/93)
+                           |     |      +--dmTyrR
+                           |     +------| (100/100)
+                           |            +--dmTyrRII
+                        +--| (89.8/46)
+                        |  |           +-----Ajap_tr_A0A2G8LRS8_A0A2G8LRS8_APOJA
+                        |  |        +--| (91.9/99)
+                        |  |        |  |     +--Cvir_tr_A0A8B8E7R6_A0A8B8E7R6_CRAVI
+                        |  |        |  |  +--| (12.4/69)
+                        |  |        |  |  |  +--plADRA1
+                        |  |        |  +--| (67.6/77)
+                        |  |        |     +--dmOctA2R
+                        |  |     +--| (90.2/100)
+                        |  |     |  |  +----Bflo_tr_A0A9J7M236_A0A9J7M236_BRAFL
+                        |  |     |  +--| (13.5/95)
+                        |  |     |     |             +--Drer_sp_Q90WY4_ADA2A_DANRE
+                        |  |     |     |          +--| (100/100)
+                        |  |     |     |          |  +**Drer_tr_Q1L8Y8_Q1L8Y8_DANRE
+                        |  |     |     |       +--| (97.4/100)
+                        |  |     |     |       |  +--hADRA2A
+                        |  |     |     |    +--| (43/98)
+                        |  |     |     |    |  +--hADRA2B
+                        |  |     |     +----| (100/100)
+                        |  |     |          +--hADRA2C
+                        |  |  +--| (98.4/100)
+                        |  |  |  |                    +--Cbn_octr-1
+                        |  |  |  |                 +--| (71.1/98)
+                        |  |  |  |                 |  +--Cre_octr-1
+                        |  |  |  |              +--| (35.9/98)
+                        |  |  |  |              |  |  +**Cbr_octr-1
+                        |  |  |  |              |  +--| (77.3/100)
+                        |  |  |  |              |     +**Cbri_A8XKI1
+                        |  |  |  |           +--| (99.4/99)
+                        |  |  |  |           |  +--cel_octr-1
+                        |  |  |  |        +--| (98.1/100)
+                        |  |  |  |        |  |  +--Hcon_A0A7I4Z3V4
+                        |  |  |  |        |  +--| (79.7/99)
+                        |  |  |  |        |     +--Name_W2TZ93
+                        |  |  |  |     +--| (91.5/100)
+                        |  |  |  |     |  +--Ppac_A0A2A6D2Q4
+                        |  |  |  +-----| (100/100)
+                        |  |  |        +--Srat_A0A090LSA4
+                        |  +--| (74.1/44)
+                        |     |                    +--Apla_tr_A0A8B7YCR4_A0A8B7YCR4_ACAPL
+                        |     |                 +--| (99.8/100)
+                        |     |                 |  +--Pmin_tr_A0A914A277_A0A914A277_PATMI
+                        |     |              +--| (99.7/100)
+                        |     |              |  +--Spur_tr_A0A7M7RBR3_A0A7M7RBR3_STRPU
+                        |     |           +--| (80.5/76)
+                        |     |           |  |                    +--Bmal_A0A4E9ESY4
+                        |     |           |  |                 +--| (86.7/100)
+                        |     |           |  |                 |  |              +--Cbn_ser-7
+                        |     |           |  |                 |  |           +--| (81.5/100)
+                        |     |           |  |                 |  |           |  +--Cre_ser-7
+                        |     |           |  |                 |  |        +--| (92.7/100)
+                        |     |           |  |                 |  |        |  +**cel_ser-7
+                        |     |           |  |                 |  |     +--| (96.4/100)
+                        |     |           |  |                 |  |     |  +--Cbri_A8WRX3
+                        |     |           |  |                 |  |  +--| (99.3/100)
+                        |     |           |  |                 |  |  |  |  +--Hcon_A0A7I4XVE6
+                        |     |           |  |                 |  |  |  +--| (100/100)
+                        |     |           |  |                 |  |  |     |  +**Nam_ser-7
+                        |     |           |  |                 |  |  |     +--| (83.8/100)
+                        |     |           |  |                 |  |  |        +**Name_W2TFF4
+                        |     |           |  |                 |  +--| (89.7/100)
+                        |     |           |  |                 |     +---Ppa_ser-6
+                        |     |           |  |           +-----| (100/100)
+                        |     |           |  |           |     +--Sra_ser-6
+                        |     |           |  |        +--| (75.3/60)
+                        |     |           |  |        |  +---Lana_tr_A0A1S3GY13_A0A1S3GY13_LINAN
+                        |     |           |  |     +--| (65.2/60)
+                        |     |           |  |     |  +--Pcau_tr_A0ABM1F1R5_A0ABM1F1R5_PRICU
+                        |     |           |  |  +--| (91.6/100)
+                        |     |           |  |  |  +---dm5HT7
+                        |     |           |  +--| (96.1/100)
+                        |     |           |     |  +------Cint_tr_F6USY0_F6USY0_CIOIN
+                        |     |           |     +--| (99.6/100)
+                        |     |           |        +---hHTR7
+                        |     |        +--| (39.1/52)
+                        |     |        |  +----------hHTR5A
+                        |     |     +--| (91.7/95)
+                        |     |     |  |           +--Bmal_A0A4E9F6U2
+                        |     |     |  |        +--| (100/100)
+                        |     |     |  |        |  |        +--Cbr_ser-4
+                        |     |     |  |        |  |     +--| (94.1/98)
+                        |     |     |  |        |  |     |  |  +--Cre_ser-4
+                        |     |     |  |        |  |     |  +--| (84.5/99)
+                        |     |     |  |        |  |     |     +--cel_ser-4
+                        |     |     |  |        |  |  +--| (90.2/87)
+                        |     |     |  |        |  |  |  |  +--Hcon_A0A7I4YF75
+                        |     |     |  |        |  |  |  +--| (21.4/44)
+                        |     |     |  |        |  |  |     +--Ppa_ser-4
+                        |     |     |  |        |  +--| (44.2/43)
+                        |     |     |  |        |     +--Srat_A0A090LFB2
+                        |     |     |  |     +--| (98.4/100)
+                        |     |     |  |     |  |     +**Tmur_A0A5S6Q475
+                        |     |     |  |     |  |  +--| (100/100)
+                        |     |     |  |     |  |  |  +**Tmur_A0A5S6QKE5
+                        |     |     |  |     |  +--| (98.5/100)
+                        |     |     |  |     |     +--Tspi_A0A0V1BW66
+                        |     |     |  |  +--| (98.2/100)
+                        |     |     |  |  |  |  +--dm5HT1A
+                        |     |     |  |  |  +--| (100/100)
+                        |     |     |  |  |     +--dm5HT1B
+                        |     |     |  +--| (80.6/97)
+                        |     |     |     |      +--Ebur_tr_A0A8C4NHU4_A0A8C4NHU4_EPTBU
+                        |     |     |     |  +---| (100/100)
+                        |     |     |     |  |   |     +--Pmar_tr_A0AAJ7T1P3_A0AAJ7T1P3_PETMA
+                        |     |     |     |  |   |  +--| (88/100)
+                        |     |     |     |  |   |  |  +--Pmar_tr_A0AAJ7WUU2_A0AAJ7WUU2_PETMA
+                        |     |     |     |  |   +--| (87/100)
+                        |     |     |     |  |      +--hHTR1A
+                        |     |     |     +--| (77.7/99)
+                        |     |     |        |     +--hHTR1B
+                        |     |     |        |  +--| (95.3/100)
+                        |     |     |        |  |  +--hHTR1D
+                        |     |     |        +--| (99.6/100)
+                        |     |     |           |  +--hHTR1E
+                        |     |     |           +--| (99.1/100)
+                        |     |     |              +--hHTR1F
+                        |     |  +--| (58.5/68)
+                        |     |  |  |           +--Bma_tyra-2
+                        |     |  |  |        +--| (86.3/88)
+                        |     |  |  |        |  |        +--Cbn_tyra-2
+                        |     |  |  |        |  |     +**| (0/96)
+                        |     |  |  |        |  |     |  +--Cbri_A8XBX8
+                        |     |  |  |        |  |  +--| (99.5/100)
+                        |     |  |  |        |  |  |  |  +**Cre_tyra-2
+                        |     |  |  |        |  |  |  +**| (0/84)
+                        |     |  |  |        |  |  |     +**cel_tyra-2
+                        |     |  |  |        |  +--| (68.4/87)
+                        |     |  |  |        |     +--Ppac_A0A2A6D2F2
+                        |     |  |  |  +-----| (99.8/100)
+                        |     |  |  |  |     +--Srat_A0A090LUS1
+                        |     |  |  +--| (98/100)
+                        |     |  |     +--------Tspi_A0A0V1BKK4
+                        |     +--| (84.8/79)
+                        |        |                         +**Bmal_A0A4E9EXD1
+                        |        |                      +--| (100/100)
+                        |        |                      |  +**Bmal_A0A5S6PEW9
+                        |        |                   +--| (93.2/85)
+                        |        |                   |  +--Sra_ser-2
+                        |        |                +--| (75.3/85)
+                        |        |                |  +--Ppac_A0A8R1YUP5
+                        |        |           +----| (100/100)
+                        |        |           |    |     +**Cbn_ser-2
+                        |        |           |    |  +--| (99.6/99)
+                        |        |           |    |  |  |  +--Cbri_A8X4B1
+                        |        |           |    |  |  +**| (72.9/81)
+                        |        |           |    |  |     |  +--Cre_ser-2
+                        |        |           |    |  |     +**| (74.9/81)
+                        |        |           |    |  |        +--cel_ser-2
+                        |        |           |    +--| (0/43)
+                        |        |           |       |  +--Hcon_A0A7I4Z5W2
+                        |        |           |       +--| (98.3/98)
+                        |        |           |          +--Name_W2T5P5
+                        |        |        +--| (95.8/100)
+                        |        |        |  +--Cvir_tr_A0A8B8A4H7_A0A8B8A4H7_CRAVI
+                        |        |     +--| (34.2/94)
+                        |        |     |  |  +--Pcau_tr_A0ABM1E1A1_A0ABM1E1A1_PRICU
+                        |        |     |  +--| (99.3/100)
+                        |        |     |     +--Pcau_tr_A0ABM1EKS2_A0ABM1EKS2_PRICU
+                        |        |  +--| (99/100)
+                        |        |  |  |  +--bmOAR1
+                        |        |  |  +--| (99.4/100)
+                        |        |  |     +--dmOctTyrR
+                        |        +--| (99.5/100)
+                        |           +---Skow_tr_A0ABM0MS41_A0ABM0MS41_SACKO
+                     +--| (98.6/99)
+                     |  |                +---Bmal_A0A0I9R2W1
+                     |  |          +-----| (100/100)
+                     |  |          |     |        +--Cbri_A8XNM4
+                     |  |          |     |     +--| (95.6/99)
+                     |  |          |     |     |  +--cel_ser-1
+                     |  |          |     |  +--| (94.5/99)
+                     |  |          |     |  |  |  +--Hcon_A0A7I4Z059
+                     |  |          |     |  |  +--| (94.6/100)
+                     |  |          |     |  |     +--Name_W2SZY3
+                     |  |          |     +--| (21.4/91)
+                     |  |          |        +--Ppac_A0A2A6CZQ4
+                     |  |       +--| (98.5/100)
+                     |  |       |  +----dm5HT2A
+                     |  |  +----| (99.7/100)
+                     |  |  |    |       +--hHTR2A
+                     |  |  |    |    +--| (52.1/85)
+                     |  |  |    |    |  +---hHTR2B
+                     |  |  |    +----| (99.9/100)
+                     |  |  |         +--hHTR2C
+                     |  +--| (85.6/99)
+                     |     |                      +--Bmal_A0A1P6C5R0
+                     |     |           +----------| (100/100)
+                     |     |           |          |           +--Cbn_dop-5
+                     |     |           |          |        +--| (41.2/84)
+                     |     |           |          |        |  +**cel_dop-5
+                     |     |           |          |     +--| (99.5/100)
+                     |     |           |          |     |  |     +**Cbr_dop-5
+                     |     |           |          |     |  |  +**| (0/77)
+                     |     |           |          |     |  |  |  +**Cbri_A8Y4I4
+                     |     |           |          |     |  +**| (0/67)
+                     |     |           |          |     |     +**Cre_dop-5
+                     |     |           |          |  +--| (91.9/67)
+                     |     |           |          |  |  |  +--Hcon_A0A7I4YXV5
+                     |     |           |          |  |  +--| (93.8/68)
+                     |     |           |          |  |     +--Name_W2TY13
+                     |     |           |          +--| (76/67)
+                     |     |           |             +--Ppac_A0A2A6CA79
+                     |     |        +--| (95.1/77)
+                     |     |        |  |                   +--Cbn_dop_6
+                     |     |        |  |                +--| (78.6/98)
+                     |     |        |  |                |  |  +--Cre_dop_6
+                     |     |        |  |                |  +--| (13.2/87)
+                     |     |        |  |                |     +**cel_dop-6
+                     |     |        |  |             +--| (94.1/99)
+                     |     |        |  |             |  |  +**Cbr_dop_6
+                     |     |        |  |             |  +--| (45.8/100)
+                     |     |        |  |             |     +--Cbri_A8XJW6
+                     |     |        |  |          +--| (87.3/98)
+                     |     |        |  |          |  +--Name_W2T1T3
+                     |     |        |  |       +--| (55/98)
+                     |     |        |  |       |  +--Ppa_dop_6
+                     |     |        |  +-------| (100/100)
+                     |     |        |          +--Srat_A0A090LQI8
+                     |     |     +--| (61.1/67)
+                     |     |     |  |      +**Cbn_dop-3
+                     |     |     |  |   +--| (99.5/100)
+                     |     |     |  |   |  |     +--Cbri_Q61H86
+                     |     |     |  |   |  |  +--| (44/95)
+                     |     |     |  |   |  |  |  +--cel_dop-3
+                     |     |     |  |   |  +--| (79.7/96)
+                     |     |     |  |   |     +**Cre_dop-3
+                     |     |     |  +---| (99.8/100)
+                     |     |     |      +--Ppa_dop-3
+                     |     |  +--| (93.9/70)
+                     |     |  |  |              +**Bmal_A0A4E9FN50
+                     |     |  |  |           +--| (100/100)
+                     |     |  |  |           |  +**Bmal_A0A4E9FQ40
+                     |     |  |  |        +--| (21.1/92)
+                     |     |  |  |        |  +--Srat_A0A090MVH7
+                     |     |  |  |     +--| (99.9/100)
+                     |     |  |  |     |  |     +--Cbri_A8XVC3
+                     |     |  |  |     |  |  +--| (97.2/100)
+                     |     |  |  |     |  |  |  +--cel_dop-2
+                     |     |  |  |     |  +--| (94.7/100)
+                     |     |  |  |     |     +--Hcon_A0A7I4YXA4
+                     |     |  |  |  +--| (99.7/100)
+                     |     |  |  |  |  |     +**Tmur_A0A5S6QWZ9
+                     |     |  |  |  |  |  +--| (99.9/100)
+                     |     |  |  |  |  |  |  +**Tmur_A0A5S6R0V8
+                     |     |  |  |  |  +--| (99.9/100)
+                     |     |  |  |  |     |  +**Tsp_dop-2
+                     |     |  |  |  |     +--| (93.5/100)
+                     |     |  |  |  |        +**Tspi_A0A0V1ASU0
+                     |     |  |  +--| (86.5/99)
+                     |     |  |     +--dmDop2R
+                     |     +--| (93.7/73)
+                     |        |     +--hDRD2
+                     |        |  +--| (99.8/100)
+                     |        |  |  +--hDRD3
+                     |        +--| (92.1/99)
+                     |           +-------hDRD4
+                  +--| (95/99)
+                  |  +---------hHRH1
+               +--| (81.9/100)
+               |  |         +----hHRH3
+               |  +---------| (100/100)
+               |            +------hHRH4
+            +--| (96/100)
+            |  |               +--Cbri_A8WZ43
+            |  |            +--| (88.1/100)
+            |  |            |  +--cel_gar-1
+            |  |         +--| (99.9/100)
+            |  |         |  +--Ppac_A0A2A6BJJ0
+            |  |      +--| (99.4/100)
+            |  |      |  +--Tspi_A0A0V1C1R2
+            |  +------| (100/100)
+            |         |              +--Cbri_A8XR61
+            |         |           +--| (100/100)
+            |         |           |  +--cel_gar-2
+            |         |        +--| (87.7/100)
+            |         |        |  +--Hcon_A0A7I4YEB4
+            |         |     +--| (97.1/100)
+            |         |     |  +--Ppac_A0A2A6CDP4
+            |         |  +--| (95.7/100)
+            |         |  |  +--Srat_A0A090LBB5
+            |         +--| (95.4/100)
+            |            |     +**Tmur_A0A5S6Q2Y7
+            |            |  +--| (93.5/100)
+            |            |  |  +**Tmur_A0A5S6QSP3
+            |            +--| (99.9/100)
+            |               +--Tspi_E5SAZ1
+         +--| (62.1/98)
+         |  |                 +**Bmal_A0A4E9FL79
+         |  |              +**| (0/85)
+         |  |              |  +**Bmal_A0A4E9FM63
+         |  |           +--| (100/100)
+         |  |           |  +**Bmal_A0A4E9FLU9
+         |  |        +--| (87.1/98)
+         |  |        |  +--Srat_A0A090LND4
+         |  |     +--| (11.4/88)
+         |  |     |  +--Ppac_A0A2A6CGR5
+         |  |  +--| (99.9/100)
+         |  |  |  |     +--Cbri_A8WXZ5
+         |  |  |  |  +--| (99.6/100)
+         |  |  |  |  |  +--cel_gar-3
+         |  |  |  +--| (16.4/77)
+         |  |  |     |  +--Hcon_A0A7I4YUN2
+         |  |  |     +--| (97.5/100)
+         |  |  |        +--Name_W2SP07
+         |  +--| (99.7/100)
+         |     |  +--Tmur_A0A5S6R0S7
+         |     +--| (98.5/100)
+         |        +--Tspi_E5S5F5
+      +--| (93.6/71)
+      |  |            +--Hvul_tr_A0ABM4CK96_A0ABM4CK96_HYDVU
+      |  +------------| (100/100)
+      |               +--Hvul_tr_A0ABM4CKA6_A0ABM4CKA6_HYDVU
+   +--| (99/100)
+   |  |  +------Cint_tr_F6SIL2_F6SIL2_CIOIN
+   |  +--| (39.8/59)
+   |     +--hCHRM2
++--| (64.3/95)
+|  +--hCHRM3
+|
++--hCHRM1
+|
++--hCHRM5
+
+Tree in newick format:
+
+((((((((((((((((((Ajap_tr_A0A2G8K4C3_A0A2G8K4C3_APOJA:0.6664625134,Bflo_tr_A0A9J7MN32_A0A9J7MN32_BRAFL:0.5401770110)7.6/59:0.0596505296,((hADRB1:0.1659663550,hADRB3:0.6000131646)87.3/99:0.1325398972,hADRB2:0.3134171275)100/100:0.5709656357)95.4/95:0.1422376087,((((((Bmal_A0A0K0JA15:0.0000013001,Bmal_A0A5S6PKE3:0.0000013001)100/100:0.4207594618,(((Cbn_dop-1:0.0080095705,(Cbri_A8XK01:0.0039397552,Cre_dop-1:0.0039496151)87.1/89:0.0078420948)76.5/89:0.0035660100,cel_dop-1:0.0044192655)97.5/95:0.1742235668,Ppac_A0A2A6CU23:0.2762877018)91.9/100:0.1460132240)99.9/100:0.4076895722,dmDop1R1:0.5440767097)99.9/100:0.4511092581,(hDRD1:0.1202171818,hDRD5:0.1761826878)100/100:0.5302323459)83.4/61:0.0987022402,hHRH2:1.0769031922)29.9/49:0.0212245377,hHTR6:1.3481881937)90.2/85:0.1104297155)0/29:0.0000035271,((Myes_tr_A0A210PPR0_A0A210PPR0_MIZYE:0.4969091096,(dmOctB1R:0.2937955419,(dmOctB2R:0.3507113026,dmOctB3R:0.2542859494)36.2/97:0.0886454451)97.2/100:0.2200774578)99.8/100:0.3389571740,(hHTR4:0.6197488589,hTAAR1:1.2513200806)93/98:0.2145085513)94.7/97:0.1303008266)94.7/80:0.1023879144,(((Apla_tr_A0A8B8A0D8_A0A8B8A0D8_ACAPL:0.0226930829,Pmin_tr_A0A914B379_A0A914B379_PATMI:0.0430532372)99.8/100:0.2417181194,Spur_tr_A0A7M7HLT0_A0A7M7HLT0_STRPU:0.1592327776)99.9/100:0.3402217276,((((((((Cbn_dop-4:0.0186068942,Cbr_dop-4:0.0000029693)69.2/100:0.0147822506,cel_dop-4:0.0231657059)80.5/100:0.0145463072,Cre_dop-4:0.0051953383)100/100:0.1404986811,Name_W2U1D4:0.0265706512)57.1/94:0.0023953469,Hcon_A0A7I4Z6U1:0.0210121042)91.5/99:0.0571939270,Ppac_A0A8R1Y7M0:0.2635483194)48/73:0.1315084933,Srat_A0A090KRY3:0.0824731746)100/100:0.9046143112,(((Cvir_tr_A0A8B8F0Q5_A0A8B8F0Q5_CRAVI:0.2130309442,Myes_tr_A0A210PJ23_A0A210PJ23_MIZYE:0.1162973866)95.5/100:0.1409325803,Lana_tr_A0A1S3K9Y2_A0A1S3K9Y2_LINAN:0.3100033904)93.9/100:0.1352175857,(Lpol_tr_A0ABM1BKJ6_A0ABM1BKJ6_LIMPO:0.0313657083,Lpol_tr_A0ABM1SBT5_A0ABM1SBT5_LIMPO:0.0523832434)99.8/100:0.2931011901)16/96:0.0481051145)89.8/98:0.1174088488)99.9/100:0.3051371976)88.9/62:0.0786884097,(((Hvul_tr_A0ABM4BNS4_A0ABM4BNS4_HYDVU:1.9440362394,Nvec_tr_A7SM05_A7SM05_NEMVE:1.2228121296)26.4/92:0.1138830984,Nvec_tr_A7SM55_A7SM55_NEMVE:1.1005078719)96.6/99:0.3764420814,(((((Mlei_KAL5257720.1:0.0000013001,Mlei_tr_A0ACF8YAQ5_A0ACF8YAQ5_MNELE:0.0000030946)100/100:1.5254985570,Mlei_KAL5268535.1:0.9964653946)94.1/100:0.4960753277,((hGPR50:0.7873980049,hMTNR1A:0.1989887103)57/98:0.0717087868,hMTNR1B:0.3391571415)100/100:1.7692099230)92.2/88:0.3834015099,((((((((TEST_ckr-1:0.6226122904,TEST_ckr-2:0.4827987762)99.9/100:0.9998488714,TEST_npr-34:2.1716305389)43.6/74:0.3343315640,((((TEST_nmur-2:1.3007405984,TEST_nmur-3:1.5241516781)85/100:0.2330944194,TEST_trhr-1:1.7589670194)80.5/99:0.1525126758,TEST_npr-24:2.4522896503)57.6/92:0.1865291941,TEST_npr-20:1.7307422288)79/69:0.1359082042)83.8/92:0.1659734744,(TEST_tkr-1:0.9835201018,TEST_tkr-2:1.1178649927)100/100:1.1186840690)0/61:0.1047591102,TEST_npr-22:1.5219961307)81.4/100:0.1632634614,TEST_npr-35:2.0625233340)98.4/100:0.5255378028,Tadh_tr_B3RY65_B3RY65_TRIAD:1.6641335097)74/79:0.1118803382,Tadh_tr_B3SDK6_B3SDK6_TRIAD:1.5409582582)84.2/81:0.1337983128)7.9/56:0.1064649961,(Nvec_tr_A7S987_A7S987_NEMVE:2.3796411826,Tadh_tr_B3S5Y6_B3S5Y6_TRIAD:1.8331315602)55.6/64:0.2234173012)84.9/75:0.1328205195)95.9/82:0.2023092085)84.6/34:0.0359471702,(((((((((Cbn_ser-3:0.0073213459,Cbr_ser-3:0.0074554154)47.5/97:0.0036873893,cel_ser-3:0.0000036491)100/98:0.0836049692,Hcon_A0A7I4XZW7:0.0044966185)53.4/57:0.0180499784,(Nam_ser-3:0.0000013001,Name_W2TC78:0.0000013001)0/89:0.0000026480)87.1/59:0.0504822278,Ppac_A0A2A6CC52:0.0667511247)36.7/67:0.0470035810,Srat_A0A090LFA9:0.1592635164)100/100:0.8377670031,((((Cbr_ser-6:0.0218127989,cel_ser-6:0.0129671836)99.8/100:0.2895147365,(Hcon_W6NDZ2:0.1350378517,Name_W2T4W5:0.1303686383)99.6/100:0.2525833961)58.7/99:0.1204594820,Ppac_A0A2A6C2E8:0.5433048781)90.7/100:0.1583013049,Srat_A0A090LP03:0.5094568619)100/100:0.7650521881)91.8/98:0.2616429082,(Lana_tr_A0A1S3HJU9_A0A1S3HJU9_LINAN:0.4849778337,(((Lpol_tr_A0ABM1RX31_A0ABM1RX31_LIMPO:0.2507198255,dmOAMB:0.3337633198)92.9/100:0.1124291857,Myes_tr_A0A210QLA7_A0A210QLA7_MIZYE:0.4892963540)14.3/81:0.0303350671,Skow_tr_A0ACM8CU07_A0ACM8CU07_SACKO:0.3961305153)92.8/86:0.1154493001)67/84:0.0480353039)95.8/99:0.1555735463,(((((Cbri_A8WW27:0.0108825229,cel_ser-5:0.0082120972)99.3/100:0.0498137932,(Hcon_A0A7I4XSN3:0.0407984541,Name_W2T2Z1:0.0359279880)92.2/97:0.0265569051)93/97:0.0443385999,Srat_A0A090L9N3:0.1419121680)90.2/97:0.0935886592,Ppac_A0A2A6BV05:0.0327434182)100/100:1.7318225010,(((Ebur_tr_A0A8C4N726_A0A8C4N726_EPTBU:0.2751404529,hADRA1A:0.2557818809)41.9/74:0.0299776656,(hADRA1B:0.1792751134,hADRA1D:0.2618761923)84.7/91:0.0768136275)82.2/73:0.0833422759,Ebur_tr_A0A8C4QW85_A0A8C4QW85_EPTBU:0.2065937589)99.9/100:0.5289142946)52.3/79:0.1349440889)98.2/95:0.2244353203)89/59:0.0642068654,((((((Bma_tyra-3:0.5190868226,Srat_A0A090L038:0.1315469082)93.5/100:0.1089532199,(Hcon_A0A7I4Z5B4:0.0000013001,Hcon_A0A7I5EER1:0.0000013001)96.7/100:0.0649971451)71.5/99:0.0410923671,(((Cbn_tyra-3:0.0000013001,cel_tyra-3:0.0076120992)91.2/95:0.0077110714,Cbri_A8XK79:0.0038465457)39.5/95:0.0038306700,Cre_tyra-3:0.0000034732)94.2/95:0.0493799800)91/97:0.0572081661,Ppac_A0A8R1YJL7:0.1143260075)77.6/98:0.1991804932,(Tmur_A0A5S6QH67:0.2017053812,Tspi_E5SA85:0.4131722756)100/100:0.7632278221)100/100:0.7198273503,(dmTyrR:0.2591603655,dmTyrRII:0.3454806071)100/100:0.7321693047)89.2/93:0.1664293125)75.6/27:0.0520772435,((((Ajap_tr_A0A2G8LRS8_A0A2G8LRS8_APOJA:0.7194377496,((Cvir_tr_A0A8B8E7R6_A0A8B8E7R6_CRAVI:0.3563490132,plADRA1:0.2978392402)12.4/69:0.0734569110,dmOctA2R:0.3769398188)67.6/77:0.0842486940)91.9/99:0.1450013559,(Bflo_tr_A0A9J7M236_A0A9J7M236_BRAFL:0.6186267190,((((Drer_sp_Q90WY4_ADA2A_DANRE:0.0038943373,Drer_tr_Q1L8Y8_Q1L8Y8_DANRE:0.0000013001)100/100:0.2057098373,hADRA2A:0.0853110270)97.4/100:0.1246540246,hADRA2B:0.3090195224)43/98:0.0450714547,hADRA2C:0.1847351949)100/100:0.5734843756)13.5/95:0.0871190392)90.2/100:0.1799041618,((((((Cbn_octr-1:0.0040028712,Cre_octr-1:0.0077442196)71.1/98:0.0075985199,(Cbr_octr-1:0.0000013001,Cbri_A8XKI1:0.0000013001)77.3/100:0.0043214979)35.9/98:0.0055212414,cel_octr-1:0.0146778136)99.4/99:0.0872058915,(Hcon_A0A7I4Z3V4:0.0380433966,Name_W2TZ93:0.0160502181)79.7/99:0.0320259415)98.1/100:0.1209416955,Ppac_A0A2A6D2Q4:0.2026571484)91.5/100:0.1015758171,Srat_A0A090LSA4:0.1794309446)100/100:0.6438326190)98.4/100:0.2245937665,(((((((Apla_tr_A0A8B7YCR4_A0A8B7YCR4_ACAPL:0.0669008992,Pmin_tr_A0A914A277_A0A914A277_PATMI:0.0537830830)99.8/100:0.3430769119,Spur_tr_A0A7M7RBR3_A0A7M7RBR3_STRPU:0.3534832029)99.7/100:0.3927702012,((((((Bmal_A0A4E9ESY4:0.3567938069,(((((Cbn_ser-7:0.0146251960,Cre_ser-7:0.0069742676)81.5/100:0.0046450353,cel_ser-7:0.0000033388)92.7/100:0.0340880258,Cbri_A8WRX3:0.0873971791)96.4/100:0.1045762721,(Hcon_A0A7I4XVE6:0.1337059495,(Nam_ser-7:0.0000013001,Name_W2TFF4:0.0000013001)83.8/100:0.0423836396)100/100:0.2101827041)99.3/100:0.1790866699,Ppa_ser-6:0.4619115368)89.7/100:0.1332456440)86.7/100:0.1677758131,Sra_ser-6:0.2994908881)100/100:0.6747577898,Lana_tr_A0A1S3GY13_A0A1S3GY13_LINAN:0.4278256871)75.3/60:0.0790937306,Pcau_tr_A0ABM1F1R5_A0ABM1F1R5_PRICU:0.3574663214)65.2/60:0.0782092274,dm5HT7:0.4858836170)91.6/100:0.1128366170,(Cint_tr_F6USY0_F6USY0_CIOIN:0.7316942234,hHTR7:0.5002750306)99.6/100:0.3918815107)96.1/100:0.1984880422)80.5/76:0.0544999154,hHTR5A:1.1719667125)39.1/52:0.0446758181,((((Bmal_A0A4E9F6U2:0.1875861302,(((Cbr_ser-4:0.0133864594,(Cre_ser-4:0.0134820536,cel_ser-4:0.0082989108)84.5/99:0.0177149208)94.1/98:0.0598494969,(Hcon_A0A7I4YF75:0.1278530053,Ppa_ser-4:0.3934643566)21.4/44:0.0264129585)90.2/87:0.0650899342,Srat_A0A090LFB2:0.2256376557)44.2/43:0.0490289676)100/100:0.3574354090,((Tmur_A0A5S6Q475:0.0000013001,Tmur_A0A5S6QKE5:0.0000013001)100/100:0.3480978196,Tspi_A0A0V1BW66:0.1834545471)98.5/100:0.2355630236)98.4/100:0.2974409893,(dm5HT1A:0.0965758072,dm5HT1B:0.0976864915)100/100:0.3888595875)98.2/100:0.2473517020,((Ebur_tr_A0A8C4NHU4_A0A8C4NHU4_EPTBU:0.1373816413,((Pmar_tr_A0AAJ7T1P3_A0AAJ7T1P3_PETMA:0.0423855631,Pmar_tr_A0AAJ7WUU2_A0AAJ7WUU2_PETMA:0.0690565089)88/100:0.0789501558,hHTR1A:0.1395247528)87/100:0.0622254989)100/100:0.4292574572,((hHTR1B:0.2206805983,hHTR1D:0.2614187071)95.3/100:0.1514456797,(hHTR1E:0.3285906558,hHTR1F:0.2525837804)99.1/100:0.2454644527)99.6/100:0.3261128921)77.7/99:0.1120090067)80.6/97:0.1211466398)91.7/95:0.1206439886,(((Bma_tyra-2:0.2714139790,(((Cbn_tyra-2:0.0405658325,Cbri_A8XBX8:0.0039131504)0/96:0.0000036615,(Cre_tyra-2:0.0000013001,cel_tyra-2:0.0000013001)0/84:0.0000028531)99.5/100:0.0609185715,Ppac_A0A2A6D2F2:0.0465781474)68.4/87:0.0112627934)86.3/88:0.0649405993,Srat_A0A090LUS1:0.0439752324)99.8/100:0.6394748078,Tspi_A0A0V1BKK4:1.0165171785)98/100:0.3795220727)58.5/68:0.0650741273,((((((((Bmal_A0A4E9EXD1:0.0000013001,Bmal_A0A5S6PEW9:0.0000036138)100/100:0.1929370090,Sra_ser-2:0.1042918336)93.2/85:0.0426362015,Ppac_A0A8R1YUP5:0.0597522276)75.3/85:0.0077072734,((Cbn_ser-2:0.0000025775,(Cbri_A8X4B1:0.0110322765,(Cre_ser-2:0.0149024130,cel_ser-2:0.0110734921)74.9/81:0.0035406642)72.9/81:0.0036187964)99.6/99:0.0624472375,(Hcon_A0A7I4Z5W2:0.0240924726,Name_W2T5P5:0.0107352045)98.3/98:0.0453293155)0/43:0.0072372422)100/100:0.6159117157,Cvir_tr_A0A8B8A4H7_A0A8B8A4H7_CRAVI:0.4029890546)95.8/100:0.1564212936,(Pcau_tr_A0ABM1E1A1_A0ABM1E1A1_PRICU:0.0944929329,Pcau_tr_A0ABM1EKS2_A0ABM1EKS2_PRICU:0.1207315741)99.3/100:0.1489656240)34.2/94:0.0205894962,(bmOAR1:0.1845344019,dmOctTyrR:0.1360933512)99.4/100:0.1616945603)99/100:0.2006507988,Skow_tr_A0ABM0MS41_A0ABM0MS41_SACKO:0.4353901558)99.5/100:0.2373877080)84.8/79:0.0640769941)74.1/44:0.0755959827)89.8/46:0.0988279497,((((Bmal_A0A0I9R2W1:0.4678335002,(((Cbri_A8XNM4:0.0985809982,cel_ser-1:0.0504162550)95.6/99:0.1162693186,(Hcon_A0A7I4Z059:0.0048366674,Name_W2SZY3:0.0799765847)94.6/100:0.0965217543)94.5/99:0.1491560358,Ppac_A0A2A6CZQ4:0.3175697236)21.4/91:0.0413709131)100/100:0.6447570124,dm5HT2A:0.5917742405)98.5/100:0.3750366019,((hHTR2A:0.2360960921,hHTR2B:0.4740461646)52.1/85:0.1174771857,hHTR2C:0.1555904237)99.9/100:0.6143010400)99.7/100:0.5560001355,(((((Bmal_A0A1P6C5R0:0.2311898839,((((Cbn_dop-5:0.0729389615,cel_dop-5:0.0000033810)41.2/84:0.0037733476,((Cbr_dop-5:0.0000013001,Cbri_A8Y4I4:0.0000013001)0/77:0.0000013002,Cre_dop-5:0.0000013001)0/67:0.0000037258)99.5/100:0.0970539509,(Hcon_A0A7I4YXV5:0.0549111876,Name_W2TY13:0.0425719976)93.8/68:0.0495505384)91.9/67:0.0733952711,Ppac_A0A2A6CA79:0.2193937292)76/67:0.0651419524)100/100:1.1907373850,(((((Cbn_dop_6:0.0114538529,(Cre_dop_6:0.0785507379,cel_dop-6:0.0000034015)13.2/87:0.0038223061)78.6/98:0.0112941881,(Cbr_dop_6:0.0000028029,Cbri_A8XJW6:0.0044662858)45.8/100:0.0052096545)94.1/99:0.0469155531,Name_W2T1T3:0.0785683226)87.3/98:0.0406454433,Ppa_dop_6:0.1548349518)55/98:0.1241735256,Srat_A0A090LQI8:0.2956577271)100/100:0.8636501641)95.1/77:0.3824890261,((Cbn_dop-3:0.0000029367,((Cbri_Q61H86:0.0313526041,cel_dop-3:0.0120819603)44/95:0.0148036632,Cre_dop-3:0.0000036668)79.7/96:0.0037879497)99.5/100:0.2792540586,Ppa_dop-3:0.2223789642)99.8/100:0.4693705322)61.1/67:0.1500778826,(((((Bmal_A0A4E9FN50:0.0000013001,Bmal_A0A4E9FQ40:0.0000013001)100/100:0.2977011957,Srat_A0A090MVH7:0.2079992453)21.1/92:0.0429269543,((Cbri_A8XVC3:0.0197011896,cel_dop-2:0.0169303217)97.2/100:0.0826328527,Hcon_A0A7I4YXA4:0.1047850909)94.7/100:0.0893330183)99.9/100:0.3880203794,((Tmur_A0A5S6QWZ9:0.0000013001,Tmur_A0A5S6R0V8:0.0000025913)99.9/100:0.2278381536,(Tsp_dop-2:0.0000013001,Tspi_A0A0V1ASU0:0.0000013001)93.5/100:0.1048021575)99.9/100:0.3519421380)99.7/100:0.3451018412,dmDop2R:0.3518725231)86.5/99:0.1265408633)93.9/70:0.1786308298,((hDRD2:0.1701319570,hDRD3:0.3533916218)99.8/100:0.3873634524,hDRD4:0.9127747977)92.1/99:0.1775488940)93.7/73:0.1683691892)85.6/99:0.1000450674)98.6/99:0.3337936248,hHRH1:1.0998184423)95/99:0.3066593324,(hHRH3:0.5497161784,hHRH4:0.7860491240)100/100:1.0425726630)81.9/100:0.1851471436,((((Cbri_A8WZ43:0.0107304750,cel_gar-1:0.0140933764)88.1/100:0.0567806571,Ppac_A0A2A6BJJ0:0.1000035377)99.9/100:0.3289863218,Tspi_A0A0V1C1R2:0.3370374597)99.4/100:0.3357831569,(((((Cbri_A8XR61:0.0090504745,cel_gar-2:0.0200965838)100/100:0.1503596120,Hcon_A0A7I4YEB4:0.0537522495)87.7/100:0.0441479662,Ppac_A0A2A6CDP4:0.1509123802)97.1/100:0.1131061157,Srat_A0A090LBB5:0.3227104605)95.7/100:0.1311704882,((Tmur_A0A5S6Q2Y7:0.0000013001,Tmur_A0A5S6QSP3:0.0000013001)93.5/100:0.0604287237,Tspi_E5SAZ1:0.0544380948)99.9/100:0.2492614709)95.4/100:0.1790777149)100/100:0.7412701652)96/100:0.2499713651,((((((Bmal_A0A4E9FL79:0.0000013001,Bmal_A0A4E9FM63:0.0000027637)0/85:0.0000030640,Bmal_A0A4E9FLU9:0.0000013001)100/100:0.2529794627,Srat_A0A090LND4:0.2185634779)87.1/98:0.0434291013,Ppac_A0A2A6CGR5:0.1650920863)11.4/88:0.0249585684,((Cbri_A8WXZ5:0.0389228151,cel_gar-3:0.0109646756)99.6/100:0.0992649168,(Hcon_A0A7I4YUN2:0.0094553995,Name_W2SP07:0.0176729536)97.5/100:0.0742957850)16.4/77:0.0363050641)99.9/100:0.2321219699,(Tmur_A0A5S6R0S7:0.1685959102,Tspi_E5S5F5:0.1420048576)98.5/100:0.2029400510)99.7/100:0.3379616229)62.1/98:0.0759904798,(Hvul_tr_A0ABM4CK96_A0ABM4CK96_HYDVU:0.2713419268,Hvul_tr_A0ABM4CKA6_A0ABM4CKA6_HYDVU:0.1912227743)100/100:1.3962573960)93.6/71:0.1552837430,(Cint_tr_F6SIL2_F6SIL2_CIOIN:0.7483803691,hCHRM2:0.2625991939)39.8/59:0.1091555022)99/100:0.1777769849,hCHRM3:0.0867073892)64.3/95:0.0441463608,hCHRM1:0.2333072799,hCHRM5:0.1150543866);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -72443.820187
+Robinson-Foulds distance between ML tree and consensus tree: 14
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                                      +-----Ajap_tr_A0A2G8K4C3_A0A2G8K4C3_APOJA
+                                                   +--| (59)
+                                                   |  +----Bflo_tr_A0A9J7MN32_A0A9J7MN32_BRAFL
+                                                +--| (95)
+                                                |  |       +--hADRB1
+                                                |  |    +--| (99)
+                                                |  |    |  +----hADRB3
+                                                |  +----| (100)
+                                                |       +--hADRB2
+                                             +--| (40)
+                                             |  |     +---Myes_tr_A0A210PPR0_A0A210PPR0_MIZYE
+                                             |  |  +--| (100)
+                                             |  |  |  |  +--dmOctB1R
+                                             |  |  |  +--| (100)
+                                             |  |  |     |  +--dmOctB2R
+                                             |  |  |     +--| (97)
+                                             |  |  |        +--dmOctB3R
+                                             |  +--| (97)
+                                             |     |  +----hHTR4
+                                             |     +--| (98)
+                                             |        +-----------hTAAR1
+                                          +--| (80)
+                                          |  |                   +--Bmal_A0A0K0JA15
+                                          |  |               +---| (100)
+                                          |  |               |   +--Bmal_A0A5S6PKE3
+                                          |  |            +--| (100)
+                                          |  |            |  |        +--Cbn_dop-1
+                                          |  |            |  |     +--| (89)
+                                          |  |            |  |     |  |  +--Cbri_A8XK01
+                                          |  |            |  |     |  +--| (89)
+                                          |  |            |  |     |     +--Cre_dop-1
+                                          |  |            |  |  +--| (95)
+                                          |  |            |  |  |  +--cel_dop-1
+                                          |  |            |  +--| (100)
+                                          |  |            |     +--Ppac_A0A2A6CU23
+                                          |  |        +---| (100)
+                                          |  |        |   +----dmDop1R1
+                                          |  |     +--| (61)
+                                          |  |     |  |    +--hDRD1
+                                          |  |     |  +----| (100)
+                                          |  |     |       +--hDRD5
+                                          |  |  +--| (49)
+                                          |  |  |  +---------hHRH2
+                                          |  +--| (85)
+                                          |     +-----------hHTR6
+                                       +--| (62)
+                                       |  |        +--Apla_tr_A0A8B8A0D8_A0A8B8A0D8_ACAPL
+                                       |  |     +--| (100)
+                                       |  |     |  +--Pmin_tr_A0A914B379_A0A914B379_PATMI
+                                       |  |  +--| (100)
+                                       |  |  |  +--Spur_tr_A0A7M7HLT0_A0A7M7HLT0_STRPU
+                                       |  +--| (100)
+                                       |     |                            +--Cbn_dop-4
+                                       |     |                         +--| (100)
+                                       |     |                         |  +--Cbr_dop-4
+                                       |     |                      +--| (100)
+                                       |     |                      |  +--cel_dop-4
+                                       |     |                   +--| (100)
+                                       |     |                   |  +--Cre_dop-4
+                                       |     |                +--| (94)
+                                       |     |                |  +--Name_W2U1D4
+                                       |     |             +--| (99)
+                                       |     |             |  +--Hcon_A0A7I4Z6U1
+                                       |     |          +--| (73)
+                                       |     |          |  +--Ppac_A0A8R1Y7M0
+                                       |     |  +-------| (100)
+                                       |     |  |       +--Srat_A0A090KRY3
+                                       |     +--| (98)
+                                       |        |        +--Cvir_tr_A0A8B8F0Q5_A0A8B8F0Q5_CRAVI
+                                       |        |     +--| (100)
+                                       |        |     |  +--Myes_tr_A0A210PJ23_A0A210PJ23_MIZYE
+                                       |        |  +--| (100)
+                                       |        |  |  +--Lana_tr_A0A1S3K9Y2_A0A1S3K9Y2_LINAN
+                                       |        +--| (96)
+                                       |           |  +--Lpol_tr_A0ABM1BKJ6_A0ABM1BKJ6_LIMPO
+                                       |           +--| (100)
+                                       |              +--Lpol_tr_A0ABM1SBT5_A0ABM1SBT5_LIMPO
+                                    +--| (34)
+                                    |  |        +-----------------Hvul_tr_A0ABM4BNS4_A0ABM4BNS4_HYDVU
+                                    |  |     +--| (92)
+                                    |  |     |  +----------Nvec_tr_A7SM05_A7SM05_NEMVE
+                                    |  |  +--| (99)
+                                    |  |  |  +---------Nvec_tr_A7SM55_A7SM55_NEMVE
+                                    |  +--| (82)
+                                    |     |                          +--Mlei_KAL5257720.1
+                                    |     |            +-------------| (100)
+                                    |     |            |             +--Mlei_tr_A0ACF8YAQ5_A0ACF8YAQ5_MNELE
+                                    |     |        +---| (100)
+                                    |     |        |   +--------Mlei_KAL5268535.1
+                                    |     |     +--| (88)
+                                    |     |     |  |                   +------hGPR50
+                                    |     |     |  |                +--| (98)
+                                    |     |     |  |                |  +--hMTNR1A
+                                    |     |     |  +----------------| (100)
+                                    |     |     |                   +--hMTNR1B
+                                    |     |  +--| (56)
+                                    |     |  |  |                               +----TEST_ckr-1
+                                    |     |  |  |                      +--------| (100)
+                                    |     |  |  |                      |        +---TEST_ckr-2
+                                    |     |  |  |                   +--| (74)
+                                    |     |  |  |                   |  +-------------------TEST_npr-34
+                                    |     |  |  |                +--| (92)
+                                    |     |  |  |                |  |           +-----------TEST_nmur-2
+                                    |     |  |  |                |  |        +--| (100)
+                                    |     |  |  |                |  |        |  +-------------TEST_nmur-3
+                                    |     |  |  |                |  |     +--| (99)
+                                    |     |  |  |                |  |     |  +---------------TEST_trhr-1
+                                    |     |  |  |                |  |  +--| (92)
+                                    |     |  |  |                |  |  |  +----------------------TEST_npr-24
+                                    |     |  |  |                |  +--| (69)
+                                    |     |  |  |                |     +---------------TEST_npr-20
+                                    |     |  |  |             +--| (61)
+                                    |     |  |  |             |  |         +--------TEST_tkr-1
+                                    |     |  |  |             |  +---------| (100)
+                                    |     |  |  |             |            +---------TEST_tkr-2
+                                    |     |  |  |          +--| (100)
+                                    |     |  |  |          |  +-------------TEST_npr-22
+                                    |     |  |  |     +----| (100)
+                                    |     |  |  |     |    +------------------TEST_npr-35
+                                    |     |  |  |  +--| (79)
+                                    |     |  |  |  |  +--------------Tadh_tr_B3RY65_B3RY65_TRIAD
+                                    |     |  |  +--| (81)
+                                    |     |  |     +-------------Tadh_tr_B3SDK6_B3SDK6_TRIAD
+                                    |     +--| (75)
+                                    |        |  +----------------------Nvec_tr_A7S987_A7S987_NEMVE
+                                    |        +--| (64)
+                                    |           +----------------Tadh_tr_B3S5Y6_B3S5Y6_TRIAD
+                                 +--| (59)
+                                 |  |                               +--Cbn_ser-3
+                                 |  |                            +--| (97)
+                                 |  |                            |  +--Cbr_ser-3
+                                 |  |                         +--| (98)
+                                 |  |                         |  +--cel_ser-3
+                                 |  |                      +--| (57)
+                                 |  |                      |  +--Hcon_A0A7I4XZW7
+                                 |  |                   +--| (59)
+                                 |  |                   |  |  +--Nam_ser-3
+                                 |  |                   |  +--| (89)
+                                 |  |                   |     +--Name_W2TC78
+                                 |  |                +--| (67)
+                                 |  |                |  +--Ppac_A0A2A6CC52
+                                 |  |        +-------| (100)
+                                 |  |        |       +--Srat_A0A090LFA9
+                                 |  |     +--| (98)
+                                 |  |     |  |               +--Cbr_ser-6
+                                 |  |     |  |            +--| (100)
+                                 |  |     |  |            |  +--cel_ser-6
+                                 |  |     |  |         +--| (99)
+                                 |  |     |  |         |  |  +--Hcon_W6NDZ2
+                                 |  |     |  |         |  +--| (100)
+                                 |  |     |  |         |     +--Name_W2T4W5
+                                 |  |     |  |      +--| (100)
+                                 |  |     |  |      |  +----Ppac_A0A2A6C2E8
+                                 |  |     |  +------| (100)
+                                 |  |     |         +---Srat_A0A090LP03
+                                 |  |  +--| (99)
+                                 |  |  |  |  +---Lana_tr_A0A1S3HJU9_A0A1S3HJU9_LINAN
+                                 |  |  |  +--| (84)
+                                 |  |  |     |        +--Lpol_tr_A0ABM1RX31_A0ABM1RX31_LIMPO
+                                 |  |  |     |     +--| (100)
+                                 |  |  |     |     |  +--dmOAMB
+                                 |  |  |     |  +--| (81)
+                                 |  |  |     |  |  +---Myes_tr_A0A210QLA7_A0A210QLA7_MIZYE
+                                 |  |  |     +--| (86)
+                                 |  |  |        +--Skow_tr_A0ACM8CU07_A0ACM8CU07_SACKO
+                                 |  +--| (95)
+                                 |     |                           +--Cbri_A8WW27
+                                 |     |                        +--| (100)
+                                 |     |                        |  +--cel_ser-5
+                                 |     |                     +--| (97)
+                                 |     |                     |  |  +--Hcon_A0A7I4XSN3
+                                 |     |                     |  +--| (97)
+                                 |     |                     |     +--Name_W2T2Z1
+                                 |     |                  +--| (97)
+                                 |     |                  |  +--Srat_A0A090L9N3
+                                 |     |  +---------------| (100)
+                                 |     |  |               +--Ppac_A0A2A6BV05
+                                 |     +--| (79)
+                                 |        |          +--Ebur_tr_A0A8C4N726_A0A8C4N726_EPTBU
+                                 |        |       +--| (74)
+                                 |        |       |  +--hADRA1A
+                                 |        |    +--| (73)
+                                 |        |    |  |  +--hADRA1B
+                                 |        |    |  +--| (91)
+                                 |        |    |     +--hADRA1D
+                                 |        +----| (100)
+                                 |             +--Ebur_tr_A0A8C4QW85_A0A8C4QW85_EPTBU
+                              +--|
+                              |  |                +---Bmal_A0A0I9R2W1
+                              |  |          +-----| (100)
+                              |  |          |     |        +--Cbri_A8XNM4
+                              |  |          |     |     +--| (99)
+                              |  |          |     |     |  +--cel_ser-1
+                              |  |          |     |  +--| (99)
+                              |  |          |     |  |  |  +--Hcon_A0A7I4Z059
+                              |  |          |     |  |  +--| (100)
+                              |  |          |     |  |     +--Name_W2SZY3
+                              |  |          |     +--| (91)
+                              |  |          |        +--Ppac_A0A2A6CZQ4
+                              |  |       +--| (100)
+                              |  |       |  +----dm5HT2A
+                              |  |  +----| (100)
+                              |  |  |    |       +--hHTR2A
+                              |  |  |    |    +--| (85)
+                              |  |  |    |    |  +---hHTR2B
+                              |  |  |    +----| (100)
+                              |  |  |         +--hHTR2C
+                              |  +--| (99)
+                              |     |                      +--Bmal_A0A1P6C5R0
+                              |     |           +----------| (100)
+                              |     |           |          |           +--Cbn_dop-5
+                              |     |           |          |        +--| (84)
+                              |     |           |          |        |  +--cel_dop-5
+                              |     |           |          |     +--| (100)
+                              |     |           |          |     |  |     +--Cbr_dop-5
+                              |     |           |          |     |  |  +--| (77)
+                              |     |           |          |     |  |  |  +--Cbri_A8Y4I4
+                              |     |           |          |     |  +--| (67)
+                              |     |           |          |     |     +--Cre_dop-5
+                              |     |           |          |  +--| (67)
+                              |     |           |          |  |  |  +--Hcon_A0A7I4YXV5
+                              |     |           |          |  |  +--| (68)
+                              |     |           |          |  |     +--Name_W2TY13
+                              |     |           |          +--| (67)
+                              |     |           |             +--Ppac_A0A2A6CA79
+                              |     |        +--| (77)
+                              |     |        |  |                   +--Cbn_dop_6
+                              |     |        |  |                +--| (98)
+                              |     |        |  |                |  |  +--Cre_dop_6
+                              |     |        |  |                |  +--| (87)
+                              |     |        |  |                |     +--cel_dop-6
+                              |     |        |  |             +--| (99)
+                              |     |        |  |             |  |  +--Cbr_dop_6
+                              |     |        |  |             |  +--| (100)
+                              |     |        |  |             |     +--Cbri_A8XJW6
+                              |     |        |  |          +--| (98)
+                              |     |        |  |          |  +--Name_W2T1T3
+                              |     |        |  |       +--| (98)
+                              |     |        |  |       |  +--Ppa_dop_6
+                              |     |        |  +-------| (100)
+                              |     |        |          +--Srat_A0A090LQI8
+                              |     |     +--| (67)
+                              |     |     |  |      +--Cbn_dop-3
+                              |     |     |  |   +--| (100)
+                              |     |     |  |   |  |     +--Cbri_Q61H86
+                              |     |     |  |   |  |  +--| (95)
+                              |     |     |  |   |  |  |  +--cel_dop-3
+                              |     |     |  |   |  +--| (96)
+                              |     |     |  |   |     +--Cre_dop-3
+                              |     |     |  +---| (100)
+                              |     |     |      +--Ppa_dop-3
+                              |     |  +--| (70)
+                              |     |  |  |              +--Bmal_A0A4E9FN50
+                              |     |  |  |           +--| (100)
+                              |     |  |  |           |  +--Bmal_A0A4E9FQ40
+                              |     |  |  |        +--| (92)
+                              |     |  |  |        |  +--Srat_A0A090MVH7
+                              |     |  |  |     +--| (100)
+                              |     |  |  |     |  |     +--Cbri_A8XVC3
+                              |     |  |  |     |  |  +--| (100)
+                              |     |  |  |     |  |  |  +--cel_dop-2
+                              |     |  |  |     |  +--| (100)
+                              |     |  |  |     |     +--Hcon_A0A7I4YXA4
+                              |     |  |  |  +--| (100)
+                              |     |  |  |  |  |     +--Tmur_A0A5S6QWZ9
+                              |     |  |  |  |  |  +--| (100)
+                              |     |  |  |  |  |  |  +--Tmur_A0A5S6R0V8
+                              |     |  |  |  |  +--| (100)
+                              |     |  |  |  |     |  +--Tsp_dop-2
+                              |     |  |  |  |     +--| (100)
+                              |     |  |  |  |        +--Tspi_A0A0V1ASU0
+                              |     |  |  +--| (99)
+                              |     |  |     +--dmDop2R
+                              |     +--| (73)
+                              |        |     +--hDRD2
+                              |        |  +--| (100)
+                              |        |  |  +--hDRD3
+                              |        +--| (99)
+                              |           +-------hDRD4
+                           +--| (46)
+                           |  |                     +---Bma_tyra-3
+                           |  |                  +--| (100)
+                           |  |                  |  +--Srat_A0A090L038
+                           |  |               +--| (99)
+                           |  |               |  |  +--Hcon_A0A7I4Z5B4
+                           |  |               |  +--| (100)
+                           |  |               |     +--Hcon_A0A7I5EER1
+                           |  |            +--| (97)
+                           |  |            |  |        +--Cbn_tyra-3
+                           |  |            |  |     +--| (95)
+                           |  |            |  |     |  +--cel_tyra-3
+                           |  |            |  |  +--| (95)
+                           |  |            |  |  |  +--Cbri_A8XK79
+                           |  |            |  +--| (95)
+                           |  |            |     +--Cre_tyra-3
+                           |  |         +--| (98)
+                           |  |         |  +--Ppac_A0A8R1YJL7
+                           |  |  +------| (100)
+                           |  |  |      |      +--Tmur_A0A5S6QH67
+                           |  |  |      +------| (100)
+                           |  |  |             +--Tspi_E5SA85
+                           |  +--| (93)
+                           |     |      +--dmTyrR
+                           |     +------| (100)
+                           |            +--dmTyrRII
+                        +--| (52)
+                        |  |                    +--Apla_tr_A0A8B7YCR4_A0A8B7YCR4_ACAPL
+                        |  |                 +--| (100)
+                        |  |                 |  +--Pmin_tr_A0A914A277_A0A914A277_PATMI
+                        |  |              +--| (100)
+                        |  |              |  +--Spur_tr_A0A7M7RBR3_A0A7M7RBR3_STRPU
+                        |  |           +--| (76)
+                        |  |           |  |                    +--Bmal_A0A4E9ESY4
+                        |  |           |  |                 +--| (100)
+                        |  |           |  |                 |  |              +--Cbn_ser-7
+                        |  |           |  |                 |  |           +--| (100)
+                        |  |           |  |                 |  |           |  +--Cre_ser-7
+                        |  |           |  |                 |  |        +--| (100)
+                        |  |           |  |                 |  |        |  +--cel_ser-7
+                        |  |           |  |                 |  |     +--| (100)
+                        |  |           |  |                 |  |     |  +--Cbri_A8WRX3
+                        |  |           |  |                 |  |  +--| (100)
+                        |  |           |  |                 |  |  |  |  +--Hcon_A0A7I4XVE6
+                        |  |           |  |                 |  |  |  +--| (100)
+                        |  |           |  |                 |  |  |     |  +--Nam_ser-7
+                        |  |           |  |                 |  |  |     +--| (100)
+                        |  |           |  |                 |  |  |        +--Name_W2TFF4
+                        |  |           |  |                 |  +--| (100)
+                        |  |           |  |                 |     +---Ppa_ser-6
+                        |  |           |  |           +-----| (100)
+                        |  |           |  |           |     +--Sra_ser-6
+                        |  |           |  |        +--| (60)
+                        |  |           |  |        |  +---Lana_tr_A0A1S3GY13_A0A1S3GY13_LINAN
+                        |  |           |  |     +--| (60)
+                        |  |           |  |     |  +--Pcau_tr_A0ABM1F1R5_A0ABM1F1R5_PRICU
+                        |  |           |  |  +--| (100)
+                        |  |           |  |  |  +---dm5HT7
+                        |  |           |  +--| (100)
+                        |  |           |     |  +------Cint_tr_F6USY0_F6USY0_CIOIN
+                        |  |           |     +--| (100)
+                        |  |           |        +---hHTR7
+                        |  |        +--| (52)
+                        |  |        |  +----------hHTR5A
+                        |  |     +--| (95)
+                        |  |     |  |              +--Bmal_A0A4E9F6U2
+                        |  |     |  |           +--| (57)
+                        |  |     |  |           |  |        +--Cbr_ser-4
+                        |  |     |  |           |  |     +--| (98)
+                        |  |     |  |           |  |     |  |  +--Cre_ser-4
+                        |  |     |  |           |  |     |  +--| (99)
+                        |  |     |  |           |  |     |     +--cel_ser-4
+                        |  |     |  |           |  |  +--| (47)
+                        |  |     |  |           |  |  |  +--Ppa_ser-4
+                        |  |     |  |           |  +--| (87)
+                        |  |     |  |           |     +--Hcon_A0A7I4YF75
+                        |  |     |  |        +--| (100)
+                        |  |     |  |        |  +--Srat_A0A090LFB2
+                        |  |     |  |     +--| (100)
+                        |  |     |  |     |  |     +--Tmur_A0A5S6Q475
+                        |  |     |  |     |  |  +--| (100)
+                        |  |     |  |     |  |  |  +--Tmur_A0A5S6QKE5
+                        |  |     |  |     |  +--| (100)
+                        |  |     |  |     |     +--Tspi_A0A0V1BW66
+                        |  |     |  |  +--| (100)
+                        |  |     |  |  |  |  +--dm5HT1A
+                        |  |     |  |  |  +--| (100)
+                        |  |     |  |  |     +--dm5HT1B
+                        |  |     |  +--| (97)
+                        |  |     |     |      +--Ebur_tr_A0A8C4NHU4_A0A8C4NHU4_EPTBU
+                        |  |     |     |  +---| (100)
+                        |  |     |     |  |   |     +--Pmar_tr_A0AAJ7T1P3_A0AAJ7T1P3_PETMA
+                        |  |     |     |  |   |  +--| (100)
+                        |  |     |     |  |   |  |  +--Pmar_tr_A0AAJ7WUU2_A0AAJ7WUU2_PETMA
+                        |  |     |     |  |   +--| (100)
+                        |  |     |     |  |      +--hHTR1A
+                        |  |     |     +--| (99)
+                        |  |     |        |     +--hHTR1B
+                        |  |     |        |  +--| (100)
+                        |  |     |        |  |  +--hHTR1D
+                        |  |     |        +--| (100)
+                        |  |     |           |  +--hHTR1E
+                        |  |     |           +--| (100)
+                        |  |     |              +--hHTR1F
+                        |  |  +--| (68)
+                        |  |  |  |           +--Bma_tyra-2
+                        |  |  |  |        +--| (88)
+                        |  |  |  |        |  |        +--Cbn_tyra-2
+                        |  |  |  |        |  |     +--| (96)
+                        |  |  |  |        |  |     |  +--Cbri_A8XBX8
+                        |  |  |  |        |  |  +--| (100)
+                        |  |  |  |        |  |  |  |  +--Cre_tyra-2
+                        |  |  |  |        |  |  |  +--| (84)
+                        |  |  |  |        |  |  |     +--cel_tyra-2
+                        |  |  |  |        |  +--| (87)
+                        |  |  |  |        |     +--Ppac_A0A2A6D2F2
+                        |  |  |  |  +-----| (100)
+                        |  |  |  |  |     +--Srat_A0A090LUS1
+                        |  |  |  +--| (100)
+                        |  |  |     +--------Tspi_A0A0V1BKK4
+                        |  +--| (79)
+                        |     |                            +--Bmal_A0A4E9EXD1
+                        |     |                         +--| (100)
+                        |     |                         |  +--Bmal_A0A5S6PEW9
+                        |     |                      +--| (85)
+                        |     |                      |  +--Sra_ser-2
+                        |     |                   +--| (85)
+                        |     |                   |  +--Ppac_A0A8R1YUP5
+                        |     |                +--| (54)
+                        |     |                |  |  +--Cbn_ser-2
+                        |     |                |  +--| (99)
+                        |     |                |     |  +--Cbri_A8X4B1
+                        |     |                |     +--| (81)
+                        |     |                |        |  +--Cre_ser-2
+                        |     |                |        +--| (81)
+                        |     |                |           +--cel_ser-2
+                        |     |           +----| (100)
+                        |     |           |    |  +--Hcon_A0A7I4Z5W2
+                        |     |           |    +--| (98)
+                        |     |           |       +--Name_W2T5P5
+                        |     |        +--| (100)
+                        |     |        |  +--Cvir_tr_A0A8B8A4H7_A0A8B8A4H7_CRAVI
+                        |     |     +--| (94)
+                        |     |     |  |  +--Pcau_tr_A0ABM1E1A1_A0ABM1E1A1_PRICU
+                        |     |     |  +--| (100)
+                        |     |     |     +--Pcau_tr_A0ABM1EKS2_A0ABM1EKS2_PRICU
+                        |     |  +--| (100)
+                        |     |  |  |  +--bmOAR1
+                        |     |  |  +--| (100)
+                        |     |  |     +--dmOctTyrR
+                        |     +--| (100)
+                        |        +---Skow_tr_A0ABM0MS41_A0ABM0MS41_SACKO
+                     +--| (51)
+                     |  |        +-----Ajap_tr_A0A2G8LRS8_A0A2G8LRS8_APOJA
+                     |  |     +--| (99)
+                     |  |     |  |     +--Cvir_tr_A0A8B8E7R6_A0A8B8E7R6_CRAVI
+                     |  |     |  |  +--| (69)
+                     |  |     |  |  |  +--plADRA1
+                     |  |     |  +--| (77)
+                     |  |     |     +--dmOctA2R
+                     |  |  +--| (100)
+                     |  |  |  |  +----Bflo_tr_A0A9J7M236_A0A9J7M236_BRAFL
+                     |  |  |  +--| (95)
+                     |  |  |     |             +--Drer_sp_Q90WY4_ADA2A_DANRE
+                     |  |  |     |          +--| (100)
+                     |  |  |     |          |  +--Drer_tr_Q1L8Y8_Q1L8Y8_DANRE
+                     |  |  |     |       +--| (100)
+                     |  |  |     |       |  +--hADRA2A
+                     |  |  |     |    +--| (98)
+                     |  |  |     |    |  +--hADRA2B
+                     |  |  |     +----| (100)
+                     |  |  |          +--hADRA2C
+                     |  +--| (100)
+                     |     |                    +--Cbn_octr-1
+                     |     |                 +--| (98)
+                     |     |                 |  +--Cre_octr-1
+                     |     |              +--| (98)
+                     |     |              |  |  +--Cbr_octr-1
+                     |     |              |  +--| (100)
+                     |     |              |     +--Cbri_A8XKI1
+                     |     |           +--| (99)
+                     |     |           |  +--cel_octr-1
+                     |     |        +--| (100)
+                     |     |        |  |  +--Hcon_A0A7I4Z3V4
+                     |     |        |  +--| (99)
+                     |     |        |     +--Name_W2TZ93
+                     |     |     +--| (100)
+                     |     |     |  +--Ppac_A0A2A6D2Q4
+                     |     +-----| (100)
+                     |           +--Srat_A0A090LSA4
+                  +--| (99)
+                  |  +---------hHRH1
+               +--| (99)
+               |  |        +----hHRH3
+               |  +--------| (100)
+               |           +------hHRH4
+            +--| (100)
+            |  |               +--Cbri_A8WZ43
+            |  |            +--| (100)
+            |  |            |  +--cel_gar-1
+            |  |         +--| (100)
+            |  |         |  +--Ppac_A0A2A6BJJ0
+            |  |      +--| (100)
+            |  |      |  +--Tspi_A0A0V1C1R2
+            |  +------| (100)
+            |         |              +--Cbri_A8XR61
+            |         |           +--| (100)
+            |         |           |  +--cel_gar-2
+            |         |        +--| (100)
+            |         |        |  +--Hcon_A0A7I4YEB4
+            |         |     +--| (100)
+            |         |     |  +--Ppac_A0A2A6CDP4
+            |         |  +--| (100)
+            |         |  |  +--Srat_A0A090LBB5
+            |         +--| (100)
+            |            |     +--Tmur_A0A5S6Q2Y7
+            |            |  +--| (100)
+            |            |  |  +--Tmur_A0A5S6QSP3
+            |            +--| (100)
+            |               +--Tspi_E5SAZ1
+         +--| (100)
+         |  |                 +--Bmal_A0A4E9FL79
+         |  |              +--| (85)
+         |  |              |  +--Bmal_A0A4E9FM63
+         |  |           +--| (100)
+         |  |           |  +--Bmal_A0A4E9FLU9
+         |  |        +--| (98)
+         |  |        |  +--Srat_A0A090LND4
+         |  |     +--| (88)
+         |  |     |  +--Ppac_A0A2A6CGR5
+         |  |  +--| (100)
+         |  |  |  |     +--Cbri_A8WXZ5
+         |  |  |  |  +--| (100)
+         |  |  |  |  |  +--cel_gar-3
+         |  |  |  +--| (77)
+         |  |  |     |  +--Hcon_A0A7I4YUN2
+         |  |  |     +--| (100)
+         |  |  |        +--Name_W2SP07
+         |  +--| (100)
+         |     |  +--Tmur_A0A5S6R0S7
+         |     +--| (100)
+         |        +--Tspi_E5S5F5
+      +--| (98)
+      |  |            +--Hvul_tr_A0ABM4CK96_A0ABM4CK96_HYDVU
+      |  +------------| (100)
+      |               +--Hvul_tr_A0ABM4CKA6_A0ABM4CKA6_HYDVU
+   +--| (71)
+   |  |  +------Cint_tr_F6SIL2_F6SIL2_CIOIN
+   |  +--| (59)
+   |     +--hCHRM2
++--| (100)
+|  +--hCHRM3
+| (95)
++--hCHRM1
+|
++--hCHRM5
+
+
+Consensus tree in newick format: 
+
+(((((((((((((((((((Ajap_tr_A0A2G8K4C3_A0A2G8K4C3_APOJA:0.6663366205,Bflo_tr_A0A9J7MN32_A0A9J7MN32_BRAFL:0.5397130356)59:0.0608681916,((hADRB1:0.1662121715,hADRB3:0.6015493360)99:0.1340625083,hADRB2:0.3128197789)100:0.5743005574)95:0.1407888686,((Myes_tr_A0A210PPR0_A0A210PPR0_MIZYE:0.4988039281,(dmOctB1R:0.2950851435,(dmOctB2R:0.3509372621,dmOctB3R:0.2550374326)97:0.0881820662)100:0.2201101888)100:0.3384392175,(hHTR4:0.6188726098,hTAAR1:1.2533190585)98:0.2157418020)97:0.1376463552)40:0.0000029424,((((((Bmal_A0A0K0JA15:0.0000028152,Bmal_A0A5S6PKE3:0.0000028152)100:0.4223384814,(((Cbn_dop-1:0.0080225725,(Cbri_A8XK01:0.0039452002,Cre_dop-1:0.0039550678)89:0.0078544414)89:0.0035628979,cel_dop-1:0.0044354186)95:0.1746445265,Ppac_A0A2A6CU23:0.2770222628)100:0.1452013315)100:0.4079597509,dmDop1R1:0.5460703358)100:0.4472116907,(hDRD1:0.1206550777,hDRD5:0.1762141124)100:0.5328048436)61:0.0976802616,hHRH2:1.0787665470)49:0.0209486536,hHTR6:1.3504718017)85:0.1081725484)80:0.0997873798,(((Apla_tr_A0A8B8A0D8_A0A8B8A0D8_ACAPL:0.0228875080,Pmin_tr_A0A914B379_A0A914B379_PATMI:0.0429526039)100:0.2431671576,Spur_tr_A0A7M7HLT0_A0A7M7HLT0_STRPU:0.1581112280)100:0.3465782502,((((((((Cbn_dop-4:0.0186283334,Cbr_dop-4:0.0000028152)100:0.0148016945,cel_dop-4:0.0231986927)100:0.0145657253,Cre_dop-4:0.0052042413)100:0.1407235473,Name_W2U1D4:0.0266037351)94:0.0023882624,Hcon_A0A7I4Z6U1:0.0210457347)99:0.0572723167,Ppac_A0A8R1Y7M0:0.2639769577)73:0.1319289751,Srat_A0A090KRY3:0.0824506596)100:0.9058898764,(((Cvir_tr_A0A8B8F0Q5_A0A8B8F0Q5_CRAVI:0.2131755193,Myes_tr_A0A210PJ23_A0A210PJ23_MIZYE:0.1166768476)100:0.1421254640,Lana_tr_A0A1S3K9Y2_A0A1S3K9Y2_LINAN:0.3097168407)100:0.1347456862,(Lpol_tr_A0ABM1BKJ6_A0ABM1BKJ6_LIMPO:0.0315517795,Lpol_tr_A0ABM1SBT5_A0ABM1SBT5_LIMPO:0.0523257668)100:0.2932313453)96:0.0500434009)98:0.1122729151)100:0.3142717502)62:0.0824175751,(((Hvul_tr_A0ABM4BNS4_A0ABM4BNS4_HYDVU:1.9359574785,Nvec_tr_A7SM05_A7SM05_NEMVE:1.2310352523)92:0.1161455161,Nvec_tr_A7SM55_A7SM55_NEMVE:1.1002475262)99:0.3660029888,(((((Mlei_KAL5257720.1:0.0000028152,Mlei_tr_A0ACF8YAQ5_A0ACF8YAQ5_MNELE:0.0000028152)100:1.5210617177,Mlei_KAL5268535.1:1.0019320522)100:0.4947132107,((hGPR50:0.7888871527,hMTNR1A:0.1995482440)98:0.0738080117,hMTNR1B:0.3376865969)100:1.7728487618)88:0.3786379327,((((((((TEST_ckr-1:0.6238873747,TEST_ckr-2:0.4834943664)100:1.0015607876,TEST_npr-34:2.1806999070)74:0.3368709083,((((TEST_nmur-2:1.3026612561,TEST_nmur-3:1.5300688758)100:0.2344031964,TEST_trhr-1:1.7591738291)99:0.1520563367,TEST_npr-24:2.4629080555)92:0.1868577109,TEST_npr-20:1.7344386468)69:0.1347493171)92:0.1663427971,(TEST_tkr-1:0.9855922325,TEST_tkr-2:1.1218160818)100:1.1281907332)61:0.1086173751,TEST_npr-22:1.5190019658)100:0.1663618660,TEST_npr-35:2.0616584393)100:0.5280804334,Tadh_tr_B3RY65_B3RY65_TRIAD:1.6605876715)79:0.1115112093,Tadh_tr_B3SDK6_B3SDK6_TRIAD:1.5409388408)81:0.1341891174)56:0.1025112433,(Nvec_tr_A7S987_A7S987_NEMVE:2.3966905288,Tadh_tr_B3S5Y6_B3S5Y6_TRIAD:1.8433193917)64:0.2273430629)75:0.1394872118)82:0.2055441210)34:0.0078989498,(((((((((Cbn_ser-3:0.0073299420,Cbr_ser-3:0.0074644365)97:0.0036911205,cel_ser-3:0.0000028152)98:0.0837147105,Hcon_A0A7I4XZW7:0.0045023766)57:0.0180726915,(Nam_ser-3:0.0000028152,Name_W2TC78:0.0000028152)89:0.0000023894)59:0.0504529797,Ppac_A0A2A6CC52:0.0669650728)67:0.0469739529,Srat_A0A090LFA9:0.1596306834)100:0.8388826553,((((Cbr_ser-6:0.0218985694,cel_ser-6:0.0129346475)100:0.2906607123,(Hcon_W6NDZ2:0.1353377720,Name_W2T4W5:0.1304579486)100:0.2527304860)99:0.1207390968,Ppac_A0A2A6C2E8:0.5439502021)100:0.1593013185,Srat_A0A090LP03:0.5102355267)100:0.7682759346)98:0.2611755877,(Lana_tr_A0A1S3HJU9_A0A1S3HJU9_LINAN:0.4909757173,(((Lpol_tr_A0ABM1RX31_A0ABM1RX31_LIMPO:0.2509316613,dmOAMB:0.3340543388)100:0.1151551722,Myes_tr_A0A210QLA7_A0A210QLA7_MIZYE:0.4887388613)81:0.0303435201,Skow_tr_A0ACM8CU07_A0ACM8CU07_SACKO:0.3964054821)86:0.1076986544)84:0.0504225289)99:0.1557624974,(((((Cbri_A8WW27:0.0109001754,cel_ser-5:0.0082189814)100:0.0498773641,(Hcon_A0A7I4XSN3:0.0408413328,Name_W2T2Z1:0.0359765574)97:0.0265960827)97:0.0443942889,Srat_A0A090L9N3:0.1421112898)97:0.0933374943,Ppac_A0A2A6BV05:0.0332214364)100:1.7401311828,(((Ebur_tr_A0A8C4N726_A0A8C4N726_EPTBU:0.2753317250,hADRA1A:0.2565542312)74:0.0305655411,(hADRA1B:0.1795601067,hADRA1D:0.2624129317)91:0.0769197019)73:0.0815685526,Ebur_tr_A0A8C4QW85_A0A8C4QW85_EPTBU:0.2084283457)100:0.5261452271)79:0.1343050727)95:0.2603927107)59:0.0717446714,((((Bmal_A0A0I9R2W1:0.4644255651,(((Cbri_A8XNM4:0.0987831820,cel_ser-1:0.0503732843)99:0.1182839838,(Hcon_A0A7I4Z059:0.0049170504,Name_W2SZY3:0.0799905381)100:0.0946332220)99:0.1497399799,Ppac_A0A2A6CZQ4:0.3193066498)91:0.0437078904)100:0.6397087071,dm5HT2A:0.5971761386)100:0.3791718008,((hHTR2A:0.2370113165,hHTR2B:0.4745967532)85:0.1187743393,hHTR2C:0.1543944354)100:0.6147810703)100:0.5339328211,(((((Bmal_A0A1P6C5R0:0.2269068042,((((Cbn_dop-5:0.0730475135,cel_dop-5:0.0000023726)84:0.0037766849,((Cbr_dop-5:0.0000028152,Cbri_A8Y4I4:0.0000028152)77:0.0000028152,Cre_dop-5:0.0000028152)67:0.0000028227)100:0.0970374223,(Hcon_A0A7I4YXV5:0.0550773117,Name_W2TY13:0.0425509309)68:0.0496960567)67:0.0737197481,Ppac_A0A2A6CA79:0.2194230082)67:0.0696523648)100:1.2000073235,(((((Cbn_dop_6:0.0114682795,(Cre_dop_6:0.0786529292,cel_dop-6:0.0000028152)87:0.0038265764)98:0.0113102552,(Cbr_dop_6:0.0000025315,Cbri_A8XJW6:0.0044721631)100:0.0052187665)99:0.0469503122,Name_W2T1T3:0.0787123504)98:0.0406897440,Ppa_dop_6:0.1550702822)98:0.1257385905,Srat_A0A090LQI8:0.2951237970)100:0.8594711886)77:0.3760284884,((Cbn_dop-3:0.0000028152,((Cbri_Q61H86:0.0313900599,cel_dop-3:0.0120950174)95:0.0148222823,Cre_dop-3:0.0000028227)96:0.0037918924)100:0.2815535161,Ppa_dop-3:0.2206694116)100:0.4735891216)67:0.1517745105,(((((Bmal_A0A4E9FN50:0.0000028152,Bmal_A0A4E9FQ40:0.0000028152)100:0.2981188287,Srat_A0A090MVH7:0.2083347551)92:0.0424941086,((Cbri_A8XVC3:0.0197335474,cel_dop-2:0.0169370461)100:0.0828497106,Hcon_A0A7I4YXA4:0.1048089578)100:0.0899083896)100:0.3888305023,((Tmur_A0A5S6QWZ9:0.0000028152,Tmur_A0A5S6R0V8:0.0000028152)100:0.2304911302,(Tsp_dop-2:0.0000028152,Tspi_A0A0V1ASU0:0.0000028152)100:0.1026933704)100:0.3532314017)100:0.3378743016,dmDop2R:0.3611345947)99:0.1191971975)70:0.1788483911,((hDRD2:0.1724471387,hDRD3:0.3529687806)100:0.3884860672,hDRD4:0.9031278745)99:0.1895500352)73:0.1709657638)99:0.1786129150):0.0506082608,((((((Bma_tyra-3:0.5197876463,Srat_A0A090L038:0.1316836177)100:0.1092716861,(Hcon_A0A7I4Z5B4:0.0000028152,Hcon_A0A7I5EER1:0.0000028152)100:0.0651486528)99:0.0411090770,(((Cbn_tyra-3:0.0000028152,cel_tyra-3:0.0076240110)95:0.0077234370,Cbri_A8XK79:0.0038527072)95:0.0038363418,Cre_tyra-3:0.0000028152)95:0.0494883472)97:0.0575807711,Ppac_A0A8R1YJL7:0.1142788052)98:0.1767973938,(Tmur_A0A5S6QH67:0.1998959678,Tspi_E5SA85:0.4158585491)100:0.7860003058)100:0.7288604312,(dmTyrR:0.2698807194,dmTyrRII:0.3347315249)100:0.7353334914)93:0.1743249750)46:0.0599298045,(((((((Apla_tr_A0A8B7YCR4_A0A8B7YCR4_ACAPL:0.0667367678,Pmin_tr_A0A914A277_A0A914A277_PATMI:0.0541110581)100:0.3403730323,Spur_tr_A0A7M7RBR3_A0A7M7RBR3_STRPU:0.3586973845)100:0.3948610105,((((((Bmal_A0A4E9ESY4:0.3574044668,(((((Cbn_ser-7:0.0146384013,Cre_ser-7:0.0069806953)100:0.0046489867,cel_ser-7:0.0000028152)100:0.0341257635,Cbri_A8WRX3:0.0874900104)100:0.1045034025,(Hcon_A0A7I4XVE6:0.1339235905,(Nam_ser-7:0.0000028152,Name_W2TFF4:0.0000028152)100:0.0423682795)100:0.2106287779)100:0.1794290409,Ppa_ser-6:0.4627623240)100:0.1334758902)100:0.1661118437,Sra_ser-6:0.3014134277)100:0.6746898717,Lana_tr_A0A1S3GY13_A0A1S3GY13_LINAN:0.4285867799)60:0.0775261831,Pcau_tr_A0ABM1F1R5_A0ABM1F1R5_PRICU:0.3597509113)60:0.0761790041,dm5HT7:0.4887135633)100:0.1136931005,(Cint_tr_F6USY0_F6USY0_CIOIN:0.7324287448,hHTR7:0.5002782159)100:0.3917472266)100:0.1988229046)76:0.0550441568,hHTR5A:1.1861989548)52:0.0383900830,(((((Bmal_A0A4E9F6U2:0.2164618376,(((Cbr_ser-4:0.0136606925,(Cre_ser-4:0.0135113888,cel_ser-4:0.0084070609)99:0.0173984505)98:0.0602016989,Ppa_ser-4:0.3983452199)47:0.0253117788,Hcon_A0A7I4YF75:0.1282692798)87:0.0608620906)57:0.0246212565,Srat_A0A090LFB2:0.2203231018)100:0.3555520055,((Tmur_A0A5S6Q475:0.0000028152,Tmur_A0A5S6QKE5:0.0000028152)100:0.3505510556,Tspi_A0A0V1BW66:0.1827173159)100:0.2487893789)100:0.2869202140,(dm5HT1A:0.0933284096,dm5HT1B:0.1011704845)100:0.3991166665)100:0.2387969830,((Ebur_tr_A0A8C4NHU4_A0A8C4NHU4_EPTBU:0.1384243973,((Pmar_tr_A0AAJ7T1P3_A0AAJ7T1P3_PETMA:0.0422654956,Pmar_tr_A0AAJ7WUU2_A0AAJ7WUU2_PETMA:0.0692777415)100:0.0789891806,hHTR1A:0.1399655098)100:0.0613084297)100:0.4329173874,((hHTR1B:0.2216112893,hHTR1D:0.2610420475)100:0.1530980952,(hHTR1E:0.3296524071,hHTR1F:0.2522276956)100:0.2448409834)100:0.3233248902)99:0.1148482139)97:0.1273557685)95:0.1256389733,(((Bma_tyra-2:0.2716987204,(((Cbn_tyra-2:0.0406073150,Cbri_A8XBX8:0.0039184937)96:0.0000022773,(Cre_tyra-2:0.0000028152,cel_tyra-2:0.0000028152)84:0.0000028152)100:0.0609956240,Ppac_A0A2A6D2F2:0.0466195963)87:0.0113027365)88:0.0654165697,Srat_A0A090LUS1:0.0436544295)100:0.6450586309,Tspi_A0A0V1BKK4:1.0107352004)100:0.3817831887)68:0.0712077947,(((((((((Bmal_A0A4E9EXD1:0.0000028152,Bmal_A0A5S6PEW9:0.0000023726)100:0.1938962746,Sra_ser-2:0.1041798785)85:0.0429528572,Ppac_A0A8R1YUP5:0.0614646434)85:0.0124742250,(Cbn_ser-2:0.0000028152,(Cbri_A8X4B1:0.0110412287,(Cre_ser-2:0.0149161094,cel_ser-2:0.0110827910)81:0.0035438232)81:0.0036219540)99:0.0622967694)54:0.0148916035,(Hcon_A0A7I4Z5W2:0.0241063329,Name_W2T5P5:0.0107435960)98:0.0313663055)100:0.6192565681,Cvir_tr_A0A8B8A4H7_A0A8B8A4H7_CRAVI:0.4120836112)100:0.1491793600,(Pcau_tr_A0ABM1E1A1_A0ABM1E1A1_PRICU:0.0945555136,Pcau_tr_A0ABM1EKS2_A0ABM1EKS2_PRICU:0.1208474914)100:0.1481156647)94:0.0219865145,(bmOAR1:0.1839534925,dmOctTyrR:0.1372010933)100:0.1625719613)100:0.1952063588,Skow_tr_A0ABM0MS41_A0ABM0MS41_SACKO:0.4412787006)100:0.2309587102)79:0.0717313076)52:0.0647923472,(((Ajap_tr_A0A2G8LRS8_A0A2G8LRS8_APOJA:0.7131136555,((Cvir_tr_A0A8B8E7R6_A0A8B8E7R6_CRAVI:0.3530297653,plADRA1:0.3009192383)69:0.0756323388,dmOctA2R:0.3763522047)77:0.0833835417)99:0.1442139932,(Bflo_tr_A0A9J7M236_A0A9J7M236_BRAFL:0.6203919496,((((Drer_sp_Q90WY4_ADA2A_DANRE:0.0038982232,Drer_tr_Q1L8Y8_Q1L8Y8_DANRE:0.0000028152)100:0.2060911186,hADRA2A:0.0854424702)100:0.1251704340,hADRA2B:0.3089786069)98:0.0413013617,hADRA2C:0.1889197042)100:0.5790689416)95:0.0933392068)100:0.1950825969,((((((Cbn_octr-1:0.0040076729,Cre_octr-1:0.0077527982)98:0.0076084722,(Cbr_octr-1:0.0000028152,Cbri_A8XKI1:0.0000028152)100:0.0043256967)98:0.0055338880,cel_octr-1:0.0146888574)99:0.0874232572,(Hcon_A0A7I4Z3V4:0.0380876729,Name_W2TZ93:0.0160809957)99:0.0319798698)100:0.1211566002,Ppac_A0A2A6D2Q4:0.2029841411)100:0.1119819748,Srat_A0A090LSA4:0.1700091417)100:0.6397425168)100:0.1591047755)51:0.3590807163,hHRH1:1.1350449210)99:0.3084325678,(hHRH3:0.5271004588,hHRH4:0.8116610284)100:1.0184634948)99:0.1959356755,((((Cbri_A8WZ43:0.0107399707,cel_gar-1:0.0141102384)100:0.0562025090,Ppac_A0A2A6BJJ0:0.1007454554)100:0.3298277349,Tspi_A0A0V1C1R2:0.3359995192)100:0.3537397801,(((((Cbri_A8XR61:0.0090581502,cel_gar-2:0.0201224020)100:0.1506309561,Hcon_A0A7I4YEB4:0.0537364272)100:0.0445894407,Ppac_A0A2A6CDP4:0.1507724726)100:0.1137197736,Srat_A0A090LBB5:0.3223967163)100:0.1286062081,((Tmur_A0A5S6Q2Y7:0.0000028152,Tmur_A0A5S6QSP3:0.0000028152)100:0.0602517534,Tspi_E5SAZ1:0.0547803627)100:0.2521502935)100:0.1662259200)100:0.7582728164)100:0.2550191637,((((((Bmal_A0A4E9FL79:0.0000028152,Bmal_A0A4E9FM63:0.0000028152)85:0.0000020549,Bmal_A0A4E9FLU9:0.0000028152)100:0.2537371454,Srat_A0A090LND4:0.2184240521)98:0.0434940308,Ppac_A0A2A6CGR5:0.1658191609)88:0.0265684178,((Cbri_A8WXZ5:0.0388601730,cel_gar-3:0.0111175283)100:0.0991663881,(Hcon_A0A7I4YUN2:0.0091683134,Name_W2SP07:0.0179819144)100:0.0744494150)77:0.0344964324)100:0.2335332000,(Tmur_A0A5S6R0S7:0.1703441648,Tspi_E5S5F5:0.1406296336)100:0.2017771014)100:0.3606873112)100:0.0776637209,(Hvul_tr_A0ABM4CK96_A0ABM4CK96_HYDVU:0.2700924380,Hvul_tr_A0ABM4CKA6_A0ABM4CKA6_HYDVU:0.1929631311)100:1.4287415881)98:0.1315096809,(Cint_tr_F6SIL2_F6SIL2_CIOIN:0.7506405410,hCHRM2:0.2628664163)59:0.1130591531)71:0.1760960229,hCHRM3:0.0908184629)100:0.0404372076,hCHRM1:0.2337985649,hCHRM5:0.1153248645)95;
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t output/tree/placement/trees/gappyout.treefile -m "LG+F+I{0.00714217}+R9{0.0473567,0.0438459,0.0784829,0.10784,0.102081,0.22053,0.092596,0.334823,0.175375,0.576233,0.12384,0.842821,0.189292,1.39021,0.148377,2.25232,0.035457,3.75568}" --length 270
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s output/tree/placement/panel.gappyout.faa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s output/tree/placement/panel.gappyout.faa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Sep 17 13:03:42 2026
+Total CPU time used: 1925.868762 seconds (0h:32m:5s)
+Total wall-clock time used: 982.0539989 seconds (0h:16m:22s)
+

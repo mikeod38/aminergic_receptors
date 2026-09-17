@@ -1,3 +1,20 @@
+*** SUPERSEDED IN PART, 2026-09-17 ***
+This analysis is PURE SEQUENCE HOMOLOGY - position-specific residue-identity profiles. The
+structures were used only to choose which columns to look at; after that there is no shape, fold,
+geometry or physicochemistry in it. MOD asked whether the ligand call is homology or shape based,
+and pointed out that a receptor descended from a D2-like ancestor will resemble dopamine receptors
+BY DESCENT whatever it actually binds.
+
+That objection is correct and was tested (output/catechol_signature.txt, TEST 2). Rebuilding the
+OA profile with the Drosophila OA receptors removed makes the method call EVERY octopamine receptor
+NE, including the C. elegans ones. The predictor reads ancestry, not chemistry.
+
+So the claim made from this file - "DOP-6 falls outside the range of known OA receptors, therefore
+independent evidence against an OA ligand" - IS WITHDRAWN. It largely restates the phylogeny.
+The class calls below are retained only as a description of sequence similarity.
+
+The mechanistic replacement is position 5.46. See output/catechol_signature.txt.
+
 ====================================================================================================
 PREDICTING DOP-6 LIGAND AND COUPLING FROM SEQUENCE, INDEPENDENT OF THE TREE
 ====================================================================================================
