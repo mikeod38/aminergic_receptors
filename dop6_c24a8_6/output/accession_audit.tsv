@@ -1,55 +1,177 @@
-label	accession	organism	protein_name	verdict
-hHTR1A	P08908	Homo sapiens	5-hydroxytryptamine receptor 1A	ok
-hHTR1B	P28222	Homo sapiens	5-hydroxytryptamine receptor 1B	ok
-hHTR1D	P28221	Homo sapiens	5-hydroxytryptamine receptor 1D	ok
-hHTR1E	P28566	Homo sapiens	5-hydroxytryptamine receptor 1E	ok
-hHTR1F	P30939	Homo sapiens	5-hydroxytryptamine receptor 1F	ok
-hHTR2A	P28223	Homo sapiens	5-hydroxytryptamine receptor 2A	ok
-hHTR2B	P41595	Homo sapiens	5-hydroxytryptamine receptor 2B	ok
-hHTR2C	P28335	Homo sapiens	5-hydroxytryptamine receptor 2C	ok
-hHTR4	Q13639	Homo sapiens	5-hydroxytryptamine receptor 4	ok
-hHTR5A	P47898	Homo sapiens	5-hydroxytryptamine receptor 5A	ok
-hHTR6	P50406	Homo sapiens	5-hydroxytryptamine receptor 6	ok
-hHTR7	P34969	Homo sapiens	5-hydroxytryptamine receptor 7	ok
-hDRD1	P21728	Homo sapiens	Dopamine receptor D1	ok
-hDRD2	P14416	Homo sapiens	Dopamine receptor D2	ok
-hDRD3	P35462	Homo sapiens	Dopamine receptor D3	ok
-hDRD4	P21917	Homo sapiens	Dopamine receptor D4	ok
-hDRD5	P21918	Homo sapiens	Dopamine receptor D5	ok
-hADRA1A	P35348	Homo sapiens	Alpha-1A adrenergic receptor	ok
-hADRA1B	P35368	Homo sapiens	Alpha-1B adrenergic receptor	ok
-hADRA1D	P25100	Homo sapiens	Alpha-1D adrenergic receptor	ok
-hADRA2A	P08913	Homo sapiens	Alpha-2A adrenergic receptor	ok
-hADRA2B	P18089	Homo sapiens	Alpha-2B adrenergic receptor	ok
-hADRA2C	P18825	Homo sapiens	Alpha-2C adrenergic receptor	ok
-hADRB1	P08588	Homo sapiens	Beta-1 adrenergic receptor	ok
-hADRB2	P07550	Homo sapiens	Beta-2 adrenergic receptor	ok
-hADRB3	P13945	Homo sapiens	Beta-3 adrenergic receptor	ok
-hHRH1	P35367	Homo sapiens	Histamine H1 receptor	ok
-hHRH2	P25021	Homo sapiens	Histamine H2 receptor	ok
-hHRH3	Q9Y5N1	Homo sapiens	Histamine H3 receptor	ok
-hHRH4	Q9H3N8	Homo sapiens	Histamine H4 receptor	ok
-hTAAR1	Q96RJ0	Homo sapiens	Trace amine-associated receptor 1	ok
-hMTNR1A	P48039	Homo sapiens	Melatonin receptor type 1A	ok
-hMTNR1B	P49286	Homo sapiens	Melatonin receptor type 1B	ok
-hGPR50	Q13585	Homo sapiens	Melatonin-related receptor	ok
-hCHRM1	P11229	Homo sapiens	Muscarinic acetylcholine receptor M1	ok
-hCHRM2	P08172	Homo sapiens	Muscarinic acetylcholine receptor M2	ok
-hCHRM3	P20309	Homo sapiens	Muscarinic acetylcholine receptor M3	ok
-hCHRM5	P08912	Homo sapiens	Muscarinic acetylcholine receptor M5	ok
-dmOAMB	Q7JQF1	Drosophila melanogaster	Octopamine receptor Oamb	ok
-dmOctA2R	A0A0B4KHD0	Drosophila melanogaster	Alpha2-adrenergic-like octopamine receptor, isoform B	ok
-dmOctB1R	Q9VCZ3	Drosophila melanogaster	Octopamine receptor beta-1R	ok
-dmOctB2R	Q4LBB9	Drosophila melanogaster	Octopamine receptor beta-2R	ok
-dmOctB3R	Q4LBB6	Drosophila melanogaster	Octopamine receptor beta-3R	ok
-dmOctTyrR	P22270	Drosophila melanogaster	Tyramine/octopamine receptor	ok
-dmTyrR	Q9VEG1	Drosophila melanogaster	Tyramine receptor, isoform A	ok
-dmTyrRII	Q9VEG2	Drosophila melanogaster	Tyramine receptor II, isoform A	ok
-dmDop1R1	P41596	Drosophila melanogaster	Dopamine receptor 1	ok
-dmDop2R	Q8IS44	Drosophila melanogaster	Dopamine D2-like receptor	ok
-dm5HT1A	P20905	Drosophila melanogaster	5-hydroxytryptamine receptor 1	ok
-dm5HT2A	P31356	Todarodes pacificus	Rhodopsin	WRONG ORGANISM
-dm5HT7	P20906	Pseudomonas putida	Benzoylformate decarboxylase	WRONG ORGANISM
-dmHisCl	Q9VNJ0	Drosophila melanogaster	Degringolade, isoform A	NAME MISMATCH
-bmOAR1	Q17232	Bombyx mori	Octopamine receptor	ok
-plADRA1	A0A1J0F5X6	Platynereis dumerilii	Alpha-2 adrenergic receptor	ok
+# Regenerated 2026-09-17 against the LIVE b120 panel (173 tips).
+# The previous file audited a deleted panel and still listed three fabricated accessions.
+# verdict: ok | NAME-UNEXPECTED | ORGANISM-MISMATCH | WRONG-FOLD | FETCH-FAILED | not-applicable
+tip	accession	provenance	organism	protein_name	verdict	notes
+Ajap_tr_A0A2G8K4C3_A0A2G8K4C3_APOJA	A0A2G8K4C3	embedded	Apostichopus japonicus	Putative D(1) dopamine receptor-like	ok	-
+Ajap_tr_A0A2G8LRS8_A0A2G8LRS8_APOJA	A0A2G8LRS8	embedded	Apostichopus japonicus	Putative G-protein coupled receptor	ok	-
+Apla_tr_A0A8B7YCR4_A0A8B7YCR4_ACAPL	A0A8B7YCR4	embedded	Acanthaster planci	5-hydroxytryptamine receptor 1D-like	ok	-
+Apla_tr_A0A8B8A0D8_A0A8B8A0D8_ACAPL	A0A8B8A0D8	embedded	Acanthaster planci	Dopamine receptor 2-like	ok	-
+Bflo_tr_A0A9J7M236_A0A9J7M236_BRAFL	A0A9J7M236	embedded	Branchiostoma floridae	Probable G-protein coupled receptor No18	ok	-
+Bflo_tr_A0A9J7MN32_A0A9J7MN32_BRAFL	A0A9J7MN32	embedded	Branchiostoma floridae	Beta-2 adrenergic receptor-like	ok	-
+Bma_tyra-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Bma_tyra-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbn_dop-1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbn_dop-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbn_dop-4	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbn_dop-5	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbn_dop_6	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbn_octr-1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbn_ser-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbn_ser-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbn_ser-7	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbn_tyra-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbn_tyra-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbr_dop-4	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbr_dop-5	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbr_dop_6	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbr_octr-1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbr_ser-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbr_ser-4	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cbr_ser-6	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cint_tr_F6SIL2_F6SIL2_CIOIN	F6SIL2	embedded	Ciona intestinalis	Muscarinic acetylcholine receptor M2-like	ok	-
+Cint_tr_F6USY0_F6USY0_CIOIN	F6USY0	embedded	Ciona intestinalis	G-protein coupled receptors family 1 profile domain-containing protein	ok	-
+Cre_dop-1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cre_dop-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cre_dop-4	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cre_dop-5	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cre_dop_6	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cre_octr-1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cre_ser-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cre_ser-4	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cre_ser-7	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cre_tyra-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cre_tyra-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Cvir_tr_A0A8B8A4H7_A0A8B8A4H7_CRAVI	A0A8B8A4H7	embedded	Crassostrea virginica	Octopamine receptor-like	ok	-
+Cvir_tr_A0A8B8E7R6_A0A8B8E7R6_CRAVI	A0A8B8E7R6	embedded	Crassostrea virginica	Alpha-2Db adrenergic receptor-like	ok	-
+Cvir_tr_A0A8B8F0Q5_A0A8B8F0Q5_CRAVI	A0A8B8F0Q5	embedded	Crassostrea virginica	Dopamine receptor 2-like	ok	-
+Drer_sp_Q90WY4_ADA2A_DANRE	Q90WY4	embedded	Danio rerio	Alpha-2A adrenergic receptor	ok	-
+Drer_tr_Q1L8Y8_Q1L8Y8_DANRE	Q1L8Y8	embedded	Danio rerio	Alpha-2A adrenergic receptor	ok	-
+Ebur_tr_A0A8C4N726_A0A8C4N726_EPTBU	A0A8C4N726	embedded	Eptatretus burgeri	Adrenoceptor alpha 1B	ok	-
+Ebur_tr_A0A8C4NHU4_A0A8C4NHU4_EPTBU	A0A8C4NHU4	embedded	Eptatretus burgeri	5-hydroxytryptamine (serotonin) receptor 1A b	ok	-
+Ebur_tr_A0A8C4QW85_A0A8C4QW85_EPTBU	A0A8C4QW85	embedded	Eptatretus burgeri	Adrenoceptor alpha 1D	ok	-
+Hvul_tr_A0ABM4BNS4_A0ABM4BNS4_HYDVU	A0ABM4BNS4	embedded	Hydra vulgaris	Uncharacterized protein LOC124805799 isoform X2	NAME-UNEXPECTED	name does not match ['adrenergic', 'dopamine', 'serotonin']
+Hvul_tr_A0ABM4CK96_A0ABM4CK96_HYDVU	A0ABM4CK96	embedded	Hydra vulgaris	Muscarinic acetylcholine receptor M3 isoform X2	ok	-
+Hvul_tr_A0ABM4CKA6_A0ABM4CKA6_HYDVU	A0ABM4CKA6	embedded	Hydra vulgaris	Muscarinic acetylcholine receptor M3 isoform X2	ok	-
+Lana_tr_A0A1S3GY13_A0A1S3GY13_LINAN	A0A1S3GY13	embedded	Lingula anatina	5-hydroxytryptamine receptor 1A	ok	-
+Lana_tr_A0A1S3HJU9_A0A1S3HJU9_LINAN	A0A1S3HJU9	embedded	Lingula anatina	Octopamine receptor Oamb	ok	-
+Lana_tr_A0A1S3K9Y2_A0A1S3K9Y2_LINAN	A0A1S3K9Y2	embedded	Lingula anatina	Dopamine receptor 2 isoform X1	ok	-
+Lpol_tr_A0ABM1BKJ6_A0ABM1BKJ6_LIMPO	A0ABM1BKJ6	embedded	Limulus polyphemus	Dopamine receptor 2-like	ok	-
+Lpol_tr_A0ABM1RX31_A0ABM1RX31_LIMPO	A0ABM1RX31	embedded	Limulus polyphemus	Probable G-protein coupled receptor No9	ok	-
+Lpol_tr_A0ABM1SBT5_A0ABM1SBT5_LIMPO	A0ABM1SBT5	embedded	Limulus polyphemus	Dopamine receptor 2-like	ok	-
+Mlei_KAL5257720.1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Mlei_KAL5268535.1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Mlei_tr_A0ACF8YAQ5_A0ACF8YAQ5_MNELE	A0ACF8YAQ5	embedded	Mnemiopsis leidyi	G-protein coupled receptors family 1 profile domain-containing protein	ok	-
+Myes_tr_A0A210PJ23_A0A210PJ23_MIZYE	A0A210PJ23	embedded	Mizuhopecten yessoensis	Dopamine receptor 2	ok	-
+Myes_tr_A0A210PPR0_A0A210PPR0_MIZYE	A0A210PPR0	embedded	Mizuhopecten yessoensis	Octopamine receptor beta-1R	ok	-
+Myes_tr_A0A210QLA7_A0A210QLA7_MIZYE	A0A210QLA7	embedded	Mizuhopecten yessoensis	Octopamine receptor 1	ok	-
+Nam_ser-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Nam_ser-7	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Nvec_tr_A7S987_A7S987_NEMVE	A7S987	embedded	Nematostella vectensis	G-protein coupled receptors family 1 profile domain-containing protein	ok	-
+Nvec_tr_A7SM05_A7SM05_NEMVE	A7SM05	embedded	Nematostella vectensis	G-protein coupled receptors family 1 profile domain-containing protein	ok	-
+Nvec_tr_A7SM55_A7SM55_NEMVE	A7SM55	embedded	Nematostella vectensis	G-protein coupled receptors family 1 profile domain-containing protein	ok	-
+Pcau_tr_A0ABM1E1A1_A0ABM1E1A1_PRICU	A0ABM1E1A1	embedded	Priapulus caudatus	Tyramine/octopamine receptor-like	ok	-
+Pcau_tr_A0ABM1EKS2_A0ABM1EKS2_PRICU	A0ABM1EKS2	embedded	Priapulus caudatus	Tyramine/octopamine receptor-like	ok	-
+Pcau_tr_A0ABM1F1R5_A0ABM1F1R5_PRICU	A0ABM1F1R5	embedded	Priapulus caudatus	5-hydroxytryptamine receptor 1D-like	ok	-
+Pmar_tr_A0AAJ7T1P3_A0AAJ7T1P3_PETMA	A0AAJ7T1P3	embedded	Petromyzon marinus	5-hydroxytryptamine receptor 1A-like	ok	-
+Pmar_tr_A0AAJ7WUU2_A0AAJ7WUU2_PETMA	A0AAJ7WUU2	embedded	Petromyzon marinus	5-hydroxytryptamine receptor 1A-alpha	ok	-
+Pmin_tr_A0A914A277_A0A914A277_PATMI	A0A914A277	embedded	Patiria miniata	G-protein coupled receptors family 1 profile domain-containing protein	ok	-
+Pmin_tr_A0A914B379_A0A914B379_PATMI	A0A914B379	embedded	Patiria miniata	G-protein coupled receptors family 1 profile domain-containing protein	ok	-
+Ppa_dop-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Ppa_dop_6	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Ppa_ser-4	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Ppa_ser-6	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Skow_tr_A0ABM0MS41_A0ABM0MS41_SACKO	A0ABM0MS41	embedded	Saccoglossus kowalevskii	Octopamine receptor-like	ok	-
+Skow_tr_A0ACM8CU07_A0ACM8CU07_SACKO	A0ACM8CU07	embedded	Saccoglossus kowalevskii	G-protein coupled receptor No9	ok	-
+Spur_tr_A0A7M7HLT0_A0A7M7HLT0_STRPU	A0A7M7HLT0	embedded	Strongylocentrotus purpuratus	G-protein coupled receptors family 1 profile domain-containing protein	ok	-
+Spur_tr_A0A7M7RBR3_A0A7M7RBR3_STRPU	A0A7M7RBR3	embedded	Strongylocentrotus purpuratus	G-protein coupled receptors family 1 profile domain-containing protein	ok	-
+Sra_ser-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Sra_ser-6	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+TEST_ckr-1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+TEST_ckr-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+TEST_nmur-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+TEST_nmur-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+TEST_npr-20	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+TEST_npr-22	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+TEST_npr-24	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+TEST_npr-34	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+TEST_npr-35	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+TEST_tkr-1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+TEST_tkr-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+TEST_trhr-1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+Tadh_tr_B3RY65_B3RY65_TRIAD	B3RY65	embedded	Trichoplax adhaerens	G-protein coupled receptors family 1 profile domain-containing protein	ok	-
+Tadh_tr_B3S5Y6_B3S5Y6_TRIAD	B3S5Y6	embedded	Trichoplax adhaerens	G-protein coupled receptors family 1 profile domain-containing protein	ok	-
+Tadh_tr_B3SDK6_B3SDK6_TRIAD	B3SDK6	embedded	Trichoplax adhaerens	G-protein coupled receptors family 1 profile domain-containing protein	ok	-
+Tsp_dop-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+bmOAR1	Q17232	curated	Bombyx mori	Octopamine receptor	ok	-
+cel_dop-1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_dop-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_dop-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_dop-4	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_dop-5	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_dop-6	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_gar-1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_gar-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_gar-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_octr-1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_ser-1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_ser-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_ser-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_ser-4	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_ser-5	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_ser-6	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_ser-7	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_tyra-2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+cel_tyra-3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+dm5HT1A	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+dm5HT1B	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+dm5HT2A	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+dm5HT7	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+dmDop1R1	P41596	curated	Drosophila melanogaster	Dopamine receptor 1	ok	-
+dmDop2R	Q8IS44	curated	Drosophila melanogaster	Dopamine D2-like receptor	ok	-
+dmOAMB	Q7JQF1	curated	Drosophila melanogaster	Octopamine receptor Oamb	ok	-
+dmOctA2R	A0A0B4KHD0	curated	Drosophila melanogaster	Alpha2-adrenergic-like octopamine receptor, isoform B	ok	-
+dmOctB1R	Q9VCZ3	curated	Drosophila melanogaster	Octopamine receptor beta-1R	ok	-
+dmOctB2R	Q4LBB9	curated	Drosophila melanogaster	Octopamine receptor beta-2R	ok	-
+dmOctB3R	Q4LBB6	curated	Drosophila melanogaster	Octopamine receptor beta-3R	ok	-
+dmOctTyrR	P22270	curated	Drosophila melanogaster	Tyramine/octopamine receptor	ok	-
+dmTyrR	Q9VEG1	curated	Drosophila melanogaster	Tyramine receptor, isoform A	ok	-
+dmTyrRII	Q9VEG2	curated	Drosophila melanogaster	Tyramine receptor II, isoform A	ok	-
+hADRA1A	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hADRA1B	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hADRA1D	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hADRA2A	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hADRA2B	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hADRA2C	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hADRB1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hADRB2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hADRB3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hCHRM1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hCHRM2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hCHRM3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hCHRM5	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hDRD1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hDRD2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hDRD3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hDRD4	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hDRD5	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hGPR50	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHRH1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHRH2	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHRH3	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHRH4	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHTR1A	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHTR1B	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHTR1D	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHTR1E	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHTR1F	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHTR2A	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHTR2B	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHTR2C	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHTR4	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHTR5A	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHTR6	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hHTR7	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hMTNR1A	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hMTNR1B	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+hTAAR1	-	by-query	-	-	not-applicable	fetched by gene symbol / WormBase gene name; the record supplied its own label
+plADRA1	A0A1J0F5X6	curated	Platynereis dumerilii	Alpha-2 adrenergic receptor	ok	-

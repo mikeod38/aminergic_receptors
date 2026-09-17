@@ -282,18 +282,18 @@ characterised evidence stayed at 1. That was the thing I most wanted checked.
    substitute A's gap argument (120 sits in a 27-point gap; invariant over
    (97.4, 124.4]).
 8. ✅ Fix the `gene_of()` underscore bug and re-run `independent_evidence.py`.
-9. ⬜ Fix C3's D3.32/D120 conflation; fix the 6WHA Gs→Gq label and C18's ranges.
-10. ⬜ Regenerate `accession_audit.tsv` against the **live** panel; remove or
+9. ✅ Fix C3's D3.32/D120 conflation; fix the 6WHA Gs→Gq label and C18's ranges.
+10. ✅ Regenerate `accession_audit.tsv` against the **live** panel; remove or
     re-label `lsOA`, `smTAR`, and the duplicated `plADRA1`/`plADRA2`.
 11. ✅ Propagate W5 into `output/` — `nematode_dating.tsv`'s 22 `absent` cells,
     the retracted reading in the `.txt`, the `nematode_dating2.py` docstring.
 12. ✅ Strike the "radiation inside the nematodes from a D2-like ancestor"
     paragraph from both `nematode_expansion.txt` files — two overreaches
     (Rhabditina; an unreconstructed ancestral state).
-13. ⬜ Record the AU results from A's `topology_test.py` run as the project's
+13. ✅ Record the AU results from A's `topology_test.py` run as the project's
     actual answer on OA placement, replacing C30/C31.
 14. ⬜ Add `Cbr_dop-3` (Q61H86) and `Ppa_dop-5` (A0A2A6CA79) to the panel and rebuild.
-15. ⬜ Commit the untracked b120 work — currently mtimes are the only provenance.
+15. ✅ Commit the untracked b120 work — currently mtimes are the only provenance.
 
 ### PI-only (MOD)
 16. **Harris et al. 2009 full text** (PMID 19193891) — jneurosci.org is
@@ -327,3 +327,61 @@ What the panel removed was the supporting apparatus around it: the constraint
 argument (C16), the boundary test (C26), the phylum-specificity escape hatch
 (C31), and the "Gi/o throughout" gloss. Three of those four were arguments I had
 built to make the tree say more than it could.
+
+
+---
+
+## 11. Coordinator addendum, 2026-09-17 — what executing the actions turned up
+
+Two findings emerged from *doing* the compute-executable actions rather than from
+either report, and both are recorded here because they are the same class of
+defect the panel existed to catch.
+
+**The 6WHA mislabel has a general cause worth naming: classing a Gα chain by
+whole-chain sequence identity silently misclassifies mini-G chimeras.** A
+mini-Gs/q is a Gs scaffold carrying Gq's α5 helix, so it scores as Gs on
+whole-chain identity while the part that inserts into the receptor — the part
+this analysis measures — is Gq. The diagnostic was already in the table and
+unread: 6WHA's 88.6 % was **the lowest identity in the panel**, and every genuine
+chain scored ≥ 92 %. A `MIN_PID` guard plus a title check is now in
+`gprotein_interface_multi.py`. Recomputed per-class retention: Gs 24.9 (n=3),
+Gi1 33.2 (n=4), Gq 39.6 (n=2), Go 40.9 (n=1), G11 40.7 (n=1); per-structure range
+**15.4–45.8 %**, not the 29–41 % previously published. Conclusion unchanged,
+direction clearer.
+
+**Referee B's "none of the three bad accessions reached the final tree" is not
+quite right, and the exception is benign.** `plADRA1` *is* in the live panel — it
+is a member of the OCTR-1/α2-adrenergic clade I verified for §2. Checked against
+its own record: `A0A1J0F5X6` is genuinely *Platynereis dumerilii* alpha-2
+adrenergic receptor, 619 aa, sitting exactly where an α2 receptor belongs. The
+duplication B found was `plADRA2`, produced by a loose text query resolving to the
+same accession, and it was deduplicated before the panel. So the defect is real
+but confined to the fetch scripts; the live panel is clean on all three.
+
+**The regenerated audit (`audit_live_panel.py` → `output/accession_audit.tsv`)
+covers all 173 live tips: 57 accessions verified against their own UniProt record,
+115 not-applicable (fetched by gene symbol or WormBase gene name, so the record
+supplied its own label and there is no accession of mine to be wrong), 1 flagged.**
+The flagged tip is `Hvul_tr_A0ABM4BNS4` — *Hydra vulgaris*, whose own record says
+"Uncharacterized protein LOC124805799 isoform X2". It is not a bad sequence: it
+clades with two *Nematostella* proteins at 94.6/98, which is coherent. The error
+was the **label**, and checking it exposed a wider one:
+
+**46 of the 102 tips labelled "reference receptor" in `basis_b120.tsv` are
+proteome-sweep breadth hits, not curated references** — and that basis table feeds
+the iTOL bundles and the figures, so the overstatement propagates into anything
+rendered from them. Relabelled: 56 reference receptors, 45 breadth taxa, 1
+explicitly uncharacterised. This is a third instance of the pattern the panel
+already found twice (C26's test set, and B3's boundary asymmetry): **a category
+label doing evidential work it was never earned.**
+
+### Still open after this pass
+
+- **14 — add `Cbr_dop-3` (Q61H86) and `Ppa_dop-5` (A0A2A6CA79) to the panel and
+  rebuild.** Not done: it changes the tree, so it needs to be a deliberate
+  rebuild with its own before/after comparison, not a patch appended to a
+  disposition.
+- **16 (PI-only) — Harris 2009 PDF.** C35 remains unaudited.
+- **17 (PI-only) — whether to extend to Clade I/III/IV nematode proteomes.** This
+  is the only route to a real dating claim after W5, and it is a scope decision.
+- **18, 19, 20 — deferred-with-owner as filed.**

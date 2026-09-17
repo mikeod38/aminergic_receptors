@@ -26,6 +26,17 @@ SPLIT = 405; CUT = 4.5
 CAND = ['3SN6', '6DDF', '6CMO', '6OIK', '6OIJ', '7JVR', '6VMS', '7CKW', '6GDG', '7DFL', '6WHA']
 GA_REF = {'Gs': 'P63092', 'Gi1': 'P63096', 'Go': 'P09471', 'Gq': 'P50148', 'G11': 'P29992',
           'G12': 'Q03113'}
+# MINI-G CHIMERA GUARD (added 2026-09-17 after referee audit).
+# Classing a Galpha chain by whole-chain identity to a reference SILENTLY MISCLASSIFIES
+# mini-G chimeras. A mini-Gs/q is a Gs scaffold carrying Gq's alpha5 helix, so it scores as
+# Gs on whole-chain identity while the part that actually inserts into the receptor - and
+# therefore the part that defines the interface being measured here - is Gq.
+# 6WHA was labelled Gs on 88.6 % identity to P63092 although its own PDB title reads
+# "...IN COMPLEX WITH A MINI-GALPHA-Q PROTEIN...".
+# Diagnostic: 88.6 % was the LOWEST identity in the panel; every genuine chain scored >= 92 %.
+# So treat any assignment below MIN_PID as suspect and resolve it from the PDB title.
+MIN_PID = 92.0
+CHIMERA = {'6WHA': 'Gq'}   # PDB id -> class of the alpha5 helix, from the structure's own title
 AA3 = {'ALA':'A','ARG':'R','ASN':'N','ASP':'D','CYS':'C','GLN':'Q','GLU':'E','GLY':'G','HIS':'H',
        'ILE':'I','LEU':'L','LYS':'K','MET':'M','PHE':'F','PRO':'P','SER':'S','THR':'T','TRP':'W',
        'TYR':'Y','VAL':'V','MSE':'M'}

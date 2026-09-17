@@ -201,7 +201,36 @@ rescue.
 Interface defined from coordinates (≤4.5 Å) in **11 receptor–G protein complexes spanning Gs, Gi,
 Go, Gq and G11**, with receptor and Gα chains identified by sequence, not by chain label
 (`output/gprotein_interface_multi.tsv`). Consensus contacts (≥6 of 11) = 20 positions: **13 lost,
-7 retained → the fragment keeps ~35 %**. Per class 29–41 %; no class rescues it.
+7 retained → the fragment keeps 7 of 20 consensus positions**.
+
+**Corrected 2026-09-17 after referee audit.** The class breakdown was previously given as "29–41 %,
+no class rescues it". Two things were wrong with that:
+
+* **6WHA was misclassified as Gs.** Classing a Gα chain by whole-chain identity silently
+  misclassifies **mini-G chimeras**: a mini-Gs/q is a Gs scaffold carrying Gq's α5 helix, so it
+  scores as Gs on whole-chain identity while the part that actually inserts into the receptor — the
+  part this analysis measures — is Gq. 6WHA scored 88.6 % to the Gs reference **while its own PDB
+  title reads "…IN COMPLEX WITH A MINI-GALPHA-Q PROTEIN…"**. The diagnostic was sitting in the
+  table: 88.6 % was the lowest identity in the panel and every genuine chain scored ≥ 92 %. A
+  chimera guard is now in `gprotein_interface_multi.py`.
+* **The sampling is thin and was not stated.** n = 4 Gi, 3 Gs, 2 Gq, **1 each for Go and G11** — so
+  "per class" means a single structure for two of the five classes.
+
+Corrected figures, per structure and per class:
+
+| class | n | mean % kept | range |
+|---|---|---|---|
+| Gs | 3 | 24.9 | 15.4–37.0 |
+| Gi1 | 4 | 33.2 | 21.4–45.8 |
+| Gq | 2 | 39.6 | 37.5–41.7 |
+| Go | 1 | 40.9 | — |
+| G11 | 1 | 40.7 | — |
+
+Per-structure range across all 11 is **15.4–45.8 %**, not 29–41 %. The conclusion is unchanged and
+the direction is if anything clearer — no class approaches an intact interface — but note the
+retained fraction is **highest for Gq/Go/G11 and lowest for Gs**, driven by β2AR (15.4 %), the most
+compact receptor in the set. **The "~35 %" figure is a count of positions with no geometry behind
+it**; what actually carries the conclusion is the next paragraph, which is a structural argument.
 
 What is lost is decisive: **R121, the DRY arginine, is a Gα contact in 11 of 11 structures**, plus
 the whole ICL2 patch (A124, A125, P128, A129, Y131, K132, T133) and TM5/ICL3 (I206, L210, R213).
