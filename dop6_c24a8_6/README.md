@@ -359,43 +359,6 @@ clustering is not monophyly** — see §6c, "Coupling is clustered, not blocked"
 **Tips are labelled by pharmacology, not gene name**: SER-2 is a *tyramine* receptor, SER-3 and
 SER-6 are *octopamine* receptors, dop-5 and dop-6 are orphans.
 
-## Scripts
-
-| script | does |
-|---|---|
-| `fetch_locus.py` | locus sequence + gene models from Ensembl |
-| `analyze_duplication.py` | repeat boundaries, exon mapping, protein relationship |
-| `crossspecies_palindrome.py` | other *Caenorhabditis* loci |
-| `ortholog_divergence.py` | divergence per half, protein and nucleotide |
-| `selection_dnds.py` | NG86 dN/dS vs *C. briggsae* for 17 receptors |
-| `mirror_bias_check.py` | does the palindrome bias the dN estimate |
-| `wild_isolates.py` | CaeNDR variant density across the locus |
-| `assembly_copy_number.py`, `survey_assemblies.py` | copy number across 56 assemblies |
-| `wild_locus_structure.py` | per-assembly locus structure, gene-anchored |
-| `haplotype_context.py`, `haplotype_extent.py` | polymorphism vs contamination vs sweep; haplotype block length |
-| `polymorphism_from_assemblies.py` | diversity without mapping to a duplicated reference |
-| `design_specific_tools.py` | dop-6-specific guides, primers, junction PCRs |
-| `gprotein_interface.py`, `gprotein_interface_multi.py` | Gα interface mapping |
-| `fetch_tree_seqs.py`, `curate_tree_panel.py`, `build_tree.py` | panel, curation, alignment, trees |
-| `trait_signal.py` | can the tree predict ligand / coupling (Fitch + permutation) |
-| `render_tree.py`, `plot_tree.py` | text tree; publication figure |
-
-## Next
-
-1. **BLOCKED, needs a human:** Pu et al. Supplementary Data 1d and 1f (guides and per-allele CNV
-   calls) — needed to know what `yum2349/2350/2603/2604` actually are. Also the Harris et al. 2009
-   full text (jneurosci.org is Cloudflare-blocked here; PMC has abstract only).
-3. **Deorphanising DOP-6 in a heterologous system may not work.** The Komuniecki lab reported in
-   the same paper that direct characterisation of SER-5 was unsuccessful, that similar attempts on
-   other *C. elegans* GPCRs had failed (Rex & Komuniecki 2002; Hobson et al. 2003), and that this
-   "may be problematic in the absence of a nematode cell line" because heterologous expression of
-   many *C. elegans* GPCRs is poor and may require accessory proteins. Budget for that, or plan an
-   in-vivo readout (e.g. epistasis with *goa-1* / *egl-30* / *gsa-1*) instead.
-4. Decisive experiment, independent of all of the above: **a dop-6 null made in the unique 5′ half
-   (leaving both arms untouched) plus cDNA rescue.** That assigns the phenotype without ever having
-   to separate the two copies. A C24A8.6-specific null is not cleanly possible — arm B's only
-   unique flanks are the spacer and a point inside cst-2's last exon.
-
 ## 6b. How the tree alignment is built, and what is deliberately thrown away
 
 **This is the single most consequential methodological choice in the sub-project and it is stated
@@ -632,3 +595,153 @@ text remains **BLOCKED** and §6's critique of it is unaudited.
   predates the *Caenorhabditis*/*Pristionchus* split. *(The first run of that search used a truncated
   download — 15,999 of 26,122 proteins — so its coverage statement was wrong and any negative from it,
   including an apparent dop-2 non-reciprocation, is not usable. Being re-run complete.)*
+
+## 7. The family's history across the nematode phylum
+
+Added 2026-09-17, replacing the retracted reciprocal-best-hit dating matrix (§"Corrections
+logged"). RBH cannot resolve a recent paralogue radiation — the reverse hit lands on whichever
+paralogue scores highest, so a gene that is present gets recorded as absent. The fix is
+**phylogenetic placement**: scan proteomes, include everything above the panel boundary, make
+**no orthology call**, and let the topology assign paralogy.
+
+### Panel
+
+Eight nematode proteomes spanning the phylum were scanned with the monoamine HMM and every
+candidate ≥ 120 included (`nematode_placement.py`, `output/tree/placement/`):
+
+| Blaxter clade | species | candidates |
+|---|---|---|
+| **I Dorylaimia** (earliest-diverging) | *Trichinella spiralis*, *Trichuris muris* | 15 |
+| **III Spirurina** | *Brugia malayi* | 15 |
+| **IV Tylenchina** | *Strongyloides ratti* | 14 |
+| **V Rhabditina** | *Haemonchus*, *Necator*, *Pristionchus*, *C. briggsae* | 63 |
+
+107 candidates; 12 were exact duplicates of existing Compara tips and were dropped, giving a
+**268-taxon panel**. Two checks that the sweep is unbiased: the *P. pacificus* dop-5 that Compara
+missed (`A0A2A6CA79`) is recovered automatically at HMM 141.6, and the *C. briggsae* dop-3 the
+referee panel flagged (`Q61H86`) comes in at 190.9. Both were "absences" in the old panel purely
+because it was built from Compara rather than from a scan.
+
+Trees at gt0.1 and gappyout agree on **every** result below; gt0.2 and gt0.3 pending.
+
+### dop-6 is not a Rhabditina gene
+
+The dop-6 orthologue clade is **8 tips at UFboot 100 on both trim levels**:
+
+*C. elegans*, *C. briggsae* (×2), *C. brenneri*, *C. remanei*, *P. pacificus*, ***Necator
+americanus*** and ***Strongyloides ratti*** — and *Strongyloides* is **clade IV**. So the dop-6
+lineage predates the Tylenchina/Rhabditina split. The earlier "Rhabditina-restricted" reading was
+a sampling artefact of the Compara-built panel, exactly as the referee panel suspected.
+
+### How far back each gene goes
+
+Deepest lineage inside each gene's own orthologue clade (identical at gt0.1 and gappyout):
+
+| gene | clade size | support | lineages inside | reaches back to |
+|---|---|---|---|---|
+| **dop-2** | 11 | 93.7/99 | I, III, IV, V | **clade I — pan-nematode** |
+| dop-1 | 23 | 93.5/95 | III, V | clade III |
+| dop-5 | 9 | 100/100 | III, V | clade III |
+| dop-4 | 16 | 100/100 | IV, V | clade IV |
+| **dop-6** | 8 | 100/100 | IV, V | **clade IV** |
+| dop-3 | 5 | 99.9/100 | V | clade V only |
+
+**dop-2 is the oldest** — orthologues in clade I, the earliest-diverging nematodes. This is the one
+row of the retracted RBH matrix that was right, now established by placement rather than best hits.
+**dop-3 is the youngest**, recovered only in Rhabditina, and it is also the group's only
+characterised receptor — see §6c on what that does to the evidence around DOP-6.
+
+### When the duplications happened
+
+Dated by reconciliation: a clade-III sequence anywhere below a duplication node means both daughter
+lineages existed before clade III diverged. The informative nodes are the shallow, well-supported
+ones — the deep pairs have MRCAs spanning most of the tree and their bounds are trivial.
+
+| duplication | MRCA | support (gt0.1 / gappyout) | predates |
+|---|---|---|---|
+| **dop-5 / dop-6** | 17 tips | **95.1/85 · 95.1/77** | the **clade III** (Spirurina) split |
+| dop-3 / (dop-5, dop-6) | 22 tips | 48/67 · 61.1/67 | the clade III split — *weakly supported* |
+| dop-2 / (dop-3, dop-5, dop-6) | 33 tips | 86.6/73 · 93.9/70 | the **clade I** split |
+
+**So this is an ancient radiation, not a recent one.** The dop-3/dop-5/dop-6 group separated from
+the dop-2 lineage before the earliest nematode divergence, and dop-5 and dop-6 separated from each
+other before the Spirurina split. Earlier text in this README calling it "a radiation inside the
+nematodes" is true but misleadingly recent-sounding; these duplications are roughly as old as the
+nematode phylum.
+
+**One inference worth stating explicitly.** dop-3's own orthologue clade contains only clade V, yet
+reconciliation puts the dop-3/dop-5 duplication before the clade III split. Both can be true only
+if dop-3 orthologues exist outside Rhabditina and were not recovered, or were lost. Given this
+project's history with absence claims, **"not recovered" is the default reading** until someone
+looks.
+
+### What this does and does not settle
+
+It settles the **history**: the family is old, dop-2 is the ancestral lineage, and dop-6 is a
+pre-Tylenchina gene rather than a *Caenorhabditis* novelty. It settles nothing about **ligand** —
+see §6c and `output/pocket_resolution.txt`, where the pocket columns are shown to have no power to
+separate even dopamine from serotonin receptors.
+
+## Scripts
+
+| script | does |
+|---|---|
+| `fetch_locus.py` | locus sequence + gene models from Ensembl |
+| `analyze_duplication.py` | repeat boundaries, exon mapping, protein relationship |
+| `crossspecies_palindrome.py` | other *Caenorhabditis* loci |
+| `ortholog_divergence.py` | divergence per half, protein and nucleotide |
+| `selection_dnds.py` | NG86 dN/dS vs *C. briggsae* for 17 receptors |
+| `mirror_bias_check.py` | does the palindrome bias the dN estimate |
+| `wild_isolates.py` | CaeNDR variant density across the locus |
+| `assembly_copy_number.py`, `survey_assemblies.py` | copy number across 56 assemblies |
+| `wild_locus_structure.py` | per-assembly locus structure, gene-anchored |
+| `haplotype_context.py`, `haplotype_extent.py` | polymorphism vs contamination vs sweep; haplotype block length |
+| `polymorphism_from_assemblies.py` | diversity without mapping to a duplicated reference |
+| `design_specific_tools.py` | dop-6-specific guides, primers, junction PCRs |
+| `gprotein_interface.py`, `gprotein_interface_multi.py` | Gα interface mapping |
+| `fetch_tree_seqs.py`, `curate_tree_panel.py`, `build_tree.py` | panel, curation, alignment, trees |
+| `trait_signal.py` | can the tree predict ligand / coupling (Fitch + permutation) |
+| `render_tree.py`, `plot_tree.py` | text tree; publication figure |
+
+## Next
+
+**Status 2026-09-17: a dop-6 5′ deletion is being made. Everything below is written around that.**
+
+1. **In progress — the decisive experiment.** A dop-6 null cut in the unique 5′ half, leaving both
+   palindrome arms untouched, plus cDNA rescue. That assigns the phenotype without ever having to
+   separate dop-6 from C24A8.6. Reagents: `output/dop6_guides.tsv` holds **190 protospacers in
+   exons 1–9, every one verified as a single perfect genomic hit**; the single-copy window is
+   **X:4,320,863–4,324,177**. *Check the 3′ boundary before cutting near it — the referee audit
+   found exons 1–9 end at codon 400, not 405 as this README long said.* **Any guide from exon 10
+   onward has two perfect targets 9 kb apart in inverted orientation**, which is what produced
+   CHS1223's inversion plus 75 kb duplication. A C24A8.6-specific null is not cleanly possible:
+   arm B's only unique flanks are the spacer and a point inside cst-2's last exon.
+
+2. **The ligand cannot be settled from sequence, and probably not from structure either.** Two
+   sequence-based attempts were made and both withdrawn (§6c corrections, and
+   `output/pocket_resolution.txt`): profile similarity reads ancestry, and the 5.46 serine marks
+   the adrenergic family rather than the ligand's chemistry. The resolution test is the reason to
+   stop — these pocket columns separate dopamine from **serotonin** receptors in **zero** positions,
+   so they cannot separate dopamine from octopamine. A structure/docking approach faces the same
+   confound (the model is built from the homologues) plus a discrimination far below docking's
+   error, so **if it is attempted at all, the controls come first**: run the identical pipeline on
+   receptors of known ligand (hDRD2, hADRB2, hHTR2A, octr-1, ser-3, ser-2, hCHRM2) and only trust
+   a DOP-6 answer if the knowns are recovered.
+
+3. **When the null gives a phenotype, screen a panel, not just octopamine.** DOP-6 retains the 3.32
+   amine anchor so it binds *some* protonated amine, but nothing in the sequence narrows it.
+   Tryptamine, serotonin, histamine and tyramine cost little to add alongside octopamine.
+
+4. **Heterologous deorphanisation may simply fail.** The Komuniecki lab reported that direct
+   characterisation of SER-5 was unsuccessful and that similar attempts on other *C. elegans* GPCRs
+   had failed (Rex & Komuniecki 2002; Hobson et al. 2003), "problematic in the absence of a nematode
+   cell line". Budget for that, or use an in-vivo readout — epistasis with *goa-1* / *egl-30* /
+   *gsa-1*, or a sensor in the expressing neurons.
+
+5. **Goal (b), expression, is still untouched by this project.** The only data are the reported
+   reporter lines (OLL plus ~13 other classes, Expr11993) and MOD's note that the published images
+   show gut expression. Nothing here has tested it.
+
+6. **Open from the referee panel.** `output/tree/placement/` gt0.2 and gt0.3 still building;
+   an AlphaFold model of C24A8.6a to give §5's retention figure a geometric basis rather than a
+   position count; deposit the Pu et al. supplement in the repo.

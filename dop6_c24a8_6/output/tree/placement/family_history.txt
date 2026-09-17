@@ -1,0 +1,89 @@
+====================================================================================================
+DUPLICATION HISTORY OF THE C. ELEGANS DOPAMINE-RECEPTOR-LIKE FAMILY
+====================================================================================================
+
+====================================================================================================
+--- gt0.1
+====================================================================================================
+
+1. HOW FAR BACK DOES EACH GENE GO? (deepest lineage inside its orthologue clade)
+   gene      clade     support  lineages inside    earliest lineage
+   dop-1        23     93.5/95  III, V             III
+   dop-2        11     93.7/99  I, III, IV, V      I
+   dop-3         5    99.9/100  V                  V
+   dop-4        16     100/100  IV, V              IV
+   dop-5         9     100/100  III, V             III
+   dop-6         8     100/100  IV, V              IV
+
+2. WHEN DID EACH PAIR SPLIT?
+   RECONCILIATION BOUND = deepest lineage anywhere in the duplication node's subtree.
+   If a clade-III sequence sits below the node, both daughter lineages existed before
+   clade III diverged, so the duplication predates that split.
+   CONSERVATIVE BOUND = deepest lineage present on BOTH sides independently, which
+   survives one misplaced sequence but under-dates whenever sampling is uneven.
+
+   pair               MRCA     support  reconciliation         conservative
+   dop-1/dop-2          85       58/40  predates I split       predates III split
+   dop-1/dop-3          85       58/40  predates I split       predates V split
+   dop-1/dop-4          39     42.9/69  predates III split     predates V split
+   dop-1/dop-5          85       58/40  predates I split       predates III split
+   dop-1/dop-6          85       58/40  predates I split       predates V split
+   dop-2/dop-3          33     86.6/73  predates I split       predates V split
+   dop-2/dop-4          85       58/40  predates I split       predates IV split
+   dop-2/dop-5          33     86.6/73  predates I split       predates III split
+   dop-2/dop-6          33     86.6/73  predates I split       predates IV split
+   dop-3/dop-4          85       58/40  predates I split       predates V split
+   dop-3/dop-5          22       48/67  predates III split     predates V split
+   dop-3/dop-6          22       48/67  predates III split     predates V split
+   dop-4/dop-5          85       58/40  predates I split       predates V split
+   dop-4/dop-6          85       58/40  predates I split       predates IV split
+   dop-5/dop-6          17     95.1/85  predates III split     predates V split
+
+====================================================================================================
+--- gappyout
+====================================================================================================
+
+1. HOW FAR BACK DOES EACH GENE GO? (deepest lineage inside its orthologue clade)
+   gene      clade     support  lineages inside    earliest lineage
+   dop-1        23     94.7/80  III, V             III
+   dop-2        11     86.5/99  I, III, IV, V      I
+   dop-3         5    99.8/100  V                  V
+   dop-4        16    99.9/100  IV, V              IV
+   dop-5         9     100/100  III, V             III
+   dop-6         8     100/100  IV, V              IV
+
+2. WHEN DID EACH PAIR SPLIT?
+   RECONCILIATION BOUND = deepest lineage anywhere in the duplication node's subtree.
+   If a clade-III sequence sits below the node, both daughter lineages existed before
+   clade III diverged, so the duplication predates that split.
+   CONSERVATIVE BOUND = deepest lineage present on BOTH sides independently, which
+   survives one misplaced sequence but under-dates whenever sampling is uneven.
+
+   pair               MRCA     support  reconciliation         conservative
+   dop-1/dop-2         235     98.6/99  predates I split       predates III split
+   dop-1/dop-3         235     98.6/99  predates I split       predates V split
+   dop-1/dop-4          39     88.9/62  predates III split     predates V split
+   dop-1/dop-5         235     98.6/99  predates I split       predates III split
+   dop-1/dop-6         235     98.6/99  predates I split       predates V split
+   dop-2/dop-3          33     93.9/70  predates I split       predates V split
+   dop-2/dop-4         235     98.6/99  predates I split       predates IV split
+   dop-2/dop-5          33     93.9/70  predates I split       predates III split
+   dop-2/dop-6          33     93.9/70  predates I split       predates IV split
+   dop-3/dop-4         235     98.6/99  predates I split       predates V split
+   dop-3/dop-5          22     61.1/67  predates III split     predates V split
+   dop-3/dop-6          22     61.1/67  predates III split     predates V split
+   dop-4/dop-5         235     98.6/99  predates I split       predates V split
+   dop-4/dop-6         235     98.6/99  predates I split       predates IV split
+   dop-5/dop-6          17     95.1/77  predates III split     predates V split
+
+--- gt0.2: not finished, skipped
+
+--- gt0.3: not finished, skipped
+
+====================================================================================================
+READING
+====================================================================================================
+"Predates the X split" means sequences from lineage X sit inside BOTH daughter clades, so the
+duplication must be older than the divergence of X. It is a LOWER bound: absence of a lineage
+inside a clade is not evidence the gene was absent there, because these proteomes are of
+uneven quality and a real orthologue can simply not have been called.

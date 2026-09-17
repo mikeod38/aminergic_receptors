@@ -25,7 +25,28 @@ DATING THE dop-3/dop-5/dop-6 RADIATION BY PLACEMENT (268-taxon panel)
      Srat_A0A090LQI8          Strongyloides ratti
      cel_dop-6                Compara/panel tip
 
---- gappyout: not finished (no .iqtree) - SKIPPED, its treefile is not final
+--- gappyout
+   tips   SH/UFboot  nematode clades inside     first outside member
+      7       55/98  V                          -
+      8     100/100  IV, V                      -
+     17     95.1/77  III, IV, V                 -
+     22     61.1/67  III, IV, V                 -
+     33     93.9/70  I, III, IV, V              dmDop2R
+     36     93.7/73  I, III, IV, V              dmDop2R
+     46     85.6/99  I, III, IV, V              dm5HT2A
+
+  deepest clade with no non-nematode member: 22 tips, support 61.1/67
+  lineages represented: III, IV, V
+
+  SHALLOWEST clade containing dop-6 AND a clade-IV sequence: 8 tips, support 100/100
+     Cbn_dop_6                Compara/panel tip
+     Cbr_dop_6                Compara/panel tip
+     Cbri_A8XJW6              Caenorhabditis briggsae
+     Cre_dop_6                Compara/panel tip
+     Name_W2T1T3              Necator americanus
+     Ppa_dop_6                Compara/panel tip
+     Srat_A0A090LQI8          Strongyloides ratti
+     cel_dop-6                Compara/panel tip
 
 --- gt0.2: not finished (no .iqtree) - SKIPPED, its treefile is not final
 
