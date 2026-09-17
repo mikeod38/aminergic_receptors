@@ -1,0 +1,67 @@
+====================================================================================================
+HOW MUCH LIGAND RESOLUTION DO THE POCKET COLUMNS HAVE?
+====================================================================================================
+
+OBJECTION 1 - is 5.46 a chemistry marker or a family marker?
+   DA   n=11  5.46: Sx11
+   NE   n=9   5.46: Sx9
+   OA   n=9   5.46: Sx9
+   TA   n=5   5.46: Sx5
+   5HT  n=15  5.46: Ax11 Tx2 Sx2
+   ACh  n=4   5.46: Ax4
+   HA   n=4   5.46: Ex2 Nx1 Tx1
+
+   S in 34/34 across DA+NE (catecholamine) AND OA+TA (phenolamine). A position with the same
+   state in both chemistries cannot be reading the number of ring hydroxyls. It is a marker
+   of the adrenergic-like family. THE RING-HYDROXYL READING IS WITHDRAWN.
+
+OBJECTION 2 - the 5-HT2 receptors sit beside the DRD/dop-2 group; what do they show?
+   tip          ligand  3.32  5.42  5.43  5.46
+   hDRD2        DA         D     S     S     S
+   hDRD3        DA         D     S     S     S
+   hDRD4        DA         D     S     S     S
+   dmDop2R      DA         D     S     S     S
+   cel_dop-2    DA         D     S     S     S
+   cel_dop-3    DA         D     S     S     S
+   Tsp_dop-2    -          D     S     S     S
+   hHTR2A       5HT        D     G     S     S
+   hHTR2B       5HT        D     G     S     A
+   hHTR2C       5HT        D     G     S     A
+   dm5HT2A      -          D     G     S     A
+   cel_ser-1    5HT        D     G     S     T
+   cel_dop-5    -          G     S     S     S
+   cel_dop-6    -          D     S     S     A
+
+   Within one ligand class (5-HT) 5.46 runs S, A, A, A, T. Not ligand-determined.
+   The position that DOES track this split is 5.42: S in every DA receptor, G in every 5-HT
+   receptor here - and DOP-6 has S, the dopamine-receptor state, exactly as descent from a
+   D2-like ancestor predicts.
+
+RESOLUTION TEST - how many columns separate two ligand classes at >=80 % / >=80 %?
+   comparison      columns   note
+   DA vs ACh            17   positive control - different receptor branch
+   DA vs HA              2   
+   DA vs 5HT             0   <- unambiguously different ligands, and ZERO columns
+   DA vs OA              1   the question of interest
+   DA vs NE              0   
+   OA vs TA              1   
+
+   DA vs OA: observed 1; random relabelling mean 0.0, max 0, p=0.005
+
+====================================================================================================
+CONCLUSION
+====================================================================================================
+The pocket columns separate aminergic from muscarinic receptors easily (17 columns) and
+separate DOPAMINE from SEROTONIN receptors NOT AT ALL (0 columns), although those ligands
+differ far more than dopamine does from octopamine. The single DA-vs-OA column is above a
+permutation null only because the null is 0, and one column is not a signature.
+
+So: SEQUENCE AT THESE POSITIONS CANNOT ASSIGN DOP-6 A LIGAND. Both earlier claims are
+withdrawn - the profile-similarity call (which read ancestry) and the 5.46 chemistry call
+(which read family membership). MOD was right on both counts.
+
+What survives is smaller and directional only: DOP-6 keeps 3.32 D and 5.42 S, the
+adrenergic/catecholamine-family state consistent with D2-like descent; and it carries a
+derived A at 5.46 that is unique among 163 tips and fixed across all five orthologues, so
+something at that position changed and stayed changed. That is a fact about divergence, not
+evidence about which amine it binds.

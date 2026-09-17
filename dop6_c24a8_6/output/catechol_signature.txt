@@ -1,3 +1,18 @@
+*** THE CENTRAL CLAIM OF THIS FILE IS WITHDRAWN, 2026-09-17 ***
+MOD: "All of the OA receptors in your tally are adrenergic receptors, so how do we know the
+binding mode you see isn't typical of the adrenergic family."  Correct, and decisive.
+
+5.46 = S in 11/11 DA, 9/9 NE, 9/9 OA, 5/5 TA. It is INVARIANT across catecholamine AND
+phenolamine receptors alike, so it cannot be reading the number of ring hydroxyls - it marks the
+adrenergic-like family. And within the 5-HT2 group, which binds one ligand, it runs S/A/A/T.
+The "DOP-6 has lost the ring-hydroxyl contact, which argues against octopamine" conclusion at the
+bottom of this file is therefore WRONG and is withdrawn.
+
+See output/pocket_resolution.txt, which also shows these columns separate dopamine from serotonin
+receptors in ZERO positions - so they have no power to separate dopamine from octopamine either.
+
+TEST 2 in this file (the predictor reads ancestry, not chemistry) still stands.
+
 ====================================================================================================
 TEST 1 - THE CATECHOL SERINES: CHEMISTRY, NOT FAMILY MEMBERSHIP
 ====================================================================================================
