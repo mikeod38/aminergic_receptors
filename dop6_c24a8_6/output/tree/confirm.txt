@@ -1,0 +1,57 @@
+==============================================================================================
+CONFIRMATION CHECKS ON THE REBUILT TREE
+==============================================================================================
+
+1. IS DOP-6's PLACEMENT STABLE ACROSS TRIM LEVELS?
+   gt0.1:
+        3 tips  UFboot   99   C. elegans: dop-6
+        4 tips  UFboot   99   C. elegans: dop-6
+        5 tips  UFboot  100   C. elegans: dop-6
+        9 tips  UFboot   71   C. elegans: dop-5, dop-6
+       13 tips  UFboot   69   C. elegans: dop-3, dop-5, dop-6
+       16 tips  UFboot   71   C. elegans: dop-2, dop-3, dop-5, dop-6
+   gt0.2:
+        3 tips  UFboot  100   C. elegans: dop-6
+        4 tips  UFboot  100   C. elegans: dop-6
+        5 tips  UFboot  100   C. elegans: dop-6
+        9 tips  UFboot   75   C. elegans: dop-5, dop-6
+       13 tips  UFboot   73   C. elegans: dop-3, dop-5, dop-6
+       16 tips  UFboot   73   C. elegans: dop-2, dop-3, dop-5, dop-6
+   gt0.3:
+        3 tips  UFboot   99   C. elegans: dop-6
+        4 tips  UFboot   99   C. elegans: dop-6
+        5 tips  UFboot  100   C. elegans: dop-6
+        9 tips  UFboot   81   C. elegans: dop-5, dop-6
+       13 tips  UFboot   80   C. elegans: dop-3, dop-5, dop-6
+       16 tips  UFboot   80   C. elegans: dop-2, dop-3, dop-5, dop-6
+   gappyout:
+        3 tips  UFboot  100   C. elegans: dop-6
+        4 tips  UFboot  100   C. elegans: dop-6
+        5 tips  UFboot  100   C. elegans: dop-6
+        9 tips  UFboot   89   C. elegans: dop-5, dop-6
+       13 tips  UFboot   82   C. elegans: dop-3, dop-5, dop-6
+       16 tips  UFboot   83   C. elegans: dop-2, dop-3, dop-5, dop-6
+
+   agreement with gt0.1 on clade composition:
+      gt0.2      8/8 of its dop-6 clades are identical to a gt0.1 clade
+      gt0.3      8/8 of its dop-6 clades are identical to a gt0.1 clade
+      gappyout   7/8 of its dop-6 clades are identical to a gt0.1 clade
+
+2. DOES TREE POSITION CARRY INFORMATION ABOUT LIGAND / COUPLING?
+   --- ligand
+      gt0.1       56 labelled tips  observed  15 changes  random  35.2  p=0.0001  clustered
+      gt0.2       56 labelled tips  observed  15 changes  random  35.2  p=0.0001  clustered
+      gt0.3       56 labelled tips  observed  15 changes  random  35.2  p=0.0001  clustered
+      gappyout    56 labelled tips  observed  15 changes  random  35.2  p=0.0001  clustered
+   --- Galpha coupling
+      gt0.1       52 labelled tips  observed   8 changes  random  23.7  p=0.0001  clustered
+      gt0.2       52 labelled tips  observed   8 changes  random  23.6  p=0.0001  clustered
+      gt0.3       52 labelled tips  observed   8 changes  random  23.7  p=0.0001  clustered
+      gappyout    52 labelled tips  observed   8 changes  random  23.7  p=0.0001  clustered
+
+3. IS DOP-6's IMMEDIATE CLADE COUPLING-UNIFORM?
+   (the Gi/o prediction is a LOCAL claim - there is no genome-wide Gi/o block)
+   gt0.1      smallest clade with >=3 characterised members: 16 tips, 3 characterised, 3/3 are Gi/o
+   gt0.2      smallest clade with >=3 characterised members: 16 tips, 3 characterised, 3/3 are Gi/o
+   gt0.3      smallest clade with >=3 characterised members: 16 tips, 3 characterised, 3/3 are Gi/o
+   gappyout   smallest clade with >=3 characterised members: 16 tips, 3 characterised, 3/3 are Gi/o

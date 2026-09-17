@@ -1,0 +1,21 @@
+============================================================================================
+TESTING THE PANEL BOUNDARY
+============================================================================================
+F59D12.1 (in the panel) scores 52.8; 36 excluded genes score higher.
+
+gene           WBGene             their label                score
+npr-35         WBGene00016842     neuropeptide_receptor       97.4
+ckr-1          WBGene00020712     neuropeptide_receptor       94.9
+trhr-1         WBGene00016265     neuropeptide_receptor       94.8
+ckr-2          WBGene00021439     neuropeptide_receptor       91.9
+nmur-2         WBGene00019616     neuropeptide_receptor       87.9
+tkr-2          WBGene00016761     neuropeptide_receptor       87.7
+ador-1         WBGene00011878     other                       85.2
+npr-22         WBGene00022004     neuropeptide_receptor       84.9
+npr-34         WBGene00013187     neuropeptide_receptor       82.6
+npr-24         WBGene00020086     neuropeptide_receptor       82.0
+npr-20         WBGene00011578     neuropeptide_receptor       81.4
+tkr-1          WBGene00006576     neuropeptide_receptor       79.0
+
+12 test sequences recovered
+-> output/tree/panel_boundary.faa (176 sequences)

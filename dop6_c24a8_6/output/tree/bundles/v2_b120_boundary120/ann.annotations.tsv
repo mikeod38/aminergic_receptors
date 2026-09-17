@@ -1,0 +1,174 @@
+label	gene	species	ligand	coupling	res332	basis	kind	ligcolour
+Ajap_tr_A0A2G8K4C3_A0A2G8K4C3_APOJA	2G8K4C3	A. japonica	NA	NA	D	reference receptor	scan	NA
+Ajap_tr_A0A2G8LRS8_A0A2G8LRS8_APOJA	2G8LRS8	A. japonica	NA	NA	D	reference receptor	scan	NA
+Apla_tr_A0A8B7YCR4_A0A8B7YCR4_ACAPL	8B7YCR4	A. planci	NA	NA	D	reference receptor	scan	NA
+Apla_tr_A0A8B8A0D8_A0A8B8A0D8_ACAPL	8B8A0D8	A. planci	NA	NA	D	reference receptor	scan	NA
+Bflo_tr_A0A9J7M236_A0A9J7M236_BRAFL	9J7M236	B. floridae	NA	NA	D	reference receptor	scan	NA
+Bflo_tr_A0A9J7MN32_A0A9J7MN32_BRAFL	9J7MN32	B. floridae	NA	NA	D	reference receptor	scan	NA
+Bma_tyra-2	tyra-2	B. malayi	NA	NA	D	nematode orthologue	nem	NA
+Bma_tyra-3	tyra-3	B. malayi	NA	NA	D	nematode orthologue	nem	NA
+Cbn_dop-1	dop-1	C. brenneri	NA	NA	D	nematode orthologue	nem	NA
+Cbn_dop-3	dop-3	C. brenneri	NA	NA	D	nematode orthologue	nem	NA
+Cbn_dop-4	dop-4	C. brenneri	NA	NA	D	nematode orthologue	nem	NA
+Cbn_dop-5	dop-5	C. brenneri	NA	NA	G	nematode orthologue	nem	NA
+Cbn_dop_6	dop-6	C. brenneri	NA	NA	D	nematode orthologue	nem	NA
+Cbn_octr-1	octr-1	C. brenneri	NA	NA	D	nematode orthologue	nem	NA
+Cbn_ser-2	ser-2	C. brenneri	NA	NA	D	nematode orthologue	nem	NA
+Cbn_ser-3	ser-3	C. brenneri	NA	NA	D	nematode orthologue	nem	NA
+Cbn_ser-7	ser-7	C. brenneri	NA	NA	D	nematode orthologue	nem	NA
+Cbn_tyra-2	tyra-2	C. brenneri	NA	NA	D	nematode orthologue	nem	NA
+Cbn_tyra-3	tyra-3	C. brenneri	NA	NA	D	nematode orthologue	nem	NA
+Cbr_dop-4	dop-4	C. briggsae	NA	NA	D	nematode orthologue	nem	NA
+Cbr_dop-5	dop-5	C. briggsae	NA	NA	G	nematode orthologue	nem	NA
+Cbr_dop_6	dop-6	C. briggsae	NA	NA	D	nematode orthologue	nem	NA
+Cbr_octr-1	octr-1	C. briggsae	NA	NA	D	nematode orthologue	nem	NA
+Cbr_ser-3	ser-3	C. briggsae	NA	NA	D	nematode orthologue	nem	NA
+Cbr_ser-4	ser-4	C. briggsae	NA	NA	D	nematode orthologue	nem	NA
+Cbr_ser-6	ser-6	C. briggsae	NA	NA	D	nematode orthologue	nem	NA
+Cint_tr_F6SIL2_F6SIL2_CIOIN	F6SIL2	C. intestinalis	NA	NA	D	reference receptor	scan	NA
+Cint_tr_F6USY0_F6USY0_CIOIN	F6USY0	C. intestinalis	NA	NA	D	reference receptor	scan	NA
+Cre_dop-1	dop-1	C. remanei	NA	NA	D	nematode orthologue	nem	NA
+Cre_dop-3	dop-3	C. remanei	NA	NA	D	nematode orthologue	nem	NA
+Cre_dop-4	dop-4	C. remanei	NA	NA	D	nematode orthologue	nem	NA
+Cre_dop-5	dop-5	C. remanei	NA	NA	G	nematode orthologue	nem	NA
+Cre_dop_6	dop-6	C. remanei	NA	NA	D	nematode orthologue	nem	NA
+Cre_octr-1	octr-1	C. remanei	NA	NA	D	nematode orthologue	nem	NA
+Cre_ser-2	ser-2	C. remanei	NA	NA	D	nematode orthologue	nem	NA
+Cre_ser-4	ser-4	C. remanei	NA	NA	D	nematode orthologue	nem	NA
+Cre_ser-7	ser-7	C. remanei	NA	NA	D	nematode orthologue	nem	NA
+Cre_tyra-2	tyra-2	C. remanei	NA	NA	D	nematode orthologue	nem	NA
+Cre_tyra-3	tyra-3	C. remanei	NA	NA	D	nematode orthologue	nem	NA
+Cvir_tr_A0A8B8A4H7_A0A8B8A4H7_CRAVI	8B8A4H7	C. virginica	NA	NA	D	reference receptor	scan	NA
+Cvir_tr_A0A8B8E7R6_A0A8B8E7R6_CRAVI	8B8E7R6	C. virginica	NA	NA	D	reference receptor	scan	NA
+Cvir_tr_A0A8B8F0Q5_A0A8B8F0Q5_CRAVI	8B8F0Q5	C. virginica	NA	NA	D	reference receptor	scan	NA
+Drer_sp_Q90WY4_ADA2A_DANRE	Q90WY4	D. rerio	NA	NA	D	reference receptor	scan	NA
+Drer_tr_Q1L8Y8_Q1L8Y8_DANRE	Q1L8Y8	D. rerio	NA	NA	D	reference receptor	scan	NA
+Ebur_tr_A0A8C4N726_A0A8C4N726_EPTBU	8C4N726	E. diaphana	NA	NA	D	reference receptor	scan	NA
+Ebur_tr_A0A8C4NHU4_A0A8C4NHU4_EPTBU	8C4NHU4	E. diaphana	NA	NA	D	reference receptor	scan	NA
+Ebur_tr_A0A8C4QW85_A0A8C4QW85_EPTBU	8C4QW85	E. diaphana	NA	NA	D	reference receptor	scan	NA
+Hvul_tr_A0ABM4BNS4_A0ABM4BNS4_HYDVU	BM4BNS4	H. vulgaris	NA	NA	D	reference receptor	scan	NA
+Hvul_tr_A0ABM4CK96_A0ABM4CK96_HYDVU	BM4CK96	H. vulgaris	NA	NA	D	reference receptor	scan	NA
+Hvul_tr_A0ABM4CKA6_A0ABM4CKA6_HYDVU	BM4CKA6	H. vulgaris	NA	NA	D	reference receptor	scan	NA
+Lana_tr_A0A1S3GY13_A0A1S3GY13_LINAN	1S3GY13	L. anatina	NA	NA	D	reference receptor	scan	NA
+Lana_tr_A0A1S3HJU9_A0A1S3HJU9_LINAN	1S3HJU9	L. anatina	NA	NA	D	reference receptor	scan	NA
+Lana_tr_A0A1S3K9Y2_A0A1S3K9Y2_LINAN	1S3K9Y2	L. anatina	NA	NA	D	reference receptor	scan	NA
+Lpol_tr_A0ABM1BKJ6_A0ABM1BKJ6_LIMPO	BM1BKJ6	L. polyphemus	NA	NA	D	reference receptor	scan	NA
+Lpol_tr_A0ABM1RX31_A0ABM1RX31_LIMPO	BM1RX31	L. polyphemus	NA	NA	D	reference receptor	scan	NA
+Lpol_tr_A0ABM1SBT5_A0ABM1SBT5_LIMPO	BM1SBT5	L. polyphemus	NA	NA	D	reference receptor	scan	NA
+Mlei_KAL5257720.1	Mlei_KAL5257720.1	NA	NA	NA	D	reference receptor	ref	NA
+Mlei_KAL5268535.1	Mlei_KAL5268535.1	NA	NA	NA	D	reference receptor	ref	NA
+Mlei_tr_A0ACF8YAQ5_A0ACF8YAQ5_MNELE	CF8YAQ5	M. leidyi	NA	NA	D	reference receptor	scan	NA
+Myes_tr_A0A210PJ23_A0A210PJ23_MIZYE	210PJ23	M. yessoensis	NA	NA	D	reference receptor	scan	NA
+Myes_tr_A0A210PPR0_A0A210PPR0_MIZYE	210PPR0	M. yessoensis	NA	NA	D	reference receptor	scan	NA
+Myes_tr_A0A210QLA7_A0A210QLA7_MIZYE	210QLA7	M. yessoensis	NA	NA	D	reference receptor	scan	NA
+Nam_ser-3	ser-3	N. americanus	NA	NA	D	nematode orthologue	nem	NA
+Nam_ser-7	ser-7	N. americanus	NA	NA	D	nematode orthologue	nem	NA
+Nvec_tr_A7S987_A7S987_NEMVE	A7S987	N. vectensis	NA	NA	F	reference receptor	scan	NA
+Nvec_tr_A7SM05_A7SM05_NEMVE	A7SM05	N. vectensis	NA	NA	D	reference receptor	scan	NA
+Nvec_tr_A7SM55_A7SM55_NEMVE	A7SM55	N. vectensis	NA	NA	D	reference receptor	scan	NA
+Pcau_tr_A0ABM1E1A1_A0ABM1E1A1_PRICU	BM1E1A1	P. caudatus	NA	NA	D	reference receptor	scan	NA
+Pcau_tr_A0ABM1EKS2_A0ABM1EKS2_PRICU	BM1EKS2	P. caudatus	NA	NA	D	reference receptor	scan	NA
+Pcau_tr_A0ABM1F1R5_A0ABM1F1R5_PRICU	BM1F1R5	P. caudatus	NA	NA	D	reference receptor	scan	NA
+Pmar_tr_A0AAJ7T1P3_A0AAJ7T1P3_PETMA	AJ7T1P3	P. marinus	NA	NA	D	reference receptor	scan	NA
+Pmar_tr_A0AAJ7WUU2_A0AAJ7WUU2_PETMA	AJ7WUU2	P. marinus	NA	NA	D	reference receptor	scan	NA
+Pmin_tr_A0A914A277_A0A914A277_PATMI	914A277	P. miniata	NA	NA	D	reference receptor	scan	NA
+Pmin_tr_A0A914B379_A0A914B379_PATMI	914B379	P. miniata	NA	NA	D	reference receptor	scan	NA
+Ppa_dop-3	dop-3	P. pacificus	NA	NA	D	nematode orthologue	nem	NA
+Ppa_dop_6	dop-6	P. pacificus	NA	NA	D	nematode orthologue	nem	NA
+Ppa_ser-4	ser-4	P. pacificus	NA	NA	D	nematode orthologue	nem	NA
+Ppa_ser-6	ser-6	P. pacificus	NA	NA	D	nematode orthologue	nem	NA
+Skow_tr_A0ABM0MS41_A0ABM0MS41_SACKO	BM0MS41	S. kowalevskii	NA	NA	D	reference receptor	scan	NA
+Skow_tr_A0ACM8CU07_A0ACM8CU07_SACKO	CM8CU07	S. kowalevskii	NA	NA	D	reference receptor	scan	NA
+Spur_tr_A0A7M7HLT0_A0A7M7HLT0_STRPU	7M7HLT0	S. purpuratus	NA	NA	D	reference receptor	scan	NA
+Spur_tr_A0A7M7RBR3_A0A7M7RBR3_STRPU	7M7RBR3	S. purpuratus	NA	NA	D	reference receptor	scan	NA
+Sra_ser-2	ser-2	S. ratti	NA	NA	D	nematode orthologue	nem	NA
+Sra_ser-6	ser-6	S. ratti	NA	NA	D	nematode orthologue	nem	NA
+TEST_ckr-1	ckr-1	C. elegans	NA	NA	NA	boundary test	test	NA
+TEST_ckr-2	ckr-2	C. elegans	NA	NA	NA	boundary test	test	NA
+TEST_nmur-2	nmur-2	C. elegans	NA	NA	NA	boundary test	test	NA
+TEST_nmur-3	nmur-3	C. elegans	NA	NA	NA	boundary test	test	NA
+TEST_npr-20	npr-20	C. elegans	NA	NA	NA	boundary test	test	NA
+TEST_npr-22	npr-22	C. elegans	NA	NA	NA	boundary test	test	NA
+TEST_npr-24	npr-24	C. elegans	NA	NA	NA	boundary test	test	NA
+TEST_npr-34	npr-34	C. elegans	NA	NA	NA	boundary test	test	NA
+TEST_npr-35	npr-35	C. elegans	NA	NA	NA	boundary test	test	NA
+TEST_tkr-1	tkr-1	C. elegans	NA	NA	NA	boundary test	test	NA
+TEST_tkr-2	tkr-2	C. elegans	NA	NA	NA	boundary test	test	NA
+TEST_trhr-1	trhr-1	C. elegans	NA	NA	NA	boundary test	test	NA
+Tadh_tr_B3RY65_B3RY65_TRIAD	B3RY65	T. adhaerens	NA	NA	N	reference receptor	scan	NA
+Tadh_tr_B3S5Y6_B3S5Y6_TRIAD	B3S5Y6	T. adhaerens	NA	NA	S	reference receptor	scan	NA
+Tadh_tr_B3SDK6_B3SDK6_TRIAD	B3SDK6	T. adhaerens	NA	NA	S	reference receptor	scan	NA
+Tsp_dop-2	dop-2	T. spiralis	NA	NA	D	nematode orthologue	nem	NA
+bmOAR1	OAR1	B. mori	OA	NA	D	reference receptor	ref	#C15C3E
+cel_dop-1	dop-1	C. elegans	DA	Gq	D	ingroup	cel	#1A2C7A
+cel_dop-2	dop-2	C. elegans	DA	Gi/o	D	ingroup	cel	#1A2C7A
+cel_dop-3	dop-3	C. elegans	DA	Go	D	ingroup	cel	#1A2C7A
+cel_dop-4	dop-4	C. elegans	DA	Gs	D	ingroup	cel	#1A2C7A
+cel_dop-5	dop-5	C. elegans	NA	NA	G	ingroup	cel	NA
+cel_dop-6	dop-6	C. elegans	NA	NA	D	ingroup	cel	NA
+cel_gar-1	gar-1	C. elegans	ACh	NA	D	ingroup	cel	#7A7A7A
+cel_gar-2	gar-2	C. elegans	ACh	NA	D	ingroup	cel	#7A7A7A
+cel_gar-3	gar-3	C. elegans	ACh	NA	D	ingroup	cel	#7A7A7A
+cel_octr-1	octr-1	C. elegans	OA	Go	D	ingroup	cel	#C15C3E
+cel_ser-1	ser-1	C. elegans	5-HT	Gq	D	ingroup	cel	#3C8DAD
+cel_ser-2	ser-2	C. elegans	TA	Gi/o	D	ingroup	cel	#E0A458
+cel_ser-3	ser-3	C. elegans	OA	Gq	D	ingroup	cel	#C15C3E
+cel_ser-4	ser-4	C. elegans	5-HT	Gi/o	D	ingroup	cel	#3C8DAD
+cel_ser-5	ser-5	C. elegans	5-HT?	NA	D	ingroup	cel	#9EC5D4
+cel_ser-6	ser-6	C. elegans	OA	Gs	D	ingroup	cel	#C15C3E
+cel_ser-7	ser-7	C. elegans	5-HT	Gs	D	ingroup	cel	#3C8DAD
+cel_tyra-2	tyra-2	C. elegans	TA	Gi/o	D	ingroup	cel	#E0A458
+cel_tyra-3	tyra-3	C. elegans	TA/OA	Gq	D	ingroup	cel	#D4813F
+dm5HT1A	5HT1A	D. melanogaster	5-HT	NA	D	reference receptor	ref	#3C8DAD
+dm5HT1B	5HT1B	D. melanogaster	5-HT	NA	D	reference receptor	ref	#3C8DAD
+dm5HT2A	5HT2A	D. melanogaster	5-HT	NA	D	reference receptor	ref	#3C8DAD
+dm5HT7	5HT7	D. melanogaster	5-HT	NA	D	reference receptor	ref	#3C8DAD
+dmDop1R1	Dop1R1	D. melanogaster	DA	Gs	D	reference receptor	ref	#1A2C7A
+dmDop2R	Dop2R	D. melanogaster	DA	Gi/o	D	reference receptor	ref	#1A2C7A
+dmOAMB	OAMB	D. melanogaster	OA	Gq	D	reference receptor	ref	#C15C3E
+dmOctA2R	OctA2R	D. melanogaster	OA	Gi/o	D	reference receptor	ref	#C15C3E
+dmOctB1R	OctB1R	D. melanogaster	OA	Gs	D	reference receptor	ref	#C15C3E
+dmOctB2R	OctB2R	D. melanogaster	OA	Gs	D	reference receptor	ref	#C15C3E
+dmOctB3R	OctB3R	D. melanogaster	OA	Gs	D	reference receptor	ref	#C15C3E
+dmOctTyrR	OctTyrR	D. melanogaster	TA/OA	Gi/o	D	reference receptor	ref	#D4813F
+dmTyrR	TyrR	D. melanogaster	TA	Gi/o	D	reference receptor	ref	#E0A458
+dmTyrRII	TyrRII	D. melanogaster	TA	Gi/o	D	reference receptor	ref	#E0A458
+hADRA1A	ADRA1A	H. sapiens	NE	Gq	D	reference receptor	ref	#8E3E29
+hADRA1B	ADRA1B	H. sapiens	NE	Gq	D	reference receptor	ref	#8E3E29
+hADRA1D	ADRA1D	H. sapiens	NE	Gq	D	reference receptor	ref	#8E3E29
+hADRA2A	ADRA2A	H. sapiens	NE	Gi/o	D	reference receptor	ref	#8E3E29
+hADRA2B	ADRA2B	H. sapiens	NE	Gi/o	D	reference receptor	ref	#8E3E29
+hADRA2C	ADRA2C	H. sapiens	NE	Gi/o	D	reference receptor	ref	#8E3E29
+hADRB1	ADRB1	H. sapiens	NE	Gs	D	reference receptor	ref	#8E3E29
+hADRB2	ADRB2	H. sapiens	NE	Gs	D	reference receptor	ref	#8E3E29
+hADRB3	ADRB3	H. sapiens	NE	Gs	D	reference receptor	ref	#8E3E29
+hCHRM1	CHRM1	H. sapiens	ACh	Gq	D	reference receptor	ref	#7A7A7A
+hCHRM2	CHRM2	H. sapiens	ACh	Gi/o	D	reference receptor	ref	#7A7A7A
+hCHRM3	CHRM3	H. sapiens	ACh	Gq	D	reference receptor	ref	#7A7A7A
+hCHRM5	CHRM5	H. sapiens	ACh	Gq	D	reference receptor	ref	#7A7A7A
+hDRD1	DRD1	H. sapiens	DA	Gs	D	reference receptor	ref	#1A2C7A
+hDRD2	DRD2	H. sapiens	DA	Gi/o	D	reference receptor	ref	#1A2C7A
+hDRD3	DRD3	H. sapiens	DA	Gi/o	D	reference receptor	ref	#1A2C7A
+hDRD4	DRD4	H. sapiens	DA	Gi/o	D	reference receptor	ref	#1A2C7A
+hDRD5	DRD5	H. sapiens	DA	Gs	D	reference receptor	ref	#1A2C7A
+hGPR50	GPR50	H. sapiens	MEL	NA	T	reference receptor	ref	#6B4E8E
+hHRH1	HRH1	H. sapiens	HA	NA	D	reference receptor	ref	#4F8A5B
+hHRH2	HRH2	H. sapiens	HA	NA	D	reference receptor	ref	#4F8A5B
+hHRH3	HRH3	H. sapiens	HA	NA	D	reference receptor	ref	#4F8A5B
+hHRH4	HRH4	H. sapiens	HA	NA	D	reference receptor	ref	#4F8A5B
+hHTR1A	HTR1A	H. sapiens	5-HT	Gi/o	D	reference receptor	ref	#3C8DAD
+hHTR1B	HTR1B	H. sapiens	5-HT	Gi/o	D	reference receptor	ref	#3C8DAD
+hHTR1D	HTR1D	H. sapiens	5-HT	Gi/o	D	reference receptor	ref	#3C8DAD
+hHTR1E	HTR1E	H. sapiens	5-HT	Gi/o	D	reference receptor	ref	#3C8DAD
+hHTR1F	HTR1F	H. sapiens	5-HT	Gi/o	D	reference receptor	ref	#3C8DAD
+hHTR2A	HTR2A	H. sapiens	5-HT	Gq	D	reference receptor	ref	#3C8DAD
+hHTR2B	HTR2B	H. sapiens	5-HT	Gq	D	reference receptor	ref	#3C8DAD
+hHTR2C	HTR2C	H. sapiens	5-HT	Gq	D	reference receptor	ref	#3C8DAD
+hHTR4	HTR4	H. sapiens	5-HT	Gs	D	reference receptor	ref	#3C8DAD
+hHTR5A	HTR5A	H. sapiens	5-HT	NA	D	reference receptor	ref	#3C8DAD
+hHTR6	HTR6	H. sapiens	5-HT	Gs	D	reference receptor	ref	#3C8DAD
+hHTR7	HTR7	H. sapiens	5-HT	Gs	D	reference receptor	ref	#3C8DAD
+hMTNR1A	MTNR1A	H. sapiens	MEL	NA	M	reference receptor	ref	#6B4E8E
+hMTNR1B	MTNR1B	H. sapiens	MEL	NA	M	reference receptor	ref	#6B4E8E
+hTAAR1	TAAR1	H. sapiens	TA	NA	D	reference receptor	ref	#E0A458
+plADRA1	ADRA1	P. dumerilii	NE	NA	D	reference receptor	ref	#8E3E29

@@ -1,0 +1,28 @@
+==================================================================================================
+HOW MUCH INDEPENDENT EVIDENCE IS NEAR DOP-6?
+==================================================================================================
+Orthologue groups are collapsed to one gene: five orthologues of dop-3 are ONE observation
+about what dop-6's neighbourhood does, not five.
+
+ tips  UFboot  indep genes  characterised   which
+--------------------------------------------------------------------------------------------------
+    3      99            2              0   none
+    4      99            2              0   none
+    5     100            2              0   none
+    9      71            3              0   none
+   13      69            4              1   dop-3(Go)
+   16      71            6              3   dop-2(Gi/o), dop-3(Go), dmDop2R(Gi/o)
+   19      88            9              6   dop-2(Gi/o), dop-3(Go), dmDop2R(Gi/o), hDRD2(Gi/o), hDRD3(Gi/o), hDRD4(Gi/o)
+   25      90           15             10   dop-2(Gi/o), dop-3(Go), ser-1(Gq), dmDop2R(Gi/o), hDRD2(Gi/o), hDRD3(Gi/o), hDRD4(Gi/o), hHTR2A(Gq), hHTR2B(Gq), hHTR2C(Gq)
+
+EVIDENCE TIER of each characterised gene that appears in the nested clades above:
+   dop-3        ligand DA     coupling Go     ligand IDA (FSK cAMP); coupling IMP, from mutant phenotype
+   dop-2        ligand DA     coupling Gi/o   ligand IDA (iodo-LSD, FSK cAMP); coupling IDA
+   dmDop2R      ligand DA     coupling Gi/o   insect reference
+   hDRD2        ligand DA     coupling Gi/o   vertebrate reference
+   hDRD3        ligand DA     coupling Gi/o   vertebrate reference
+   hDRD4        ligand DA     coupling Gi/o   vertebrate reference
+   ser-1        ligand 5HT    coupling Gq     ligand IDA
+   hHTR2A       ligand 5HT    coupling Gq     vertebrate reference
+   hHTR2B       ligand 5HT    coupling Gq     vertebrate reference
+   hHTR2C       ligand 5HT    coupling Gq     vertebrate reference

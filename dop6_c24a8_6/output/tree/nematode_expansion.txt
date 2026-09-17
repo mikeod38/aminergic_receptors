@@ -1,0 +1,66 @@
+================================================================================================
+HOW FAR DOES THE CLADE HOLDING dop-3 / dop-5 / dop-6 EXTEND?
+================================================================================================
+
+--- gt0.1
+ tips  UFboot  nematode  other   first non-nematode members
+    3      99         3      0   -
+    4      99         4      0   -
+    5     100         5      0   -
+    9      71         9      0   -
+   13      69        13      0   -
+   16      71        15      1   dmDop2R
+   19      88        15      4   dmDop2R, hDRD2, hDRD3, hDRD4
+   25      90        17      8   dm5HT2A, dmDop2R, hDRD2, hDRD3
+
+  deepest clade containing dop-6 with no outside member (SEE CAUTION BELOW): 13 tips, UFboot 69
+  genes in it: dop-3, dop-5, dop-6, dop_6
+
+  species                  clade                        genes present
+  C. brenneri              Rhabditina (Caenorhabditis)  dop-3, dop-5, dop_6
+  C. remanei               Rhabditina (Caenorhabditis)  dop-3, dop-5, dop_6
+  C. elegans               Rhabditina (Caenorhabditis)  dop-3, dop-5, dop-6
+  C. briggsae              Rhabditina (Caenorhabditis)  dop-5, dop_6
+  P. pacificus             Rhabditina (Diplogastero.)   dop-3, dop_6
+
+--- gappyout
+ tips  UFboot  nematode  other   first non-nematode members
+    3     100         3      0   -
+    4     100         4      0   -
+    5     100         5      0   -
+    9      89         9      0   -
+   13      82        13      0   -
+   16      83        15      1   dmDop2R
+   19      88        15      4   dmDop2R, hDRD2, hDRD3, hDRD4
+   24      98        16      8   dm5HT2A, dmDop2R, hDRD2, hDRD3
+
+  deepest clade containing dop-6 with no outside member (SEE CAUTION BELOW): 13 tips, UFboot 82
+  genes in it: dop-3, dop-5, dop-6, dop_6
+
+  species                  clade                        genes present
+  C. brenneri              Rhabditina (Caenorhabditis)  dop-3, dop-5, dop_6
+  C. remanei               Rhabditina (Caenorhabditis)  dop-3, dop-5, dop_6
+  C. elegans               Rhabditina (Caenorhabditis)  dop-3, dop-5, dop-6
+  C. briggsae              Rhabditina (Caenorhabditis)  dop-5, dop_6
+  P. pacificus             Rhabditina (Diplogastero.)   dop-3, dop_6
+
+------------------------------------------------------------------------------------------------
+Reading (rewritten 2026-09-17 after referee audit - the previous text overreached twice):
+
+  1. EVERY SPECIES IN THIS CLADE IS RHABDITINA. The clade column above says so. A clade with
+     no non-nematode member is NOT the same as a nematode-wide radiation, and this one is
+     restricted to Caenorhabditis + Pristionchus. Do not write "nematode-specific".
+  2. THE ABSENCES ARE SAMPLING, NOT BIOLOGY. Real orthologues exist and are not in the panel:
+     Cbr dop-3 = Q61H86 (1092 bits, and already used in dnds_vs_briggsae.tsv), Ppa dop-5 =
+     A0A2A6CA79, plus clean RBH dop-6 in Necator (1110 bits) and Strongyloides and dop-5 in
+     Haemonchus, all sitting unused in ~/data/proteomes/. The species table below is Compara
+     coverage, not a survey. The non-Rhabditina nematodes in the panel returned no dop-3/5/6
+     orthologue because reciprocal best hits cannot resolve this radiation - the retracted
+     dating artefact - not because none exists.
+  3. NO ANCESTRAL STATE WAS RECONSTRUCTED. "From a D2-like ancestor" was asserted from the
+     sister relationship alone. Placement inside the D2-like radiation is supported; the
+     ancestral ligand is not.
+
+What survives: the characterised evidence near DOP-6 is thin - its first characterised
+neighbour is dop-3, four genes out. Whether that is structural or a sampling failure is OPEN
+until the sequences named above are placed phylogenetically.

@@ -1,0 +1,22 @@
+========================================================================================
+IS dop-5 REALLY ABSENT FROM P. PACIFICUS?
+========================================================================================
+proteome UP000005239: 13985 proteins  <- coverage check: a negative against a proteome
+this size is a fair test, not a database gap
+
+queries: cel_dop-1, cel_dop-2, cel_dop-3, cel_dop-4, cel_dop-5, cel_dop-6
+
+1. HMM SCAN: 68 P. pacificus proteins hit the monoamine model;
+   18 score >=120 (the aminergic range)
+
+2. RECIPROCAL BEST HITS
+   C. elegans   best P. pacificus       bits   reciprocates?  note
+   cel_dop-1    tr|A0A2A6CU23|A0A2A6     329   YES            
+   cel_dop-2    tr|A0A2A6BDA4|A0A2A6     173   no             that protein maps back to cel_dop-3
+   cel_dop-3    tr|A0A2A6BDA4|A0A2A6     513   YES            
+   cel_dop-4    tr|A0A8R1Y7M0|A0A8R1     501   YES            
+   cel_dop-5    tr|A0A2A6CA79|A0A2A6     764   YES            
+   cel_dop-6    tr|A0A2A6BF88|A0A2A6     848   YES            
+
+VERDICT: a reciprocal best-hit partner for dop-5 EXISTS in P. pacificus - Compara missed it,
+and the dop-5 duplication predates the Caenorhabditis / Pristionchus split.

@@ -1,0 +1,13 @@
+IQ-TREE binary: IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jun 19 2026
+alignment 163 x 1116, 70.2 % gaps
+sequences >50 % gaps: 159
+  gappyout     331 columns
+  gt0.1        362 columns
+  gt0.2        342 columns
+  gt0.3        336 columns
+
+IQ-TREE: ModelFinder + 1000 UFBoot + 1000 SH-aLRT, rooted on the muscarinic outgroup
+  gt0.1: already done
+  gappyout: already done
+  gt0.2: done, LG+F+R7
+  gt0.3: done, LG+F+R9

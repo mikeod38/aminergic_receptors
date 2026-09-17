@@ -1,0 +1,13 @@
+label	gene	wbgene	their_label	monoamine_score	length
+test_npr-35	npr-35	WBGene00016842	neuropeptide_receptor	97.4	381
+test_ckr-1	ckr-1	WBGene00020712	neuropeptide_receptor	94.9	421
+test_trhr-1	trhr-1	WBGene00016265	neuropeptide_receptor	94.8	395
+test_ckr-2	ckr-2	WBGene00021439	neuropeptide_receptor	91.9	603
+test_nmur-2	nmur-2	WBGene00019616	neuropeptide_receptor	87.9	403
+test_tkr-2	tkr-2	WBGene00016761	neuropeptide_receptor	87.7	391
+test_ador-1	ador-1	WBGene00011878	other	85.2	362
+test_npr-22	npr-22	WBGene00022004	neuropeptide_receptor	84.9	434
+test_npr-34	npr-34	WBGene00013187	neuropeptide_receptor	82.6	613
+test_npr-24	npr-24	WBGene00020086	neuropeptide_receptor	82.0	373
+test_npr-20	npr-20	WBGene00011578	neuropeptide_receptor	81.4	410
+test_tkr-1	tkr-1	WBGene00006576	neuropeptide_receptor	79.0	406

@@ -1,0 +1,14 @@
+173 sequences; 7TM excerpts, 15 aa margin, blocks concatenated (ICL3 excised)
+173 excerpts; min 250, median 328, max 637
+MAFFT L-INS-i ...
+alignment 173 x 1381, 76.0 % gaps
+  gappyout     322 columns
+  gt0.1        367 columns
+  gt0.2        341 columns
+  gt0.3        335 columns
+
+IQ-TREE ...
+  gt0.1: done, LG+F+I+R7
+  gappyout: done, LG+F+R8
+  gt0.2: done, LG+F+I+R7
+  gt0.3: done, LG+F+I+R8

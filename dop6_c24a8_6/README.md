@@ -24,8 +24,10 @@ palindromic (26 % self-complementarity = background).
   17 aa cryptic exon spliced from what is dop-6 intron 14. C24A8.6a's start codon *is* DOP-6's
   internal Met406, which makes the gene model look like an ORF-finder artefact on the inverted copy.
 * That segment is end-of-ICL3 + TM6 + ECL3 + TM7 + the whole C-tail. The ligand pocket is **not**
-  in it: the TM3 aspartate and the `DRL` motif (D120-R121-L122) are at ~residue 120, in the unique
-  half. So C24A8.6 can encode at most a two-TM fragment with no binding pocket.
+  in it: the amine-binding TM3 aspartate **D3.32 = D103**, and separately the `DRL` motif
+  (D120-R121-L122) at ~residue 120, are both in the unique half. *(An earlier version of this line
+  conflated the two — D3.32 is D103, not D120 — which contradicted §5's correct identification of
+  R121 as the DRY arginine. Both residues are in the N-half, so no conclusion changes.)* So C24A8.6 can encode at most a two-TM fragment with no binding pocket.
 * The two mRNAs carry the **identical** 864 nt sequence (not reverse complements — verified), so no
   dsRNA/endo-siRNA mechanism is available, and reads from either are the same string.
 
@@ -156,20 +158,43 @@ This makes the clean experiment in §"Next" not merely preferable but necessary:
 cut in the unique 5' half (a single-target guide, `output/dop6_guides.tsv`), outcrossed, plus cDNA
 rescue.
 
-## 4. DOP-6 is not a dopamine receptor — it is an orphan, and a strongly constrained one
+## 4. DOP-6 is not a dopamine receptor — it is an orphan
 
 * No pharmacology of any kind. Named by homology in Chase & Koelle 2004. **Koelle 2018 WormBook
   (NBK535514) Table 1 lists it as `C24A8.1` under "Poorly-studied putative small-molecule GPCRs",
   with every ligand, coupling and assay column empty** — and lists `C24A8.6` separately, propagating
   the reference artefact. The full orphan set is T02E9.3 (= dop-5), C24A8.1 (= dop-6), C24A8.6,
   F35H10.10, F59D12.1, T21B4.4.
-* dN/dS vs *C. briggsae* (`output/dnds_vs_briggsae.tsv`): dop-6 **dN = 0.0252**, the lowest of the
-  aminergic receptors tested (dop-5 0.0261, ser-2 0.0290, dop-1 0.0322, ser-3 0.0500, dop-2 0.0508,
-  ser-4 0.0609, dop-3 0.0618, dop-4 0.0733). dS is saturated throughout, so dN is the usable column.
-* The palindrome does **not** bias that estimate (`output/mirror_bias_check.txt`): N2-vs-wild
-  divergence is equal or higher in the C-half; recomputing dN from four palindrome-free isolates'
-  own CDSs gives identical values; and the N-half/C-half dN difference is not significant anyway
-  (Fisher p = 0.258). The duplication also postdates the *C. briggsae* split by a vast margin.
+* dN/dS vs *C. briggsae* (`output/dnds_vs_briggsae.tsv`): dop-6 **dN = 0.0252**. dS is saturated
+  throughout, so dN is the usable column. **Corrected 2026-09-17 after referee audit — an earlier
+  version of this section quoted 9 of the 15 receptors in that file and called dop-6 the lowest.
+  It is 4th of 15:**
+
+  | rank | gene | dN | | rank | gene | dN |
+  |---|---|---|---|---|---|---|
+  | 1 | tyra-2 | 0.0116 | | 9 | ser-6 | 0.0411 |
+  | 2 | **octr-1** | **0.0236** | | 10 | tyra-3 | 0.0457 |
+  | 3 | ser-5 | 0.0246 | | 11 | ser-3 | 0.0500 |
+  | 4 | **dop-6** | **0.0252** | | 12 | dop-2 | 0.0508 |
+  | 5 | dop-5 | 0.0261 | | 13 | ser-4 | 0.0609 |
+  | 6 | ser-2 | 0.0290 | | 14 | dop-3 | 0.0618 |
+  | 7 | gar-3 | 0.0319 | | 15 | dop-4 | 0.0733 |
+  | 8 | dop-1 | 0.0322 | | | | |
+
+  All three receptors that beat dop-6 were inside the omitted six, and no rule selects the nine that
+  were shown. **This matters for the argument, not just the ranking: OCTR-1 — the best-evidenced
+  octopamine receptor in the genome — is more constrained than dop-6.** So constraint cannot be used
+  to distinguish dop-6 from an OA receptor, and to the extent it points anywhere it points the other
+  way. There are no confidence intervals in that table; dop-6's would overlap ranks 1–8, so even
+  "4th" should be read as a band.
+* The palindrome does **not** bias the estimate — but on **one** argument, not three
+  (`output/mirror_bias_check.txt`). What carries it: **the duplication postdates the *C. briggsae*
+  split by a wide margin**, so the *C. briggsae* comparison cannot see it. The other two legs were
+  withdrawn on referee audit: the Fisher test (p = 0.258) has **power 0.20** at the observed effect,
+  whose point estimate is a **1.49× deflation of the C-half — the direction the bias hypothesis
+  predicts** (Woolf 95 % CI on the rate ratio 0.77–2.95; 80 % power would need ~3×); and the
+  four-isolate recomputation is near-tautological, since those isolates differ from N2 by 0–2 nt in
+  2,079, which forces the NG86 counts to match arithmetically.
 
 ## 5. Could the duplicated C-terminus bind a G protein on its own?
 
@@ -185,75 +210,104 @@ into a cavity opened by TM6 swinging away from TM3; with no TM3 there is no cavi
 hypothesis is therefore **not** autonomous signalling but complementation with / competition against
 full-length DOP-6, or GRK/arrestin sequestration via the serine-rich tail.
 
-## 6. Tree — DOP-6 is not in an octopamine clade
+## 6. Tree — where DOP-6 sits, and how strongly an octopamine placement is disfavoured
 
-50 sequences: all *C. elegans* aminergic receptors + Koelle's orphan set + human adrenergic /
-dopamine / serotonin / muscarinic + Drosophila OA/TA/DA + *Bombyx* + *Platynereis* + dop-6
-orthologs. MAFFT L-INS-i → trimAl ×4 → IQ-TREE ModelFinder + 1000 UFBoot + 1000 SH-aLRT, rooted on
-muscarinic. All 20 Gα-contact columns survive every trim level.
+**Rewritten 2026-09-17. The previous version of this section described a superseded 50-taxon panel
+(Q.PFAM+F+R6, 1,034 columns) in the present tense, cited two files that no longer exist, and
+restated a claim withdrawn 200 lines below it. It has been deleted rather than patched.** The
+current analysis is in §6b (how the alignment is built) and §6c (what the tree supports). The panel
+is **b120**: 173 taxa, boundary at monoamine HMM ≥ 120, trees in `output/tree/b120/trees/`.
 
-**Tips are labelled by pharmacology, not gene name** — this matters: SER-2 is a *tyramine* receptor,
-SER-3 and SER-6 are *octopamine* receptors, dop-5/dop-6 are orphans.
+### Where DOP-6 falls
 
-Best-fit model Q.PFAM+F+R6 (gt0.1, 1,034 columns, 50 taxa).
-
-![tree](output/tree/dop6_tree_gt0.1.png)
-
-*`plot_tree.py` — also rendered for gappyout, gt0.2 and gt0.3.*
-
-**Can the tree predict anything?** Tested rather than assumed. The precedent for inferring a
-receptor's G protein from its nearest characterised relative is SER-5's Gs call (Harris et al. 2009,
-*J Neurosci* 29:1446, PMID 19193891), and having now read that paper, its validation is weaker than
-the citation implies:
-
-* the tree was **5-HT receptors only**, rooted on GAR-1 — it could not have contained dop-6, and
-  coupling clustering was judged inside a single ligand class, where coupling and receptor subtype
-  covary strongly;
-* the method was ClustalW in MegAlign/DNAStar, **hand-tuned**, then neighbour-joining distance in
-  PAUP 4.0b10 with DNAStar bootstrapping — no ML, no model selection;
-* **hypervariable regions were deleted**, including the third intracellular loop — which is where
-  part of the Gα interface actually lives (see §5: ICL2 and TM5/ICL3 contacts dominate in all 11
-  complexes), so coupling clustering was assessed on an alignment stripped of some of its own
-  determinants;
-* the validation itself is the sentence *"all of the previously characterized 5-HT receptors
-  clustered according to their documented G-protein coupling, regardless of phylogenetic origin,
-  validating the utility of the tree"* — an eyeball assessment, with no statistical test.
-
-So the intuition deserves testing, not inheriting. Fitch parsimony vs 10,000 label permutations, on both final trees
-(`output/tree/trait_signal.txt`):
-
-| trait | tips with data | observed changes | random mean | p | trim levels |
-|---|---|---|---|---|---|
-| ligand | 36 | 12–13 | 22.5–22.6 | 0.0001 | all 4 |
-| Gα coupling | 36 | 8 | 16.9–17.0 | 0.0001 | all 4 |
-
-Both are significantly clustered at every trim level, so tree position is informative about both —
-though 12 ligand changes across 36 tips means transmitter identity still switches a lot within the
-family. This is the formal version of Harris 2009's qualitative claim, run across the whole
-aminergic family rather than within one ligand class, and it supports their intuition.
-
-**Where DOP-6 falls** (identical composition at all four trim levels; support ranges below):
+Nested clades containing `cel_dop-6`, UFboot at gt0.1, with the gappyout value in brackets as the
+low end of the range (`output/tree/b120/confirm.txt`):
 
 ```
-100/100            dop-6 orthologs (Cel, Cbr, Cbn, Cre, Ppa)
-83.5-89.6 / 64-76  + cel_dop-5
-73.1-79.4 / 37-62  + cel_F59D12.1, cel_T21B4.4, cel_ser-1 [5HT|Gq], hHTR2A [5HT|Gq]
+100 [100]   dop-6 orthologues (Cel, Cbr, Cbn, Cre, Ppa)
+ 95  [84]   + dop-5
+ 90  [60]   + dop-3
+ 90  [62]   + dop-2
+ 95  [65]   + dmDop2R, hDRD2, hDRD3, hDRD4
+100  [99]   + the 5-HT2 group
 ```
 
-Two things follow. First, **four of Koelle's six orphans — dop-5 (T02E9.3), dop-6 (C24A8.1),
-F59D12.1 and T21B4.4 — form a coherent group**, with SER-1/HTR2A nested inside it. They are a real
-receptor lineage, not a grab-bag of leftovers. Second, and directly against the working hypothesis,
-**DOP-6 does not group with any octopamine receptor.** The OA receptors sit in three separate
-places — OCTR-1 with the α2-adrenergic/Gi-o block, SER-3/SER-6 with dmOAMB in the Gq/Gs block, and
-dmOctβ1/2/3R with the β-adrenergic/Gs block — and DOP-6 is in none of them. Its nearest
-characterised relatives are two **5-HT receptors, both Gq**.
+Composition is identical at all four trim levels (8/8 clades), and six independent unconstrained ML
+re-searches with different seeds all recover the same 5→9→13→16→19→24 nesting. **DOP-6 sits inside
+the D2-like radiation.** Support is trim-dependent and the 13-tip clade falls to **60** at gappyout,
+which must be quoted alongside the 90.
 
-Support for that placement is moderate and trim-sensitive (SH-aLRT 73–79, UFboot 37–62), and every one of DOP-6's closer neighbours is
-itself an orphan, so the honest summary is: the tree places DOP-6 in an uncharacterised
-nematode-enriched lineage adjacent to 5-HT2-like/Gq receptors, and gives no positive phylogenetic
-support for it being an octopamine receptor. Prior to weigh against: Harris 2010 constrains the
-sought receptor to Gαo signalling or Gαq inhibition — a Gq-adjacent placement is not inconsistent
-with the latter, but that is a hypothesis, not a result.
+*Caveat recorded for reuse: per-run logL across those re-searches spanned −77505.7 to −77519.0
+purely from independent free-rate parameter optimisation at 0.96 sites per parameter. **Raw logL
+from separate IQ-TREE runs in this project are not comparable** and the spread is easy to mistake
+for topological disagreement.*
+
+### How strongly is an octopamine placement disfavoured?
+
+Tested rather than asserted, with `topology_test.py` — which had been written but **never run**.
+Four hard constraints force the five dop-6 orthologues monophyletic with each characterised OA
+group in turn, excluding dop-5/dop-3/dop-2/dmDop2R/hDRD2-4:
+
+| forced topology | ΔlogL | c-ELW | p-AU (gt0.1) | p-AU (gappyout) |
+|---|---|---|---|---|
+| + SER-3/SER-6/dmOAMB | 26.9 | 0.069 | 0.132 | 0.157 |
+| + OCTR-1/α2-adrenergic | 25.7 | 0.021 | 0.063 | 0.103 |
+| + dmOctβ1/2/3R | 27.9 | 0.028 | 0.096 | 0.133 |
+| + SER-2/dmOctTyrR | 26.0 | 0.006 | 0.060 | 0.091 |
+
+**No OA placement is rejected at α = 0.05 on either trim level**, but each costs 23–28 logL units
+and all four together hold only ~12–15 % of the likelihood weight. The honest statement is
+therefore: **an octopamine placement for DOP-6 is consistently and substantially disfavoured, but
+not excluded.**
+
+### Why the earlier hedge was wrong
+
+An earlier version of §6c argued that the tree was *nearly uninformative against* an OA assignment,
+because octopamine is invertebrate-specific and a phylum-specific ligand could sit in a
+phylum-specific lineage that would not be expected to group with insect OA receptors.
+**That premise is refuted by this panel's own data.** Every characterised OA receptor here sits in a
+well-supported **cross-phylum** clade:
+
+| OA group | tips | nematode / other | SH-aLRT/UFboot |
+|---|---|---|---|
+| SER-3/SER-6 + dmOAMB + *Limulus*, *Mizuhopecten*, *Lingula*, *Saccoglossus* | 11 | 6 / 5 | 96.4/98 |
+| OCTR-1 + hADRA2A/B/C + *Danio* + dmOctα2R + amphioxus, oyster, sea cucumber | 14 | 4 / 10 | 98.1/100 |
+| SER-2 + dmOctTyrR + bmOAR1 + oyster, priapulid | 9 | 4 / 5 | 92.9/99 |
+| dmOctβ1/2/3R | 3 | 0 / 3 | 98/100 |
+
+Nematode OA receptors demonstrably **do** group with their insect, mollusc and vertebrate relatives
+— three times, at 92–100 support. These are four internal positive controls showing the test works,
+in the same panel where the hedge claimed it could not. The hedge was also ligand-agnostic: taken
+seriously it would equally void "D2-like by descent".
+
+**The real reason the tree cannot settle the ligand is different, and simpler: ligand is not a
+topological property.** The project's own Fitch count is 15 transmitter changes across 56 labelled
+tips, so a ligand switch on the dop-6 stem is a common-rate event that no topology test can see.
+
+### Can the tree predict coupling at all?
+
+The precedent for reading a receptor's G protein off its nearest characterised relative is SER-5's
+Gs call (Harris et al. 2009, *J Neurosci* 29:1446, PMID 19193891). Its validation is weaker than the
+citation implies: the tree was **5-HT receptors only**, rooted on GAR-1; the method was ClustalW in
+MegAlign/DNAStar, **hand-tuned**, then neighbour-joining in PAUP with DNAStar bootstrapping — no ML,
+no model selection; **hypervariable regions were deleted, including ICL3**, which is where part of
+the Gα interface lives (§5); and the validation is one sentence of eyeball assessment with no
+statistical test. *(The full text is Cloudflare-gated here — this rests on the abstract, the
+figure legend and the Methods as far as they are accessible. Flagged as unaudited.)*
+
+So the intuition was tested rather than inherited. Fitch parsimony vs 10,000 label permutations on
+b120, all four trim levels (`output/tree/b120/confirm.txt`):
+
+| trait | tips with data | observed changes | random mean | p |
+|---|---|---|---|---|
+| ligand | 56 | 15 | 35.2 | 0.0001 |
+| Gα coupling | 52 | 8 | 23.7 | 0.0001 |
+
+Both are clustered at every trim level, so tree position does carry information about both. **But
+clustering is not monophyly** — see §6c, "Coupling is clustered, not blocked".
+
+**Tips are labelled by pharmacology, not gene name**: SER-2 is a *tyramine* receptor, SER-3 and
+SER-6 are *octopamine* receptors, dop-5 and dop-6 are orphans.
 
 ## Scripts
 
@@ -378,3 +432,153 @@ separate shallow-depth marker, not as tree columns.
 163-taxon tree has 323 branches). Domain-only alignments are routinely under-determined, so this
 ratio is reported alongside any formal topology test rather than left implicit, and deep nodes in
 this tree should be expected to carry modest support.
+
+## 6c. What the tree actually supports about DOP-6 — and what it doesn't
+
+Written after several claims made from this tree had to be withdrawn. The corrections are kept
+visible rather than edited away, because each marks a way the tree can mislead.
+
+### Clade size is not evidence size
+
+About 40 of the 163 tips are Compara orthologues of *C. elegans* genes. They resolve topology but
+inherit ligand and coupling by descent, so counting them as evidence is pseudo-replication. Recounted
+in independent genes (`output/tree/independent_evidence.txt`):
+
+| tips | UFboot | independent genes | characterised | which |
+|---|---|---|---|---|
+| 5 | 100 | 2 | **0** | — |
+| 9 | 71 | 3 | **0** | — |
+| 13 | 69 | 4 | **1** | dop-3 |
+| 16 | 71 | 6 | 3 | + dop-2, dmDop2R |
+| 19 | 88 | 9 | 6 | + hDRD2/3/4 |
+
+DOP-6's nearest neighbours are all orphans. The first characterised gene is **DOP-3, four genes out**
+— and on re-reading the primary data, its dopamine assignment is not open and shut.
+
+Sugiura et al. 2005 (*J Neurochem* 94:1146, PMID 16001968) is **not a cAMP measurement**: it is a
+CRE-luciferase transcriptional reporter in transiently transfected CHO cells, 3 h with 1 µM
+forskolin. In DOP-3-expressing cells **5-HT beat dopamine on both axes** — pEC50 8.90 vs 7.57, and
+~48 % vs ~40 % maximal inhibition. The authors discount 5-HT because untransfected CHO cells also
+respond (pEC50 8.96, n.s.) through endogenous 5-HT1B, but that compares **potency only**: in their
+own inset control cells bottom out near 90 % (~10 % reduction) against ~52 % (~48 %) in DOP-3 cells,
+a ~5-fold efficacy difference in the direction of the transfected receptor. Dopamine's specificity
+rests on the D87N (TM3 Asp3.32) and S167A mutants shifting its pEC50 — **and those mutants were
+never tested against 5-HT**. So "DA > TA > OA" should not be cited as a selectivity order.
+DOP-3's **Gα o coupling is separately weak**: IMP, inferred from a mutant phenotype (Chase, Pepper &
+Koelle 2004, *Nat Neurosci* 7:1096, PMID 15378064), not a coupling assay.
+
+Tree tips keep their assigned ligand colour, with an asterisk marking assignments weaker than their
+evidence code implies (DOP-3, DOP-4 — same reporter format). Full breakdown in
+`WormPooledCloning/data/processed/gpcr/cel_monoamine_evidence.md`. A Gi/o prediction for
+DOP-6 only carries weight at the 19-tip level, where it really says "DOP-6 falls inside the D2-like
+radiation" — not "DOP-6's immediate relatives are Gi/o." **An earlier version of this sentence
+added "which is Gi/o throughout". That was withdrawn on referee audit as an untested clade-scale
+blocking claim of exactly the kind retracted elsewhere in this file, and it depended on stopping at
+19 tips: at 19 tips (UFboot 95) all 6 characterised members are Gi/o-family, but at 24 tips
+(UFboot 100 — the better-supported clade) it is 6 Gi/o against 5 Gq. The best-supported clade
+containing DOP-6 is coupling-mixed.**"
+
+### The clade is Rhabditina-restricted, and the evidence gap is partly structural, partly sampling
+
+**Rewritten 2026-09-17 after referee audit.** The deepest clade containing DOP-6 with no outside
+member is the 13-tip dop-3/dop-5/dop-6 group (b120: UFboot **90** at gt0.1, **60** at gappyout); the
+first outside member, *Drosophila* Dop2R, appears at 16 tips
+(`output/tree/b120/nematode_expansion.txt`).
+
+**The clade is not "nematode-specific" — all five species in it are Rhabditina** (four
+*Caenorhabditis* plus *Pristionchus*). `nematode_expansion.txt` prints "Rhabditina" in its own column
+and the earlier text then concluded "nematodes". The panel does contain four non-Rhabditina
+nematodes — *Trichinella* (clade I), *Brugia* (III), *Strongyloides* (IV), *Necator* (V) — and none
+falls inside the clade; but none returned a dop-3/5/6 orthologue either, and that is the RBH
+artefact retired in the corrections log below, not evidence of absence.
+
+**The sampling is worse than that.** Referee audit found real orthologues that exist and are simply
+not in the panel: *C. briggsae* dop-3 = **Q61H86** (reviewed SwissProt, RBH 1092 bits — and already
+used in this project's own `dnds_vs_briggsae.tsv`); *P. pacificus* dop-5 = **A0A2A6CA79**, found by
+this project's own script 51 minutes *before* the panel was built and never added; and clean
+reciprocal best hits for dop-6 in *Necator* (1110 bits) and *Strongyloides*, and dop-5 in
+*Haemonchus*, all sitting unused in `~/data/proteomes/`. **The five-species table is Compara
+coverage, not biology.** Whether the radiation is Rhabditina-restricted or nematode-wide is open
+until those sequences are placed phylogenetically.
+
+What survives: "D2-like by descent" is defensible; "a dopamine receptor" is not, without
+pharmacology — consistent with the non-reciprocal BLAST (DOP-6's best human hit is DRD2, but DRD2's
+best worm hit is OCTR-1 and dop-6 ranks 12th of 20). The thin characterised evidence near DOP-6 is
+real regardless: its first characterised neighbour is DOP-3, four genes out, and DOP-3's own ligand
+call is the one weakened above.
+
+### Coupling is clustered, not blocked
+
+Fitch parsimony vs 10,000 permutations, all trim levels: ligand 15–17 changes vs 35.2 random,
+coupling 8 vs 23.7, both p = 0.0001. But clustering is not monophyly — the smallest clade containing
+all Gs receptors holds **125 of 163 tips**, Gi/o 160, Gq all 163. Receptor *subtype* groups are
+monophyletic (human α1 and β adrenergic perfectly so); *transmitter* classes are not (human 5-HT and
+dopamine each scattered). Any Gi/o inference for DOP-6 is therefore a **local** claim about its own
+clade, not an appeal to a genome-wide block. There is no such block.
+
+### Long-branch orphans
+
+`cel_F59D12.1` has the longest terminal branch in the tree — 5.98 subs/site, robust z = **17.4**
+against a median of 0.348; `cel_T21B4.4` is second at 4.35 (z = 12.3). DOP-6's own branch is 0.020.
+Both sit near DOP-6's clade. Beyond branch length, F59D12.1 has three independent strikes: monoamine
+HMM score 52.8 (lowest of the *C. elegans* set), **Q** rather than D at 3.32, and only 318 aa. Leave-
+one-out rebuilds (drop F59D12.1 / drop T21B4.4 / drop both, same alignment, model fixed) are in
+`output/tree/rogue_test.txt`; a long branch alone is not grounds for removal, so the test is whether
+their presence changes DOP-6's placement at all.
+
+### Corrections logged
+
+**Second round, 2026-09-17 — from the two-referee panel** (`reviews/2026-09-16_dop6_conclusions/`,
+full disposition in `DISPOSITION.md`). Both referees independently found the first item.
+
+* "dop-6 has the lowest dN of the aminergic receptors" — **withdrawn**. The source file holds 15
+  receptors; the claim quoted 9. dop-6 is **4th**, and **OCTR-1, the best-evidenced octopamine
+  receptor in the genome, is more constrained than it**. See §4. This removes the constraint
+  argument entirely, rather than weakening it.
+* "The palindrome does not bias dN, verified three ways" — **reduced to one way**. The Fisher test
+  has power 0.20 and its point estimate is a 1.49× deflation *in the predicted direction*; the
+  four-isolate recomputation is arithmetically forced. Only the timing argument survives, and it is
+  sufficient.
+* "The 12 test tips test the boundary" — **withdrawn**. `ador-1` (score 85.2, family `other`) was
+  removed from the test set by a hardcoded drop-list and replaced with `nmur-3` (78.9), leaving
+  12/12 annotated neuropeptide receptors — **the annotation boundary b120 existed to abolish,
+  reimposed on the set meant to test it**, removing the one tip that would actually have tested it.
+  The clade is real (98.3/100); the test is not. What does justify the cut: **120 sits in the single
+  largest gap in the 142-gene ranking (27.0 points, gar-1 124.4 → npr-35 97.4) and the panel is
+  invariant to any cut in (97.4, 124.4]**, so the value carries no information.
+* "The tree is nearly uninformative against an OA assignment because a phylum-specific ligand could
+  sit in a phylum-specific lineage" — **withdrawn**. Refuted by this panel's own data: all four
+  characterised OA groups sit in cross-phylum clades at 92–100 support. Replaced by an actual AU
+  test: disfavoured by 23–28 logL, ~12–15 % combined weight, **not rejected at α = 0.05**. See §6.
+* "The D2-like radiation is Gi/o throughout" — **withdrawn** as an untested blocking claim that
+  required stopping at the less-supported 19-tip level. See §6c.
+* "The clade is nematode-specific" — **narrowed to Rhabditina**, and the sampling behind it shown to
+  be Compara coverage rather than biology. See §6c.
+* "I dropped the three sub-boundary genes on HMM score before any tree was built" — **inaccurate**.
+  True for any *b120* tree, but `rogue_test.txt`, which shows that dropping exactly two of the three
+  lifts the clade 69→91, predates the drop by 8m38s. The cut is still defensible on the gap argument
+  above, which does not depend on the timeline.
+* Independent-gene counts in "Clade size is not evidence size" were **inflated by one at every
+  level** (an underscore/hyphen mismatch counted dop-6 twice). True counts 1, 2, 3, 5, 8, 13. The
+  *characterised* counts were unaffected, so the conclusion was understated, not wrong.
+* `README.md` §6 was a superseded 50-taxon analysis still in the present tense, and restated the
+  withdrawn "nearest relatives are Gq 5-HT receptors" 200 lines above its own retraction. Deleted
+  and rewritten. The same claim was also live in the auto-loaded memory file, which has been rewritten.
+
+Outstanding from the panel and **not yet done**: regenerate `accession_audit.tsv` against the live
+panel (it audits a deleted one and still lists three fabricated accessions); remove the mislabelled
+`lsOA` (a *Lymnaea* receptor tyrosine kinase), `smTAR` (a *Schistosoma* tetraspanin) and the
+duplicated `plADRA1`/`plADRA2`; propagate the dating retraction into `output/nematode_dating.*`,
+which still writes the literal string `absent` into 22 cells; add `Cbr_dop-3` and `Ppa_dop-5` to the
+panel and rebuild; fix the `gene_of()` bug in `independent_evidence.py`. Harris et al. 2009 full
+text remains **BLOCKED** and §6's critique of it is unaudited.
+
+* "DOP-6's nearest characterised relatives are Gq-coupled 5-HT receptors" — **withdrawn**. That rested
+  on UFboot 37–62 in a 48 %-gap alignment with 2 of 13 human serotonin receptors present.
+* "The canonical G-protein blocks hold" — **withdrawn**; asserted from a thumbnail, refuted by the
+  monophyly test above.
+* "dop-5 is absent from *P. pacificus*" — **withdrawn**. A direct search of the proteome finds a clean
+  reciprocal best hit (`A0A2A6CA79`, bits 764), so Compara simply missed it and the dop-5 duplication
+  predates the *Caenorhabditis*/*Pristionchus* split. *(The first run of that search used a truncated
+  download — 15,999 of 26,122 proteins — so its coverage statement was wrong and any negative from it,
+  including an apparent dop-2 non-reciprocation, is not usable. Being re-run complete.)*

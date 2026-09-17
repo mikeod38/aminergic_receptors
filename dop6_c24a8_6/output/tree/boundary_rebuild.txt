@@ -1,0 +1,28 @@
+==============================================================================================
+PANEL REBUILD, BOUNDARY AT MONOAMINE HMM >= 120
+==============================================================================================
+
+DROPPED (3):
+   cel_F35H10.10            HMM    nan  below boundary / wrong class
+   cel_F59D12.1             HMM    nan  below boundary / wrong class
+   cel_T21B4.4              HMM    nan  below boundary / wrong class
+
+TEST SET (12 highest-scoring excluded genes, to verify the boundary):
+   TEST_npr-35       HMM   97.4  neuropeptide_receptor
+   TEST_ckr-1        HMM   94.9  neuropeptide_receptor
+   TEST_trhr-1       HMM   94.8  neuropeptide_receptor
+   TEST_ckr-2        HMM   91.9  neuropeptide_receptor
+   TEST_nmur-2       HMM   87.9  neuropeptide_receptor
+   TEST_tkr-2        HMM   87.7  neuropeptide_receptor
+   TEST_npr-22       HMM   84.9  neuropeptide_receptor
+   TEST_npr-34       HMM   82.6  neuropeptide_receptor
+   TEST_npr-24       HMM   82.0  neuropeptide_receptor
+   TEST_npr-20       HMM   81.4  neuropeptide_receptor
+   TEST_tkr-1        HMM   79.0  neuropeptide_receptor
+   TEST_nmur-3       HMM   78.9  neuropeptide_receptor
+
+173 sequences -> output/tree/panel_b120.faa
+   boundary test                    12
+   ingroup                          19
+   nematode orthologue              40
+   reference receptor               102

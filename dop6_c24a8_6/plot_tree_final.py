@@ -38,6 +38,10 @@ LIG['am5HT1A']='5-HT'; LIG['amDop1']='DA'
 COL={'OA':'#C15C3E','TA':'#E0A458','TA/OA':'#D4813F','NE':'#8E3E29','DA':'#1A2C7A',
      '5-HT':'#3C8DAD','5-HT?':'#9EC5D4','ACh':'#7A7A7A','MEL':'#6B4E8E','HA':'#4F8A5B',None:'#FFFFFF'}
 SUBJECT={'cel_dop-6','cel_dop-5','cel_F59D12.1','cel_T21B4.4'}
+# Ligand assignments whose primary data are weaker than their database evidence code implies.
+# Coloured by the assigned ligand as usual, but marked so the colour is not read as settled.
+CONTESTED={'cel_dop-3':'5-HT was more potent AND more efficacious than DA in the only assay',
+           'cel_dop-4':'same CRE-luciferase reporter format as dop-3'}
 # Galpha coupling, verbatim from Koelle 2018 WormBook Table 1 for C. elegans, textbook for the
 # vertebrate/insect references. Blank where no coupling has been determined.
 COUP={'cel_ser-1':'Gq','cel_ser-4':'Gi/o','cel_ser-7':'Gs','cel_dop-1':'Gq','cel_dop-2':'Gi/o',
@@ -101,8 +105,8 @@ def assign(n,d):
 assign(t,0.0)
 N=len(order); xmax=max(n['x'] for n in order)
 _tall = 0.132 if N>80 else 0.30
-fig=plt.figure(figsize=(13.5 if N>80 else 12.0, _tall*N+1.3))
-ax=fig.add_axes([0.006,0.035,0.74,0.90]); ax.set_axis_off()
+fig=plt.figure(figsize=(9.2 if N>80 else 9.0, _tall*N+1.3))
+ax=fig.add_axes([0.006,0.035,0.80,0.90]); ax.set_axis_off()
 def draw(n):
     if n['tip']: return
     y0=min(k['y'] for k in n['kids']); y1=max(k['y'] for k in n['kids'])
@@ -129,7 +133,10 @@ xlab=xmax*1.02
 #   ligand colour box (at xlab) | Galpha coupling | residue 3.32 | gene name | species
 # The three functional annotations sit together next to the colour box; the species name goes last
 # because it is the longest and least often needed.
-CCOUP, C332, CGENE, CSP = (0.05, 0.26, 0.36, 0.95)
+# Widths actually needed: "Gi/o" ~4 chars, the 3.32 residue 1 char, gene names <=9, species <=16.
+# Earlier spacings were an order of magnitude more generous than that and left dead space, so the
+# columns are set close to the real text widths, scaled for the two font sizes in use.
+CCOUP, C332, CGENE, CSP = (0.040, 0.100, 0.135, 0.280) if N>80 else (0.055, 0.165, 0.225, 0.520)
 SPCODE={'Ajap':'A. japonica','Apla':'A. planci','Bflo':'B. floridae','Cint':'C. intestinalis',
  'Cvir':'C. virginica','Drer':'D. rerio','Ebur':'E. diaphana','Hvul':'H. vulgaris',
  'Lana':'L. anatina','Lpol':'L. polyphemus','Mlei':'M. leidyi','Myes':'M. yessoensis',
@@ -177,6 +184,9 @@ for n in order:
                 family='monospace',
                 color='#000' if r332=='D' else '#C0392B',
                 weight='normal' if r332=='D' else 'bold')
+    if lab in CONTESTED:
+        ax.text(xlab+xmax*(CGENE-0.018),n['y'],'*',fontsize=4.6 if N>80 else 8.0,
+                va='center',ha='center',color='#B03030')
     ax.text(xlab+xmax*CGENE,n['y'],gene,fontsize=3.9 if N>80 else 7.2,va='center',ha='left',
             style='italic' if ital else 'normal',
             weight='bold' if bold else 'normal',
@@ -186,7 +196,7 @@ for n in order:
     if bold:
         ax.annotate('',xy=(xlab-xmax*0.016,n['y']),xytext=(xlab-xmax*0.062,n['y']),
                     arrowprops=dict(arrowstyle='-|>',color='#B03030',lw=0.9))
-ax.set_ylim(N-0.4,-1.2); ax.set_xlim(-xmax*0.01,xmax*2.35)
+ax.set_ylim(N-0.4,-1.2); ax.set_xlim(-xmax*0.01, xmax*(1.46 if N>80 else 1.88))
 sb=round(xmax/6,1) or 0.1
 ax.plot([0,sb],[N+0.2,N+0.2],color='#333',lw=0.8)
 ax.text(sb/2,N+0.95,f'{sb} subs/site',fontsize=3.6,ha='center',va='top',color='#333')
@@ -195,12 +205,12 @@ h=[Line2D([],[],marker='s',linestyle='none',markersize=3.6,markerfacecolor=COL[k
    for k,v in [('OA','octopamine'),('TA','tyramine'),('TA/OA','tyramine/OA'),('NE','adrenergic'),
                ('DA','dopamine'),('5-HT','serotonin'),('HA','histamine'),('MEL','melatonin'),
                ('ACh','acetylcholine'),(None,'no ligand data')]]
-lg=fig.legend(handles=h,loc='upper right',bbox_to_anchor=(0.998,0.985),frameon=False,fontsize=4.4,
+lg=fig.legend(handles=h,loc='upper right',bbox_to_anchor=(0.998,0.955),frameon=False,fontsize=4.4,
               handletextpad=0.4,labelspacing=0.3,title='experimentally determined ligand',
               title_fontsize=4.8)
-fig.text(0.60,0.995,f'Aminergic GPCR phylogeny, rebuilt  ·  163 taxa, 7TM domain excerpts  ·  {trim}',
+fig.text(0.50,0.995,f'Aminergic GPCR phylogeny, rebuilt  ·  163 taxa, 7TM domain excerpts  ·  {trim}',
          fontsize=5.6,va='top',ha='left',weight='bold')
-fig.text(0.60,0.978,'node labels = UFboot (shown when ≥ 70). 22 C. elegans, 40 other nematode,\n'
+fig.text(0.50,0.978,'node labels = UFboot (shown when ≥ 70). 22 C. elegans, 40 other nematode,\n'
          '38 human, 14 Drosophila, 50 other metazoan.',fontsize=4.2,va='top',ha='left',color='#555')
 _sfx = f'_clade{N}' if FOCUS else ''
 for ext in ('pdf','png'):

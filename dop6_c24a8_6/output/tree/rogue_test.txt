@@ -1,0 +1,51 @@
+==========================================================================================
+ROGUE-TAXON CONTROL: does removing the long branches move DOP-6?
+==========================================================================================
+alignment panel.gt0.1.faa, 163 taxa, model LG+F+R7 fixed across runs
+
+drop_F59: building (162 taxa) ...
+drop_T21: building (162 taxa) ...
+drop_both: building (161 taxa) ...
+
+FULL TREE (163 taxa):
+     3 tips  UFboot   99   C. elegans: dop-6
+     4 tips  UFboot   99   C. elegans: dop-6
+     5 tips  UFboot  100   C. elegans: dop-6
+     9 tips  UFboot   71   C. elegans: dop-5, dop-6
+    13 tips  UFboot   69   C. elegans: dop-3, dop-5, dop-6
+    16 tips  UFboot   71   C. elegans: dop-2, dop-3, dop-5, dop-6
+    19 tips  UFboot   88   C. elegans: dop-2, dop-3, dop-5, dop-6
+    25 tips  UFboot   90   C. elegans: F59D12.1, dop-2, dop-3, dop-5, dop-6, ser-1
+
+DROP_F59 (162 taxa):
+     3 tips  UFboot  100   C. elegans: dop-6
+     4 tips  UFboot  100   C. elegans: dop-6
+     5 tips  UFboot  100   C. elegans: dop-6
+     9 tips  UFboot   91   C. elegans: dop-5, dop-6
+    13 tips  UFboot   91   C. elegans: dop-3, dop-5, dop-6
+    16 tips  UFboot   92   C. elegans: dop-2, dop-3, dop-5, dop-6
+    19 tips  UFboot   99   C. elegans: dop-2, dop-3, dop-5, dop-6
+    24 tips  UFboot   98   C. elegans: dop-2, dop-3, dop-5, dop-6, ser-1
+   -> 8/8 clades identical to the full tree (dropped taxa ignored)
+
+DROP_T21 (162 taxa):
+     3 tips  UFboot  100   C. elegans: dop-6
+     4 tips  UFboot  100   C. elegans: dop-6
+     5 tips  UFboot  100   C. elegans: dop-6
+     9 tips  UFboot   80   C. elegans: dop-5, dop-6
+    13 tips  UFboot   77   C. elegans: dop-3, dop-5, dop-6
+    16 tips  UFboot   78   C. elegans: dop-2, dop-3, dop-5, dop-6
+    19 tips  UFboot   88   C. elegans: dop-2, dop-3, dop-5, dop-6
+    25 tips  UFboot   90   C. elegans: F59D12.1, dop-2, dop-3, dop-5, dop-6, ser-1
+   -> 8/8 clades identical to the full tree (dropped taxa ignored)
+
+DROP_BOTH (161 taxa):
+     3 tips  UFboot   99   C. elegans: dop-6
+     4 tips  UFboot  100   C. elegans: dop-6
+     5 tips  UFboot  100   C. elegans: dop-6
+     9 tips  UFboot   81   C. elegans: dop-5, dop-6
+    13 tips  UFboot   79   C. elegans: dop-3, dop-5, dop-6
+    16 tips  UFboot   80   C. elegans: dop-2, dop-3, dop-5, dop-6
+    19 tips  UFboot   90   C. elegans: dop-2, dop-3, dop-5, dop-6
+    24 tips  UFboot   98   C. elegans: dop-2, dop-3, dop-5, dop-6, ser-1
+   -> 8/8 clades identical to the full tree (dropped taxa ignored)

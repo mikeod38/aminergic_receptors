@@ -1,0 +1,37 @@
+========================================================================================================
+WHEN DID dop-3 / dop-5 / dop-6 ARISE? PRESENCE ACROSS NEMATODE CLADES
+========================================================================================================
+reciprocal best hits after a whole-proteome HMM scan; ABSENCE CALLED ONLY FROM A PROTEOME
+THE MANIFEST MARKS COMPLETE
+
+Tspi Trichinella spiralis      18572 proteins   36 HMM hits, 12 >=100   reciprocal: dop-1, dop-2
+Tmur Trichuris muris           13960 proteins   30 HMM hits,  9 >=100   reciprocal: dop-2, dop-4
+Bmal Brugia malayi             15168 proteins   57 HMM hits, 17 >=100   reciprocal: dop-1, dop-2, dop-4, dop-5
+Srat Strongyloides ratti       12456 proteins   81 HMM hits, 14 >=100   reciprocal: dop-2, dop-4, dop-6
+Hcon Haemonchus contortus      20964 proteins   71 HMM hits, 16 >=100   reciprocal: dop-1, dop-2, dop-4, dop-5
+Name: not in the store yet
+Ppac: not in the store yet
+
+========================================================================================================
+clade                                species                       n  dop-1  dop-2  dop-3  dop-4  dop-5  dop-6
+--------------------------------------------------------------------------------------------------------
+I   Dorylaimia                       Trichuris muris           13960   -      +      -      +      -      -   
+I   Dorylaimia (earliest-diverging)  Trichinella spiralis      18572   +      +      -      -      -      -   
+III Spirurina                        Brugia malayi             15168   +      +      -      +      +      -   
+IV  Tylenchina                       Strongyloides ratti       12456   -      +      -      +      -      +   
+V   Rhabditina (Strongylida)         Haemonchus contortus      20964   +      +      -      +      +      -   
+V   Rhabditina (Caenorhabditis)      C. elegans (reference)            +     +     +     +     +     +
+
+RETRACTED 2026-09-17 (referee audit). The previous READING here said the clade at which
+dop-3/dop-5/dop-6 first appear brackets the radiation. It does not, because the '-' marks above
+are a METHOD ARTEFACT. Reciprocal best hits cannot resolve a recent paralogue radiation: in
+Haemonchus one protein reciprocates with dop-5 at 976 bits while the reverse hits pile onto dop-4
+and dop-1 indiscriminately, so every '-' means "reciprocated to a DIFFERENT PARALOGUE", not "no
+orthologue exists". Confirmed counterexamples sitting unused in ~/data/proteomes/: Necator dop-6
+(RBH 1110/1121 bits, 81.7%), Strongyloides dop-6, Haemonchus dop-5.
+
+WHAT SURVIVES: the dop-2 column only - present in all six species and shared with Drosophila,
+consistent with dop-2 being the ancestral lineage. Nothing here dates dop-3/dop-5/dop-6.
+
+Dating this radiation requires phylogenetic placement of the candidate sequences, not best-hit
+assignment. See reviews/2026-09-16_dop6_conclusions/DISPOSITION.md.

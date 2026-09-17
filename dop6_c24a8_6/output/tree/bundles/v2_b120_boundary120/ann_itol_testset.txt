@@ -1,0 +1,22 @@
+DATASET_BINARY
+SEPARATOR TAB
+DATASET_LABEL	under test
+COLOR	#B03030
+FIELD_SHAPES	2
+FIELD_LABELS	under test
+FIELD_COLORS	#B03030
+DATA
+TEST_ckr-1	1
+TEST_ckr-2	1
+TEST_nmur-2	1
+TEST_nmur-3	1
+TEST_npr-20	1
+TEST_npr-22	1
+TEST_npr-24	1
+TEST_npr-34	1
+TEST_npr-35	1
+TEST_tkr-1	1
+TEST_tkr-2	1
+TEST_trhr-1	1
+cel_dop-5	1
+cel_dop-6	1

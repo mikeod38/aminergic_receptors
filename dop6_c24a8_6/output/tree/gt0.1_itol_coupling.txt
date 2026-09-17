@@ -1,0 +1,57 @@
+DATASET_TEXT
+SEPARATOR TAB
+DATASET_LABEL	Galpha coupling
+COLOR	#555555
+DATA
+cel_dop-1	Gq	-1	#555555	normal	1	0
+cel_dop-2	Gi/o	-1	#555555	normal	1	0
+cel_dop-3	Go	-1	#555555	normal	1	0
+cel_dop-4	Gs	-1	#555555	normal	1	0
+cel_octr-1	Go	-1	#555555	normal	1	0
+cel_ser-1	Gq	-1	#555555	normal	1	0
+cel_ser-2	Gi/o	-1	#555555	normal	1	0
+cel_ser-3	Gq	-1	#555555	normal	1	0
+cel_ser-4	Gi/o	-1	#555555	normal	1	0
+cel_ser-6	Gs	-1	#555555	normal	1	0
+cel_ser-7	Gs	-1	#555555	normal	1	0
+cel_tyra-2	Gi/o	-1	#555555	normal	1	0
+cel_tyra-3	Gq	-1	#555555	normal	1	0
+dmDop1R1	Gs	-1	#555555	normal	1	0
+dmDop2R	Gi/o	-1	#555555	normal	1	0
+dmOAMB	Gq	-1	#555555	normal	1	0
+dmOctA2R	Gi/o	-1	#555555	normal	1	0
+dmOctB1R	Gs	-1	#555555	normal	1	0
+dmOctB2R	Gs	-1	#555555	normal	1	0
+dmOctB3R	Gs	-1	#555555	normal	1	0
+dmOctTyrR	Gi/o	-1	#555555	normal	1	0
+dmTyrR	Gi/o	-1	#555555	normal	1	0
+dmTyrRII	Gi/o	-1	#555555	normal	1	0
+hADRA1A	Gq	-1	#555555	normal	1	0
+hADRA1B	Gq	-1	#555555	normal	1	0
+hADRA1D	Gq	-1	#555555	normal	1	0
+hADRA2A	Gi/o	-1	#555555	normal	1	0
+hADRA2B	Gi/o	-1	#555555	normal	1	0
+hADRA2C	Gi/o	-1	#555555	normal	1	0
+hADRB1	Gs	-1	#555555	normal	1	0
+hADRB2	Gs	-1	#555555	normal	1	0
+hADRB3	Gs	-1	#555555	normal	1	0
+hCHRM1	Gq	-1	#555555	normal	1	0
+hCHRM2	Gi/o	-1	#555555	normal	1	0
+hCHRM3	Gq	-1	#555555	normal	1	0
+hCHRM5	Gq	-1	#555555	normal	1	0
+hDRD1	Gs	-1	#555555	normal	1	0
+hDRD2	Gi/o	-1	#555555	normal	1	0
+hDRD3	Gi/o	-1	#555555	normal	1	0
+hDRD4	Gi/o	-1	#555555	normal	1	0
+hDRD5	Gs	-1	#555555	normal	1	0
+hHTR1A	Gi/o	-1	#555555	normal	1	0
+hHTR1B	Gi/o	-1	#555555	normal	1	0
+hHTR1D	Gi/o	-1	#555555	normal	1	0
+hHTR1E	Gi/o	-1	#555555	normal	1	0
+hHTR1F	Gi/o	-1	#555555	normal	1	0
+hHTR2A	Gq	-1	#555555	normal	1	0
+hHTR2B	Gq	-1	#555555	normal	1	0
+hHTR2C	Gq	-1	#555555	normal	1	0
+hHTR4	Gs	-1	#555555	normal	1	0
+hHTR6	Gs	-1	#555555	normal	1	0
+hHTR7	Gs	-1	#555555	normal	1	0

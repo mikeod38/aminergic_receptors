@@ -1,0 +1,373 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jun 19 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MWPF3NS400.yu.yale.edu (SSE4.2, 24 GB RAM)
+Command: /Users/mikeodonnell/git/receptor_phylogeny/scripts/bin/iqtree3-mt -s /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/panel.gt0.2.faa -m MFP -B 1000 -alrt 1000 -T 6 --prefix /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/trees/gt0.2 -o hCHRM1,hCHRM2,hCHRM3,hCHRM5,cel_gar-1,cel_gar-2,cel_gar-3 --quiet -redo
+Seed:    488048 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep 16 23:13:52 2026
+Kernel:  SSE2 - 6 threads (12 CPU cores detected)
+
+Reading alignment file /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/panel.gt0.2.faa ... Fasta format detected
+Reading fasta file: done in 0.000705004 secs using 67.94% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000546217 secs using 83.3% CPU
+Alignment has 173 sequences with 341 columns, 341 distinct patterns
+335 parsimony-informative, 4 singleton sites, 2 constant sites
+                                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.50475e-05 secs using 171.2% CPU
+   1  Ajap_tr_A0A2G8K4C3_A0A2G8K4C3_APOJA    7.92%    passed     35.25%
+   2  Ajap_tr_A0A2G8LRS8_A0A2G8LRS8_APOJA    7.04%    passed     70.61%
+   3  Apla_tr_A0A8B7YCR4_A0A8B7YCR4_ACAPL    5.28%    passed     83.50%
+   4  Apla_tr_A0A8B8A0D8_A0A8B8A0D8_ACAPL    3.81%    passed     83.62%
+   5  Bflo_tr_A0A9J7M236_A0A9J7M236_BRAFL    2.05%    passed     24.44%
+   6  Bflo_tr_A0A9J7MN32_A0A9J7MN32_BRAFL    7.92%    passed     75.45%
+   7  Bma_tyra-2                            15.84%    passed     35.70%
+   8  Bma_tyra-3                            22.58%    passed     10.22%
+   9  Cbn_dop-1                              8.21%    passed     98.06%
+  10  Cbn_dop-3                              7.04%    passed     98.27%
+  11  Cbn_dop-4                             22.58%    passed     38.25%
+  12  Cbn_dop-5                             29.33%    passed     23.15%
+  13  Cbn_dop_6                              4.40%    passed     92.72%
+  14  Cbn_octr-1                             7.33%    passed     24.65%
+  15  Cbn_ser-2                              2.35%    passed     91.55%
+  16  Cbn_ser-3                              5.87%    passed     96.16%
+  17  Cbn_ser-7                              3.81%    passed     97.60%
+  18  Cbn_tyra-2                            14.08%    passed     88.95%
+  19  Cbn_tyra-3                             6.45%    passed     75.69%
+  20  Cbr_dop-4                              3.23%    passed     95.63%
+  21  Cbr_dop-5                              9.09%    passed     55.48%
+  22  Cbr_dop_6                              5.28%    passed     89.83%
+  23  Cbr_octr-1                             7.33%    passed     23.32%
+  24  Cbr_ser-3                              5.87%    passed     95.73%
+  25  Cbr_ser-4                              6.16%    passed     48.37%
+  26  Cbr_ser-6                              9.38%    passed     76.79%
+  27  Cint_tr_F6SIL2_F6SIL2_CIOIN            7.04%    passed     27.77%
+  28  Cint_tr_F6USY0_F6USY0_CIOIN            6.16%    passed     83.62%
+  29  Cre_dop-1                              8.21%    passed     99.33%
+  30  Cre_dop-3                              7.04%    passed     98.05%
+  31  Cre_dop-4                              3.23%    passed     88.67%
+  32  Cre_dop-5                              9.09%    passed     40.29%
+  33  Cre_dop_6                              8.21%    passed     59.84%
+  34  Cre_octr-1                             7.33%    passed     22.45%
+  35  Cre_ser-2                              2.35%    passed     80.37%
+  36  Cre_ser-4                             16.72%    passed     43.66%
+  37  Cre_ser-7                              3.81%    passed     87.92%
+  38  Cre_tyra-2                             5.57%    passed     95.07%
+  39  Cre_tyra-3                             6.45%    passed     57.90%
+  40  Cvir_tr_A0A8B8A4H7_A0A8B8A4H7_CRAVI    4.40%    passed     94.99%
+  41  Cvir_tr_A0A8B8E7R6_A0A8B8E7R6_CRAVI    6.74%    passed     77.93%
+  42  Cvir_tr_A0A8B8F0Q5_A0A8B8F0Q5_CRAVI    3.23%    passed     55.60%
+  43  Drer_sp_Q90WY4_ADA2A_DANRE             7.62%    passed     65.98%
+  44  Drer_tr_Q1L8Y8_Q1L8Y8_DANRE            7.92%    passed     68.92%
+  45  Ebur_tr_A0A8C4N726_A0A8C4N726_EPTBU    5.57%    passed     60.62%
+  46  Ebur_tr_A0A8C4NHU4_A0A8C4NHU4_EPTBU    4.69%    passed     72.34%
+  47  Ebur_tr_A0A8C4QW85_A0A8C4QW85_EPTBU    4.11%    passed     79.83%
+  48  Hvul_tr_A0ABM4BNS4_A0ABM4BNS4_HYDVU   19.35%    passed     71.00%
+  49  Hvul_tr_A0ABM4CK96_A0ABM4CK96_HYDVU    7.92%    failed      2.21%
+  50  Hvul_tr_A0ABM4CKA6_A0ABM4CKA6_HYDVU    8.80%    passed      9.97%
+  51  Lana_tr_A0A1S3GY13_A0A1S3GY13_LINAN    2.93%    passed     99.97%
+  52  Lana_tr_A0A1S3HJU9_A0A1S3HJU9_LINAN    4.69%    passed     98.97%
+  53  Lana_tr_A0A1S3K9Y2_A0A1S3K9Y2_LINAN    4.11%    passed     85.69%
+  54  Lpol_tr_A0ABM1BKJ6_A0ABM1BKJ6_LIMPO    2.05%    passed     58.48%
+  55  Lpol_tr_A0ABM1RX31_A0ABM1RX31_LIMPO    3.23%    passed     53.75%
+  56  Lpol_tr_A0ABM1SBT5_A0ABM1SBT5_LIMPO    2.05%    passed     49.08%
+  57  Mlei_KAL5257720.1                      6.74%    passed     36.93%
+  58  Mlei_KAL5268535.1                      9.97%    passed     99.53%
+  59  Mlei_tr_A0ACF8YAQ5_A0ACF8YAQ5_MNELE    6.74%    passed     36.93%
+  60  Myes_tr_A0A210PJ23_A0A210PJ23_MIZYE    3.23%    passed     98.83%
+  61  Myes_tr_A0A210PPR0_A0A210PPR0_MIZYE    3.52%    passed     85.12%
+  62  Myes_tr_A0A210QLA7_A0A210QLA7_MIZYE    4.69%    passed     47.01%
+  63  Nam_ser-3                              5.57%    passed     97.04%
+  64  Nam_ser-7                              3.23%    passed     15.97%
+  65  Nvec_tr_A7S987_A7S987_NEMVE           11.44%    passed     91.24%
+  66  Nvec_tr_A7SM05_A7SM05_NEMVE           23.17%    passed     35.82%
+  67  Nvec_tr_A7SM55_A7SM55_NEMVE           13.49%    passed     10.81%
+  68  Pcau_tr_A0ABM1E1A1_A0ABM1E1A1_PRICU    5.57%    passed     95.31%
+  69  Pcau_tr_A0ABM1EKS2_A0ABM1EKS2_PRICU    5.87%    passed     98.89%
+  70  Pcau_tr_A0ABM1F1R5_A0ABM1F1R5_PRICU    4.40%    passed     65.70%
+  71  Pmar_tr_A0AAJ7T1P3_A0AAJ7T1P3_PETMA    6.45%    passed     92.83%
+  72  Pmar_tr_A0AAJ7WUU2_A0AAJ7WUU2_PETMA    6.45%    passed     94.64%
+  73  Pmin_tr_A0A914A277_A0A914A277_PATMI    4.99%    passed     64.71%
+  74  Pmin_tr_A0A914B379_A0A914B379_PATMI    3.81%    passed     79.77%
+  75  Ppa_dop-3                              5.87%    passed     88.50%
+  76  Ppa_dop_6                              5.28%    passed     68.00%
+  77  Ppa_ser-4                              5.87%    passed     91.54%
+  78  Ppa_ser-6                              3.52%    passed     39.66%
+  79  Skow_tr_A0ABM0MS41_A0ABM0MS41_SACKO    4.69%    passed     81.42%
+  80  Skow_tr_A0ACM8CU07_A0ACM8CU07_SACKO    3.52%    passed     95.45%
+  81  Spur_tr_A0A7M7HLT0_A0A7M7HLT0_STRPU    4.40%    passed     94.90%
+  82  Spur_tr_A0A7M7RBR3_A0A7M7RBR3_STRPU    6.16%    passed     92.22%
+  83  Sra_ser-2                              2.35%    passed     87.00%
+  84  Sra_ser-6                              5.28%    passed     94.66%
+  85  TEST_ckr-1                            12.32%    passed     58.87%
+  86  TEST_ckr-2                             7.62%    passed     14.76%
+  87  TEST_nmur-2                           13.78%    passed     42.67%
+  88  TEST_nmur-3                           10.26%    passed     22.54%
+  89  TEST_npr-20                            8.21%    passed     44.71%
+  90  TEST_npr-22                           24.63%    passed     81.62%
+  91  TEST_npr-24                           12.90%    passed     55.50%
+  92  TEST_npr-34                            6.16%    passed      7.99%
+  93  TEST_npr-35                           12.90%    passed     20.04%
+  94  TEST_tkr-1                            16.42%    passed     66.82%
+  95  TEST_tkr-2                            17.60%    failed      0.47%
+  96  TEST_trhr-1                           22.29%    passed     83.86%
+  97  Tadh_tr_B3RY65_B3RY65_TRIAD           15.84%    failed      4.00%
+  98  Tadh_tr_B3S5Y6_B3S5Y6_TRIAD            8.80%    failed      0.43%
+  99  Tadh_tr_B3SDK6_B3SDK6_TRIAD           10.56%    passed     78.92%
+ 100  Tsp_dop-2                              3.81%    passed     54.42%
+ 101  bmOAR1                                 4.99%    passed     78.96%
+ 102  cel_dop-1                              8.21%    passed     97.07%
+ 103  cel_dop-2                              4.69%    passed     98.76%
+ 104  cel_dop-3                              6.45%    passed     94.63%
+ 105  cel_dop-4                              3.23%    passed     98.32%
+ 106  cel_dop-5                              8.80%    passed     51.23%
+ 107  cel_dop-6                              3.81%    passed     97.28%
+ 108  cel_gar-1                              4.69%    passed     33.70%
+ 109  cel_gar-2                              6.45%    failed      4.28%
+ 110  cel_gar-3                              4.99%    passed     16.63%
+ 111  cel_octr-1                             7.33%    passed     25.37%
+ 112  cel_ser-1                              5.57%    passed     85.15%
+ 113  cel_ser-2                              2.35%    passed     93.67%
+ 114  cel_ser-3                              5.87%    passed     98.85%
+ 115  cel_ser-4                              5.87%    passed     68.98%
+ 116  cel_ser-5                             11.14%    passed     90.09%
+ 117  cel_ser-6                              9.38%    passed     88.48%
+ 118  cel_ser-7                              3.81%    passed     93.33%
+ 119  cel_tyra-2                             3.52%    passed     98.12%
+ 120  cel_tyra-3                             6.16%    passed     71.19%
+ 121  dm5HT1A                                3.23%    passed     65.05%
+ 122  dm5HT1B                                1.76%    passed     40.35%
+ 123  dm5HT2A                                8.50%    passed     67.86%
+ 124  dm5HT7                                 3.52%    passed     46.47%
+ 125  dmDop1R1                               6.16%    passed     97.93%
+ 126  dmDop2R                                8.21%    passed     91.71%
+ 127  dmOAMB                                 4.11%    passed     44.23%
+ 128  dmOctA2R                               7.33%    passed     29.55%
+ 129  dmOctB1R                               6.74%    passed     69.21%
+ 130  dmOctB2R                               4.40%    passed     37.39%
+ 131  dmOctB3R                               4.99%    passed     87.35%
+ 132  dmOctTyrR                              5.28%    passed     57.88%
+ 133  dmTyrR                                 7.62%    passed     99.89%
+ 134  dmTyrRII                               5.28%    passed     49.46%
+ 135  hADRA1A                                4.69%    passed     60.09%
+ 136  hADRA1B                                3.81%    passed     70.25%
+ 137  hADRA1D                                5.57%    failed      0.18%
+ 138  hADRA2A                                6.45%    passed     70.72%
+ 139  hADRA2B                                7.92%    passed      8.15%
+ 140  hADRA2C                                5.87%    failed      2.01%
+ 141  hADRB1                                 4.99%    passed     37.53%
+ 142  hADRB2                                 4.69%    passed     87.79%
+ 143  hADRB3                                 9.38%    failed      0.00%
+ 144  hCHRM1                                 6.45%    passed      8.67%
+ 145  hCHRM2                                 7.92%    passed     26.32%
+ 146  hCHRM3                                 5.28%    passed     16.00%
+ 147  hCHRM5                                 5.57%    passed     68.70%
+ 148  hDRD1                                  5.28%    passed     59.33%
+ 149  hDRD2                                 10.26%    passed     94.47%
+ 150  hDRD3                                  9.68%    passed     14.36%
+ 151  hDRD4                                  8.80%    failed      0.00%
+ 152  hDRD5                                  5.28%    passed     35.52%
+ 153  hGPR50                                13.49%    passed     20.38%
+ 154  hHRH1                                  7.62%    passed     76.87%
+ 155  hHRH2                                 10.85%    passed     70.58%
+ 156  hHRH3                                  5.87%    passed     50.22%
+ 157  hHRH4                                  6.74%    passed     14.35%
+ 158  hHTR1A                                 7.04%    passed     91.29%
+ 159  hHTR1B                                 7.62%    passed     83.58%
+ 160  hHTR1D                                 8.21%    passed     26.60%
+ 161  hHTR1E                                 6.16%    passed     50.67%
+ 162  hHTR1F                                 8.80%    passed     68.95%
+ 163  hHTR2A                                 6.16%    passed     96.79%
+ 164  hHTR2B                                 7.04%    passed     67.67%
+ 165  hHTR2C                                 6.16%    passed     47.42%
+ 166  hHTR4                                  6.45%    passed     99.24%
+ 167  hHTR5A                                 7.04%    passed     56.73%
+ 168  hHTR6                                  7.04%    failed      0.00%
+ 169  hHTR7                                  5.28%    passed     99.99%
+ 170  hMTNR1A                               12.61%    passed     26.29%
+ 171  hMTNR1B                               12.61%    passed     44.22%
+ 172  hTAAR1                                 9.38%    passed     18.45%
+ 173  plADRA1                                6.16%    passed     76.76%
+****  TOTAL                                  7.41%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Mlei_tr_A0ACF8YAQ5_A0ACF8YAQ5_MNELE is identical to Mlei_KAL5257720.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000201941 secs using 86.16% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.020 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -76527.304
+Optimal log-likelihood: -76526.302
+Proportion of invariable sites: 0.006
+Gamma shape alpha: 1.062
+Parameters optimization took 1 rounds (0.176 sec)
+Time for fast ML tree search: 4.422 seconds
+
+NOTE: ModelFinder requires 98 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 341 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           LG+F+I+R8
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+F+I+R7
+Best-fit model: LG+F+I+R7 chosen according to BIC
+
+All model information printed to /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/trees/gt0.2.model.gz
+CPU time for ModelFinder: 2079.966 seconds (0h:34m:39s)
+Wall-clock time for ModelFinder: 551.453 seconds (0h:9m:11s)
+Generating 1000 samples for ultrafast bootstrap (seed: 488048)...
+
+NOTE: 69 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -76181.614
+2. Current log-likelihood: -76160.488
+3. Current log-likelihood: -76159.785
+4. Current log-likelihood: -76159.670
+Optimal log-likelihood: -76159.586
+Proportion of invariable sites: 0.006
+Site proportion and rates:  (0.080,0.051) (0.103,0.162) (0.099,0.274) (0.191,0.492) (0.196,0.906) (0.188,1.576) (0.137,2.806)
+Parameters optimization took 4 rounds (2.031 sec)
+WARNING: Branch separating outgroup is not found
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.18977 secs using 588.1% CPU
+Computing ML distances took 1.189966 sec (of wall-clock time) 6.997121 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000251055 secs using 243.4% CPU
+Constructing RapidNJ tree: done in 0.0153761 secs using 73.56% CPU
+Computing RapidNJ tree took 0.015652 sec (of wall-clock time) 0.011931 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -76217.538
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.538 second
+Computing log-likelihood of 98 initial trees ... 10.184 seconds
+Current best score: -76159.586
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -76155.340
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -76072.598
+Iteration 10 / LogL: -76258.111 / Time: 0h:9m:59s
+Iteration 20 / LogL: -76137.693 / Time: 0h:10m:31s
+Finish initializing candidate tree set (20)
+Current best tree score: -76072.598 / CPU time: 75.491
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -76063.567
+Iteration 30 / LogL: -76073.946 / Time: 0h:10m:58s (0h:5m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -76058.699
+Iteration 40 / LogL: -76063.906 / Time: 0h:11m:24s (0h:5m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -76050.910
+Iteration 50 / LogL: -76056.982 / Time: 0h:11m:49s (0h:4m:56s left)
+Log-likelihood cutoff on original alignment: -76140.143
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -76049.369
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 60: -76044.353
+Iteration 60 / LogL: -76044.353 / Time: 0h:12m:15s (0h:5m:12s left)
+Iteration 70 / LogL: -76045.680 / Time: 0h:12m:40s (0h:4m:32s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -76043.665
+Iteration 80 / LogL: -76065.573 / Time: 0h:13m:6s (0h:4m:54s left)
+Iteration 90 / LogL: -76048.348 / Time: 0h:13m:32s (0h:4m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 94: -76042.523
+Iteration 100 / LogL: -76047.466 / Time: 0h:13m:56s (0h:4m:30s left)
+Log-likelihood cutoff on original alignment: -76115.769
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.982
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -76043.015 / Time: 0h:14m:23s (0h:4m:17s left)
+Iteration 120 / LogL: -76051.537 / Time: 0h:14m:49s (0h:3m:47s left)
+Iteration 130 / LogL: -76057.077 / Time: 0h:15m:13s (0h:3m:16s left)
+Iteration 140 / LogL: -76056.103 / Time: 0h:15m:38s (0h:2m:47s left)
+Iteration 150 / LogL: -76049.913 / Time: 0h:16m:4s (0h:2m:18s left)
+Log-likelihood cutoff on original alignment: -76115.769
+Iteration 160 / LogL: -76047.518 / Time: 0h:16m:30s (0h:1m:50s left)
+Iteration 170 / LogL: -76053.264 / Time: 0h:16m:55s (0h:1m:22s left)
+Iteration 180 / LogL: -76054.754 / Time: 0h:17m:21s (0h:0m:54s left)
+Iteration 190 / LogL: -76043.676 / Time: 0h:17m:48s (0h:0m:27s left)
+Iteration 200 / LogL: -76126.085 / Time: 0h:18m:14s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -76115.769
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:18m:14s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -76042.523
+2. Current log-likelihood: -76042.488
+3. Current log-likelihood: -76042.453
+4. Current log-likelihood: -76042.418
+5. Current log-likelihood: -76042.386
+6. Current log-likelihood: -76042.356
+7. Current log-likelihood: -76042.326
+8. Current log-likelihood: -76042.311
+9. Current log-likelihood: -76042.296
+10. Current log-likelihood: -76042.282
+11. Current log-likelihood: -76042.267
+12. Current log-likelihood: -76042.253
+13. Current log-likelihood: -76042.240
+14. Current log-likelihood: -76042.227
+15. Current log-likelihood: -76042.213
+16. Current log-likelihood: -76042.201
+17. Current log-likelihood: -76042.188
+18. Current log-likelihood: -76042.176
+19. Current log-likelihood: -76042.163
+20. Current log-likelihood: -76042.151
+21. Current log-likelihood: -76042.139
+22. Current log-likelihood: -76042.127
+23. Current log-likelihood: -76042.114
+24. Current log-likelihood: -76042.102
+25. Current log-likelihood: -76042.091
+26. Current log-likelihood: -76042.080
+27. Current log-likelihood: -76042.070
+28. Current log-likelihood: -76042.060
+Optimal log-likelihood: -76042.045
+Proportion of invariable sites: 0.006
+Site proportion and rates:  (0.083,0.053) (0.090,0.155) (0.105,0.263) (0.201,0.497) (0.215,0.949) (0.182,1.687) (0.117,2.917)
+Parameters optimization took 28 rounds (8.920 sec)
+BEST SCORE FOUND : -76042.045
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.552 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/trees/gt0.2.splits.nex
+Total tree length: 155.177
+
+Total number of iterations: 200
+CPU time used for tree search: 930.629 sec (0h:15m:30s)
+Wall-clock time used for tree search: 538.519 sec (0h:8m:58s)
+Total CPU time used: 3064.278 sec (0h:51m:4s)
+Total wall-clock time used: 1104.514 sec (0h:18m:24s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/trees/gt0.2.splits.nex...
+173 taxa and 795 splits.
+Consensus tree written to /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/trees/gt0.2.contree
+Reading input trees file /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/trees/gt0.2.contree
+Log-likelihood of consensus tree: -76043.023
+WARNING: Branch separating outgroup is not found
+WARNING: Branch separating outgroup is not found
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/trees/gt0.2.iqtree
+  Maximum-likelihood tree:       /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/trees/gt0.2.treefile
+  Likelihood distances:          /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/trees/gt0.2.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/trees/gt0.2.splits.nex
+  Consensus tree:                /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/trees/gt0.2.contree
+  Screen log file:               /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/b120/trees/gt0.2.log
+
+Date and Time: Wed Sep 16 23:32:17 2026

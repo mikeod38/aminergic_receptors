@@ -1,0 +1,14 @@
+# RETRACTED 2026-09-17 (referee audit). The 'absent' calls in this table are a METHOD
+# ARTEFACT, not biology. Reciprocal best hits cannot resolve a recent paralogue radiation:
+# in Haemonchus one protein reciprocates with dop-5 at 976 bits while reverse hits pile onto
+# dop-4 and dop-1 indiscriminately. Every 'absent' below means 'reciprocated to a DIFFERENT
+# PARALOGUE', not 'no orthologue exists'. Confirmed counterexamples already in ~/data/proteomes/:
+#   Necator dop-6 (RBH 1110/1121 bits, 81.7%), Strongyloides dop-6, Haemonchus dop-5.
+# Only the dop-2 column survives (present in all six species, shared with Drosophila).
+# Dating this radiation requires PHYLOGENETIC PLACEMENT. Do not read this table as a result.
+tag	species	clade	proteins	dop-1	dop-2	dop-3	dop-4	dop-5	dop-6
+Tspi	Trichinella spiralis	I   Dorylaimia (earliest-diverging)	18572	present	present	unresolved-by-RBH	unresolved-by-RBH	unresolved-by-RBH	unresolved-by-RBH
+Tmur	Trichuris muris	I   Dorylaimia	13960	unresolved-by-RBH	present	unresolved-by-RBH	present	unresolved-by-RBH	unresolved-by-RBH
+Bmal	Brugia malayi	III Spirurina	15168	present	present	unresolved-by-RBH	present	present	unresolved-by-RBH
+Srat	Strongyloides ratti	IV  Tylenchina	12456	unresolved-by-RBH	present	unresolved-by-RBH	present	unresolved-by-RBH	present
+Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	20964	present	present	unresolved-by-RBH	present	present	unresolved-by-RBH
