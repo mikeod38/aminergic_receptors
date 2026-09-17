@@ -356,3 +356,98 @@ Estimate model parameters (epsilon = 0.100)
 BETTER TREE FOUND at iteration 23: -98634.656
 Iteration 30 / LogL: -98638.173 / Time: 0h:3m:22s (0h:10m:48s left)
 Iteration 40 / LogL: -98638.219 / Time: 0h:3m:58s (0h:8m:27s left)
+Iteration 50 / LogL: -98639.941 / Time: 0h:4m:34s (0h:6m:49s left)
+Log-likelihood cutoff on original alignment: -98728.508
+Iteration 60 / LogL: -98637.723 / Time: 0h:5m:10s (0h:5m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 69: -98634.075
+Iteration 70 / LogL: -98634.321 / Time: 0h:5m:47s (0h:8m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 76: -98632.568
+Iteration 80 / LogL: -98633.351 / Time: 0h:6m:26s (0h:7m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 83: -98631.733
+Iteration 90 / LogL: -98647.749 / Time: 0h:7m:3s (0h:7m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 94: -98631.369
+Iteration 100 / LogL: -98635.308 / Time: 0h:7m:41s (0h:7m:18s left)
+Log-likelihood cutoff on original alignment: -98728.508
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 104: -98630.911
+Iteration 110 / LogL: -98666.985 / Time: 0h:8m:18s (0h:7m:10s left)
+Iteration 120 / LogL: -98660.522 / Time: 0h:8m:54s (0h:6m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 126: -98630.038
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 128: -98629.625
+Iteration 130 / LogL: -98683.246 / Time: 0h:9m:32s (0h:7m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 132: -98629.189
+Iteration 140 / LogL: -98639.841 / Time: 0h:10m:7s (0h:6m:42s left)
+Iteration 150 / LogL: -98652.013 / Time: 0h:10m:41s (0h:5m:52s left)
+Log-likelihood cutoff on original alignment: -98705.394
+BETTER TREE FOUND at iteration 157: -98629.181
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 160: -98627.948
+Iteration 160 / LogL: -98627.948 / Time: 0h:11m:16s (0h:7m:5s left)
+Iteration 170 / LogL: -98648.293 / Time: 0h:11m:51s (0h:6m:19s left)
+Iteration 180 / LogL: -98674.627 / Time: 0h:12m:25s (0h:5m:33s left)
+Iteration 190 / LogL: -98633.679 / Time: 0h:13m:1s (0h:4m:49s left)
+Iteration 200 / LogL: -98635.270 / Time: 0h:13m:35s (0h:4m:5s left)
+Log-likelihood cutoff on original alignment: -98703.484
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 210 / LogL: -98680.515 / Time: 0h:14m:9s (0h:6m:5s left)
+Iteration 220 / LogL: -98629.754 / Time: 0h:14m:43s (0h:5m:22s left)
+Iteration 230 / LogL: -98634.326 / Time: 0h:15m:19s (0h:4m:41s left)
+Iteration 240 / LogL: -98634.406 / Time: 0h:15m:54s (0h:3m:59s left)
+Iteration 250 / LogL: -98649.062 / Time: 0h:16m:29s (0h:3m:18s left)
+Log-likelihood cutoff on original alignment: -98703.484
+Iteration 260 / LogL: -98673.399 / Time: 0h:17m:4s (0h:2m:38s left)
+TREE SEARCH COMPLETED AFTER 261 ITERATIONS / Time: 0h:17m:7s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -98627.948
+Optimal log-likelihood: -98627.941
+Proportion of invariable sites: 0.006
+Site proportion and rates:  (0.086,0.050) (0.084,0.138) (0.086,0.217) (0.138,0.387) (0.109,0.555) (0.163,0.901) (0.162,1.465) (0.125,2.468) (0.041,3.852)
+Parameters optimization took 1 rounds (0.801 sec)
+BEST SCORE FOUND : -98627.941
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -98627.745 > -98627.941
+0.857 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file output/tree/placement/trees/gt0.2.splits.nex
+Total tree length: 192.554
+
+Total number of iterations: 261
+CPU time used for tree search: 1971.890 sec (0h:32m:51s)
+Wall-clock time used for tree search: 991.005 sec (0h:16m:31s)
+Total CPU time used: 2064.783 sec (0h:34m:24s)
+Total wall-clock time used: 1029.297 sec (0h:17m:9s)
+
+Computing bootstrap consensus tree...
+Reading input file output/tree/placement/trees/gt0.2.splits.nex...
+268 taxa and 1071 splits.
+Consensus tree written to output/tree/placement/trees/gt0.2.contree
+Reading input trees file output/tree/placement/trees/gt0.2.contree
+Log-likelihood of consensus tree: -98627.837
+WARNING: Branch separating outgroup is not found
+WARNING: Branch separating outgroup is not found
+
+Analysis results written to: 
+  IQ-TREE report:                output/tree/placement/trees/gt0.2.iqtree
+  Maximum-likelihood tree:       output/tree/placement/trees/gt0.2.treefile
+  Likelihood distances:          output/tree/placement/trees/gt0.2.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          output/tree/placement/trees/gt0.2.splits.nex
+  Consensus tree:                output/tree/placement/trees/gt0.2.contree
+  Screen log file:               output/tree/placement/trees/gt0.2.log
+
+Date and Time: Thu Sep 17 14:21:43 2026

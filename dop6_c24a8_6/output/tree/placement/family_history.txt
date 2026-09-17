@@ -76,9 +76,79 @@ DUPLICATION HISTORY OF THE C. ELEGANS DOPAMINE-RECEPTOR-LIKE FAMILY
    dop-4/dop-6         235     98.6/99  predates I split       predates IV split
    dop-5/dop-6          17     95.1/77  predates III split     predates V split
 
---- gt0.2: not finished, skipped
+====================================================================================================
+--- gt0.2
+====================================================================================================
 
---- gt0.3: not finished, skipped
+1. HOW FAR BACK DOES EACH GENE GO? (deepest lineage inside its orthologue clade)
+   gene      clade     support  lineages inside    earliest lineage
+   dop-1        23     95.5/94  III, V             III
+   dop-2        11    93.3/100  I, III, IV, V      I
+   dop-3         5     100/100  V                  V
+   dop-4        46     90.2/51  IV, V              IV
+   dop-5         9     100/100  III, V             III
+   dop-6         8     100/100  IV, V              IV
+
+2. WHEN DID EACH PAIR SPLIT?
+   RECONCILIATION BOUND = deepest lineage anywhere in the duplication node's subtree.
+   If a clade-III sequence sits below the node, both daughter lineages existed before
+   clade III diverged, so the duplication predates that split.
+   CONSERVATIVE BOUND = deepest lineage present on BOTH sides independently, which
+   survives one misplaced sequence but under-dates whenever sampling is uneven.
+
+   pair               MRCA     support  reconciliation         conservative
+   dop-1/dop-2         140     87.1/53  predates I split       predates III split
+   dop-1/dop-3         140     87.1/53  predates I split       predates V split
+   dop-1/dop-4          69     34.6/32  predates III split     predates V split
+   dop-1/dop-5         140     87.1/53  predates I split       predates III split
+   dop-1/dop-6         140     87.1/53  predates I split       predates V split
+   dop-2/dop-3          33     88.5/81  predates I split       predates V split
+   dop-2/dop-4         140     87.1/53  predates I split       predates IV split
+   dop-2/dop-5          33     88.5/81  predates I split       predates III split
+   dop-2/dop-6          33     88.5/81  predates I split       predates IV split
+   dop-3/dop-4         140     87.1/53  predates I split       predates V split
+   dop-3/dop-5          22     60.6/79  predates III split     predates V split
+   dop-3/dop-6          22     60.6/79  predates III split     predates V split
+   dop-4/dop-5         140     87.1/53  predates I split       predates V split
+   dop-4/dop-6         140     87.1/53  predates I split       predates IV split
+   dop-5/dop-6          17     95.4/89  predates III split     predates V split
+
+====================================================================================================
+--- gt0.3
+====================================================================================================
+
+1. HOW FAR BACK DOES EACH GENE GO? (deepest lineage inside its orthologue clade)
+   gene      clade     support  lineages inside    earliest lineage
+   dop-1        23     97.1/97  III, V             III
+   dop-2        11    91.1/100  I, III, IV, V      I
+   dop-3         5     100/100  V                  V
+   dop-4        46     83.3/66  IV, V              IV
+   dop-5         9     100/100  III, V             III
+   dop-6         8     100/100  IV, V              IV
+
+2. WHEN DID EACH PAIR SPLIT?
+   RECONCILIATION BOUND = deepest lineage anywhere in the duplication node's subtree.
+   If a clade-III sequence sits below the node, both daughter lineages existed before
+   clade III diverged, so the duplication predates that split.
+   CONSERVATIVE BOUND = deepest lineage present on BOTH sides independently, which
+   survives one misplaced sequence but under-dates whenever sampling is uneven.
+
+   pair               MRCA     support  reconciliation         conservative
+   dop-1/dop-2         235     99.1/95  predates I split       predates III split
+   dop-1/dop-3         235     99.1/95  predates I split       predates V split
+   dop-1/dop-4          69     18.8/35  predates III split     predates V split
+   dop-1/dop-5         235     99.1/95  predates I split       predates III split
+   dop-1/dop-6         235     99.1/95  predates I split       predates V split
+   dop-2/dop-3          33     90.4/80  predates I split       predates V split
+   dop-2/dop-4         235     99.1/95  predates I split       predates IV split
+   dop-2/dop-5          33     90.4/80  predates I split       predates III split
+   dop-2/dop-6          33     90.4/80  predates I split       predates IV split
+   dop-3/dop-4         235     99.1/95  predates I split       predates V split
+   dop-3/dop-5          22     63.8/75  predates III split     predates V split
+   dop-3/dop-6          22     63.8/75  predates III split     predates V split
+   dop-4/dop-5         235     99.1/95  predates I split       predates V split
+   dop-4/dop-6         235     99.1/95  predates I split       predates IV split
+   dop-5/dop-6          17     96.9/85  predates III split     predates V split
 
 ====================================================================================================
 READING

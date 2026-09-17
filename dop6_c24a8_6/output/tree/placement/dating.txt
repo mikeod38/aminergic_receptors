@@ -48,9 +48,49 @@ DATING THE dop-3/dop-5/dop-6 RADIATION BY PLACEMENT (268-taxon panel)
      Srat_A0A090LQI8          Strongyloides ratti
      cel_dop-6                Compara/panel tip
 
---- gt0.2: not finished (no .iqtree) - SKIPPED, its treefile is not final
+--- gt0.2
+   tips   SH/UFboot  nematode clades inside     first outside member
+      8     100/100  IV, V                      -
+     17     95.4/89  III, IV, V                 -
+     22     60.6/79  III, IV, V                 -
+     33     88.5/81  I, III, IV, V              dmDop2R
+     36     95.9/86  I, III, IV, V              dmDop2R
+     46     94.2/99  I, III, IV, V              dm5HT2A
 
---- gt0.3: not finished (no .iqtree) - SKIPPED, its treefile is not final
+  deepest clade with no non-nematode member: 22 tips, support 60.6/79
+  lineages represented: III, IV, V
+
+  SHALLOWEST clade containing dop-6 AND a clade-IV sequence: 8 tips, support 100/100
+     Cbn_dop_6                Compara/panel tip
+     Cbr_dop_6                Compara/panel tip
+     Cbri_A8XJW6              Caenorhabditis briggsae
+     Cre_dop_6                Compara/panel tip
+     Name_W2T1T3              Necator americanus
+     Ppa_dop_6                Compara/panel tip
+     Srat_A0A090LQI8          Strongyloides ratti
+     cel_dop-6                Compara/panel tip
+
+--- gt0.3
+   tips   SH/UFboot  nematode clades inside     first outside member
+      8     100/100  IV, V                      -
+     17     96.9/85  III, IV, V                 -
+     22     63.8/75  III, IV, V                 -
+     33     90.4/80  I, III, IV, V              dmDop2R
+     36     95.2/89  I, III, IV, V              dmDop2R
+     46     78.7/98  I, III, IV, V              dm5HT2A
+
+  deepest clade with no non-nematode member: 22 tips, support 63.8/75
+  lineages represented: III, IV, V
+
+  SHALLOWEST clade containing dop-6 AND a clade-IV sequence: 8 tips, support 100/100
+     Cbn_dop_6                Compara/panel tip
+     Cbr_dop_6                Compara/panel tip
+     Cbri_A8XJW6              Caenorhabditis briggsae
+     Cre_dop_6                Compara/panel tip
+     Name_W2T1T3              Necator americanus
+     Ppa_dop_6                Compara/panel tip
+     Srat_A0A090LQI8          Strongyloides ratti
+     cel_dop-6                Compara/panel tip
 
 ====================================================================================================
 READING

@@ -622,7 +622,8 @@ missed (`A0A2A6CA79`) is recovered automatically at HMM 141.6, and the *C. brigg
 referee panel flagged (`Q61H86`) comes in at 190.9. Both were "absences" in the old panel purely
 because it was built from Compara rather than from a scan.
 
-Trees at gt0.1 and gappyout agree on **every** result below; gt0.2 and gt0.3 pending.
+**All four trim levels (gt0.1, gt0.2, gt0.3, gappyout) are now complete and agree on every result
+below.** Where a support range is given it spans all four.
 
 ### dop-6 is not a Rhabditina gene
 
@@ -637,14 +638,14 @@ a sampling artefact of the Compara-built panel, exactly as the referee panel sus
 
 Deepest lineage inside each gene's own orthologue clade (identical at gt0.1 and gappyout):
 
-| gene | clade size | support | lineages inside | reaches back to |
+| gene | clade size | support (SH-aLRT/UFboot, range over 4 trims) | lineages inside | reaches back to |
 |---|---|---|---|---|
-| **dop-2** | 11 | 93.7/99 | I, III, IV, V | **clade I — pan-nematode** |
-| dop-1 | 23 | 93.5/95 | III, V | clade III |
-| dop-5 | 9 | 100/100 | III, V | clade III |
-| dop-4 | 16 | 100/100 | IV, V | clade IV |
-| **dop-6** | 8 | 100/100 | IV, V | **clade IV** |
-| dop-3 | 5 | 99.9/100 | V | clade V only |
+| **dop-2** | 11 | 86.5–93.7 / 99–100 | I, III, IV, V | **clade I — pan-nematode** |
+| dop-1 | 23 | 93.5–97.1 / 80–97 | III, V | clade III |
+| dop-5 | 9 | **100/100 in all four** | III, V | clade III |
+| dop-4 | 16–46 | 83.3–100 / 51–100 | IV, V | clade IV *(clade boundary unstable)* |
+| **dop-6** | 8 | **100/100 in all four** | IV, V | **clade IV** |
+| dop-3 | 5 | 99.8–100 / 100 | V | clade V only |
 
 **dop-2 is the oldest** — orthologues in clade I, the earliest-diverging nematodes. This is the one
 row of the retracted RBH matrix that was right, now established by placement rather than best hits.
@@ -657,11 +658,16 @@ Dated by reconciliation: a clade-III sequence anywhere below a duplication node 
 lineages existed before clade III diverged. The informative nodes are the shallow, well-supported
 ones — the deep pairs have MRCAs spanning most of the tree and their bounds are trivial.
 
-| duplication | MRCA | support (gt0.1 / gappyout) | predates |
+| duplication | MRCA | support across all four trims | predates |
 |---|---|---|---|
-| **dop-5 / dop-6** | 17 tips | **95.1/85 · 95.1/77** | the **clade III** (Spirurina) split |
-| dop-3 / (dop-5, dop-6) | 22 tips | 48/67 · 61.1/67 | the clade III split — *weakly supported* |
-| dop-2 / (dop-3, dop-5, dop-6) | 33 tips | 86.6/73 · 93.9/70 | the **clade I** split |
+| **dop-5 / dop-6** | 17 tips | **95.1–96.9 / 77–89** | the **clade III** (Spirurina) split |
+| dop-3 / (dop-5, dop-6) | 22 tips | **48–63.8 / 67–79** | the clade III split — *weak at every trim level* |
+| dop-2 / (dop-3, dop-5, dop-6) | 33 tips | 86.6–93.9 / 70–81 | the **clade I** split |
+
+The 8-tip dop-6 orthologue clade is **100/100 at every trim level**, so the clade-IV result is the
+most robust thing in this section. The 22-tip node carrying the dop-3 timing is the weakest, and it
+is weak consistently rather than variably — it is a genuinely unresolved node, not a trimming
+artefact.
 
 **So this is an ancient radiation, not a recent one.** The dop-3/dop-5/dop-6 group separated from
 the dop-2 lineage before the earliest nematode divergence, and dop-5 and dop-6 separated from each
