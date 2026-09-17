@@ -1,0 +1,90 @@
+======================================================================================
+POSITION 3.32 — THE AMINE-BINDING ASPARTATE
+======================================================================================
+located from 2RH1 (beta2AR + carazolol): receptor residues within 4.5 A of the ligand
+
+chain A: 20 residues contact the ligand; aspartates among them: [113]
+-> taking Asp113 as 3.32 (the TM3 aspartate contacting the ligand amine)
+
+receptor            3.32  ligand class   note
+--------------------------------------------------------------------------------------
+Cbn_dop_6              D                 amine-binding D present
+Cbr_dop_6              D                 amine-binding D present
+Cre_dop_6              D                 amine-binding D present
+Ppa_dop_6              D                 amine-binding D present
+bmOAR1                 D                 amine-binding D present
+cel_F35H10.10          E                 neither D nor small (E)
+cel_F59D12.1           Q                 neither D nor small (Q)
+cel_T21B4.4            -                 not alignable at this column
+cel_dop-1              D                 amine-binding D present
+cel_dop-2              D                 amine-binding D present
+cel_dop-3              D                 amine-binding D present
+cel_dop-4              D                 amine-binding D present
+cel_dop-5              G                 small residue — melatonin-receptor-like <<<
+cel_dop-6              D                 amine-binding D present <<<
+cel_gar-1              D                 amine-binding D present
+cel_gar-2              D                 amine-binding D present
+cel_gar-3              D                 amine-binding D present
+cel_octr-1             D                 amine-binding D present
+cel_ser-1              D                 amine-binding D present
+cel_ser-2              D                 amine-binding D present
+cel_ser-3              D                 amine-binding D present
+cel_ser-4              D                 amine-binding D present
+cel_ser-5              D                 amine-binding D present
+cel_ser-6              D                 amine-binding D present
+cel_ser-7              D                 amine-binding D present
+cel_tyra-2             D                 amine-binding D present
+cel_tyra-3             D                 amine-binding D present
+dm5HT1A                D                 amine-binding D present
+dm5HT2A                G                 small residue — melatonin-receptor-like
+dm5HT7                 D                 amine-binding D present
+dmDop1R1               D                 amine-binding D present
+dmDop2R                D                 amine-binding D present
+dmHisCl                D                 amine-binding D present
+dmOAMB                 D                 amine-binding D present
+dmOctA2R               D                 amine-binding D present
+dmOctB1R               D                 amine-binding D present
+dmOctB2R               D                 amine-binding D present
+dmOctB3R               D                 amine-binding D present
+dmOctTyrR              D                 amine-binding D present
+dmTyrR                 D                 amine-binding D present
+dmTyrRII               D                 amine-binding D present
+hADRA1A                D  adrenergic     amine-binding D present
+hADRA1B                D  adrenergic     amine-binding D present
+hADRA1D                D  adrenergic     amine-binding D present
+hADRA2A                D  adrenergic     amine-binding D present
+hADRA2B                D  adrenergic     amine-binding D present
+hADRA2C                D  adrenergic     amine-binding D present
+hADRB1                 D  adrenergic     amine-binding D present
+hADRB2                 D  adrenergic     amine-binding D present
+hADRB3                 D  adrenergic     amine-binding D present
+hCHRM1                 D  ACh            amine-binding D present
+hCHRM2                 D  ACh            amine-binding D present
+hCHRM3                 D  ACh            amine-binding D present
+hCHRM5                 D  ACh            amine-binding D present
+hDRD1                  D  dopamine       amine-binding D present
+hDRD2                  D  dopamine       amine-binding D present
+hDRD3                  D  dopamine       amine-binding D present
+hDRD4                  D  dopamine       amine-binding D present
+hDRD5                  D  dopamine       amine-binding D present
+hGPR50                 T  melatonin-related small residue — melatonin-receptor-like
+hHRH1                  D  histamine      amine-binding D present
+hHRH2                  D  histamine      amine-binding D present
+hHRH3                  D  histamine      amine-binding D present
+hHRH4                  D  histamine      amine-binding D present
+hHTR1A                 D  5-HT           amine-binding D present
+hHTR1B                 D  5-HT           amine-binding D present
+hHTR1D                 D  5-HT           amine-binding D present
+hHTR1E                 D  5-HT           amine-binding D present
+hHTR1F                 D  5-HT           amine-binding D present
+hHTR2A                 D  5-HT           amine-binding D present
+hHTR2B                 D  5-HT           amine-binding D present
+hHTR2C                 D  5-HT           amine-binding D present
+hHTR4                  D  5-HT           amine-binding D present
+hHTR5A                 D  5-HT           amine-binding D present
+hHTR6                  D  5-HT           amine-binding D present
+hHTR7                  D  5-HT           amine-binding D present
+hMTNR1A                M  MELATONIN      neither D nor small (M)
+hMTNR1B                M  MELATONIN      neither D nor small (M)
+hTAAR1                 D  trace amine    amine-binding D present
+plADRA1                D                 amine-binding D present

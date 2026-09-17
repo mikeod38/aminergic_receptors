@@ -1,0 +1,81 @@
+receptor	res_3_32	ligand_class
+Cbn_dop_6	D	
+Cbr_dop_6	D	
+Cre_dop_6	D	
+Ppa_dop_6	D	
+bmOAR1	D	
+cel_F35H10.10	E	
+cel_F59D12.1	Q	
+cel_T21B4.4	-	
+cel_dop-1	D	
+cel_dop-2	D	
+cel_dop-3	D	
+cel_dop-4	D	
+cel_dop-5	G	
+cel_dop-6	D	
+cel_gar-1	D	
+cel_gar-2	D	
+cel_gar-3	D	
+cel_octr-1	D	
+cel_ser-1	D	
+cel_ser-2	D	
+cel_ser-3	D	
+cel_ser-4	D	
+cel_ser-5	D	
+cel_ser-6	D	
+cel_ser-7	D	
+cel_tyra-2	D	
+cel_tyra-3	D	
+dm5HT1A	D	
+dm5HT2A	G	
+dm5HT7	D	
+dmDop1R1	D	
+dmDop2R	D	
+dmHisCl	D	
+dmOAMB	D	
+dmOctA2R	D	
+dmOctB1R	D	
+dmOctB2R	D	
+dmOctB3R	D	
+dmOctTyrR	D	
+dmTyrR	D	
+dmTyrRII	D	
+hADRA1A	D	adrenergic
+hADRA1B	D	adrenergic
+hADRA1D	D	adrenergic
+hADRA2A	D	adrenergic
+hADRA2B	D	adrenergic
+hADRA2C	D	adrenergic
+hADRB1	D	adrenergic
+hADRB2	D	adrenergic
+hADRB3	D	adrenergic
+hCHRM1	D	ACh
+hCHRM2	D	ACh
+hCHRM3	D	ACh
+hCHRM5	D	ACh
+hDRD1	D	dopamine
+hDRD2	D	dopamine
+hDRD3	D	dopamine
+hDRD4	D	dopamine
+hDRD5	D	dopamine
+hGPR50	T	melatonin-related
+hHRH1	D	histamine
+hHRH2	D	histamine
+hHRH3	D	histamine
+hHRH4	D	histamine
+hHTR1A	D	5-HT
+hHTR1B	D	5-HT
+hHTR1D	D	5-HT
+hHTR1E	D	5-HT
+hHTR1F	D	5-HT
+hHTR2A	D	5-HT
+hHTR2B	D	5-HT
+hHTR2C	D	5-HT
+hHTR4	D	5-HT
+hHTR5A	D	5-HT
+hHTR6	D	5-HT
+hHTR7	D	5-HT
+hMTNR1A	M	MELATONIN
+hMTNR1B	M	MELATONIN
+hTAAR1	D	trace amine
+plADRA1	D	

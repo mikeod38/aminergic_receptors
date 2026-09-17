@@ -1,0 +1,29 @@
+==================================================================================================
+PANEL AUDIT: DOES EACH SEQUENCE ACTUALLY SPAN THE AMINE-RECEPTOR CORE?
+==================================================================================================
+125 sequences
+
+aligning with MAFFT L-INS-i (this is the slow step) ...
+alignment 125 x 3460; 35 verified human aminergic receptors define the core
+core columns (>=80 % of the human set occupied): 314
+
+human set core occupancy: min 0.94, median 0.99, max 1.00
+pass mark set at 0.60 (well below the human minimum)
+
+sequence                core occ  acc          verdict
+--------------------------------------------------------------------------------------------------
+dmHisCl                    0.662  Q9VNJ0       PASS   Degringolade, isoform A
+Cbn_dop-5                  0.713  WBGene00194622 PASS   coverage 1.00
+Bma_tyra-3                 0.774  WBGene00225348 PASS   coverage 0.99
+Cbn_dop-4                  0.774  WBGene00162049 PASS   coverage 1.00
+smTAR                      0.777  C4QM85       PASS   Tetraspanning orphan receptor
+
+... 125 pass, 0 fail
+
+EXCLUDED:
+
+-> output/tree3/panel_clean.faa  (125 sequences)
+   C. elegans           22
+   human                38
+   nematode             40
+   other invertebrate   25

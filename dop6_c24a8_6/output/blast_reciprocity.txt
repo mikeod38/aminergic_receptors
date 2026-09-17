@@ -1,0 +1,46 @@
+====================================================================================
+IS DOP-6's BEST HUMAN HIT RECIPROCAL?
+====================================================================================
+
+forward: DOP-6 -> human receptors in the panel
+   1. hDRD2        bits=125     %id=36.816  qcov=42%
+   2. hHTR2A       bits=120     %id=33.846  qcov=40%
+   3. hCHRM3       bits=109     %id=32.558  qcov=45%
+   4. hADRA2A      bits=108     %id=35.135  qcov=38%
+   5. hADRA2C      bits=107     %id=36.413  qcov=39%
+   6. hHTR1A       bits=107     %id=36.126  qcov=40%
+   7. hCHRM1       bits=105     %id=32.673  qcov=56%
+   8. hADRA1B      bits=105     %id=32.836  qcov=40%
+   9. hADRB2       bits=104     %id=32.673  qcov=45%
+  10. hADRB1       bits=94.4    %id=31.250  qcov=42%
+  11. hADRA1D      bits=92.0    %id=29.570  qcov=38%
+  12. hADRA1A      bits=89.0    %id=30.052  qcov=50%
+  13. hDRD1        bits=86.7    %id=30.303  qcov=40%
+
+reverse: that top human hit -> C. elegans receptors in the panel
+   1. cel_octr-1       bits=208     %id=33.175  qcov=91%
+   2. cel_ser-2        bits=207     %id=34.466  qcov=90%
+   3. cel_dop-1        bits=191     %id=30.394  qcov=91%
+   4. cel_ser-4        bits=186     %id=31.477  qcov=91%
+   5. cel_dop-4        bits=184     %id=30.645  qcov=90%
+   6. cel_ser-1        bits=183     %id=31.690  qcov=93%
+   7. cel_tyra-3       bits=179     %id=30.655  qcov=92%
+   8. cel_tyra-2       bits=168     %id=27.778  qcov=91%
+   9. cel_dop-2        bits=162     %id=37.209  qcov=74%
+  10. cel_ser-6        bits=154     %id=30.023  qcov=91%
+  11. cel_dop-3        bits=149     %id=40.553  qcov=69%
+  12. cel_dop-6        bits=129     %id=30.363  qcov=85%   <-- dop-6
+  13. cel_ser-3        bits=122     %id=41.040  qcov=55%
+  14. cel_ser-7        bits=118     %id=33.333  qcov=67%
+  15. cel_gar-3        bits=110     %id=27.941  qcov=71%
+  16. cel_dop-5        bits=107     %id=34.911  qcov=64%
+  17. cel_ser-5        bits=98.2    %id=31.746  qcov=62%
+  18. cel_T21B4.4      bits=57.0    %id=27.602  qcov=64%
+  19. cel_F59D12.1     bits=50.1    %id=27.545  qcov=50%
+  20. cel_F35H10.10    bits=19.2    %id=33.333  qcov=5%
+
+DOP-6's best human hit is hDRD2; hDRD2's best C. elegans hit is cel_octr-1, and dop-6 ranks 12 of 20.
+The relationship is NOT reciprocal, so the top hit is not evidence of orthology: DOP-6 is a
+divergent receptor whose only strongly alignable region is the generic transmembrane core.
+Note also that the reverse search's own top hit is an octopamine receptor, which shows how
+poorly best-hit reasoning resolves ligand identity in this family at these distances.

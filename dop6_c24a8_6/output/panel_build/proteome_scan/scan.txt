@@ -1,0 +1,71 @@
+==============================================================================================
+MONOAMINE HMM SCAN ACROSS 31 METAZOAN PROTEOMES
+==============================================================================================
+28 proteomes
+
+Ajap   Anguilla japonica           14156 proteins in range,  189 monoamine hits, best 223.2
+Amac   Acropora                    10558 proteins in range,    2 monoamine hits, best 31.6
+Apla   Acanthaster planci          14905 proteins in range,  543 monoamine hits, best 237.8
+Aque   Amphimedon queenslandica    11561 proteins in range,   47 monoamine hits, best 56.9
+Bflo   Branchiostoma floridae      21813 proteins in range,  454 monoamine hits, best 231.7
+Cele   Caenorhabditis elegans      13644 proteins in range,  140 monoamine hits, best 231.6
+Cint   Ciona intestinalis           6357 proteins in range,   73 monoamine hits, best 211.5
+Cvir   Crassostrea virginica       27521 proteins in range,  448 monoamine hits, best 244.5
+Dmel   Drosophila melanogaster     11420 proteins in range,  118 monoamine hits, best 248.1
+Drer   Danio rerio                 37883 proteins in range,  900 monoamine hits, best 240.8
+Ebur   Exaiptasia                  14467 proteins in range,  148 monoamine hits, best 226.7
+Hsap   Homo sapiens                11536 proteins in range,  680 monoamine hits, best 240.9
+Hvul   Hydra vulgaris              15466 proteins in range,  232 monoamine hits, best 225.4
+Lana   Lingula anatina             19350 proteins in range,  272 monoamine hits, best 237.8
+Lpol   Limulus polyphemus          16577 proteins in range,  330 monoamine hits, best 247.3
+Mlei   Mnemiopsis leidyi           14329 proteins in range,  230 monoamine hits, best 188.1
+Mlei   Mnemiopsis leidyi           15368 proteins in range,  239 monoamine hits, best 188.1
+Mmus   Mus musculus                21058 proteins in range, 1624 monoamine hits, best 239.8
+Myes   Mizuhopecten yessoensis     11488 proteins in range,  255 monoamine hits, best 235.0
+Nvec   Nematostella vectensis       9114 proteins in range,  591 monoamine hits, best 190.6
+Pbla   Phoronis                     7094 proteins, no hits
+Pcau   Priapulus caudatus           9482 proteins in range,  172 monoamine hits, best 254.9
+Pmar   Petromyzon marinus          22001 proteins in range,  386 monoamine hits, best 235.7
+Pmin   Patiria miniata             16728 proteins in range, 1031 monoamine hits, best 236.7
+Skow   Saccoglossus kowalevskii    11716 proteins in range,  421 monoamine hits, best 248.7
+Spun   Sphaeroforma                 5365 proteins in range,    6 monoamine hits, best 54.0
+Spur   Strongylocentrotus purpura  19423 proteins in range,  697 monoamine hits, best 242.6
+Tadh   Trichoplax adhaerens         6025 proteins in range,  275 monoamine hits, best 126.1
+
+CALIBRATION on Homo sapiens: 680 proteins hit the monoamine model
+  score range 22.8 - 240.9
+  the human panel contains 35 verified aminergic receptors; the top 680 hits here
+  are the candidate set from which those are drawn.
+    top: sp|P08913|ADA2A_HUMAN 240.9
+    top: sp|P18089|ADA2B_HUMAN 235.4
+    top: sp|P18825|ADA2C_HUMAN 234.5
+
+threshold for inclusion: monoamine score >= 120.0 (below the human aminergic range but
+well above the generic class-A background), then the top hits per species are taken.
+
+species   kept  score range
+Ajap        10  171-223
+Apla        10  215-238
+Bflo        10  227-232
+Cele        10  217-232
+Cint         9  128-212
+Cvir        10  219-245
+Dmel        10  235-248
+Drer        10  233-241
+Ebur        10  201-227
+Hsap        10  222-241
+Hvul        10  130-225
+Lana        10  195-238
+Lpol        10  240-247
+Mlei         4  126-188
+Mmus        10  228-240
+Myes        10  223-235
+Nvec        10  159-191
+Pcau        10  232-255
+Pmar        10  225-236
+Pmin        10  215-237
+Skow        10  231-249
+Spur        10  219-243
+Tadh         3  120-126
+
+216 candidate amine receptors -> output/proteome_scan/candidates.faa

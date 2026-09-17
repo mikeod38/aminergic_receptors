@@ -1,0 +1,17 @@
+============================================================================================
+7TM DOMAIN EXCERPTS
+============================================================================================
+164 sequences; margin 15 residues each side of the HMM envelope
+
+scanning with the monoamine model ...
+  163/164 sequences have a monoamine envelope
+  1 without one; falling back to the 7tm_1 fold envelope for those
+  1 still have no envelope and are dropped: cel_F35H10.10
+
+163 excerpts; length min 250, median 328, max 637
+(full-length panel was min 305, max 1404)
+
+CHECK: the sequences known to carry the amine-binding aspartate still contain it in the
+excerpt: all present
+
+-> output/tree_final/panel_domains.faa (163 sequences)

@@ -291,3 +291,90 @@ with the latter, but that is a hypothesis, not a result.
    (leaving both arms untouched) plus cDNA rescue.** That assigns the phenotype without ever having
    to separate the two copies. A C24A8.6-specific null is not cleanly possible — arm B's only
    unique flanks are the spacer and a point inside cst-2's last exon.
+
+## 6b. How the tree alignment is built, and what is deliberately thrown away
+
+**This is the single most consequential methodological choice in the sub-project and it is stated
+here in full, because it determines what the tree can and cannot answer.**
+
+### The problem
+
+Aminergic GPCRs share a ~250-residue seven-transmembrane core but differ enormously outside it. In
+this 164-taxon panel the third intracellular loop (ICL3) ranges from **14 to 821 residues**; DOP-6's
+is ~240. Aligning full-length sequences forces DOP-6's 240-residue ICL3 into the same columns as
+beta2AR's 34, which has no correct answer. The result was an alignment that was **84.4 % gaps with
+all 164 sequences above 50 %** — unusable.
+
+### What is actually done
+
+`extract_domains.py`. Each sequence is scanned with the monoamine HMM. A 7TM receptor does **not**
+align to the model as one block: the alignment breaks at the insertions, and hmmsearch reports the
+receptor in pieces. For DOP-6:
+
+```
+block 1: residues  27-164   = model positions   2-122
+block 2: residues 181-224   = model positions 119-162
+block 3: residues 466-546   = model positions 152-224
+                  ↑ 241 residues skipped between blocks 2 and 3 — this is ICL3
+```
+
+The model coordinates run continuously (2→224); only the *receptor* coordinates jump. Three options
+exist and only one works:
+
+| | DOP-6 | beta2AR | dmOctB3R | |
+|---|---|---|---|---|
+| best block only | 138 aa | 140 aa | 142 aa | loses TM6, TM7 |
+| span, first→last | 520 aa | 303 aa | 1093 aa | ICL3 back inside |
+| **blocks concatenated** | **263 aa** | **254 aa** | **258 aa** | ← used |
+
+Sequences of 413, 692 and 1256 aa converge on 254–263 aa. A **15-residue margin** is added each side
+of every block (an HMM envelope is a detection threshold, not a domain boundary) and overlapping
+blocks are merged. This is the same operation Harris et al. 2009 performed by hand; the HMM finds
+the boundaries automatically.
+
+### Effect
+
+| | full-length | 7TM excerpts |
+|---|---|---|
+| taxa × columns (gt0.1) | 49 × 1034 | 163 × 362 |
+| total gaps | 48.5 % | **11.4 %** |
+| parsimony-informative | 783 / 1034 (76 %) | **356 / 362 (98 %)** |
+| composition chi2 failures | 15 | 8 |
+
+### What is thrown away, and three checks that it is safe
+
+**1. The Galpha interface survives intact** (`output/gprotein_survival.txt`). ICL3 contributes to G
+protein binding, so excising it could have deleted the residues the coupling argument rests on. It
+does not: **all 20 consensus Galpha-contact positions** (contacting in ≥6 of 11 receptor–G protein
+complexes) fall inside retained blocks in DOP-6 — including the TM5/ICL3 positions I206, L210, R213
+and the TM6 positions R467, R470, A471, L474, V475. The reason is structural: **ICL3 contacts Galpha
+at its ends**, where it leaves TM5 and enters TM6, and those ends are the conserved helix boundaries
+the HMM recognises. The excised region is the middle of the loop (DOP-6 240–450), which makes no
+consensus contact. For compact receptors the excision is negligible — beta2AR loses 4 aa.
+
+**2. The ligand pocket survives.** D3.32, located independently from three ligand-bound structures,
+is present in the excerpt of every receptor known to carry it.
+
+**3. ICL3's own signal was measured, not assumed** (`output/icl3_information.txt`). Two results,
+pointing opposite ways:
+
+* ICL3 **length is phylogenetically conserved** — mean |length difference| between sister tips is
+  52.7 aa versus 110.8 aa when lengths are shuffled across tips, p = 0.0001. So the loop is not
+  noise; it carries real lineage information.
+* ICL3 **sequence stops being comparable with depth** — identity runs 76.8 % between orthologues
+  (7TM core: 86.5 %), 28.4 % between *C. elegans* paralogues (core 31.9 %), 26.4 % *C. elegans* vs
+  human (core 37.1 %). *Caveat: these are global pairwise identities counted only over positions
+  where both sequences have residues, which inflates the figure when the two loops differ greatly
+  in length — the alignable fraction, not the identity, is the real limit.*
+
+**Honest conclusion:** ICL3 does carry lineage signal, and excising it does lose something — but the
+signal is usable only within orthologue groups, far shallower than the nodes this tree exists to
+resolve, and retaining it destroys the deep alignment outright. The right use of ICL3 is as a
+separate shallow-depth marker, not as tree columns.
+
+### The limit this leaves
+
+356 parsimony-informative sites for 163 taxa is **~1.1 sites per free parameter** (an unrooted
+163-taxon tree has 323 branches). Domain-only alignments are routinely under-determined, so this
+ratio is reported alongside any formal topology test rather than left implicit, and deep nodes in
+this tree should be expected to carry modest support.

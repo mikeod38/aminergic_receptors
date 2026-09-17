@@ -1,0 +1,26 @@
+date	database	query	n_results	error
+2026-09-16	ensembl	homology:dop-1	79	
+2026-09-16	ensembl	homology:dop-2	39	
+2026-09-16	ensembl	homology:dop-3	111	
+2026-09-16	ensembl	homology:dop-4	157	
+2026-09-16	ensembl	homology:dop-5	274	
+2026-09-16	ensembl	homology:ser-1	39	
+2026-09-16	ensembl	homology:ser-2	116	
+2026-09-16	ensembl	homology:ser-3	49	
+2026-09-16	ensembl	homology:ser-4	134	
+2026-09-16	ensembl	homology:ser-6	239	
+2026-09-16	ensembl	homology:ser-7	52	
+2026-09-16	ensembl	homology:octr-1	98	
+2026-09-16	ensembl	homology:tyra-2	275	
+2026-09-16	ensembl	homology:tyra-3	278	
+2026-09-16	uniprot	organism_name:"Apis mellifera" AND protein_name:"Octopamine receptor" AND reviewed:true	0	
+2026-09-16	uniprot	organism_name:"Apis mellifera" AND protein_name:"Tyramine receptor"	5	
+2026-09-16	uniprot	organism_name:"Apis mellifera" AND protein_name:"5-hydroxytryptamine receptor"	0	
+2026-09-16	uniprot	organism_name:"Apis mellifera" AND protein_name:"Dopamine receptor"	6	
+2026-09-16	uniprot	organism_name:"Bombyx mori" AND protein_name:"Tyramine receptor"	2	
+2026-09-16	uniprot	organism_name:"Tribolium castaneum" AND protein_name:"Octopamine receptor"	6	
+2026-09-16	uniprot	organism_name:"Aplysia californica" AND protein_name:"Octopamine receptor"	5	
+2026-09-16	uniprot	organism_name:"Aplysia californica" AND protein_name:"5-hydroxytryptamine receptor"	6	
+2026-09-16	uniprot	organism_name:"Lymnaea stagnalis" AND protein_name:"receptor"	6	
+2026-09-16	uniprot	organism_name:"Platynereis dumerilii" AND protein_name:"adrenergic receptor"	2	
+2026-09-16	uniprot	organism_name:"Schistosoma mansoni" AND protein_name:"receptor" AND reviewed:true	1	

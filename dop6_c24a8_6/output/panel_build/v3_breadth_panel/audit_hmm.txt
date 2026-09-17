@@ -1,0 +1,61 @@
+================================================================================================
+PANEL AUDIT BY HMM SCORE
+================================================================================================
+monoamine model: MonoamineHMM_Model.hmm (224 positions, 51 deorphanised receptors)
+generic fold   : PF00001 7tm_1 (reported for context, NOT the criterion)
+
+POSITIVE CONTROLS  35 human aminergic receptors: monoamine HMM score min 165.6, median 214.8, max 240.9
+NEGATIVE CONTROLS  5 confirmed non-receptors:
+    dm5HT2A_neg    monoamine    99.5   7tm_1   190.8
+    dm5HT7_neg     monoamine     0.0   7tm_1     0.0
+    dmHisCl_neg    monoamine     0.0   7tm_1     0.0
+    lsOA           monoamine     0.0   7tm_1     0.0
+    smTAR          monoamine     0.0   7tm_1     0.0
+
+gap between highest negative (99.5) and lowest positive (165.6)
+threshold placed midway: 132.5
+
+112 pass, 13 fail
+
+sequence                monoamine     evalue    7tm_1  verdict
+--------------------------------------------------------------
+cel_F35H10.10                 0.0        inf      0.0  FAIL
+dm5HT7                        0.0        inf      0.0  FAIL
+dmHisCl                       0.0        inf      0.0  FAIL
+lsOA                          0.0        inf      0.0  FAIL
+smTAR                         0.0        inf      0.0  FAIL
+cel_F59D12.1                 52.8    2.7e-16     99.9  FAIL
+cel_T21B4.4                  85.2    3.3e-26    147.0  FAIL
+hMTNR1B                      95.3    2.6e-29    166.0  FAIL
+hGPR50                       98.3    3.1e-30    171.0  FAIL
+dm5HT2A                      99.5    1.4e-30    190.8  FAIL
+hMTNR1A                     102.5    1.7e-31    169.2  FAIL
+cel_gar-1                   123.7    5.5e-38    163.8  FAIL
+Cbn_dop-5                   124.1    4.2e-38    144.8  FAIL
+Cbr_dop-5                   138.9    1.3e-42    193.9  PASS
+Cre_dop_6                   142.5    1.0e-43    153.0  PASS
+cel_gar-2                   143.2    6.2e-44    187.4  PASS
+Cbr_dop_6                   146.3    6.9e-45    171.4  PASS
+cel_dop-5                   146.6    5.7e-45    198.9  PASS
+  ... (lowest-scoring 18 shown)
+
+EXCLUDED:
+  Cbn_dop-5            monoamine   124.1  7tm_1   144.8
+  cel_F35H10.10        monoamine     0.0  7tm_1     0.0
+  cel_F59D12.1         monoamine    52.8  7tm_1    99.9
+  cel_T21B4.4          monoamine    85.2  7tm_1   147.0
+  cel_gar-1            monoamine   123.7  7tm_1   163.8
+  dm5HT2A              monoamine    99.5  7tm_1   190.8
+  dm5HT7               monoamine     0.0  7tm_1     0.0
+  dmHisCl              monoamine     0.0  7tm_1     0.0
+  hGPR50               monoamine    98.3  7tm_1   171.0
+  hMTNR1A              monoamine   102.5  7tm_1   169.2
+  hMTNR1B              monoamine    95.3  7tm_1   166.0
+  lsOA                 monoamine     0.0  7tm_1     0.0
+  smTAR                monoamine     0.0  7tm_1     0.0
+
+-> output/tree3/panel_clean.faa (112 sequences)
+   C. elegans           18
+   human                35
+   nematode             39
+   other invertebrate   20

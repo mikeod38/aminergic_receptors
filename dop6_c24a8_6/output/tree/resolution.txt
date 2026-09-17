@@ -1,0 +1,22 @@
+======================================================================================
+gt0.1: 163 taxa, 160 internal nodes with support
+======================================================================================
+clade size        n nodes  UFboot>=95  UFboot>=70  median UFboot
+2 (tip pairs)          46         83%         98%            100
+3-5 (shallow)          60         80%         92%            100
+6-15                   30         53%         73%             98
+16-40 (deep)            9         11%        100%             88
+>40 (backbone)         15         40%         73%             91
+ALL                   160         68%         89%             99
+
+nodes on the path from cel_dop-6 outward (the ones a placement claim rests on):
+     3 tips  support 84/99       C. elegans members: dop-6
+     4 tips  support 98/99       C. elegans members: dop-6
+     5 tips  support 100/100     C. elegans members: dop-6
+     9 tips  support 93/71       C. elegans members: dop-5, dop-6
+    13 tips  support 90/69       C. elegans members: dop-3, dop-5, dop-6
+    16 tips  support 91/71       C. elegans members: dop-2, dop-3, dop-5, dop-6
+    19 tips  support 96/88       C. elegans members: dop-2, dop-3, dop-5, dop-6
+    25 tips  support 88/90       C. elegans members: F59D12.1, dop-2, dop-3, dop-5, dop-6, ser-1
+
+gappyout: no support labels

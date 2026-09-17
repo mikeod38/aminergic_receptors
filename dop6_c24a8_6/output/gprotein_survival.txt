@@ -1,0 +1,43 @@
+========================================================================================
+DO THE Galpha-CONTACT RESIDUES SURVIVE THE 7TM EXCERPTING?
+========================================================================================
+consensus contacts = positions touching Galpha in >=6 of 11 receptor-G protein complexes
+
+DOP-6 retained blocks (after the 15 aa margin): 12-239, 451-561
+DOP-6 excised region(s): 240-450 (211 aa)
+
+ position  residue region             verdict
+------------------------------------------------------------
+       57        T TM1/ICL1           RETAINED
+      120        D TM3 DRY            RETAINED
+      121        R TM3 DRY            RETAINED
+      124        A ICL2               RETAINED
+      125        A ICL2               RETAINED
+      128        P ICL2               RETAINED
+      129        A ICL2               RETAINED
+      131        Y ICL2               RETAINED
+      132        K ICL2               RETAINED
+      133        T ICL2               RETAINED
+      206        I TM5 cyto end       RETAINED
+      210        L TM5/ICL3 start     RETAINED
+      213        R TM5/ICL3 start     RETAINED
+      467        R ICL3/TM6 start     RETAINED
+      470        R TM6 cyto end       RETAINED
+      471        A TM6 cyto end       RETAINED
+      474        L TM6                RETAINED
+      475        V TM6                RETAINED
+      534        I TM7                RETAINED
+      535        N TM7 NPxxY          RETAINED
+
+20/20 consensus Galpha-contact positions survive in the DOP-6 excerpt
+
+Why: ICL3 contacts Galpha at its ENDS - where it leaves TM5 and where it enters TM6 - and
+those ends are inside the HMM-aligned blocks, because they are the conserved helix boundaries
+the model recognises. What gets excised is the middle of the loop, which is the part that
+varies from 14 to 821 residues across this panel and makes no consensus contact.
+
+Same check on four other receptors:
+  hADRB2       retained  329 aa in 2 block(s), excised    4 aa
+  cel_octr-1   retained  320 aa in 2 block(s), excised   74 aa
+  cel_ser-3    retained  322 aa in 2 block(s), excised  195 aa
+  hDRD2        retained  310 aa in 2 block(s), excised  110 aa

@@ -1,0 +1,40 @@
+aligning the panel with MAFFT L-INS-i ...
+============================================================================================
+POSITION 3.32 FROM A MULTIPLE ALIGNMENT, ANCHORED ON FOUR STRUCTURES
+============================================================================================
+alignment 80 sequences x 2665 columns
+
+structure ligand  panel seq   Asp contacting ligand  aln column
+--------------------------------------------------------------------
+2RH1     CAU     hADRB2                     Asp113         694
+4IB4     ERM     hHTR2B                     Asp135         694
+3PBL     ETQ     hDRD3                      Asp110         694
+3RZE     DXC     no ligand contacts found
+
+all 3 structures agree on alignment column 694 -> this is 3.32
+
+POSITIVE CONTROL: 35 human aminergic receptors, all of which are known to carry the
+amine-binding aspartate. Returned D: 35/35.  PASS
+
+CALLS (only non-D receptors and the genes of interest are listed in full):
+  74/80 sequences carry D at 3.32
+
+  receptor            3.32
+  cel_F59D12.1           Q
+  cel_T21B4.4            L
+  cel_dop-5              G
+  hGPR50                 T
+  hMTNR1A                M
+  hMTNR1B                M
+
+  cel_dop-6              D   (v1 pairwise result for comparison)
+  cel_dop-5              G   (v1 pairwise result for comparison)
+  cel_F35H10.10          D   (v1 pairwise result for comparison)
+  cel_F59D12.1           Q   (v1 pairwise result for comparison)
+  cel_T21B4.4            L   (v1 pairwise result for comparison)
+  hMTNR1A                M   (v1 pairwise result for comparison)
+  hMTNR1B                M   (v1 pairwise result for comparison)
+  hGPR50                 T   (v1 pairwise result for comparison)
+  dm5HT2A                D   (v1 pairwise result for comparison)
+  dm5HT1A                D   (v1 pairwise result for comparison)
+  dm5HT7                 D   (v1 pairwise result for comparison)

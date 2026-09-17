@@ -1,0 +1,55 @@
+label	accession	organism	protein_name	verdict
+hHTR1A	P08908	Homo sapiens	5-hydroxytryptamine receptor 1A	ok
+hHTR1B	P28222	Homo sapiens	5-hydroxytryptamine receptor 1B	ok
+hHTR1D	P28221	Homo sapiens	5-hydroxytryptamine receptor 1D	ok
+hHTR1E	P28566	Homo sapiens	5-hydroxytryptamine receptor 1E	ok
+hHTR1F	P30939	Homo sapiens	5-hydroxytryptamine receptor 1F	ok
+hHTR2A	P28223	Homo sapiens	5-hydroxytryptamine receptor 2A	ok
+hHTR2B	P41595	Homo sapiens	5-hydroxytryptamine receptor 2B	ok
+hHTR2C	P28335	Homo sapiens	5-hydroxytryptamine receptor 2C	ok
+hHTR4	Q13639	Homo sapiens	5-hydroxytryptamine receptor 4	ok
+hHTR5A	P47898	Homo sapiens	5-hydroxytryptamine receptor 5A	ok
+hHTR6	P50406	Homo sapiens	5-hydroxytryptamine receptor 6	ok
+hHTR7	P34969	Homo sapiens	5-hydroxytryptamine receptor 7	ok
+hDRD1	P21728	Homo sapiens	Dopamine receptor D1	ok
+hDRD2	P14416	Homo sapiens	Dopamine receptor D2	ok
+hDRD3	P35462	Homo sapiens	Dopamine receptor D3	ok
+hDRD4	P21917	Homo sapiens	Dopamine receptor D4	ok
+hDRD5	P21918	Homo sapiens	Dopamine receptor D5	ok
+hADRA1A	P35348	Homo sapiens	Alpha-1A adrenergic receptor	ok
+hADRA1B	P35368	Homo sapiens	Alpha-1B adrenergic receptor	ok
+hADRA1D	P25100	Homo sapiens	Alpha-1D adrenergic receptor	ok
+hADRA2A	P08913	Homo sapiens	Alpha-2A adrenergic receptor	ok
+hADRA2B	P18089	Homo sapiens	Alpha-2B adrenergic receptor	ok
+hADRA2C	P18825	Homo sapiens	Alpha-2C adrenergic receptor	ok
+hADRB1	P08588	Homo sapiens	Beta-1 adrenergic receptor	ok
+hADRB2	P07550	Homo sapiens	Beta-2 adrenergic receptor	ok
+hADRB3	P13945	Homo sapiens	Beta-3 adrenergic receptor	ok
+hHRH1	P35367	Homo sapiens	Histamine H1 receptor	ok
+hHRH2	P25021	Homo sapiens	Histamine H2 receptor	ok
+hHRH3	Q9Y5N1	Homo sapiens	Histamine H3 receptor	ok
+hHRH4	Q9H3N8	Homo sapiens	Histamine H4 receptor	ok
+hTAAR1	Q96RJ0	Homo sapiens	Trace amine-associated receptor 1	ok
+hMTNR1A	P48039	Homo sapiens	Melatonin receptor type 1A	ok
+hMTNR1B	P49286	Homo sapiens	Melatonin receptor type 1B	ok
+hGPR50	Q13585	Homo sapiens	Melatonin-related receptor	ok
+hCHRM1	P11229	Homo sapiens	Muscarinic acetylcholine receptor M1	ok
+hCHRM2	P08172	Homo sapiens	Muscarinic acetylcholine receptor M2	ok
+hCHRM3	P20309	Homo sapiens	Muscarinic acetylcholine receptor M3	ok
+hCHRM5	P08912	Homo sapiens	Muscarinic acetylcholine receptor M5	ok
+dmOAMB	Q7JQF1	Drosophila melanogaster	Octopamine receptor Oamb	ok
+dmOctA2R	A0A0B4KHD0	Drosophila melanogaster	Alpha2-adrenergic-like octopamine receptor, isoform B	ok
+dmOctB1R	Q9VCZ3	Drosophila melanogaster	Octopamine receptor beta-1R	ok
+dmOctB2R	Q4LBB9	Drosophila melanogaster	Octopamine receptor beta-2R	ok
+dmOctB3R	Q4LBB6	Drosophila melanogaster	Octopamine receptor beta-3R	ok
+dmOctTyrR	P22270	Drosophila melanogaster	Tyramine/octopamine receptor	ok
+dmTyrR	Q9VEG1	Drosophila melanogaster	Tyramine receptor, isoform A	ok
+dmTyrRII	Q9VEG2	Drosophila melanogaster	Tyramine receptor II, isoform A	ok
+dmDop1R1	P41596	Drosophila melanogaster	Dopamine receptor 1	ok
+dmDop2R	Q8IS44	Drosophila melanogaster	Dopamine D2-like receptor	ok
+dm5HT1A	P20905	Drosophila melanogaster	5-hydroxytryptamine receptor 1	ok
+dm5HT2A	P31356	Todarodes pacificus	Rhodopsin	WRONG ORGANISM
+dm5HT7	P20906	Pseudomonas putida	Benzoylformate decarboxylase	WRONG ORGANISM
+dmHisCl	Q9VNJ0	Drosophila melanogaster	Degringolade, isoform A	NAME MISMATCH
+bmOAR1	Q17232	Bombyx mori	Octopamine receptor	ok
+plADRA1	A0A1J0F5X6	Platynereis dumerilii	Alpha-2 adrenergic receptor	ok

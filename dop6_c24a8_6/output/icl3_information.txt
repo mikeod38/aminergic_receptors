@@ -1,0 +1,22 @@
+============================================================================================
+IS THE DISCARDED ICL3 CARRYING SIGNAL?
+============================================================================================
+161 sequences have a measurable ICL3
+length: min 14, median 104, max 821, 90 over 100 aa
+
+TEST 1 - phylogenetic signal in ICL3 LENGTH
+  45 sister pairs on the ML tree
+  mean |ICL3 length difference| between sisters: 52.7 aa
+  same statistic with lengths shuffled across tips: 110.8 aa
+  p = 0.0001  -> length IS conserved between close relatives
+
+TEST 2 - ICL3 sequence identity vs 7TM core identity, at three depths
+  comparison                             n   ICL3 %id   core %id
+  orthologues (same gene, other nematode)    36      76.8%      86.5%
+  paralogues within C. elegans          60      28.4%      31.9%
+  C. elegans vs human                   60      26.4%      37.1%
+
+Reading: if ICL3 identity is near the core at shallow depth but collapses toward background
+(~10-15 % for unrelated sequences of this composition) between paralogues and across phyla,
+then the loop is a usable marker only within orthologue groups - far shallower than the nodes
+this tree has to resolve - and excising it costs the deep topology nothing.
