@@ -1,0 +1,72 @@
+====================================================================================================
+PREDICTING DOP-6 LIGAND AND COUPLING FROM SEQUENCE, INDEPENDENT OF THE TREE
+====================================================================================================
+
+pocket  : 163 taxa x 20 ligand-contact columns  (>=2 of 3 ligand-bound structures)
+interface: 163 taxa x 18 Galpha-contact columns  (>=6 of 9 usable receptor-G protein complexes)
+
+NOTE. An earlier run of this script scored COUPLING against the LIGAND-POCKET columns, which
+is wrong: coupling determinants are intracellular. That version reported Gs for dop-6. It is
+superseded by the interface-column result below, and the difference between the two is a
+measure of how much "predicting coupling" can be an artefact of ligand/coupling covariance.
+
+--- LIGAND CLASS (ligand-pocket columns)
+    57 receptors of known class: 5HT 15, ACh 4, DA 11, HA 4, NE 9, OA 9, TA 5
+    LEAVE-ONE-OUT CONTROL: 47/57 correct = 82 %   (random baseline 14 %)
+    misclassified: cel_octr-1 OA->NE; dmOctA2R OA->NE; bmOAR1 OA->DA; cel_ser-2 TA->OA; cel_tyra-2 TA->DA; dmOctTyrR TA->OA; hHRH1 HA->ACh; hHRH2 HA->5HT; hHTR2A 5HT->DA; hADRA2B NE->OA
+
+    scores for the orphans (higher = better match; gap to 2nd is the confidence):
+      receptor             5HT     ACh      DA      HA      NE      OA      TA   best   margin
+      cel_dop-6          -3.15  -27.72   -3.53  -21.80   -8.72   -9.61  -15.49   5HT     0.38
+      cel_dop-5          -3.59  -21.78   -6.25  -15.01   -1.92   -4.21  -12.14   NE      1.67
+      cel_dop-3          -7.41  -30.22    1.35  -22.68  -12.19   -8.94  -12.87   DA      8.76 <- known: DA
+      cel_octr-1        -14.22  -36.86  -15.70  -27.63   -3.49   -3.92  -17.05   NE      0.43 <- known: OA
+      hADRB2            -11.43  -33.90   -8.68  -24.67   -1.78  -10.94  -17.59   NE      6.90 <- known: NE
+      hDRD2              -9.19  -36.85   -0.69  -25.76  -12.62  -14.03  -12.91   DA      8.50 <- known: DA
+      cel_ser-3         -13.42  -25.75  -15.97  -23.29   -9.05   -0.12  -10.20   OA      8.94 <- known: OA
+
+--- G-ALPHA COUPLING (Galpha-interface columns)
+    52 receptors of known class: Gi/o 23, Gq 14, Gs 15
+    LEAVE-ONE-OUT CONTROL: 42/52 correct = 81 %   (random baseline 33 %)
+    misclassified: cel_ser-7 Gs->Gi/o; cel_dop-1 Gq->Gs; cel_octr-1 Gi/o->Gq; cel_ser-3 Gq->Gs; cel_tyra-3 Gq->Gs; hDRD4 Gi/o->Gq; hHTR2B Gq->Gi/o; hCHRM2 Gi/o->Gq; dmDop1R1 Gs->Gq; dmOAMB Gq->Gs
+
+    scores for the orphans (higher = better match; gap to 2nd is the confidence):
+      receptor            Gi/o      Gq      Gs   best   margin
+      cel_dop-6          -0.11   -2.44   -2.51   Gi/o    2.33
+      cel_dop-5          -1.37   -5.98   -5.51   Gi/o    4.15
+      cel_dop-3          -0.93   -7.94   -9.19   Gi/o    7.01 <- known: Gi/o
+      cel_octr-1         -1.34   -5.51   -9.18   Gi/o    4.17 <- known: Gi/o
+      hADRB2             -8.34   -6.59   -0.05   Gs      6.54 <- known: Gs
+      hDRD2              -0.84   -5.28  -10.82   Gi/o    4.44 <- known: Gi/o
+      cel_ser-3          -6.20   -2.99   -2.86   Gs      0.13 <- known: Gq
+
+====================================================================================================
+-> output/motif_prediction.txt
+
+====================================================================================================
+DIRECT TEST: DOES DOP-6 RESEMBLE ANY KNOWN OCTOPAMINE RECEPTOR?
+====================================================================================================
+A class call with a small margin is weak. The sharper question is whether dop-6 falls inside
+or outside the RANGE occupied by receptors that are known to bind octopamine.
+
+  receptor       true     OA score  DA score     5HT  best  OA rank
+  bmOAR1         OA          -6.97     -9.92  -11.01    OA        1
+  cel_octr-1     OA          -3.92    -15.70  -14.22    NE        2
+  cel_ser-3      OA          -0.12    -15.97  -13.42    OA        1
+  cel_ser-6      OA          -1.01    -13.25  -16.40    OA        1
+  dmOAMB         OA          -2.94    -15.45  -14.41    OA        1
+  dmOctA2R       OA          -1.26    -11.97  -15.27    OA        1
+  dmOctB1R       OA          -1.20    -11.27  -15.88    OA        1
+  dmOctB2R       OA          -1.20    -11.27  -15.88    OA        1
+  dmOctB3R       OA          -1.54    -10.24  -16.04    OA        1
+  cel_dop-6      ORPHAN      -9.61     -3.53   -3.15   5HT        4
+  cel_dop-5      ORPHAN      -4.21     -6.25   -3.59    NE        3
+
+  OA score across the 9 receptors KNOWN to bind octopamine: -6.97 to -0.12
+  DOP-6: -9.61
+  -> DOP-6 falls OUTSIDE that range, below the weakest true OA receptor by 2.64 log-odds units.
+
+  Every one of the 9 ranks OA 1st or 2nd of 7 classes, including the two the leave-one-out
+  control misassigns (octr-1 and dmOctA2R go to NE, the chemically adjacent phenolamine).
+  So even where the method fails on a true OA receptor, it fails towards NE/TA - never away
+  from the phenolamines altogether. DOP-6 ranks OA 4th, and is the only one outside the range.

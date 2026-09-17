@@ -1,0 +1,108 @@
+tip	tag	species	clade	accession	hmm_score	length
+Tspi_A0A0V1BW66	Tspi	Trichinella spiralis	I   Dorylaimia (earliest-diverging)	A0A0V1BW66	206.4	414
+Tspi_E5S5F5	Tspi	Trichinella spiralis	I   Dorylaimia (earliest-diverging)	E5S5F5	186.9	715
+Tspi_E5SA85	Tspi	Trichinella spiralis	I   Dorylaimia (earliest-diverging)	E5SA85	184.9	522
+Tspi_A0A0V1ASU0	Tspi	Trichinella spiralis	I   Dorylaimia (earliest-diverging)	A0A0V1ASU0	180.8	644
+Tspi_A0A0V1BKK4	Tspi	Trichinella spiralis	I   Dorylaimia (earliest-diverging)	A0A0V1BKK4	173.8	349
+Tspi_E5SAZ1	Tspi	Trichinella spiralis	I   Dorylaimia (earliest-diverging)	E5SAZ1	139.0	910
+Tspi_A0A0V1C1R2	Tspi	Trichinella spiralis	I   Dorylaimia (earliest-diverging)	A0A0V1C1R2	133.5	635
+Tmur_A0A5S6Q475	Tmur	Trichuris muris	I   Dorylaimia	A0A5S6Q475	203.3	468
+Tmur_A0A5S6QKE5	Tmur	Trichuris muris	I   Dorylaimia	A0A5S6QKE5	203.1	468
+Tmur_A0A5S6QH67	Tmur	Trichuris muris	I   Dorylaimia	A0A5S6QH67	190.1	516
+Tmur_A0A5S6R0S7	Tmur	Trichuris muris	I   Dorylaimia	A0A5S6R0S7	183.0	627
+Tmur_A0A5S6R0V8	Tmur	Trichuris muris	I   Dorylaimia	A0A5S6R0V8	175.1	577
+Tmur_A0A5S6QWZ9	Tmur	Trichuris muris	I   Dorylaimia	A0A5S6QWZ9	175.1	577
+Tmur_A0A5S6Q2Y7	Tmur	Trichuris muris	I   Dorylaimia	A0A5S6Q2Y7	141.8	780
+Tmur_A0A5S6QSP3	Tmur	Trichuris muris	I   Dorylaimia	A0A5S6QSP3	141.8	780
+Bmal_A0A5S6PEW9	Bmal	Brugia malayi	III Spirurina	A0A5S6PEW9	219.2	399
+Bmal_A0A4E9EXD1	Bmal	Brugia malayi	III Spirurina	A0A4E9EXD1	217.5	366
+Bmal_A0A4E9F6U2	Bmal	Brugia malayi	III Spirurina	A0A4E9F6U2	211.3	422
+Bmal_A0A4E9FQ40	Bmal	Brugia malayi	III Spirurina	A0A4E9FQ40	192.4	704
+Bmal_A0A4E9FN50	Bmal	Brugia malayi	III Spirurina	A0A4E9FN50	192.4	706
+Bmal_A0A4E9ESY4	Bmal	Brugia malayi	III Spirurina	A0A4E9ESY4	192.3	447
+Bmal_A0A5S6PKE3	Bmal	Brugia malayi	III Spirurina	A0A5S6PKE3	186.2	363
+Bmal_A0A0K0JA15	Bmal	Brugia malayi	III Spirurina	A0A0K0JA15	186.2	364
+Bmal_A0A0K0J8Y2	Bmal	Brugia malayi	III Spirurina	A0A0K0J8Y2	181.6	436
+Bmal_A0A4E9FM63	Bmal	Brugia malayi	III Spirurina	A0A4E9FM63	179.0	533
+Bmal_A0A4E9FL79	Bmal	Brugia malayi	III Spirurina	A0A4E9FL79	178.2	601
+Bmal_A0A4E9ESU9	Bmal	Brugia malayi	III Spirurina	A0A4E9ESU9	175.2	394
+Bmal_A0A0I9R2W1	Bmal	Brugia malayi	III Spirurina	A0A0I9R2W1	171.5	519
+Bmal_A0A1P6C5R0	Bmal	Brugia malayi	III Spirurina	A0A1P6C5R0	154.4	636
+Bmal_A0A4E9FLU9	Bmal	Brugia malayi	III Spirurina	A0A4E9FLU9	151.7	447
+Srat_A0A090LSA4	Srat	Strongyloides ratti	IV  Tylenchina	A0A090LSA4	230.9	430
+Srat_A0A090LN14	Srat	Strongyloides ratti	IV  Tylenchina	A0A090LN14	224.0	473
+Srat_A0A090LFB2	Srat	Strongyloides ratti	IV  Tylenchina	A0A090LFB2	216.2	453
+Srat_A0A090L038	Srat	Strongyloides ratti	IV  Tylenchina	A0A090L038	212.7	590
+Srat_A0A090KRY3	Srat	Strongyloides ratti	IV  Tylenchina	A0A090KRY3	209.6	571
+Srat_A0A090LUS1	Srat	Strongyloides ratti	IV  Tylenchina	A0A090LUS1	205.3	604
+Srat_A0A090KPL0	Srat	Strongyloides ratti	IV  Tylenchina	A0A090KPL0	201.2	453
+Srat_A0A090MVH7	Srat	Strongyloides ratti	IV  Tylenchina	A0A090MVH7	191.7	1138
+Srat_A0A090L9N3	Srat	Strongyloides ratti	IV  Tylenchina	A0A090L9N3	176.2	607
+Srat_A0A090LP03	Srat	Strongyloides ratti	IV  Tylenchina	A0A090LP03	175.4	523
+Srat_A0A090LND4	Srat	Strongyloides ratti	IV  Tylenchina	A0A090LND4	175.2	647
+Srat_A0A090LQI8	Srat	Strongyloides ratti	IV  Tylenchina	A0A090LQI8	156.0	754
+Srat_A0A090LFA9	Srat	Strongyloides ratti	IV  Tylenchina	A0A090LFA9	135.2	536
+Srat_A0A090LBB5	Srat	Strongyloides ratti	IV  Tylenchina	A0A090LBB5	135.1	804
+Hcon_A0A7I4Z3V4	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I4Z3V4	226.4	413
+Hcon_A0A7I5EER1	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I5EER1	226.0	531
+Hcon_A0A7I4Z5B4	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I4Z5B4	225.6	550
+Hcon_A0A7I4Z5W2	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I4Z5W2	222.2	437
+Hcon_A0A7I4YF75	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I4YF75	218.4	439
+Hcon_A0A7I4Z6U1	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I4Z6U1	213.2	486
+Hcon_A0A7I4XVE6	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I4XVE6	202.0	399
+Hcon_A0A7I4XZW7	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I4XZW7	199.4	522
+Hcon_A0A7I4YUN2	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I4YUN2	184.4	618
+Hcon_A0A7I4Z059	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I4Z059	181.3	628
+Hcon_A0A7I4XSN3	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I4XSN3	179.2	513
+Hcon_W6NDZ2	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	W6NDZ2	177.3	402
+Hcon_A0A7I4YXA4	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I4YXA4	171.8	615
+Hcon_A0A7I4YXV5	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I4YXV5	146.8	731
+Hcon_A0A7I4YEB4	Hcon	Haemonchus contortus	V   Rhabditina (Strongylida)	A0A7I4YEB4	143.5	843
+Name_W2TZ93	Name	Necator americanus	V   Rhabditina (Strongylida)	W2TZ93	230.2	429
+Name_W2T5P5	Name	Necator americanus	V   Rhabditina (Strongylida)	W2T5P5	222.7	430
+Name_W2TFF4	Name	Necator americanus	V   Rhabditina (Strongylida)	W2TFF4	207.3	398
+Name_W2TC78	Name	Necator americanus	V   Rhabditina (Strongylida)	W2TC78	202.4	487
+Name_W2SP07	Name	Necator americanus	V   Rhabditina (Strongylida)	W2SP07	175.6	516
+Name_W2U1D4	Name	Necator americanus	V   Rhabditina (Strongylida)	W2U1D4	174.6	461
+Name_W2T1T3	Name	Necator americanus	V   Rhabditina (Strongylida)	W2T1T3	165.9	695
+Name_W2T2Z1	Name	Necator americanus	V   Rhabditina (Strongylida)	W2T2Z1	148.0	575
+Name_W2TY13	Name	Necator americanus	V   Rhabditina (Strongylida)	W2TY13	147.5	727
+Name_W2T4W5	Name	Necator americanus	V   Rhabditina (Strongylida)	W2T4W5	145.3	416
+Name_W2SZY3	Name	Necator americanus	V   Rhabditina (Strongylida)	W2SZY3	126.3	474
+Ppac_A0A2A6D2Q4	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6D2Q4	224.3	429
+Ppac_A0A8R1YUP5	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A8R1YUP5	224.3	541
+Ppac_A0A8R1YJL7	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A8R1YJL7	221.5	556
+Ppac_A0A2A6D2F2	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6D2F2	209.4	528
+Ppac_A0A8R1Y7M0	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A8R1Y7M0	205.4	804
+Ppac_A0A2A6BJ77	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6BJ77	205.0	405
+Ppac_A0A2A6CC52	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6CC52	199.4	649
+Ppac_A0A2A6D0K5	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6D0K5	198.0	436
+Ppac_A0A2A6BDA4	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6BDA4	193.5	632
+Ppac_A0A2A6CGR5	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6CGR5	183.0	634
+Ppac_A0A2A6C2E8	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6C2E8	177.5	368
+Ppac_A0A2A6BV05	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6BV05	173.4	816
+Ppac_A0A2A6CU23	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6CU23	169.3	404
+Ppac_A0A2A6BF88	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6BF88	154.0	793
+Ppac_A0A2A6CDP4	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6CDP4	142.5	821
+Ppac_A0A2A6CA79	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6CA79	141.6	785
+Ppac_A0A2A6CZQ4	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6CZQ4	133.3	880
+Ppac_A0A2A6BJJ0	Ppac	Pristionchus pacificus	V   Rhabditina (Diplogasteromorpha)	A0A2A6BJJ0	126.2	675
+Cbri_A8XKI1	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8XKI1	223.5	406
+Cbri_A8XK79	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8XK79	220.5	592
+Cbri_A8X5P4	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8X5P4	216.4	509
+Cbri_A8XLG2	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8XLG2	214.9	446
+Cbri_A8X4B1	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8X4B1	209.9	475
+Cbri_A8XK01	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8XK01	209.3	459
+Cbri_A8XGI3	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8XGI3	204.0	620
+Cbri_A8XBX8	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8XBX8	201.1	460
+Cbri_A8WRX3	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8WRX3	197.8	427
+Cbri_A8XVC3	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8XVC3	196.0	852
+Cbri_Q61H86	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	Q61H86	190.9	604
+Cbri_A8WXZ5	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8WXZ5	184.5	609
+Cbri_A8WUU8	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8WUU8	183.5	400
+Cbri_A8WW27	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8WW27	180.0	494
+Cbri_A8XNM4	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8XNM4	175.6	683
+Cbri_A8XR61	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8XR61	142.3	659
+Cbri_A8XJW6	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8XJW6	141.4	658
+Cbri_A8Y4I4	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8Y4I4	138.9	757
+Cbri_A8WZ43	Cbri	Caenorhabditis briggsae	V   Rhabditina (Caenorhabditis)	A8WZ43	122.1	712

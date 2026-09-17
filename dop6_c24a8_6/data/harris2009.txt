@@ -1,0 +1,877 @@
+1446 • The Journal of Neuroscience, February 4, 2009 • 29(5):1446 –1456
+
+Behavioral/Systems/Cognitive
+
+Three Distinct Amine Receptors Operating at Different
+Levels within the Locomotory Circuit Are Each Essential for
+the Serotonergic Modulation of Chemosensation in
+Caenorhabditis elegans
+Gareth P. Harris, Vera M. Hapiak, Rachel T. Wragg, Sarah B. Miller, Lindsay J. Hughes, Robert J. Hobson,
+Robert Steven, Bruce Bamber, and Richard W. Komuniecki
+Department of Biological Sciences, University of Toledo, Toledo, Ohio 43606
+
+Serotonin modulates behavioral plasticity in both vertebrates and invertebrates and in Caenorhabditis elegans regulates key behaviors,
+including locomotion, aversive learning and olfaction through at least four different 5-HT receptors. In the present study, we examined
+the serotonergic stimulation of aversive responses to dilute octanol in animals containing null alleles of these 5-HT receptors. Both ser-1
+and mod-1 null animals failed to increase sensitivity to dilute octanol on food/5-HT, in contrast to wild-type, ser-4 or ser-7 null animals.
+5-HT sensitivity was restored by the expression of MOD-1 and SER-1 in the AIB or potentially the AIY, and RIA interneurons of mod-1 and
+ser-1 null animals, respectively. Because none of these 5-HT receptors appear to be expressed in the ASH sensory neurons mediating
+octanol sensitivity, we identified a 5-HT6-like receptor, F16D3.7(SER-5), that was required for food/5-HT-dependent increases in octanol
+sensitivity. ser-5 null animals failed to increase octanol sensitivity in the presence of food/5-HT and sensitivity could be restored by
+expression of SER-5 in the ASHs. Similarly, the RNAi knockdown of ser-5 expression in the ASHs of wild-type animals also abolished
+5-HT-dependent increases in octanol sensitivity, suggesting that SER-5 modulates the octanol responsiveness of the ASHs directly.
+Together, these results suggest that multiple amine receptors, functioning at different levels within the locomotory circuit, are each
+essential for the serotonergic modulation of ASH-mediated aversive responses.
+Key words: ASH neuron; G-protein-coupled receptors; locomotion; plasticity; reversals; serotonin (5-HT)
+
+Introduction
+Behavioral plasticity is often mediated by biogenic amines (BAs),
+such as serotonin (5-HT). In mammals, 5-HT regulates diverse
+central and peripheral responses, including circadian rhythms,
+mood, perception and aggression and a variety of drugs modulate
+serotonergic signaling in the treatment of schizophrenia, depression and migraine (Lucki, 1998; Heisler et al., 2007). Changes in
+serotonergic signaling can have profound effects on behavior.
+However, although all of the mammalian 5-HT receptors have
+been cloned and characterized, much still remains to be learned
+about how they are integrated into complex multilevel signaling
+pathways. Therefore, this study was designed to identify and localize the Caenorhabditis elegans 5-HT receptors involved in the
+modulation of a simple, sensory-mediated, locomotory behavior,
+i.e., aversive responses to the volatile repellant, octanol.
+Received Sept. 23, 2008; revised Dec. 11, 2008; accepted Dec. 14, 2008.
+This work was supported by National Institutes of Health Grant AI-145147, awarded to R.W.K., and funds from
+the Joan L. and Julius H. Jacobson Biomedical Professorship. We thank Dr. Shohei Mitani at the National Bioresources
+Project, Drs. Cori Bargmann, Gert Jansen, Yuji Kohara, Villu Maricq, Ji Sze, and the Caenorhabditis Genetics Center for
+strains, and Dr. Anne Hart for critically reading portions of this manuscript.
+Correspondence should be addressed to Richard W. Komuniecki, Department of Biological Sciences, University of
+Toledo, 2801 West Bancroft Street, Toledo, OH 43606-3390. E-mail: rkomuni@uoft02.utoledo.edu.
+DOI:10.1523/JNEUROSCI.4585-08.2009
+Copyright © 2009 Society for Neuroscience 0270-6474/09/291446-11$15.00/0
+
+C. elegans has a simple nervous system (302 neurons) and can
+detect environmental stimuli through 14 pairs of specialized sensory neurons. More importantly, many sensory-mediated aversive responses are modulated by 5-HT, making C. elegans an
+excellent model to study the aminergic modulation of sensorymediated locomotory behaviors. 5-HT is a “food is at hand” signal for starved animals and modulates most key behaviors, including aversive learning, egg-laying, feeding and locomotion,
+supporting the suggestion that 5-HT levels communicate nutritional state (Horvitz et al., 1982; Segalat et al., 1995; Waggoner et
+al., 1998; Sawin et al., 2000; Niacaris and Avery, 2003; Zhang et
+al., 2005). The polymodal ASH sensory neurons are located in
+specialized amphidial structures in the head and are essential for
+the avoidance of a variety of aversive stimuli, including both
+volatile repellants and mechanical stimuli, such as nose touch (de
+Bono and Marique, 2005). For example, the ASH neurons are
+necessary and sufficient for the detection of dilute octanol, and
+5-HT (or the presence of food) potentiates ASH-mediated responses, i.e., sensitivity to dilute octanol is increased in the presence of 5-HT or when the animals are on food (Troemel et al.,
+1997; Chao et al., 2004). In addition, Ca 2⫹ transients in the ASHs
+can be detected in response to nose touch only if 5-HT is present,
+suggesting that the ASHs are modulated directly to 5-HT
+(Hilliard et al., 2005).
+
+Harris et al. • Multiple Amine Receptors Modulate Aversive Behavior
+
+In the present study, we identified a subset of amine receptors
+that are each essential for 5-HT-dependent increases in aversive
+responses to dilute octanol. These 5-HT receptors appear to operate at different levels within the nervous system to integrate
+sensory input with locomotory behavior, i.e., SER-5 in the ASH
+sensory neurons, MOD-1 in the AIB, and possibly AIY, interneurons that integrate signals directly from the ASH sensory neurons
+and SER-1 in the RIA interneurons, major upstream partners of
+the ring motor neurons that innervate head muscle. Based on the
+comprehensive wiring diagram of the C. elegans nervous system,
+we predict that SER-5 increases the responsiveness of the ASHs to
+dilute octanol, MOD-1 modulates interneuronal signaling to
+stimulate reversal and backward locomotion and SER-1 is potentially involved in the control of head muscle. These observations
+highlight the complexity of serotonergic modulation and the advantages of the C. elegans model for studying the modulation of
+amine-mediated chemosensory circuits.
+
+Materials and Methods
+Materials. All reagents were purchased from Sigma-Aldrich. DMEM was
+purchased from Mediatech, neurochemicals from Sigma-Aldrich, restriction enzymes from New England Biolabs, and Promega, and oligonucleotide primers from Integrated DNA Technologies. A C. elegans
+cDNA pool was purchased from OriGene Technologies, and additional
+cDNA pools were constructed from mixed stage mRNA using standard
+techniques. Green fluorescent protein (GFP) expression vectors were
+obtained from Andy Fire (Stanford University School of Medicine, Stanford, CA).
+Cultures and maintenance of strains. The N2 Bristol WT isolate of C.
+elegans was used for all studies. All animals were raised at 20°C under
+uncrowded conditions (Brenner, 1974). The following putative 5-HT
+receptor null alleles were used in this study: ser-5 (tm2647)I, ser5(tm2654)I, ser-4(ok512)III, mod-1(ok103)V, ser-7(tm1325)X, ser1(ok345)X. In addition, the following strains were also examined, rrf3(pk1269) and ttx-3(ks5). All strains were obtained from the
+Caenorhabditis Genetics Center (University of Minnesota, Minneapolis,
+MN) except ser-7(tm1325), ser-5(tm2647 ) and ser-5(tm2654 ) which
+were received from the National Bio-Resources Project (Tokyo Women’s
+Medical University, Tokyo, Japan). tph-1(mg280) animals were provided
+by Dr. Mark Alkema (Massachusetts Institute of Technology, Boston,
+MA), ttx-3p::mod-1 and odr-2(2b)p::mod-1 animals by Dr. Cori Bargmann (Rockefeller University, New York, NY) (Zhang et al., 2005), ser1(ok345); mod-1(ok103) animals from Dr. Ji Ying Sze (Albert Einstein
+College of Medicine, New York, NY) and glr-3p::ICE animals from Dr.
+Villu Maricq (University of Utah, Salt Lake City, UT). Animals containing combinations of 5-HT receptor null alleles were constructed using
+standard genetic techniques and confirmed by PCR. All mutant animals
+were backcrossed with the N2 Bristol strain at least five times before use.
+Behavioral assays. Assay plates [5 cm Nematode growth medium plates
+(NGM)] were prepared daily and serotonin (4 mM) was added to NGM
+liquid media just before pouring. Dilute 1-octanol was prepared daily
+using 100% ethanol (v/v) (Sulston and Hodgkin, 1988; Bargmann et al.,
+1993; Chao et al., 2004). Synchronized fourth-stage larvae (L4) were
+picked 24 h preassay and assays were performed at 23⫺25°C. Octanol
+avoidance was measured as described by Chao et al. (2004). Briefly, the
+blunt end of a hair (Loew-Cornell 9000 Kolinsky 8 paintbrush), taped to
+a toothpick, was dipped in 30% octanol and the hair was placed in front
+of an animal exhibiting forward sinusoidal locomotion. Time to reverse
+was recorded and assays were terminated after 20 s, because wild-type
+animals spontaneously reverse on average every 20 s (Zhao et al., 2003;
+Chao et al., 2004, 2005). For assays in the absence of food or exogenous
+5-HT, well fed young adults (three to five per plate) were first transferred
+to intermediate nonseeded plates and left for 1 min to prevent any bacteria/media carry over, then transferred to NGM plates and assayed after
+10 min. For assays in the presence of food (E. coli OP50) or 5-HT, animals
+were transferred to plates containing a thin layer of OP50 or 4 mM 5-HT
+and assayed after 20 and 30 min, respectively.
+
+J. Neurosci., February 4, 2009 • 29(5):1446 –1456 • 1447
+
+Reversal frequency was assayed as described previously (Tsalik and
+Hobert, 2003; Dernovici et al., 2006). Well-fed animals were transferred
+to NGM plates for 30 s, then transferred to assay plates (⫾food) for 1 min
+and assayed. Reversal frequency was scored as the number of times an
+animal reversed within 3 min (Pierce-Shimomura et al., 1999). Data were
+presented as a mean ⫾ SE (n ⫽ 3) and analyzed by two-tailed Student’s t
+test. p values were indicated as follows: *p ⬍ 0.05, **p ⬍ 0.01, ***p ⬍
+0.001.
+RNA interference. RNA interference (RNAi) was performed as described previously using wild-type N2 and rrf-3(pk1629) animals (Kamath and Ahringer, 2003). Hermaphrodites and their progeny were
+grown on NGM plates containing 25 ␮g of carbenicillin and 1 mM
+isopropyl-␤-D-thiogalactopyranosidase (IPTG) and were seeded with
+HT115 (DE3) bacteria containing either the ser-5 RNAi vector or empty
+vector. Synchronized L4 s were picked 24 h preassay and examined for
+octanol sensitivity.
+Rescue constructs and strains. All rescue constructs were created by
+overlap fusion PCR or by cloning into pPD95.75 (Mello and Fire, 1995;
+Hobert, 2002). For overlap PCR, constructs were pooled from at least 3
+reactions and were coinjected with myo-3p::gfp, F25B3.3p::gfp or rol-6
+and carrier DNA (to 100 ng) into gonads of wild-type and null mutant
+animals by standard techniques (Kramer et al., 1990; Mello and Fire,
+1995). At least three lines expressing each construct were examined. All
+constructs in pPD95.75 were confirmed by sequencing.
+FY748 mod-1(ok103)grEx160[mod-1p::mod-1] expresses a fulllength mod-1 transgene in mod-1 null animals. The mod-1 transgene
+includes a 2 kb mod-1 promoter, the mod-1 open reading frame and
+706 bp of the mod-1 3⬘UTR, and was created with MOD-1F1 and
+MOD-1R1, as described by (Carnell et al., 2005). FY751
+ser-5(tm2654)grEx163[sra-6p::ser-5::gfp] expresses SER-5 in the ASH
+sensory neurons of ser-5 null animals. The sra-6p::ser-5::gfp transgene
+includes the sra-6 promoter, the ser-5 cDNA, sequence coding for
+GFP and the unc-54 3⬘UTR. The 3.4 kb sra-6 promoter was amplified
+with SRA-6F1 and SRA-6R⫹SER-51 and the ser-5 cDNA with SER5F2 and SER-5R⫹GFP2. The sra-6 promoter was fused to the ser-5
+cDNA using nested primers, SRA-6F3 and SER-5R3. gfp including the
+unc-54 3⬘UTR was amplified from pPD95.75 with GFPF4a and GFPR4 and
+the sra-6p::ser-5 product was then fused to gfp using nested primers, SRA6F5 and GFPR5. FY750 ser-5(tm2654)grEx162[ser-5p::ser-5] expresses a fulllength ser-5 transgene in ser-5 null animals. The ser-5p::ser-5 transgene with
+a 5 kb ser-5 promoter was amplified with SER-5F1 and SER-5R1 to generate
+an 8.6 kb product. RWK8 mod-1(ok103)fvEx3[npr-9p::mod-1::gfp] expresses
+MOD-1 in the AIB interneurons of mod-1 null animals. The
+npr-9p::mod-1::gfp transgene includes 2 kb of the npr-9 promoter, the mod-1
+cDNA, sequence coding for GFP and the unc-54 3⬘ UTR. The npr-9 promoter was amplified with NPR-9F1 and NPR-9R⫹MOD-11, the mod-1
+cDNA with MOD-1F2 and MOD-1R2 and gfp with the primers described
+above, except that the gfp forward primer contained an overlapping fragment of the 3⬘ end of the mod-1 cDNA (GFPF⫹MOD-13). npr-9p was fused
+to the mod-1 cDNA with NPR-9F4 and MOD-1R4 and npr-9p::mod-1 was
+fused to gfp with NPR-9F5 and GFPR5.
+Localization of SER-5 expression. RWK7 ser-5(tm2654)fvEx2[ser-5p::ser-5::gfp] expresses a full-length ser-5 translational fusion from
+the 5 kb ser-5 promoter that includes the endogenous ser-5 3⬘ UTR with
+sequence encoding GFP inserted into the predicted SER-5 C terminus 10
+aa after TMVII. The ser-5::gfp transgene was created by overlap fusion
+PCR from three different products fused by two rounds of PCR. Primers
+amplified the ser-5 5⬘-end ⬃5 kb upstream of the ATG up to a portion of
+exon 6 using SER-5F1 and SER-5R⫹GFP1. A second set of primers (SER5F⫹GFP2 and SER-5R2) amplified a short gfp overlap with the ser-5 3⬘
+end including the predicted SER-5 C terminus 10 aa after TMVII and the
+ser-5 3⬘UTR, as follows. Sequence encoding gfp was amplified using
+GFPF3b and GFPR3 and then fused in frame with the ser-5 3⬘ product
+(using GFPF4 and SER-5R4) and this product was then combined with
+the ser-5 5⬘ fragment to generate a full-length ser-5 transgene that included sequence coding for GFP inserted in the predicted C terminus of
+the receptor using nested primers. PCR products were pooled from at
+least 3 separate reactions (5 ng total) and were coinjected either alone or
+with rol-6 plasmid (pRF4) and carrier DNA into gonads of ser-5(tm2564 )
+
+Harris et al. • Multiple Amine Receptors Modulate Aversive Behavior
+
+1448 • J. Neurosci., February 4, 2009 • 29(5):1446 –1456
+
+null animals by standard techniques (Mello and Fire, 1995). Uptake of
+DiD in living animals was assayed as described (Herman and Hedgecock,
+1990). Briefly, stock solution (1 mM) of 1,1⬘-dioctadecyl-3,3,3,3⬘tetrametylindocarbocyanine (DiD) (Molecular Probes/Invitrogen Labeling and Detection) was diluted 1:200 in M9 buffer. Animals were
+incubated in 100 ␮l of diluted DiD for 1 h at RT, transferred to a fresh
+NGM plate seeded with OP50 and allowed to crawl on the bacterial lawn
+for 1–2 h to destain and were then placed on agarose pads with 20 mM
+sodium azide for visualization. At least five transformed lines were analyzed for gfp fluorescence and DiD staining using an Olympus confocal
+microscope.
+Cell-specific RNAi knockdown. Transgenes for cell-specific knockdown
+were constructed as described (Esposito et al., 2007). RWK12
+fvEx7[sra-6p::ser-5RNAi] expressed a ser-5(RNAi) in the ASH sensory
+neurons of wild-type animals. The sra-6p::ser-5(RNAi) transgene included the sra-6 promoter fused to exon rich regions of ser-5. The sra-6
+promoter was amplified with SRA-6PF1 and the reverse (sense) primer
+SRA-6PRS1 and the reverse (antisense) primer SRA-6PRA2 to create
+templates B and C, respectively. The ser-5 coding region was amplified
+from genomic DNA using SER-5TF2 and SER-5TR4 to create template
+A. Templates A and B were fused using SRA-6F3 and the reverse nested
+primer SER-5R5 to create the sense construct. Templates A and C were
+fused using SRA-6F4 and SER-5TF6 to create the antisense construct.
+RWK13 fvEx6[glr-3::ser-1RNAi] expressed a ser-1(RNAi) in the RIA interneurons. The glr-3p::ser-1(RNAi) transgene included the glr-3 promoter fused to exon rich regions of ser-1. The glr-3 promoter was amplified with GLR-3PF1 and the reverse (sense) primer GLR-3PRS1 and the
+reverse (antisense) primer GLR-3PRA2 to create templates B and C,
+respectively. The ser-1 coding region was amplified from genomic DNA
+using SER-1TF2 and SER-1TR3 to create template A. Templates A and B
+were fused using GLR-3F3 and SER-1TR4 to create the sense construct.
+Templates A and C were fused using GLR-3F4 and SER-1TF5 to create
+the antisense construct. Sense and antisense transgenes were both microinjected at 100 ng/␮l (a list of sense and antisense primers used for the
+generation of PCR fusions is included in supplemental material, available
+at www.jneurosci.org as supplemental material).
+Heterologous expression of SER-5. To express SER-5, pFLAG-SER-5 or
+pDisplay-SER-5 were transiently transfected into COS-7 cells using Lipofectamine 2000 (Invitrogen; 1 ␮g of DNA/3 ␮l of Lipofectamine), as
+we have described for other nematode GPCRs (Huang et al., 2002; Hobson et al., 2003). Cells were harvested 48 h post-transfection and membranes were prepared as described previously (Rex and Komuniecki,
+2002). Briefly, COS-7 cells were washed with ice-cold PBS and incubated
+in 15 mM Tris-HCl, pH 7.4,, 1 mM EDTA and 1 mM phenylmethylsulfonylfluoride (PMSF) at 4°C for 10 min. Cells were scraped from plates,
+centrifuged at 4000 ⫻ g for 15 min and pellets resuspended in ice-cold
+TEM (Tris-HCl pH 7.4, 10 mM MgCl2, 0.5 mM EDTA) containing 1 mM
+PMSF. Cells were lysed on ice by sonication, centrifuged at 20,000 ⫻ g for
+1 h at 4°C and the pellet homogenized in TEM buffer. Radioligand binding was performed as previously described (Huang et al., 2002; Hobson et
+al., 2003).
+Multiple sequence alignments and production of phylogenetic trees. To
+remove hypervariable regions, each vertebrate and invertebrate 5-HT
+receptor sequence was truncated at the N terminus (three residues before
+TMI), the third intracellular loop (eight residues after TMV and six
+residues before TMVI), and the C terminus (12 residues after TMVII).
+The initial alignment was performed with the modified sequences using
+the MegAlign program (DNAStar) with ClustalW parameters set to optimize protein sequence alignments (multiple alignment parameters:
+Gap opening penalty of 15, and gap extension penalty of 0.3; pairwise
+alignment parameters: Gap opening penalty of 35, and gap extension
+penalty of 0.75). The resulting alignment was then fine-tuned manually.
+All alignments are available on request. Bootstrapping was also performed with DNAStar (1000 replicates, random seed), and the resulting
+tree was then imported into the Phylogenic Alignment Utility Program
+(PAUP, version 4.0b10), where it was analyzed under the distance,
+neighbor-joining method to produce the tree reported here. The Caenorhabditis elegans GAR-1 sequence was used as an outgroup. Accession
+numbers for all sequences used are listed in the legend to Figure 5.
+
+Results
+SER-1 and MOD-1 are each essential in modulating
+sensitivity to dilute octanol
+Wild-type animals on food (E. coli OP50) or incubated in exogenous 5-HT (4 mM) exhibit dramatically increased aversive responses to dilute octanol, but the serotonergic receptors and
+pathways mediating these effects have not been identified (Chao
+et al., 2004). C. elegans contains at least four previously characterized 5-HT receptors: three G-protein-coupled receptors,
+SER-1, SER-4 and SER-7, and a novel 5-HT-gated Cl ⫺ channel,
+MOD-1 (Olde and McCombie, 1997; Hamdan et al., 1999; Ranganathan et al., 2000; Hobson et al., 2003). Animals carrying null
+alleles for each of these 5-HT receptors have been characterized in
+other behavioral contexts (Ranganathan et al., 2000; Hobson et
+al., 2003; Dempsey et al., 2005; Zhang et al., 2005). To identify the
+individual 5-HT receptor(s) and neurons involved in the serotonergic modulation of octanol avoidance, we examined the responses of each of these 5-HT receptor null mutants to dilute
+(30%) octanol, a behavior mediated by the ASH sensory neurons
+(Chao et al., 2004). The responses of these mutant animals to
+dilute octanol were identical to those of wild-type animals either
+off food or in the absence of exogenous 5-HT (Fig. 1). However,
+both the ser-1 and mod-1 null animals failed to increase their
+sensitivity to dilute octanol on food or in the presence of exogenous 5-HT, in contrast to ser-7, ser-4 or wild-type animals (Fig.
+1). The role of mod-1 and ser-1 in 5-HT sensitivity was confirmed
+by transgenic rescue, i.e., the expression of full-length mod-1 or
+ser-1 transgenes in mod-1 and ser-1 null animals, respectively,
+restored 5-HT sensitivity (Figs. 2 A, 3A). As predicted, ser-4;
+mod-1; ser-7 ser-1 quadruple null animals that lack all previously
+identified 5-HT receptors also failed to increase sensitivity to
+dilute octanol in the presence of either food or 5-HT (Fig. 1).
+These results suggest that both ser-1 and mod-1, but not ser-4 or
+ser-7, have essential roles in the modulation of food- and 5-HTdependent increases in sensitivity to dilute octanol.
+MOD-1 and SER-1 function in the AIB or AIY and the RIA
+interneurons, respectively, to modulate ASH-mediated
+aversive responses to dilute octanol
+The neuronal expression of mod-1 and ser-1 has been characterized previously using various mod-1p::gfp and ser-1p::gfp reporter
+constructs. mod-1p::gfp transcriptional fusions are expressed in
+the AIA, AIB, AIY, AIZ, and RID interneurons, as well as a number of additional unidentified neurons in the head, ventral cord
+and tail. Although ser-1p::gfp constructs depending on the
+ser-1::gfp transgene exhibit variable expression, in pharyngeal
+and vulval muscles, as well as a number of neurons in the head
+and tail, including the RIA interneurons and the ring and ventral
+cord motor neurons (Ranganathan et al., 2000; Tsalik et al., 2003;
+Wenick and Hobert, 2004; Carnell et al., 2005; Dempsey et al.,
+2005; Xiao et al., 2006; Dernovici et al., 2007).
+To identify the neurons involved in the MOD-1-mediated
+modulation of ASH-mediated aversive responses, we examined
+the 5-HT sensitivity of aversive responses to dilute octanol in
+mod-1
+null
+animals
+expressing
+ttx-3p::mod-1
+or
+odr-2(2b)p::mod-1 transgenes previously observed to rescue the
+5-HT sensitivity of aversive olfactory learning in mod-1 null animals (Zhang et al., 2005). The ttx-3 promoter appears to be expressed exclusively in the AIY interneurons in adult animals,
+whereas odr-2(2b)p drives expression primarily in the AIB and
+AIZ interneurons (Hobert et al., 1997; Chou et al., 2001; Wenick
+and Hobert, 2004; Bendena et al., 2008). In addition, we also
+examined mod-1 null animals expressing an npr-9p::mod-1 trans-
+
+Harris et al. • Multiple Amine Receptors Modulate Aversive Behavior
+
+J. Neurosci., February 4, 2009 • 29(5):1446 –1456 • 1449
+
+Figure 1. Food- and 5-HT-dependent increases in sensitivity to dilute octanol require both MOD-1 and SER-1. Wild-type and 5-HT receptor null mutant animals were examined for their ability
+to respond to dilute (30%) octanol in the presence or absence of food (E. coli OP50) or 5-HT (4 mM), as described in Materials and Methods. Data are presented as mean ⫾ SE and analyzed by a
+two-tailed Student’s t test. ***p ⬍ 0.001; significantly different from wild-type animals under identical test conditions. Numbers of trials are indicated under the bars. Quad, ser-4(ok512);
+mod-1(ok103); ser-7(tm1325) ser-1(ok345); Quint, ser-5(tm2654); ser-4(ok512); mod-1(ok103); ser-7(tm1325) ser-1(ok345).
+
+Figure 2. Rescue of 5-HT-dependent increases in aversive responses to dilute octanol and food-dependent alterations in the rate of spontaneous reversals in mod-1 null animals. A, Wild-type or
+mutant animals expressing the indicated transgenes were assayed for 5-HT-dependent increases in aversive responses to dilute (30%) octanol, as described in Materials and Methods. B, C,
+Spontaneous reversals (reversals/3 min) were quantified in well fed animals 1 min after transfer to plates without (B) or with (C) E. coli OP50. Data are presented as mean ⫾ SE and analyzed by a
+two-tailed Student’s t test. ***p ⬍ 0.001, significantly different from wild-type animals under identical test conditions. The number of trials is indicated under the bars, and results from rescued
+mod-1 null animals are indicated by hatched bars.
+
+gene that is expressed almost exclusively in the AIB interneurons
+(Bendena et al., 2008). All three transgenes restored 5-HT sensitivity in mod-1 null animals (Fig. 2 A). Interestingly, ttx-3 null
+animals in which the AIYs fail to develop exhibited wild-type
+responses to dilute octanol both on and off food (Hobert et al.,
+1997) (Fig. 2 A). However, because mod-1 encodes an inhibitory
+Cl ⫺ channel, animals that lack AIYs, such as the ttx-3 null animals or animals in which the AIYs are inhibited, as in the mod-1
+expressing animals, would both be predicted to increase aversive
+
+responses to dilute octanol in the presence of food or 5-HT, exactly as we observed in the present studies. Together, these results
+suggest that the AIB and AIY interneurons are involved in modulating the 5-HT sensitivity to dilute octanol.
+As noted above, the 5-HT sensitivity of ser-1 null animals was
+rescued with a full-length ser-1p::ser-1::gfp transgene (Fig. 3A).
+This ser-1p::ser-1::gfp transgene contains a truncated 3.6 kb promoter and is expressed in the RIA interneurons and many of the
+ring motor neurons, major downstream partners of the RIAs, but
+
+1450 • J. Neurosci., February 4, 2009 • 29(5):1446 –1456
+
+Harris et al. • Multiple Amine Receptors Modulate Aversive Behavior
+
+Figure 3. Rescue of 5-HT-dependent increases in aversive responses to dilute octanol and food-dependent alterations in the rate of spontaneous reversals in ser-1 null animals. A, Wild-type or
+mutant animals expressing the indicated transgenes were assayed for 5-HT-dependent increases in aversive responses to dilute (30%) octanol as described in Materials and Methods. B, C,
+Spontaneous reversals (reversals/3 min) were quantified in well fed animals 1 min after transfer to plates without (B) or with (C) E. coli OP50. Data are presented as mean ⫾ SE and analyzed by a
+two-tailed Student’s t test. ***p ⬍ 0.001, significantly different from wild-type animals under identical test conditions. The number of trials is indicated under the bars, and results from rescued
+ser-1 null animals are indicated by hatched bars.
+
+apparently not in the ventral cord motor neurons, as noted for
+other ser-1p::gfp transgenes (Carnell et al., 2005; Xiao et al., 2006;
+Dernovici et al., 2007). Therefore, because the ASHs innervate
+the RIAs directly, we examined the potential role of this RIAs/ring
+motor neuron pathway in the modulation of serotonergic signaling mediating aversive behavior. However, our attempts to rescue ser-1 null animals with a glr-3p::ser-1 transgene were unsuccessful, most probably because the over-expression of ser-1 in the
+RIAs from the glr-3 promoter alters RIA morphology. It has been
+our experience that neuronal development can be sensitive to the
+over-expression of some Gs- and Gq-coupled amine receptors
+(Hobson et al., 2003, R. W. Komuniecki, unpublished observation). Therefore, we instead examined wild-type animals expressing either a glr-3p::ICE transgene that selectively ablates the RIAs
+or a glr-3p::ser-1(RNAi) transgene that should specifically knockdown ser-1 expression in the RIAs (Fig. 3A). Animals expressing
+either transgene exhibited wild-type responses to dilute octanol
+off food, suggesting that the pathways sensing dilute octanol were
+intact (data not shown). In contrast, both animals failed to increase octanol sensitivity when incubated in 5-HT, further supporting a role for the RIAs in the SER-1-mediated serotonergic
+modulation of olfaction (Fig. 3A).
+Together, these results suggest that mod-1 functions in the
+AIB and AIY interneurons and ser-1 functions in the RIA/ring
+motor neuron pathway that ultimately innervates primarily head
+muscle in the serotonergic sensitization of aversive responses to
+dilute octanol (White et al., 1986; Alkema et al., 2005).
+The expression of SER-5 in the ASH sensory neurons is
+essential for the serotonergic modulation of aversive
+responses to dilute octanol
+As noted previously, the ASH sensory neurons are necessary and
+sufficient for responses to dilute octanol and 5-HT increases calcium transients in the ASH sensory neurons, suggesting that a
+5-HT receptor may be expressed directly in the ASHs (Chao et al.,
+2004; Hilliard et al., 2005). However, none of the previously characterized 5-HT receptors appears to be expressed in the ASHs,
+
+suggesting that an additional 5-HT receptor might remain to be
+identfied. To address this possibility, RNAi knockdown of predicted, previously uncharacterized, C. elegans biogenic amine receptors (tyra-3, f14d12.6, f16d3.7(ser-5)) was used to screen for
+additional GPCRs that might be involved in 5-HT-dependent
+increases in octanol sensitivity in both wild-type and RNAisensitive, rrf-3(pk1269), strains (Simmer et al., 2002). As noted in
+Figure 4 A, ser-5(RNAi) completely abolished 5-HT-dependent
+increases in octanol sensitivity in the rrf-3, but not wild-type
+animals. Consistent with these RNAi results, ser-5(tm2654 ) and
+ser-5(tm2647 ) animals exhibited wild-type responses to dilute
+octanol, but also failed to increase octanol sensitivity in the presence of 5-HT (Fig. 4 B). ser-5(tm2654 ) animals contain a 348 bp
+deletion in exon 4 resulting in a deletion of a portion of TM5, the
+third intracellular loop and one-half of TM6. ser-5(tm2647 ) animals contain a 219 bp deletion in exon 4, resulting in a deletion
+of a portion of TM4, the third extracellular loop, TM5 and a
+portion of the third intracellular loop. Therefore, ser-5(tm2654 )
+and ser-5(tm2647 ) are predicted null alleles, because TMs 5 and 6
+are required for ligand-binding (Strader et al., 1989; Choudhary
+et al., 1993; Almaula et al., 1996; Roth et al., 1997) and G-protein
+coupling (Moro et al., 1993).
+As anticipated, food- and 5-HT-dependent increases in responses to dilute octanol could be restored in ser-5 null animals
+by the expression of a full-length ser-5 transgene (Fig. 4 B). In
+addition, 5-HT sensitivity in ser-5 null animals also could be
+rescued with a sra-6p::ser-5 transgene whose expression is confined primarily to the ASHs, suggesting that SER-5 may function
+directly in the ASHs (Fig. 4 B) (Troemel et al., 1995). Our analysis
+of ser-5 expression from ser-5p::gfp transcriptional and translational fusions agrees with data reported previously, i.e., fluorescence was observed in vulval and body wall muscle, as well as a
+number of neurons in the head and tail (Fig. 5C) (Wormbase.org;
+Carre-Pierrat et al., 2006). GFP fluorescence also was observed in
+the AWB sensory neurons, and more faintly and variably in the
+ASHs (Fig. 5C). Low levels of SER-5 expression in the ASHs may
+be sufficient to confer 5-HT sensitivity and/or, alternatively,
+
+Harris et al. • Multiple Amine Receptors Modulate Aversive Behavior
+
+J. Neurosci., February 4, 2009 • 29(5):1446 –1456 • 1451
+
+Figure 4. SER-5 is essential for 5-HT-dependent increases in sensitivity to dilute octanol. A, Effect of ser-5 RNAi on sensitivity to dilute (30%) octanol in both wild-type and rrf-3(pk1269) animals.
+B, Wild-type and ser-5 null animals were examined for aversive responses to dilute octanol in the presence or absence of 5-HT (4 mM), as described in Materials and Methods. In addition, ser-5
+expression in the ASH sensory neurons was knocked down in wild-type animals (sra-6p::ser-5(RNAi) animals). Data are presented as mean ⫾ SE and analyzed by two-tailed Student’s t test. ***p ⬍
+0.001, significantly different from wild-type or rrf-3(pk1269) animals under identical test conditions. The number of trials is indicated under the bars and results from rescued ser-5 null animals are
+indicated by hatched bars.
+
+SER-5 might be acting at some other site in the serotonergic
+circuit. Therefore, to confirm a role for SER-5 directly in the
+ASHs we examined the 5-HT sensitivity of aversive responses to
+dilute octanol in wild-type animals in which SER-5 expression in
+the ASHs was knocked down by the expression of a
+sra-6p::ser-5(RNAi) transgene. As predicted, these animals exhibited a wild-type response to dilute octanol, but failed to increase
+octanol sensitivity in response to 5-HT, as observed above for the
+two ser-5 null mutants (Fig. 4 B). Together, these results suggest
+that SER-5 functions in the ASHs and increases their responsiveness to dilute octanol. Whether SER-5 increases the sensitivity of
+the putative octanol receptors, downstream signaling and/or
+neurotransmitter release remains to be determined.
+No ser-5 ESTs are present in the database and during the
+generation of a full-length ser-5 cDNA for expression studies
+using 5⬘ and 3⬘ rapid amplification of cDNA ends (RACE), we
+observed that the predicted ser-5 intron/exon splicing pattern
+and ser-5 cDNA differed significantly from that published in
+Wormbase.org (Hapiak et al., 2009). As suggested from the behavioral analyses described above, the new predicted SER-5
+amino acid sequence is most closely related to mammalian 5-HT6
+receptors (Fig. 5A). For example, SER-5 was 35% identical to the
+human 5-HT6 receptor within predicted transmembrane domains involved in ligand binding. In addition, both SER-5 and
+5-HT6 have short third intracellular loops (67 and 60 aa, respectively) with BBXXB296 (where B is a basic amino acid) motifs at
+the C termini of the loop that in other GPCRs can confer constitutive activity and a conserved PLRYK169 motif in the second
+intracellular loop that is not found in any other 5-HT receptors.
+Finally, the genes encoding the mammalian 5-HT6 receptors contain two introns within sequence encoding the putative third
+intracellular and third extracellular loops. The positions of both
+introns are conserved in ser-5 (Hapiak et al., 2009). Interestingly,
+all of the previously characterized 5-HT receptors clustered ac-
+
+cording to their documented G-protein coupling, regardless of
+phylogenetic origin, validating the utility of the tree and supporting the identification of SER-5 as a G␣s-coupled 5-HT receptor
+(Fig. 5B). Although this tree was generated using truncated
+amino acid sequences with the more variable N and C termini
+and third intracellular loops deleted, similar results were obtained using the full-length receptors (data not shown). Interestingly, during lethargus mutations that increase G␣s signaling dramatically increase aversive responses to dilute octanol in the
+absence of food or exogenous 5-HT (Raizen et al., 2008). We have
+observed similar effects in wild-type animals (G. P. Harris, unpublished observation). It will be important to determine
+whether SER-5 and/or the ASH sensory neurons are essential for
+this G␣s-mediated increase in octanol sensitivity or lethargus.
+The serotonergic receptors and pathways modulating ASHmediated aversive behaviors overlap with those modulating
+the overall rate of spontaneous reversals
+The spontaneous initiation of backward locomotion in C. elegans
+is regulated by the presence of food and 5-HT (Tsalik and Hobert,
+2003, Wakabayashi et al., 2004; Gray et al., 2005; Dernovici et al.,
+2007). For example, in wild-type animals, 5-HT decreases the rate
+of spontaneous reversal, based on the observation that tph1(mg280) null animals that lack detectable 5-HT and animals in
+which the serotonergic neurons have been ablated exhibit a
+markedly decreased duration of forward movement, i.e., they
+reverse more frequently (Wakabayashi et al., 2004). In contrast,
+5-HT markedly decreases the time taken to reverse in response to
+dilute octanol (Chao et al., 2004; present study). Therefore, to
+better understand these two potentially conflicting observations,
+we examined the rate of spontaneous reversal in the presence of
+food and after 1 min in the absence of food in both the mutant
+and rescued animals used in the present study (Figs. 2, 3). As
+noted by others, wild-type animals reverse more frequently im-
+
+1452 • J. Neurosci., February 4, 2009 • 29(5):1446 –1456
+
+Harris et al. • Multiple Amine Receptors Modulate Aversive Behavior
+
+Figure 5. SER-5 is most identical to invertebrate/mammalian 5-HT receptors and is expressed in both neurons and muscle. A, Predicted amino acid sequence of SER-5. The full-length ser-5 cDNA
+sequence was generated by 5⬘ and 3⬘ RACE as described in Materials and Methods. Putative transmembrane regions are shaded in gray. Residues potentially involved in BA binding are in white, and
+G-protein-coupling residues are underlined (Strader et al., 1989; Choudhary et al., 1993; Moro et al., 1993; Barak et al., 1994; Almaula et al., 1996; Roth et al., 1997). Potential PKA and PKC
+phosphorylation sites were identified using ScanProsite, and are indicated in bold and gray, respectively (Gattiker et al., 2002). Sequestration and desensitization sites are bold and underlined (Barak
+et al., 1994). B, Unrooted phylogenetic tree of vertebrate and invertebrate 5-HT receptors. Sequences were modified to remove hypervariable regions by the deletion of the N termini 3 aa before the
+first predicted transmembrane domains, the third intracellular loops, 8 aa after and 6 aa before predicted transmembrane domains 5 and 6, respectively, and the C termini, 12 aa after predicted
+transmembrane domain 7. Annotated sequences were initially aligned using MegAlign in DNAStar with ClustalW, and using parameters defined in Materials and Methods and fine-tuned by hand.
+Bootstrapping was undertaken in DNAStar (1000 replicates with random seed). Homo sapiens (H) in green: H5HT1a (CAA40962), H5HT1b (P28222), H5HT1d (P28221), H5HT1e (CAA77558), H5HT1f
+(AAA36605), H5HT2a (CAA40963), H5HT2b (CAA54513), H5HT2c (AAF35842), H5HT4 (Q13639), H5HT5a (CAA57168), H5HT6 (AAA92622), Hs5HT7 (CAH69965), Caenorhabditis elegans (Ce) in red:
+CeSER1 (NP_001024728), CeSER4 (NP_497452), CeSER7 (NP_741730), CeSER5. [SER-5 is a potentially new 5-HT receptor in C. elegans, based on new sequence information on ser-5 (based on 5⬘
+and 3⬘ RACE) (Hapiak et al., 2009) and also based on two 5-HT-dependent behavioral phenotypes, egg laying and octanol avoidance (Hapiak et al., 2009; Harris et al., 2009).] Caenorhabditis briggsae
+(Cb): CbSER-1 (CAE69959), CbSER4 (CAE69091), CbSER7 (CAE58847), CbSER5 (CAE60436), Aedes egyptii (Ae): Ae5HT7 (AAG49292), Drosophila melanogaster (Dm) in blue: Dm5HT7 (NP_524599),
+Dm5HT2a (NP_725849), Dm5HT2b (CAA77571), Dm5HT (NP_730859), Hemonchus contortus (Hc): Hc5HT1e (AAO45883), Ascaris suum (As): As5HT-2c (AAC78396). C, GFP fluorescence from a
+full-length ser-5p::ser-5::gfp transgene that includes sequence coding for GFP inserted into the predicted C terminus of the receptor. CA, Merge of GFP fluorescence and 1,1⬘-dioctadecyl-3,3,3⬘,3⬘tetramethylindodicarbocyanine perchlorate (DiD, a lipophilic dye) staining in the nerve ring. CB, Single Z-section of GFP/DiD merge in the nerve ring. CC, CD, Insets from CB with GFP fluorescence
+(CC) and DiD staining (CD).
+
+mediately off food compared with on food (Figs. 2, 3) (Tsalik and
+Hobert, 2003). This is also true for ser-1, mod-1, ser-5 and ser-4;
+mod-1;ser-7 ser-1 null animals (Fig. 2, 3; data not shown, Dernovici et al., 2007). However, ser-1 or mod-1 null animals reverse
+significantly more frequently than wild-type animals off food
+(Figs. 2 B, 3B) and significantly less frequently than wild-type
+animals on food (Figs. 2C, 3C). The decreased reversal frequencies of the ser-1 and mod-1 null animals on food contrast sharply
+with those of tph-1 null animals that lack 5-HT or ser-4;mod-1;
+ser-7 ser-1 animals that lack most serotonergic signaling, i.e., both
+tph-1 and ser-4;mod-1;ser-7 ser-1 null animals reverse significantly more frequently than wild-type animals on food.
+As noted above, the expression of mod-1 in either the AIYs
+
+(ttx-3p), AIBs/AIZs (odr2(2b)p) or AIBs (npr-9p) interneurons
+was sufficient to rescue the 5-HT-dependent stimulation of aversive responses to dilute octanol in mod-1 null animals, suggesting
+that the AIBs and probably AIYs play essential roles in modulating the 5-HT sensitivity to dilute octanol (Fig. 3, Table 1). In
+contrast, as shown in Figure 2, the expression of mod-1 in the
+AIBs or AIBs/AIZs of mod-1 null animals on food or in the AIBs
+of mod-1 null animals off food did not restore the rate of spontaneous reversals to wild-type levels. The rate of spontaneous reversal was only rescued to wild-type levels in animals expressing
+mod-1 in the AIYs on food or the AIYs and AIBs/AIZs off food
+(Fig. 2 B, C). Together these results suggest that MOD-1 plays
+different roles in modulating the rate of spontaneous reversal and
+
+Harris et al. • Multiple Amine Receptors Modulate Aversive Behavior
+
+J. Neurosci., February 4, 2009 • 29(5):1446 –1456 • 1453
+
+Table 1. Identification of neurons expressing MOD-1 that are involved in food/5-HT
+modulation of spontaneous reversals and aversive responses to dilute octanol
+Reversals
+Spontaneous
+Strain
+
+Phenotype
+
+Octanol ⫹ 5-HT
+
+On food
+
+Off food
+
+ttx-3 null
+mod-1 null
+mod-1 rescue
+ttx-3p
+odr-2bp
+npr-9p
+
+No AIY
+No MOD-1
+
+0
+⫺
+
+⫹
+⫺
+
+⫹
+⫹
+
+AIY
+AIB/AIZ
+AIB
+
+R
+R
+R
+
+R
+NR
+NR
+
+R
+R
+NR
+
+All null animals and rescued strains were examined for spontaneous reversals and aversive responses to dilute
+octanol (30%) as outlined in Figure 3. Responses are indicated as greater than (⫹) , less than (⫺), or the same as (0)
+wild-type animals. R, Rescued; NR, not rescued in mod-1 null animals.
+
+ASH-mediated aversive responses and suggest a potential role for
+the AIZ interneurons in modulating the rate of spontaneous reversal immediately off food.
+The ser-1 transgene used to rescue the 5-HT sensitivity of
+aversive responses to dilute octanol in ser-1 null animals also
+restored the rate of spontaneous reversal to wild-type levels both
+on and immediately off food (Fig. 3 B, C). This ser-1 transgene
+appears to be expressed in the RIA and number of ring motor/
+interneurons (Xiao et al., 2006; Dernovici et al., 2007). Interestingly, animals lacking RIAs (glr-3p::ICE) or with reduced SER-1
+expression in the RIAs (glr-3p::ser-1(RNAi)) failed to increase
+aversive responses to dilute octanol in presence of 5-HT (Fig. 3A),
+but still exhibited wild-type rates of spontaneous reversal both on
+and immediately off food (Fig. 3 B, C) (Tsalik and Hobert, 2003).
+These results highlight the importance of the RIAs in the serotonergic sensitization of aversive responses to dilute octanol and
+suggest that other neurons, possibly the ring motor neurons, are
+responsible for SER-1 mediated modulation of spontaneous
+reversal.
+Together, these results highlight the complexity of serotonergic signaling in the modulation of reversal responses and suggest
+that ser-1 and mod-1 inhibit reversal off food and stimulate reversal on food, in agreement with their proposed stimulatory
+roles in mediating the food- and 5-HT-dependent increases in
+aversive responses to dilute octanol observed above.
+
+Discussion
+In the present study, we have identified three amine receptors
+that are each essential for 5-HT-dependent increases in aversive
+responses to dilute octanol. Off food, wild-type, and 5-HT receptor mutants respond identically to dilute octanol. In contrast, on
+food or in the presence of 5-HT, wild-type animals respond more
+rapidly and this increased aversive response is completely abolished in animals lacking either SER-5, MOD-1, or SER-1. Interestingly, no intermediate responses were observed; each of the
+receptors appear to be essential for 5-HT sensitization, suggesting
+that each plays a different, but critical role in the process.
+Serotonergic signaling enhances responses to dilute octanol at
+multiple levels within the ASH-mediated locomotory circuit
+Each of the receptors that are essential for the serotonergic sensitization of aversive responses to dilute octanol operate at different levels within the ASH-mediated locomotory circuit: SER-5 in
+ASH sensory neurons, MOD-1 in the AIB interneurons that receive direct input from the ASHs, and SER-1 in RIA/ring motor
+neuron pathway that innervates head muscle (Fig. 6). Based on
+the wiring diagram of the C. elegans nervous system, we predict
+
+that SER-5 increases the responsiveness of the ASHs to initiate
+backward locomotion, MOD-1 modulates signaling to the command interneurons through the AIBs to inhibit forward locomotion, and SER-1 modulates signaling to head muscle (Fig. 6). For
+example, 5-HT stimulated responses in ser-1 animals could be
+rescued with a ser-1p::ser-1::gfp transgene that is expressed in the
+RIAs and the RMD ring motor neurons that innervate head muscle (Xiao et al., 2006; Dernovici et al., 2007). Ablation of the RIAs
+or the knockdown of ser-1 expression in the RIAs has no effect on
+the rate of spontaneous reversal or octanol sensitivity off food,
+but abolishes 5-HT-dependent increases in sensitivity to dilute
+octanol, suggesting that the sensitization of head muscle may be
+essential for stimulating aversive responses, especially when the
+ASH is less than maximally stimulated.
+Food/serotonin activates SER-5 in the ASH sensory neurons
+Serotonin (5-HT) is one of the “food is at hand” signals in C.
+elegans and regulates most aspects of C. elegans behavior. Four C.
+elegans 5-HT receptors have been identified previously, three
+G-protein-coupled receptors, SER-1, SER-4, and SER-7 that appear to signal through G␣q, G␣o, and G␣s, respectively, and a
+novel 5-HT-gated chloride channel, MOD-1. In addition, we
+have identified a fifth putative 5-HT receptor, SER-5. Previously,
+the roles of these receptors in pharyngeal pumping (Hobson et
+al., 2003), egg-laying (Hobson et al., 2003; Carnell et al., 2005;
+Dempsey et al., 2005; Xiao et al., 2006), the enhanced slowing
+response (Ranganathan et al., 2000), and aversive learning
+(Zhang et al., 2005) have been characterized. In addition, 5-HT
+plays a role in modulating locomotory transitions associated with
+nutritional status (Fujiwara et al., 2002; Tsalik and Hobert, 2003;
+Gray et al., 2005). However, a thorough understanding of the
+anatomy and overall modulation of serotonergic signaling is still
+in its infancy and few studies have localized the 5-HT receptors
+involved in mediating individual behaviors.
+The role of feeding status and 5-HT in the modulation of
+octanol avoidance has been demonstrated previously (Chao et al.,
+2004). The ASH sensory neurons are both necessary and sufficient for responses to dilute octanol and food/5-HT increases
+these responses. Similarly, nose touch, another ASH-mediated
+behavior, elicits 5-HT-dependent Ca 2⫹ transients in the ASHs,
+even in unc-13 animals, strongly suggesting that 5-HT alters the
+sensitivity of the ASHs directly (Hilliard et al., 2005). Indeed, we
+have identified a putative 5-HT receptor, SER-5, that functions
+directly in the ASHs. SER-5 is most closely related to mammalian
+5-HT6 receptors. 5-HT6 receptors are abundantly expressed in
+olfactory tubercles, although no studies have examined their role
+in mammalian nociception (Woolley et al., 2004; Mitchell and
+Neumaier, 2005). Because the 5-HT specificity of SER-5 has not
+been demonstrated through ligand-binding studies, it is possible
+that an additional, as yet unidentified, 5-HT receptor is involved
+in the release of another neuromodulator that then activates
+SER-5. We consider this a remote possibility, given the close
+alignment of the new SER-5 sequence with other 5-HT receptors
+and the identification of a second 5-HT stimulated behavior that
+is dependent on SER-5, i.e., 5-HT-dependent increases in egglaying in ser-4;mod-1;ser-7 ser-1 null animals (Hapiak et al.,
+2009). Attempts to express SER-5 in mammalian cells with the
+addition of signal sequences or temperature shock, as we have
+described for other C. elegans GPCRs, have been unsuccessful
+(Rex and Komuniecki, 2002; Hobson et al., 2003). Indeed, the
+direct characterization of SER-5 may be problematic in the absence of a nematode cell line. For example, the heterologous expression of many olfactory and pheromone GPCRs that are ex-
+
+1454 • J. Neurosci., February 4, 2009 • 29(5):1446 –1456
+
+Harris et al. • Multiple Amine Receptors Modulate Aversive Behavior
+
+pressed in sensory neurons is poor and
+may require accessory proteins (Loconto
+et al., 2003).
+Both the AIB and potentially the AIY
+interneurons are involved in the MOD1-dependent sensitization of ASHmediated aversive responses
+The ASH sensory neurons innervate the
+AVA/AVB/AVD command interneurons
+that likely function as a “bistable switch”
+to regulate forward/backward locomotion
+and reversal (Chalfie et al., 1985; Zheng et
+al., 1999; Brockie et al., 2001; Tsalik and
+Hobert, 2003; Gray et al., 2005). In addition, the ASHs synapse on the AIA, AIB
+and RIA interneurons, but not on the motorneurons that directly innervate body
+wall muscle. 5-HT stimulated responses to
+dilute octanol can be rescued in mod-1 animals by expression of mod-1 transgenes in
+the AIBs or AIYs (npr-9p or ttx-3p). Similarly, the expression of odr-2(2b)p::mod-1
+(AIBs/AIZs) or ttx-3p::mod-1 transgenes
+rescued aversive learning in mod-1 animals (Zhang et al., 2005). The AIBs are
+innervated by the ASHs and are prominent
+postsynaptic partners of the AIAs. Because
+the expression of mod-1 in the AIBs alone
+rescued 5-HT-dependent increases in octanol sensitivity, these results suggest that Figure 6. Tentative localization of 5-HT receptors in neurons involved in ASH-mediated aversive responses to dilute octanol.
+the AIBs play a key role in mediating the The ASH sensory neurons are necessary and sufficient for responses to dilute octanol and innervate multiple levels of the locomoeffects of MOD-1 signaling on octanol tory circuit, including the command interneurons that control forward and backward locomotion (White et al., 1986; Chao et al.,
+sensitivity (White et al., 1986).
+2004). Interestingly, based on the tentative localization of different ser-x::gfp transgenes and the neuron-specific rescue/knockThe AIYs also appear to be involved down studies described above, the 5-HT receptors modulating octanol sensitivity do not appear to be expressed directly in the
+in mod-1-mediated aversive behaviors, command interneurons but, instead, in neurons modulating their output. Direct outputs from the ASH are presented in red.
+although they are not directly innervated Numbers are an estimate of synaptic connectives between neurons (White et al., 1986).
+by the ASHs. In fact, many sensory neuturns when animals are removed from food, suggesting that
+rons mediate locomotory behaviors through the AIYs (Ryu
+the AIBs increase the probability of reversal during area reand Samuel, 2002; Tsalik and Hobert, 2003; Zariwala et al.,
+stricted search (Gray et al., 2005). Similarly, ablation of the
+2003). For example, ttx-3 mutants, in which the AIYs fail to
+develop, do not modulate reversal frequency in response to
+AIYs increases the frequency of spontaneous reversals both on
+ASE-mediated gustatory or AWA/AWC-mediated olfactory
+and off food and roles have been proposed for the AIYs in
+cues (Tsalik and Hobert, 2003). In contrast, in the present
+modulating reversals associated with other behaviors (Mori
+study, ttx-3 null animals exhibited wild-type aversive reand Ohshima, 1997; Tsalik and Hobert, 2003; Gray et al.,
+sponses to dilute octanol in both the presence and absence of
+2005). The AIBs and AIYs appear to act, at least in part, in
+5-HT. However, mod-1 encodes a 5-HT-gated chloride chanparallel, based on the observation that their roles in the modnel that would presumably inhibit AIY function. Therefore, as
+ulation of locomotory behavior appear to be additive (Gray et
+observed in the present study, aversive responses to dilute
+al., 2005). In the present study, spontaneous reversal was simoctanol on food would be predicted to be stimulated in both
+ilarly stimulated in mod-1 and ttx-3 animals off food. In conwild-type animals without AIYs, as observed in ttx-3 animals
+trast, reversal frequency was inhibited in mod-1 animals and
+or in animals in which the AIYs are inhibited by MOD-1, as in
+stimulated in ttx-3 animals on food. Together with the data on
+the ttx-3p::mod-1 rescued animals. It is worth noting that the
+octanol sensitivity described above, these observations highexpression of an inhibitory Cl ⫺ channel has the potential to
+light the different, but overlapping, roles played by serotonersilence neurons and could affect behavior, even if these neugic signaling in the modulation of spontaneous reversals or
+rons are not normally involved in the behavior. However,
+ASH-mediated aversive responses.
+based on expression of mod-1 and neuron-specific rescue of
+In summary, our observations suggest that the serotonergic
+mod-1 animals, these results suggest that both the AIBs and
+modulation of aversive responses involves sensitization at multiAIYs are involved in the MOD-1-dependent modulation of
+ple levels within the ASH-mediated circuit that controls reversal/
+octanol sensitivity in the presence of food or 5-HT.
+backward locomotion. In addition, they highlight the advantages
+Both the AIBs and AIYs also modulate spontaneous reverof the C. elegans model in dissecting the complex aminergic modsal (Tsalik and Hobert, 2003; Gray et al., 2005). For example,
+ulation of olfactory behaviors.
+AIB ablation prevents the stimulation of long reversals and ␻
+
+Harris et al. • Multiple Amine Receptors Modulate Aversive Behavior
+
+References
+Alkema MJ, Hunter-Ensor M, Ringstad N, Horvitz HR (2005) Tyramine
+functions independently of octopamine in the Caenorhabditis nervous
+system. Neuron 46:247–260.
+Almaula N, Ebersole BJ, Zhang D, Weinstein H, Sealfon S (1996) Mapping
+the binding site pocket of the serotonin 5-hydroxytryptamine2A receptor.
+Ser3.36(159) provides a second interaction site for the protonated amine
+of serotonin but not of lysergic acid diethylamide or bufotenin. J Biol
+Chem 271:14672–14675.
+Barak LS, Tiberi M, Freedman NJ, Kwatra MM, Lefkowitz RJ, Caron MG
+(1994) A highly conserved tyrosine residue in G-protein coupled receptors is required for agonist-mediated ␤2-adrenergic receptor sequestration. J Biol Chem 269:2790 –2795.
+Bargmann CI, Hartwieg E, Horvitz HR (1993) Odorant-selective genes and
+neurons mediate olfaction in C. elegans. Cell 74:515–527.
+Bendena WG, Boudreau JR, Papanicolaou T, Maltby M, Tobe SS, Chin-Sang
+ID (2008) A Caenorhabditis elegans allatostatin/galanin-like receptor
+NPR-9 inhibits local search behavior in response to feeding cues. Proc
+Natl Acad Sci U S A 105:1339 –1342.
+Brenner S (1974) The genetics of Caenorhabditis elegans. Genetics 77:71–94.
+Brockie PJ, Mellem JE, Hills T, Madsen DM, Maricq AV (2001) The C.
+elegans glutamate receptor subunit NMR-1 is required for slow NMDAactivated currents that regulate reversal frequency during locomotion.
+Neuron 31:617– 630.
+Carnell L, Illi J, Hong SW, McIntire SL (2005) The G-protein-coupled serotonin receptor SER-1 regulates egg laying and male mating behaviors in
+Caenorhabditis elegans. J Neurosci 25:10671–10681.
+Carre-Pierrat M, Baillie D, Johnsen R, Hyde R, Hart A, Granger L, Ségalat L
+(2006) Characterization of the Caenorhabditis elegans G protein-coupled
+serotonin receptors. Invert Neurosci 6:189 –205.
+Chalfie M, Sulston JE, White JG, Southgate E, Thomson JN, Brenner S
+(1985) The neural circuit for touch sensitivity in Caenorhabditis elegans.
+J Neurosci 5:956 –964.
+Chao MY, Komatsu H, Fukuto HS, Dionne HM, Hart AC (2004) Feeding
+status and serotonin rapidly and reversibly modulate a Caenorhabditis
+elegans chemosensory circuit. Proc Natl Acad Sci U S A 101:15512–15517.
+Chao MY, Larkins-Ford J, Tucey TM, Hart AC (2005) LIN-12 Notch functions in the adult nervous system of C. elegans. BMC Neurosci 6:45.
+Chou JH, Bargmann CI, Sengupta P (2001) The Caenorhabditis elegans
+odr-2 gene encodes a novel Ly-6-related protein required for olfaction.
+Genetics 157:211–224.
+Choudhary MS, Craigo S, Roth BL (1993) A single point mutation
+(Phe3403 Leu340) of a conserved phenylalanine abolishes 4-[125I]iodo(2,5-dimethoxy)phenylisopropylamine and [3H]mesulergine but not
+[3H]ketanserin binding to 5-hydroxytryptamine2 receptors. Mol Pharmacol 43:755–761.
+de Bono M, Maricq AV (2005) Neuronal substrates of complex behaviors in
+C. elegans. Annu Rev Neurosci 28:451–501.
+Dempsey CM, Mackenzie SM, Gargus A, Blanco G, Sze JY (2005) Serotonin
+(5HT), fluoxetine, imipramine and dopamine target distinct 5HT receptor signaling to modulate Caenorhabditis elegans egg-laying behavior. Genetics 169:1425–1436.
+Dernovici S, Starc T, Dent JA, Ribeiro P (2006) The serotonin receptor
+SER-1 (5HT2ce) contributes to the regulation of locomotion in Caenorhabditis elegans. Dev Neurobiol 67:189 –204.
+Esposito G, Di Schiavi E, Bergamasco C, Bazzicalupo P (2007) Efficient and
+cell specific knock-down of gene function in targeted C. elegans neurons.
+Gene 395:170 –176.
+Fujiwara M, Sengupta P, McIntire SL (2002) Regulation of body size and
+behavioral state of C. elegans by sensory perception and EGL-4 cGMPdependent protein kinase. Neuron 36:1091–1102.
+Gattiker A, Gasteiger E, Bairoch A (2002) ScaProsite: a reference implementation of a PROSITE scanning tool. Appl Bioinformatics 1:107–108.
+Gray JM, Hill JJ, Bargmann CI (2005) A circuit for navigation in Caenorhabditis elegans. Proc Natl Acad Sci U S A 102:3184 –3191.
+Hamdan FF, Ungrin MD, Abramovitz M, Ribeiro P (1999) Characterization of a novel serotonin receptor from Caenorhabditis elegans: cloning
+and expression of two splice variants. J Neurochem 72:1372–1383.
+Hapiak VM, Hobson RJ, Hughes L, Smith K, Harris G, Condon C, Komuniecki P, Komuniecki RW (2009) Dual excitatory and inhibitory serotonergic inputs modulate egg laying in Caenorhabditis elegans. Genetics
+181:153–163.
+
+J. Neurosci., February 4, 2009 • 29(5):1446 –1456 • 1455
+Heisler LK, Zhou L, Bajwa P, Hsu J, Tecott LH (2007) Serotonin 5-HT(2c)
+receptors regulate anxiety-like behavior. Genes Brain Behav 6:491– 496.
+Herman RK, Hedgecock EM (1990) Limitations of the size of the vulval
+primordium of Caenorhabditis elegans by lin-15 expression in surrounding hyopodermis. Nature 348:169 –171.
+Hilliard MA, Apicella AJ, Kerr R, Suzuki H, Bazzicalupo P, Schafer WR
+(2005) In vivo imaging of C. elegans ASH neurons: cellular response and
+adaptation to chemical repellents. EMBO J 24:63–72.
+Hobert O (2002) PCR fusion-based approach to create reporter gene constructs for expression analysis in transgenic C. elegans. Biotechniques
+32:728 –730.
+Hobert O, Mori I, Yamashita Y, Honda H, Ohshima Y, Liu Y, Ruvkun G
+(1997) Regulation of interneuron function in the C. elegans thermoregulatory pathway by the ttx-3 LIM homeobox gene. Neuron 19:345–357.
+Hobson RJ, Geng J, Gray AD, Komuniecki RW (2003) SER-7b, a constitutively active G␣ coupled 5-HT7-like receptor expressed in the Caenorhabditis elegans M4 pharyngeal motorneuron. J Neurochem 87:22–29.
+Horvitz HR, Chalfie M, Trent C, Sulston JE, Evans PD (1982) Serotonin and
+octopamine in the nematode C. elegans. Science 216:1012–1014.
+Huang X, Xiao H, Rex EB, Hobson RJ, Messer WS, Komuniecki PR, Komuniecki RW (2002) Functional characterization of alternatively spliced
+5-HT2 isoforms from the pharynx and muscle of the parasitic nematode,
+Ascaris suum. J Neurochem 83:249 –258.
+Kamath RS, Ahringer J (2003) Genome-wide RNAi screening in C. elegans.
+Methods 30:313–321.
+Kramer JM, French RP, Park EC, Johnson JJ (1990) The Caenorhabditis
+elegans rol-6 gene, which interacts with the sqt-1 collagen gene to determine organismal morphology, encodes a collagen. Mol Cell Biol
+10:2081–2089.
+Loconto J, Papes F, Chang E, Stowers L, Jones EP, Takada T, Kumánovics A,
+Fischer Lindahl K, Dulac C (2003) Functional expression of murine
+V2R pheromone receptors involves selective association with the M10
+and M1 families of MHC class Ib molecules. Cell 112:607– 618.
+Lucki I (1998) The spectrum of behaviors influenced by serotonin. Biol Psychiatry 44:151–162.
+Mello C, Fire A (1995) DNA transformation. Methods Cell Biol
+48:451– 482.
+Mitchell ES, Neumaier JF (2005) 5-HT6 receptors: a novel target for cognitive enhancement. Pharmacol Ther 108:320 –333.
+Mori I, Ohshima Y (1997) Molecular neurogenetics of chemotaxis and thermotaxis in the nematode Caenorhabditis elegans. BioEssays 19:1055–1064.
+Moro O, Lameh J, Högger P, Sadée W (1993) Hydrophobic amino acids in
+the i2 loop plays a key role in receptor G-protein coupling. J Biol Chem
+268:22273–22276.
+Niacaris T, Avery L (2003) Serotonin regulates repolarization of the C. elegans pharyngeal muscle. J Exp Biol 206:223–231.
+Olde B, McCombie WR (1997) Molecular cloning and functional expression of a serotonin receptor from Caenorhabditis elegans. J Mol Neurosci
+8:53– 62.
+Pierce-Shimomura JT, Morse TM, Lockery SR (1999) The fundamental role
+of pirouettes in C. elegans chemotaxis. J Neurosci 19:9557–9569.
+Ranganathan R, Cannon SC, Horvitz HR (2000) MOD-1 is a serotoningated chloride channel that modulates locomotory behavior in C. elegans.
+Nature 408:470 – 475.
+Raizen DM, Zimmerman JE, Maycock MH, Ta UD, You YJ, Sundaram MV,
+Pack AI (2008) Lethargus is a Caenorhabditis elegans sleep like state.
+Nature 451:569 –572.
+Rex E, Komuniecki RW (2002) Characterization of a tyramine receptor
+from Caenorhabditis elegans. J Neurochem 82:1352–1359.
+Roth BL, Shoham M, Choudhary MS, Khan N (1997) Identification of conserved aromatic residues essential for agonist binding and second messenger production at 5-hydroxytryptamine 2A receptors. Mol Pharmacol
+52:259 –266.
+Ryu WS, Samuel AD (2002) Thermotaxis in Caenorhabditis elegans analyzed
+by measuring responses to defined thermal stimuli. J Neurosci
+22:5727–5733.
+Sawin ER, Ranganathan R, Horvitz HR (2000) C. elegans locomotory rate is
+modulated by the environment through a dopaminergic pathway and by
+experience through a serotonergic pathway. Neuron 26:619 – 631.
+Ségalat L, Elkes DA, Kaplan JM (1995) Modulation of serotonin-controlled
+behaviors by Go in Caenorhabditis elegans. Science 267:1648 –1651.
+Simmer F, Tijsterman M, Parrish S, Koushika SP, Nonet ML, Fire A, Ahringer
+
+1456 • J. Neurosci., February 4, 2009 • 29(5):1446 –1456
+J, Plasterk RH (2002) Loss of the putative RNA-directed RNA polymerase RRF-3 makes C. elegans hypersensitive to RNAi. Curr Biol
+12:1317–1319.
+Strader CD, Candelore MR, Hill WS, Sigal IS, Dixon RA (1989) Identification of two serine residues involved in agonist activation of the betaadrenergic receptor. J Biol Chem 264:13572–13578.
+Sulston J, Hodgkin J (1988) Methods. In: The nematode Caenorhabditis elegans (Wood WB, ed), pp 587– 606. Cold Spring Harbor, NY: Cold Spring
+Harbor Laboratory.
+Troemel ER, Chou JH, Dwyer ND, Colbert HA, Bargmann CI (1995) Divergent seven transmembrane receptors are candidate chemosensory receptors in C. elegans. Cell 83:207–218.
+Troemel ER, Kimmel BE, Bargmann CI (1997) Reprogramming chemotaxis
+responses: sensory neurons define olfactory preferences in C. elegans. Cell
+91:161–169.
+Tsalik EL, Hobert O (2003) Functional mapping of neurons that control
+locomotory behavior in Caenorhabditis elegans. J Neurobiol 56:178 –197.
+Tsalik EL, Niacaris T, Wenick AS, Pau K, Avery L, Hobert O (2003) LIM
+homeobox gene-dependent expression of biogenic amine receptors in
+restricted regions of the C. elegans nervous system. Dev Biol 263:81–102.
+Waggoner LE, Zhou GT, Schafer RW, Schafer WR (1998) Control of alternative behavioral states by serotonin in Caenorhabditis elegans. Neuron
+21:203–214.
+Wakabayashi T, Kitagawa I, Shingai R (2004) Neurons regulating the dura-
+
+Harris et al. • Multiple Amine Receptors Modulate Aversive Behavior
+tion of forward movement in Caenorhabditis elegans. Neurosci Res
+50:103–111.
+Wenick AS, Hobert O (2004) Genomic cis-regulatory architecture and
+trans-acting regulators of a single interneuron-specific gene battery in C.
+elegans. Dev Cell 6:757–770.
+White JG, Southgate E, Thomson JN, Brenner S (1986) The structure of the
+nervous system of the nematode Caenorhabditis elegans. Philos Trans R
+Soc Lond B Biol Sci 314:1–340.
+Woolley ML, Marsden CA, Fone KC (2004) 5-HT6 receptors. Curr Drug
+Targets CNS Neurol Disord 3:59 –79.
+Xiao H, Hapiak VM, Smith KA, Lin L, Hobson RJ, Plenefisch J, Komuniecki
+RW (2006) SER-1, a Caenorhabditis elegans 5-HT like receptor, and a
+multi-PDZ domain containing protein (MPZ-1) interact in vulval muscle
+to facilitate serotonin-stimulated egg laying. Dev Biol 298:379 –391.
+Zariwala HA, Miller AC, Faumont S, Lockery SR (2003) Step response analysis of thermotaxis in Caenorhabditis elegans. J Neurosci 23:4369 – 4377.
+Zhang Y, Lu H, Bargmann CI (2005) Pathogenic bacteria induce aversive
+olfactory learning in Caenorhabditis elegans. Nature 438:179 –184.
+Zhao B, Khare P, Feldman L, Dent JA (2003) Reversal frequency in Caenorhabditis elegans represents an integrated response to the state of the animal and its environment. J Neurosci 23:5319 –5328.
+Zheng Y, Brockie PJ, Mellem JE, Madsen DM, Maricq AV (1999) Neuronal
+control of locomotion in C. elegans is modified by a dominant mutation in
+the GLR-1 ionotropic glutamate receptor. Neuron 24:347–361.
+
+

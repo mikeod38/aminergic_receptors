@@ -1,0 +1,26 @@
+====================================================================================================
+DATING THE dop-3/dop-5/dop-6 RADIATION BY PHYLOGENETIC PLACEMENT
+====================================================================================================
+monoamine HMM, inclusion at score >= 120.0 (the b120 panel boundary), no orthology call made.
+
+  Tspi  Trichinella spiralis        18572 proteins ->   7 candidates >= 120.0
+  Tmur  Trichuris muris             13960 proteins ->   8 candidates >= 120.0
+  Bmal  Brugia malayi               15168 proteins ->  15 candidates >= 120.0
+  Srat  Strongyloides ratti         12456 proteins ->  14 candidates >= 120.0
+  Hcon  Haemonchus contortus        20964 proteins ->  15 candidates >= 120.0
+  Name  Necator americanus          19125 proteins ->  11 candidates >= 120.0
+  Ppac  Pristionchus pacificus      26122 proteins ->  18 candidates >= 120.0
+  Cbri  Caenorhabditis briggsae     21744 proteins ->  19 candidates >= 120.0
+
+107 candidates total across 8 proteomes
+
+per lineage:
+   I   Dorylaimia                             8
+   I   Dorylaimia (earliest-diverging)        7
+   III Spirurina                              15
+   IV  Tylenchina                             14
+   V   Rhabditina (Caenorhabditis)            19
+   V   Rhabditina (Diplogasteromorpha)        18
+   V   Rhabditina (Strongylida)               26
+
+-> /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/placement/candidates.faa  and  candidates.tsv

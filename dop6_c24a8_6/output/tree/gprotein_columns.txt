@@ -1,0 +1,15 @@
+alignment 163 x 1116
+  3SN6  receptor=hADRB2     class=Gs    26 contacts, 26 mapped
+  6DDF: receptor not in panel (best Myes_tr_A0A210PPR0_A0A210PPR0_MIZYE, 3 shared 6-mers) - skipped
+  6CMO: receptor not in panel (best Cbn_dop-5, 2 shared 6-mers) - skipped
+  6OIK  receptor=hCHRM2     class=Go    22 contacts, 22 mapped
+  6OIJ  receptor=hCHRM1     class=G11   27 contacts, 27 mapped
+  7JVR  receptor=hDRD2      class=Gi1   22 contacts, 22 mapped
+  6VMS  receptor=hDRD2      class=Gi1   24 contacts, 24 mapped
+  7CKW  receptor=hDRD1      class=Gs    37 contacts, 37 mapped
+  6GDG  receptor=Nvec_tr_A7SM55_A7SM55_NEMVE class=Gs    27 contacts, 27 mapped
+  7DFL  receptor=hHRH1      class=Gq    24 contacts, 24 mapped
+  6WHA  receptor=hHTR2A     class=Gs    24 contacts, 24 mapped
+
+consensus Galpha-interface columns (contact in >=6 of 11): 18
+-> /Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/output/tree/gprotein_columns.tsv

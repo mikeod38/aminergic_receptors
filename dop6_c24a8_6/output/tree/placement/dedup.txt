@@ -1,0 +1,12 @@
+Bmal_A0A0K0J8Y2	Bma_tyra-2
+Bmal_A0A4E9ESU9	Bma_tyra-3
+Srat_A0A090LN14	Sra_ser-2
+Srat_A0A090KPL0	Sra_ser-6
+Ppac_A0A2A6BJ77	Ppa_ser-4
+Ppac_A0A2A6D0K5	Ppa_ser-6
+Ppac_A0A2A6BDA4	Ppa_dop-3
+Ppac_A0A2A6BF88	Ppa_dop_6
+Cbri_A8X5P4	Cbr_dop-4
+Cbri_A8XLG2	Cbr_ser-4
+Cbri_A8XGI3	Cbr_ser-3
+Cbri_A8WUU8	Cbr_ser-6

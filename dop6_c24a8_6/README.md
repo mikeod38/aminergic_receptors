@@ -316,13 +316,34 @@ tips, so a ligand switch on the dop-6 stem is a common-rate event that no topolo
 ### Can the tree predict coupling at all?
 
 The precedent for reading a receptor's G protein off its nearest characterised relative is SER-5's
-Gs call (Harris et al. 2009, *J Neurosci* 29:1446, PMID 19193891). Its validation is weaker than the
-citation implies: the tree was **5-HT receptors only**, rooted on GAR-1; the method was ClustalW in
-MegAlign/DNAStar, **hand-tuned**, then neighbour-joining in PAUP with DNAStar bootstrapping — no ML,
-no model selection; **hypervariable regions were deleted, including ICL3**, which is where part of
-the Gα interface lives (§5); and the validation is one sentence of eyeball assessment with no
-statistical test. *(The full text is Cloudflare-gated here — this rests on the abstract, the
-figure legend and the Methods as far as they are accessible. Flagged as unaudited.)*
+Gs call (Harris et al. 2009, *J Neurosci* 29:1446, PMID 19193891). **Audited against the full text
+2026-09-17** (`data/1446.full.pdf`; full audit in
+`reviews/2026-09-16_dop6_conclusions/C35_harris2009_audit.md`).
+
+What holds: the panel is **5-HT receptors only** — 27 sequences, no non-5-HT receptor in it —
+rooted on GAR-1; the method is ClustalW in MegAlign/DNAStar, **fine-tuned by hand**, then
+neighbour-joining distance in PAUP 4.0b10 with DNAStar bootstrapping, **no ML and no model
+selection**; and the validation is one sentence of inspection with no test statistic: *"all of the
+previously characterized 5-HT receptors clustered according to their documented G-protein coupling,
+regardless of phylogenetic origin, validating the utility of the tree"*.
+
+**Two earlier criticisms of mine were wrong and are withdrawn.** (1) They did **not** delete all of
+ICL3 — they excised the middle and explicitly kept *"8 aa after and 6 aa before predicted
+transmembrane domains 5 and 6"*, i.e. the loop ends, which is exactly where §5 finds the Gα contacts
+sit. That is the same operation §6b performs with HMM blocks, as §6b itself says; the criticism and
+that sentence should never have coexisted in this file. (2) The truncation **was** controlled:
+*"similar results were obtained using the full-length receptors (data not shown)"* — weak by modern
+standards and uncheckable, but I wrote as though the question had never been asked.
+
+**And SER-5's Gs call does not rest on the tree alone.** It rests on five lines, four of them
+sequence-level: 35 % identity to human 5-HT6 across the ligand-binding TMs; a short ICL3 (67 vs
+60 aa); a BBXXB motif at the ICL3 C-terminus; a **PLRYK motif in ICL2 found in no other 5-HT
+receptor**; and **two intron positions conserved with the mammalian 5-HT6 genes** — a discrete
+shared-derived character, which is stronger evidence of common descent than any distance clustering.
+
+So the fair criticism is narrower than the one this section used to make: NJ on a hand-tuned
+alignment is a weak instrument for *inferring coupling from tree position specifically*, and that
+inference is the one that deserved testing rather than inheriting.
 
 So the intuition was tested rather than inherited. Fitch parsimony vs 10,000 label permutations on
 b120, all four trim levels (`output/tree/b120/confirm.txt`):
