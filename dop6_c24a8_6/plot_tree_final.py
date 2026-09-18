@@ -18,6 +18,15 @@ from matplotlib.lines import Line2D
 from matplotlib.patches import Rectangle
 
 HERE=os.path.dirname(os.path.abspath(__file__)); T=os.environ.get('DOP6_TREEDIR') or os.path.join(HERE,'output','tree')
+# Declared exceptions: tips deliberately kept although they score below the monoamine HMM >= 120
+# boundary. Marking them is the point - an undeclared sub-cutoff tip is exactly the curation
+# asymmetry the referee panel flagged, and it is how F59D12.1 survived in the v1 panel.
+EXCEPT={}
+for _f in (f'{T}/declared_exceptions.tsv',):
+    if os.path.exists(_f):
+        for _l in open(_f).read().strip().split('\n')[1:]:
+            _p=_l.split('\t')
+            if len(_p)>=2: EXCEPT[_p[0]]=_p[1]
 trim=sys.argv[1] if len(sys.argv)>1 else 'gt0.1'
 LIG={'cel_dop-1':'DA','cel_dop-2':'DA','cel_dop-3':'DA','cel_dop-4':'DA',
  'hDRD1':'DA','hDRD2':'DA','hDRD3':'DA','hDRD4':'DA','hDRD5':'DA','dmDop1R1':'DA','dmDop2R':'DA',
@@ -187,6 +196,9 @@ for n in order:
     if lab in CONTESTED:
         ax.text(xlab+xmax*(CGENE-0.018),n['y'],'*',fontsize=4.6 if N>80 else 8.0,
                 va='center',ha='center',color='#B03030')
+    if lab in EXCEPT:
+        ax.text(xlab+xmax*(CGENE-0.040),n['y'],'\u00A7',fontsize=4.2 if N>80 else 7.6,
+                va='center',ha='center',color='#B8860B',fontweight='bold')
     ax.text(xlab+xmax*CGENE,n['y'],gene,fontsize=3.9 if N>80 else 7.2,va='center',ha='left',
             style='italic' if ital else 'normal',
             weight='bold' if bold else 'normal',
@@ -208,7 +220,7 @@ h=[Line2D([],[],marker='s',linestyle='none',markersize=3.6,markerfacecolor=COL[k
 lg=fig.legend(handles=h,loc='upper right',bbox_to_anchor=(0.998,0.955),frameon=False,fontsize=4.4,
               handletextpad=0.4,labelspacing=0.3,title='experimentally determined ligand',
               title_fontsize=4.8)
-fig.text(0.50,0.995,f'Aminergic GPCR phylogeny, rebuilt  ·  163 taxa, 7TM domain excerpts  ·  {trim}',
+fig.text(0.50,0.995,f'Aminergic GPCR phylogeny  ·  {N} taxa, 7TM domain excerpts  ·  {trim}',
          fontsize=5.6,va='top',ha='left',weight='bold')
 fig.text(0.50,0.978,'node labels = UFboot (shown when ≥ 70). 22 C. elegans, 40 other nematode,\n'
          '38 human, 14 Drosophila, 50 other metazoan.',fontsize=4.2,va='top',ha='left',color='#555')

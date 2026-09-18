@@ -1,0 +1,16 @@
+tip	hmm_score
+TEST_nmur-3	78.9
+TEST_tkr-1	79.0
+TEST_npr-20	81.4
+TEST_npr-24	82.0
+TEST_npr-34	82.6
+TEST_npr-22	84.9
+TEST_tkr-2	87.7
+TEST_nmur-2	87.9
+TEST_ckr-2	91.5
+TEST_trhr-1	94.8
+TEST_ckr-1	94.9
+hMTNR1B	95.3
+TEST_npr-35	97.5
+hGPR50	98.3
+hMTNR1A	102.5

@@ -1,0 +1,16 @@
+tip	reason
+hMTNR1A	melatonin reference for the 3.32 comparison
+hMTNR1B	melatonin reference for the 3.32 comparison
+hGPR50	melatonin-related orphan, 3.32 comparison
+TEST_npr-35	boundary test set
+TEST_ckr-1	boundary test set
+TEST_trhr-1	boundary test set
+TEST_ckr-2	boundary test set
+TEST_nmur-2	boundary test set
+TEST_tkr-2	boundary test set
+TEST_npr-22	boundary test set
+TEST_npr-34	boundary test set
+TEST_npr-24	boundary test set
+TEST_npr-20	boundary test set
+TEST_tkr-1	boundary test set
+TEST_nmur-3	boundary test set

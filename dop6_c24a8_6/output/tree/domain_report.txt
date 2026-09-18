@@ -14,4 +14,4 @@ scanning with the monoamine model ...
 CHECK: the sequences known to carry the amine-binding aspartate still contain it in the
 excerpt: all present
 
--> output/tree_final/panel_domains.faa (163 sequences)
+-> output/tree/panel_domains.faa (163 sequences)

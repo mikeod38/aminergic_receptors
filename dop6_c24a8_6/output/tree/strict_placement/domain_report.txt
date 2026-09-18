@@ -1,0 +1,15 @@
+============================================================================================
+7TM DOMAIN EXCERPTS
+============================================================================================
+253 sequences; margin 15 residues each side of the HMM envelope
+
+scanning with the monoamine model ...
+  253/253 sequences have a monoamine envelope
+
+253 excerpts; length min 250, median 329, max 637
+(full-length panel was min 305, max 1256)
+
+CHECK: the sequences known to carry the amine-binding aspartate still contain it in the
+excerpt: all present
+
+-> output/tree/panel_domains.faa (253 sequences)

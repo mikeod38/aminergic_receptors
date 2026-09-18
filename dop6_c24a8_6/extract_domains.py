@@ -21,7 +21,7 @@ Writes output/tree/panel_domains.faa and domain_report.txt
 import os, re, sys
 import pyhmmer
 
-HERE=os.path.dirname(os.path.abspath(__file__)); T=os.path.join(HERE,'output','tree')
+HERE=os.path.dirname(os.path.abspath(__file__)); T=os.environ.get('DOP6_TREEDIR') or os.path.join(HERE,'output','tree')
 MONO='/Users/mikeodonnell/git/WormPooledCloning/data/raw/MonoamineHMM_Model.hmm'
 TM7='/Users/mikeodonnell/git/WormPooledCloning/data/raw/PF00001.hmm'
 MARGIN=15
