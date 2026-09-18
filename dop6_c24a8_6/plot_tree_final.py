@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from matplotlib.patches import Rectangle
 
-HERE=os.path.dirname(os.path.abspath(__file__)); T=os.path.join(HERE,'output','tree')
+HERE=os.path.dirname(os.path.abspath(__file__)); T=os.environ.get('DOP6_TREEDIR') or os.path.join(HERE,'output','tree')
 trim=sys.argv[1] if len(sys.argv)>1 else 'gt0.1'
 LIG={'cel_dop-1':'DA','cel_dop-2':'DA','cel_dop-3':'DA','cel_dop-4':'DA',
  'hDRD1':'DA','hDRD2':'DA','hDRD3':'DA','hDRD4':'DA','hDRD5':'DA','dmDop1R1':'DA','dmDop2R':'DA',
