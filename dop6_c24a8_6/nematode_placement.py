@@ -28,14 +28,14 @@ HMM='/Users/mikeodonnell/git/WormPooledCloning/data/raw/MonoamineHMM_Model.hmm'
 OUT=f'{HERE}/output/tree/placement'; os.makedirs(OUT,exist_ok=True)
 CUT=120.0
 
-LINEAGE={'Tspi':('Trichinella spiralis','I   Dorylaimia (earliest-diverging)'),
-         'Tmur':('Trichuris muris','I   Dorylaimia'),
-         'Bmal':('Brugia malayi','III Spirurina'),
-         'Srat':('Strongyloides ratti','IV  Tylenchina'),
-         'Hcon':('Haemonchus contortus','V   Rhabditina (Strongylida)'),
-         'Name':('Necator americanus','V   Rhabditina (Strongylida)'),
-         'Ppac':('Pristionchus pacificus','V   Rhabditina (Diplogasteromorpha)'),
-         'Cbri':('Caenorhabditis briggsae','V   Rhabditina (Caenorhabditis)')}
+LINEAGE={'Tsp':('Trichinella spiralis','I   Dorylaimia (earliest-diverging)'),
+         'Tmu':('Trichuris muris','I   Dorylaimia'),
+         'Bma':('Brugia malayi','III Spirurina'),
+         'Sra':('Strongyloides ratti','IV  Tylenchina'),
+         'Hco':('Haemonchus contortus','V   Rhabditina (Strongylida)'),
+         'Nam':('Necator americanus','V   Rhabditina (Strongylida)'),
+         'Ppa':('Pristionchus pacificus','V   Rhabditina (Diplogasteromorpha)'),
+         'Cbr':('Caenorhabditis briggsae','V   Rhabditina (Caenorhabditis)')}
 
 rep=[]
 def say(*a):

@@ -15,7 +15,7 @@ TRIMS=('gt0.1','gappyout','gt0.2','gt0.3')
 meta={r['tip']:r for r in csv.DictReader(open(f'{T}/candidates.tsv'),delimiter='\t')}
 LEG={'cel':'V','Cbr':'V','Cbn':'V','Cre':'V','Ppa':'V','Bma':'III','Sra':'IV','Tsp':'I',
      'Nam':'V','Hco':'V'}
-NEMPRE=tuple(LEG)+('Tspi','Tmur','Bmal','Srat','Hcon','Name','Ppac','Cbri')
+NEMPRE=tuple(LEG)+('Tsp','Tmu','Bma','Sra','Hco','Nam','Ppa','Cbr')
 def clade_of(t):
     m=meta.get(t)
     if m: return m['clade'].split()[0]

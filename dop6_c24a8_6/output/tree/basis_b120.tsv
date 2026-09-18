@@ -11,7 +11,7 @@ Cbn_dop-1	nematode orthologue (topology only)	475
 Cbn_dop-3	nematode orthologue (topology only)	601
 Cbn_dop-4	nematode orthologue (topology only)	419
 Cbn_dop-5	nematode orthologue (topology only)	416
-Cbn_dop_6	nematode orthologue (topology only)	708
+Cbn_dop-6	nematode orthologue (topology only)	708
 Cbn_octr-1	nematode orthologue (topology only)	406
 Cbn_ser-2	nematode orthologue (topology only)	442
 Cbn_ser-3	nematode orthologue (topology only)	609
@@ -20,7 +20,7 @@ Cbn_tyra-2	nematode orthologue (topology only)	424
 Cbn_tyra-3	nematode orthologue (topology only)	590
 Cbr_dop-4	nematode orthologue (topology only)	509
 Cbr_dop-5	nematode orthologue (topology only)	760
-Cbr_dop_6	nematode orthologue (topology only)	710
+Cbr_dop-6	nematode orthologue (topology only)	710
 Cbr_octr-1	nematode orthologue (topology only)	408
 Cbr_ser-3	nematode orthologue (topology only)	620
 Cbr_ser-4	nematode orthologue (topology only)	446
@@ -31,7 +31,7 @@ Cre_dop-1	nematode orthologue (topology only)	459
 Cre_dop-3	nematode orthologue (topology only)	601
 Cre_dop-4	nematode orthologue (topology only)	517
 Cre_dop-5	nematode orthologue (topology only)	758
-Cre_dop_6	nematode orthologue (topology only)	708
+Cre_dop-6	nematode orthologue (topology only)	708
 Cre_octr-1	nematode orthologue (topology only)	406
 Cre_ser-2	nematode orthologue (topology only)	419
 Cre_ser-4	nematode orthologue (topology only)	368
@@ -74,7 +74,7 @@ Pmar_tr_A0AAJ7WUU2_A0AAJ7WUU2_PETMA	breadth taxon (proteome sweep, not a charact
 Pmin_tr_A0A914A277_A0A914A277_PATMI	breadth taxon (proteome sweep, not a characterised reference)	497
 Pmin_tr_A0A914B379_A0A914B379_PATMI	breadth taxon (proteome sweep, not a characterised reference)	420
 Ppa_dop-3	nematode orthologue (topology only)	632
-Ppa_dop_6	nematode orthologue (topology only)	793
+Ppa_dop-6	nematode orthologue (topology only)	793
 Ppa_ser-4	nematode orthologue (topology only)	405
 Ppa_ser-6	nematode orthologue (topology only)	436
 Skow_tr_A0ABM0MS41_A0ABM0MS41_SACKO	breadth taxon (proteome sweep, not a characterised reference)	362

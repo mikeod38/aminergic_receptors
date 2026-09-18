@@ -14,10 +14,10 @@ Writes output/tree/pocket.tsv
 import gzip, os, sys, urllib.request
 from collections import defaultdict
 
-HERE=os.path.dirname(os.path.abspath(__file__)); T=os.path.join(HERE,'output','tree')
+HERE=os.path.dirname(os.path.abspath(__file__)); T=os.environ.get('DOP6_TREEDIR') or os.path.join(HERE,'output','tree')
 WORK=('/private/tmp/claude-501/-Users-mikeodonnell-git-Malaiwong-Oglu-2026/'
       '93015e40-e331-495a-8362-20ac7ea07c75/scratchpad/pdb')
-ALN=f'{T}/aln/panel_domains.linsi.faa'
+ALN=os.environ.get('DOP6_ALN') or f'{T}/aln/panel_domains.linsi.faa'
 REFS=[('2RH1','CAU','hADRB2'),('4IB4','ERM','hHTR2B'),('3PBL','ETQ','hDRD3')]
 AA3={'ALA':'A','ARG':'R','ASN':'N','ASP':'D','CYS':'C','GLN':'Q','GLU':'E','GLY':'G','HIS':'H',
      'ILE':'I','LEU':'L','LYS':'K','MET':'M','PHE':'F','PRO':'P','SER':'S','THR':'T','TRP':'W',

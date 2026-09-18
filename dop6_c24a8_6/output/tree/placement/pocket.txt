@@ -1,0 +1,41 @@
+alignment 268 x 1280
+
+2RH1 (hADRB2): 20 ligand contacts, 20 mapped into the alignment
+4IB4 (hHTR2B): 27 ligand contacts, 27 mapped into the alignment
+3PBL (hDRD3): 18 ligand contacts, 18 mapped into the alignment
+
+consensus pocket columns (contact in >=2 of 3 structures): 20
+3.32 = alignment column 418; hADRB2 residue there = D
+POSITIVE CONTROL: 35/35 human aminergic receptors have D at that column.  PASS
+
+238/268 tips carry D at 3.32; without it:
+   Bma_A0A1P6C5R0               G
+   Cbn_dop-5                    G
+   Cbr_A8Y4I4                   G
+   Cbr_dop-5                    G
+   Cre_dop-5                    G
+   Hco_A0A7I4YXV5               G
+   Nam_W2TY13                   G
+   Nvec_tr_A7S987_A7S987_NEMVE  F
+   Ppa_A0A2A6CA79               G
+   TEST_ckr-1                   Q
+   TEST_ckr-2                   Q
+   TEST_nmur-2                  I
+   TEST_nmur-3                  I
+   TEST_npr-20                  T
+   TEST_npr-22                  Q
+   TEST_npr-24                  N
+   TEST_npr-34                  Q
+   TEST_npr-35                  N
+   TEST_tkr-1                   G
+   TEST_tkr-2                   G
+   TEST_trhr-1                  P
+   Tadh_tr_B3RY65_B3RY65_TRIAD  N
+   Tadh_tr_B3S5Y6_B3S5Y6_TRIAD  S
+   Tadh_tr_B3SDK6_B3SDK6_TRIAD  S
+   Tmu_A0A5S6QH67               H
+   Tsp_E5SA85                   H
+   cel_dop-5                    G
+   hGPR50                       T
+   hMTNR1A                      M
+   hMTNR1B                      M
