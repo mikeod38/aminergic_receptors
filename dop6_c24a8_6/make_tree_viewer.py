@@ -293,9 +293,13 @@ function drawLegend(){
   let h='<h4>'+(cb==='lig'?'ligand':'G\u03B1 coupling')+'</h4>';
   for(const k of order) h+='<div class="row"><span class="sw" style="background:'+COL[k]+'"></span>'+k+'<span class="n">'+cnt[k]+'</span></div>';
   if(unl) h+='<div class="row"><span class="sw" style="background:transparent"></span>no experimental assignment<span class="n">'+unl+'</span></div>';
-  h+='<div class="ft">Colour marks an experimentally determined value only. Uncoloured tips are breadth, not evidence.'
-   + ' <a href="#" onclick="document.getElementById(\'legend\').classList.add(\'hide\');document.getElementById(\'legToggle\').style.display=\'\';return false;">hide</a></div>';
+  h+='<div class="ft">Colour marks an experimentally determined value only. Uncoloured tips are breadth, not evidence. <a href="#" id="legHide">hide</a></div>';
   box.innerHTML=h;
+  // Attach the handler rather than inlining onclick: an inline handler here would need
+  // nested quotes inside a quoted JS string, which is how this shipped broken once.
+  const hb=document.getElementById('legHide');
+  if(hb) hb.addEventListener('click',function(e){e.preventDefault();
+    box.classList.add('hide'); btn.style.display='';});
 }
 const _r=render; render=function(){ _r(); drawLegend(); };
 for(const id of ['showSup','useBL','colorBy','q']) document.getElementById(id)[id==='q'?'oninput':'onchange']=render;
@@ -303,5 +307,23 @@ render();
 </script></body></html>"""
 
 html = HTML.replace('__DATA__',data).replace('__TITLE__',title)
+# Syntax-check the embedded script before writing. A JS error anywhere in this block leaves the
+# page completely blank with no indication why, which is exactly how the legend patch shipped
+# broken: an inline onclick needed nested quotes inside a quoted string and silently terminated it.
+def _check(html):
+    import re as _re, shutil as _sh, subprocess as _sp, tempfile as _tf
+    node=_sh.which('node')
+    if not node: return 'skipped (node not found)'
+    m=_re.search(r'<script>(.*?)</script>', html, _re.S)
+    if not m: return 'no script block found'
+    js=m.group(1)
+    with _tf.NamedTemporaryFile('w',suffix='.js',delete=False) as f:
+        f.write('(function(){'+js+'})();'); path=f.name
+    r=_sp.run([node,'--check',path],capture_output=True,text=True)
+    return 'OK' if r.returncode==0 else 'SYNTAX ERROR\n'+(r.stderr or r.stdout)[:600]
+
+_chk=_check(html)
+if _chk.startswith('SYNTAX ERROR'):
+    sys.stderr.write(f'REFUSING TO WRITE {out}: embedded JS is broken\n{_chk}\n'); sys.exit(1)
 open(out,'w').write(html)
 print(f'-> {out}  ({tipcount(tree)} tips, {os.path.getsize(out)//1024} KB)')
