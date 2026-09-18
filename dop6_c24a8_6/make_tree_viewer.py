@@ -65,10 +65,18 @@ COUP={'cel_ser-1':'Gq','cel_ser-4':'Gi/o','cel_ser-7':'Gs','cel_dop-1':'Gq','cel
  'hCHRM2':'Gi/o','dmDop1R1':'Gs','dmDop2R':'Gi/o','dmOctB1R':'Gs','dmOctB2R':'Gs','dmOctB3R':'Gs',
  'dmOAMB':'Gq','dmOctA2R':'Gi/o','dmOctTyrR':'Gi/o','dmTyrR':'Gi/o','dmTyrRII':'Gi/o'}
 POCK={}
-for cand in (os.path.join(HERE,'output','tree','pocket.tsv'),):
+# Read the annotation that belongs to THIS panel, not a hardcoded global one. The viewer used to
+# load output/tree/pocket.tsv unconditionally - the v1 table - so after the tips were renamed to
+# hyphens it silently failed to match Cbn_dop-6/Cbr_dop-6/Cre_dop-6/Ppa_dop-6 and showed them with
+# no residue at 3.32, while cel_dop-6 resolved because it always had a hyphen. Look next to the
+# treefile first; fall back to the global table only if the panel has none.
+_pdir=os.path.dirname(os.path.dirname(os.path.abspath(tf)))   # <panel>/trees/x.treefile -> <panel>
+for cand in (os.path.join(_pdir,'pocket.tsv'),
+             os.path.join(HERE,'output','tree','pocket.tsv')):
     if os.path.exists(cand):
         for ln in open(cand).read().strip().split('\n')[1:]:
             p=ln.split('\t'); POCK[p[0]]=p[1]
+        break
 SPCODE={'Ajap':'A. japonica','Apla':'A. planci','Bflo':'B. floridae','Cint':'C. intestinalis',
  'Cvir':'C. virginica','Drer':'D. rerio','Ebur':'E. diaphana','Hvul':'H. vulgaris','Lana':'L. anatina',
  'Lpol':'L. polyphemus','Mlei':'M. leidyi','Myes':'M. yessoensis','Nvec':'N. vectensis',
