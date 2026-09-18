@@ -158,7 +158,7 @@ rect.hl{fill:var(--hi);opacity:.55}
 <h1>__TITLE__</h1>
 <input type="search" id="q" placeholder="search gene / species">
 <button id="collapseAll">collapse to depth 3</button><button id="expandAll">expand all</button>
-<button id="onlyCel">C. elegans only</button><button id="onlyTest">test set</button>
+<button id="onlyCel" title="Show only the C. elegans genes (plus the boundary-test tips).">C. elegans only</button><button id="onlyTest" title="Show only the 12 TEST_ tips: the highest-scoring genes EXCLUDED by the monoamine HMM &#8805; 120 boundary, included to test it from outside. They form one clade with no aminergic receptor inside, which is the evidence the boundary is sound.">boundary test (12)</button>
 <label><input type="checkbox" id="showSup" checked> support</label>
 <label><input type="checkbox" id="useBL"> branch lengths</label>
 <label>colour <select id="colorBy"><option value="lig">ligand</option><option value="cp">G&#945; coupling</option><option value="none">none</option></select></label>
