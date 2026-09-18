@@ -114,6 +114,16 @@ input[type=search]{padding:5px 9px;border:1px solid var(--bd);border-radius:6px;
 button,select{padding:5px 10px;border:1px solid var(--bd);border-radius:6px;background:var(--bg);color:var(--fg);cursor:pointer;font-size:12px}
 button:hover{background:var(--bd)}
 button.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+/* Floating legend: position:fixed so it stays put while a 268-tip tree scrolls past. */
+#legend{position:fixed;right:14px;bottom:14px;z-index:20;background:var(--pan);border:1px solid var(--bd);
+ border-radius:8px;padding:8px 10px;font-size:11px;box-shadow:0 2px 10px rgba(0,0,0,.18);max-height:70vh;overflow:auto}
+#legend.hide{display:none}
+#legend h4{margin:0 0 6px;font-size:11px;font-weight:600;color:var(--mut);text-transform:uppercase;letter-spacing:.04em}
+#legend .row{display:flex;align-items:center;gap:7px;padding:1px 0;white-space:nowrap}
+#legend .sw{width:11px;height:11px;border-radius:2px;border:1px solid rgba(128,128,128,.55);flex:none}
+#legend .n{color:var(--mut);margin-left:auto;padding-left:10px;font-variant-numeric:tabular-nums}
+#legend .ft{margin-top:6px;padding-top:5px;border-top:1px solid var(--bd);color:var(--mut);font-size:10px;max-width:190px;white-space:normal}
+#legToggle{position:fixed;right:14px;bottom:14px;z-index:21}
 label{font-size:12px;color:var(--mut);display:flex;align-items:center;gap:4px;cursor:pointer}
 #stat{margin-left:auto;color:var(--mut);font-size:11.5px}
 #scroll{overflow:auto;height:calc(100vh - 47px)}
@@ -146,6 +156,8 @@ rect.hl{fill:var(--hi);opacity:.55}
 <label>colour <select id="colorBy"><option value="lig">ligand</option><option value="cp">G&#945; coupling</option><option value="none">none</option></select></label>
 <span id="stat"></span>
 </header><div id="scroll"><svg id="svg" xmlns="http://www.w3.org/2000/svg"></svg></div>
+<div id="legend"></div>
+<button id="legToggle" style="display:none" onclick="document.getElementById('legend').classList.remove('hide');this.style.display='none'">legend</button>
 <script>
 const TREE=__DATA__;
 const LC={'OA':'#C15C3E','TA':'#E0A458','TA/OA':'#D4813F','NE':'#8E3E29','DA':'#1A2C7A','5-HT':'#3C8DAD','5-HT?':'#9EC5D4','ACh':'#7A7A7A','MEL':'#6B4E8E','HA':'#4F8A5B','':'none'};
@@ -257,6 +269,27 @@ document.getElementById('collapseAll').onclick=()=>{collapsed.clear();
 document.getElementById('expandAll').onclick=()=>{collapsed.clear();render();};
 document.getElementById('onlyCel').onclick=e=>{onlyCel=!onlyCel;e.target.classList.toggle('on',onlyCel);render();};
 document.getElementById('onlyTest').onclick=e=>{onlyTest=!onlyTest;e.target.classList.toggle('on',onlyTest);render();};
+function drawLegend(){
+  // Only list values that actually occur in this tree, with counts - a legend showing classes the
+  // panel does not contain is worse than none.
+  const cb=document.getElementById('colorBy').value;
+  const box=document.getElementById('legend'), btn=document.getElementById('legToggle');
+  if(cb==='none'){ box.style.display='none'; btn.style.display='none'; return; }
+  box.style.display='';
+  const key = cb==='lig' ? 'lig' : 'cp';
+  const COL = cb==='lig' ? LC : CC;
+  const cnt={};
+  (function walk(n){ if(!n.kids.length){ const v=n[key]; if(v) cnt[v]=(cnt[v]||0)+1; } n.kids.forEach(walk); })(TREE);
+  const order=Object.keys(COL).filter(k=>k&&cnt[k]).sort((a,b)=>cnt[b]-cnt[a]);
+  const unl=(function(){let u=0;(function w(n){if(!n.kids.length&&!n[key])u++;n.kids.forEach(w);})(TREE);return u;})();
+  let h='<h4>'+(cb==='lig'?'ligand':'G\u03B1 coupling')+'</h4>';
+  for(const k of order) h+='<div class="row"><span class="sw" style="background:'+COL[k]+'"></span>'+k+'<span class="n">'+cnt[k]+'</span></div>';
+  if(unl) h+='<div class="row"><span class="sw" style="background:transparent"></span>no experimental assignment<span class="n">'+unl+'</span></div>';
+  h+='<div class="ft">Colour marks an experimentally determined value only. Uncoloured tips are breadth, not evidence.'
+   + ' <a href="#" onclick="document.getElementById(\'legend\').classList.add(\'hide\');document.getElementById(\'legToggle\').style.display=\'\';return false;">hide</a></div>';
+  box.innerHTML=h;
+}
+const _r=render; render=function(){ _r(); drawLegend(); };
 for(const id of ['showSup','useBL','colorBy','q']) document.getElementById(id)[id==='q'?'oninput':'onchange']=render;
 render();
 </script></body></html>"""
