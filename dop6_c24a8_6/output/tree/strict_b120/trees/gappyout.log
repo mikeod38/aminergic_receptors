@@ -196,3 +196,129 @@ Time for fast ML tree search: 1.878 seconds
 NOTE: ModelFinder requires 78 MB RAM!
 ModelFinder will test up to 1232 protein models (sample size: 298 epsilon: 0.100) ...
  No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           LG+F+I+R8
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+F+R8
+Best-fit model: LG+F+R8 chosen according to BIC
+
+All model information printed to output/tree/strict_b120/trees/gappyout.model.gz
+CPU time for ModelFinder: 2751.056 seconds (0h:45m:51s)
+Wall-clock time for ModelFinder: 1211.388 seconds (0h:20m:11s)
+Generating 1000 samples for ultrafast bootstrap (seed: 855272)...
+
+NOTE: 63 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -58056.931
+2. Current log-likelihood: -58037.030
+3. Current log-likelihood: -58036.386
+Optimal log-likelihood: -58036.289
+Site proportion and rates:  (0.075,0.036) (0.097,0.126) (0.141,0.274) (0.188,0.525) (0.174,0.937) (0.165,1.450) (0.107,2.315) (0.053,3.727)
+Parameters optimization took 3 rounds (2.243 sec)
+WARNING: Branch separating outgroup is not found
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 2.07086 secs using 297.9% CPU
+Computing ML distances took 2.071007 sec (of wall-clock time) 6.169433 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000159979 secs using 201.9% CPU
+Constructing RapidNJ tree: done in 0.00609517 secs using 99.64% CPU
+Computing RapidNJ tree took 0.006282 sec (of wall-clock time) 0.006405 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -57994.289
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.234 second
+Computing log-likelihood of 98 initial trees ... 7.059 seconds
+Current best score: -57994.289
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -57891.830
+Iteration 10 / LogL: -57948.203 / Time: 0h:20m:45s
+Iteration 20 / LogL: -57976.362 / Time: 0h:21m:3s
+Finish initializing candidate tree set (20)
+Current best tree score: -57891.830 / CPU time: 47.487
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -57877.354
+Iteration 30 / LogL: -57878.171 / Time: 0h:21m:23s (0h:3m:46s left)
+Iteration 40 / LogL: -57889.234 / Time: 0h:21m:39s (0h:3m:3s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -57876.230
+Iteration 50 / LogL: -57876.230 / Time: 0h:21m:56s (0h:3m:35s left)
+Log-likelihood cutoff on original alignment: -57940.771
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 58: -57876.075
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -57875.583
+Iteration 60 / LogL: -57884.435 / Time: 0h:22m:16s (0h:3m:30s left)
+Iteration 70 / LogL: -57878.845 / Time: 0h:22m:32s (0h:3m:1s left)
+Iteration 80 / LogL: -57877.190 / Time: 0h:22m:52s (0h:2m:40s left)
+Iteration 90 / LogL: -57877.430 / Time: 0h:23m:8s (0h:2m:17s left)
+Iteration 100 / LogL: -57886.998 / Time: 0h:23m:25s (0h:1m:55s left)
+Log-likelihood cutoff on original alignment: -57940.771
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 110 / LogL: -57880.570 / Time: 0h:23m:44s (0h:2m:55s left)
+BETTER TREE FOUND at iteration 114: -57875.573
+Iteration 120 / LogL: -57877.760 / Time: 0h:24m:2s (0h:3m:2s left)
+Iteration 130 / LogL: -57877.002 / Time: 0h:24m:21s (0h:2m:43s left)
+Iteration 140 / LogL: -57877.059 / Time: 0h:24m:40s (0h:2m:23s left)
+Iteration 150 / LogL: -57892.895 / Time: 0h:24m:59s (0h:2m:3s left)
+Log-likelihood cutoff on original alignment: -57940.771
+Iteration 160 / LogL: -57884.381 / Time: 0h:25m:17s (0h:1m:44s left)
+Iteration 170 / LogL: -57876.017 / Time: 0h:25m:36s (0h:1m:24s left)
+Iteration 180 / LogL: -57877.157 / Time: 0h:25m:56s (0h:1m:5s left)
+Iteration 190 / LogL: -57887.808 / Time: 0h:26m:16s (0h:0m:46s left)
+Iteration 200 / LogL: -57931.033 / Time: 0h:26m:34s (0h:0m:26s left)
+Log-likelihood cutoff on original alignment: -57940.771
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 210 / LogL: -57876.760 / Time: 0h:26m:53s (0h:2m:53s left)
+TREE SEARCH COMPLETED AFTER 215 ITERATIONS / Time: 0h:27m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -57875.573
+2. Current log-likelihood: -57875.421
+3. Current log-likelihood: -57875.410
+Optimal log-likelihood: -57875.396
+Site proportion and rates:  (0.072,0.035) (0.100,0.124) (0.143,0.274) (0.185,0.531) (0.160,0.904) (0.177,1.426) (0.114,2.341) (0.048,3.835)
+Parameters optimization took 3 rounds (1.798 sec)
+BEST SCORE FOUND : -57875.396
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.415 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file output/tree/strict_b120/trees/gappyout.splits.nex
+Total tree length: 105.369
+
+Total number of iterations: 215
+CPU time used for tree search: 764.886 sec (0h:12m:44s)
+Wall-clock time used for tree search: 405.817 sec (0h:6m:45s)
+Total CPU time used: 3533.610 sec (0h:58m:53s)
+Total wall-clock time used: 1624.542 sec (0h:27m:4s)
+
+Computing bootstrap consensus tree...
+Reading input file output/tree/strict_b120/trees/gappyout.splits.nex...
+158 taxa and 722 splits.
+Consensus tree written to output/tree/strict_b120/trees/gappyout.contree
+Reading input trees file output/tree/strict_b120/trees/gappyout.contree
+Log-likelihood of consensus tree: -57877.020
+WARNING: Branch separating outgroup is not found
+WARNING: Branch separating outgroup is not found
+
+Analysis results written to: 
+  IQ-TREE report:                output/tree/strict_b120/trees/gappyout.iqtree
+  Maximum-likelihood tree:       output/tree/strict_b120/trees/gappyout.treefile
+  Likelihood distances:          output/tree/strict_b120/trees/gappyout.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          output/tree/strict_b120/trees/gappyout.splits.nex
+  Consensus tree:                output/tree/strict_b120/trees/gappyout.contree
+  Screen log file:               output/tree/strict_b120/trees/gappyout.log
+
+Date and Time: Thu Sep 17 21:05:38 2026
