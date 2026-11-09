@@ -1,0 +1,14 @@
+=== ML, PCDR-1 present ===
+  orphan family: 8 tips, support 98.3/98  | also inside: cel_pcdr-1_F59D12.1
+  melatonin clade: 8 tips, support 100/100  | exactly monophyletic
+  pcdr-1 inside melatonin clade? False
+
+=== PCDR-1 REMOVED ===
+  orphan family: 7 tips, support 97.7/93  | exactly monophyletic
+  melatonin clade: 8 tips, support 100/100  | exactly monophyletic
+
+=== LG+C20+F+G (PMSF) ===
+  orphan family: 8 tips, support 96/99  | also inside: cel_pcdr-1_F59D12.1
+  melatonin clade: 8 tips, support 100/100  | exactly monophyletic
+  pcdr-1 inside melatonin clade? False
+

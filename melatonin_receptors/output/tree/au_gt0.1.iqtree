@@ -1,0 +1,375 @@
+IQ-TREE 3.1.3 built Jun 19 2026
+
+Input file name: output/tree/panel.gt0.1.faa
+Type of analysis: tree reconstruction
+Random seed number: 632059
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 120 sequences with 776 amino-acid sites
+Number of constant sites: 9 (= 1.15979% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 9 (= 1.15979% of all sites)
+Number of parsimony informative sites: 757
+Number of distinct site patterns: 776
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+I+R7
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0780
+  pi(R) = 0.0545
+  pi(N) = 0.0451
+  pi(D) = 0.0303
+  pi(C) = 0.0289
+  pi(Q) = 0.0266
+  pi(E) = 0.0329
+  pi(G) = 0.0494
+  pi(H) = 0.0181
+  pi(I) = 0.0737
+  pi(L) = 0.1040
+  pi(K) = 0.0412
+  pi(M) = 0.0279
+  pi(F) = 0.0550
+  pi(P) = 0.0462
+  pi(S) = 0.0869
+  pi(T) = 0.0645
+  pi(W) = 0.0200
+  pi(Y) = 0.0365
+  pi(V) = 0.0805
+
+Model of rate heterogeneity: Invar+FreeRate with 7 categories
+Proportion of invariable sites: 0.0038
+Site proportion and rates:  (0.0433,0.0402) (0.0669,0.1390) (0.0444,0.2341) (0.0696,0.3541) (0.1371,0.5437) (0.1683,0.8588) (0.4666,1.5751)
+
+ Category  Relative_rate  Proportion
+  0         0              0.0038
+  1         0.0402         0.0433
+  2         0.1390         0.0669
+  3         0.2341         0.0444
+  4         0.3541         0.0696
+  5         0.5437         0.1371
+  6         0.8588         0.1683
+  7         1.5751         0.4666
+
+STARTING TREE
+-------------
+
+Log-likelihood of the tree: -96890.2746 (s.e. 2318.2679)
+Unconstrained log-likelihood (without tree): -5163.6224
+Number of free parameters (#branches + #model parameters): 267
+Akaike information criterion (AIC) score: 194314.5492
+Corrected Akaike information criterion (AICc) score: 194596.2658
+Bayesian information criterion (BIC) score: 195557.2080
+
+Total tree length (sum of branch lengths): 206.0906
+Sum of internal branch lengths: 54.4011 (26.3967% of tree length)
+
+WARNING: 9 near-zero internal branches (<0.0013) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'cel_dop-1' is drawn at root
+
++----------cel_dop-1
+|
+|                              +----------cel_dop-2
+|                           +--|
+|                           |  +----------------cel_dop-6
+|                        +--|
+|                        |  +-------dmDop2R
+|                     +--|
+|                     |  |       +----------cel_ser-1
+|                     |  |    +--|
+|                     |  |    |  +-------dm5HT2A
+|                     |  +----|
+|                     |       |          +----hHTR2A
+|                     |       |       +--|
+|                     |       |       |  +---hHTR2C
+|                     |       +-------|
+|                     |               +------hHTR2B
+|                  +--|
+|                  |  |  +-------------cel_dop-3
+|                  |  +--|
+|                  |     |  +------------------cel_dop-5
+|                  |     +**|
+|                  |        |      +---hDRD2
+|                  |        |  +---|
+|                  |        |  |   +-----hDRD3
+|                  |        +--|
+|                  |           +-----------hDRD4
+|               +**|
+|               |  |     +-----------dmOctTyrR
+|               |  |  +--|
+|               |  |  |  |  +-------hHTR1A
+|               |  |  |  +--|
+|               |  |  |     |     +--hHTR1B
+|               |  |  |     |  +--|
+|               |  |  |     |  |  +---hHTR1D
+|               |  |  |     +--|
+|               |  |  |        |   +----hHTR1E
+|               |  |  |        +---|
+|               |  |  |            +--hHTR1F
+|               |  +--|
+|               |     |              +---dmTyrR
+|               |     |     +--------|
+|               |     |     |        +-----dmTyrRII
+|               |     |  +--|
+|               |     |  |  |           +--hADRA1A
+|               |     |  |  |  +--------|
+|               |     |  |  |  |        |  +--hADRA1B
+|               |     |  |  |  |        +--|
+|               |     |  |  |  |           +----hADRA1D
+|               |     |  |  +--|
+|               |     |  |     |          +---hADRA2A
+|               |     |  |     |       +--|
+|               |     |  |     |       |  +---hADRA2C
+|               |     |  |     +-------|
+|               |     |  |             +----hADRA2B
+|               |     +--|
+|               |        |              +--hADRB1
+|               |        |           +--|
+|               |        |           |  +-------hADRB3
+|               |        +-----------|
+|               |                    +-----hADRB2
+|            +**|
+|            |  |     +------------cel_dop-4
+|            |  |  +--|
+|            |  |  |  +----------------cel_ser-6
+|            |  +--|
+|            |     |             +---------cel_gar-1
+|            |     |     +-------|
+|            |     |     |       +------cel_gar-2
+|            |     |  +--|
+|            |     |  |  |     +---------cel_gar-3
+|            |     |  |  |  +--|
+|            |     |  |  |  |  |        +----hCHRM1
+|            |     |  |  |  |  |     +--|
+|            |     |  |  |  |  |     |  +---hCHRM5
+|            |     |  |  |  |  |  +--|
+|            |     |  |  |  |  |  |  +--hCHRM3
+|            |     |  |  |  |  +--|
+|            |     |  |  |  |     +-----hCHRM2
+|            |     |  |  +--|
+|            |     |  |     |         +-----hHRH3
+|            |     |  |     +---------|
+|            |     |  |               +---------hHRH4
+|            |     +--|
+|            |        +-------------hHRH1
+|         +--|
+|         |  |              +-------------cel_octr-1
+|         |  |           +**|
+|         |  |           |  |  +-----------cel_ser-2
+|         |  |           |  +--|
+|         |  |           |     |  +-------------cel_ser-7
+|         |  |           |     +--|
+|         |  |           |        +---------cel_tyra-3
+|         |  |        +**|
+|         |  |        |  |  +-----------cel_tyra-2
+|         |  |        |  +--|
+|         |  |        |     +--------------hHTR5A
+|         |  |     +--|
+|         |  |     |  |     +--------cel_ser-4
+|         |  |     |  |  +--|
+|         |  |     |  |  |  |     +--dm5HT1A
+|         |  |     |  |  |  +-----|
+|         |  |     |  |  |        +--dm5HT1B
+|         |  |     |  +--|
+|         |  |     |     |  +------dm5HT7
+|         |  |     |     +--|
+|         |  |     |        +-----------hHTR7
+|         |  |  +--|
+|         |  |  |  +------------dmOctA2R
+|         |  +--|
+|         |     |  +------------cel_ser-3
+|         |     +--|
+|         |        |  +-------------------cel_ser-5
+|         |        +--|
+|         |           +-----dmOAMB
+|      +--|
+|      |  |          +----dmOctB1R
+|      |  |  +-------|
+|      |  |  |       |  +----dmOctB2R
+|      |  |  |       +--|
+|      |  |  |          +----dmOctB3R
+|      |  +--|
+|      |     |                                +------hGPR50
+|      |     |                     +----------|
+|      |     |                     |          |            +--hMTNR1A
+|      |     |                     |          |         +--|
+|      |     |                     |          |         |  |  +--MEL_Drer_P51046
+|      |     |                     |          |         |  +--|
+|      |     |                     |          |         |     +--MEL_Drer_A0A8M9PN98
+|      |     |                     |          |      +--|
+|      |     |                     |          |      |  +--MEL_Drer_A0A8M1NRI5
+|      |     |                     |          |   +**|
+|      |     |                     |          |   |  +--MEL_Drer_A2BGT9
+|      |     |                     |          +---|
+|      |     |                     |              |  +---hMTNR1B
+|      |     |                     |              +--|
+|      |     |                     |                 +--MEL_Drer_P51049
+|      |     |                  +--|
+|      |     |                  |  |                +--------PCDRfam_Bflo_A0A9J7MKC7
+|      |     |                  |  |            +---|
+|      |     |                  |  |            |   +--------hNPFFR2
+|      |     |                  |  |         +--|
+|      |     |                  |  |         |  +---------------hQRFPR
+|      |     |                  |  |      +--|
+|      |     |                  |  |      |  +----------------------hTACR3
+|      |     |                  |  +------|
+|      |     |                  |         |    +--------------PCDRfam_Myes_A0A210QRP2
+|      |     |                  |         +----|
+|      |     |                  |              +----------hNPY2R
+|      |     |               +--|
+|      |     |               |  |               +---------MEL_Bflo_A0A9J7N2W2
+|      |     |               |  |            +--|
+|      |     |               |  |            |  |           +-------MEL_Myes_A0A210PRR4
+|      |     |               |  |            |  |        +--|
+|      |     |               |  |            |  |        |  +-----MEL_Myes_A0A210QV21
+|      |     |               |  |            |  |     +--|
+|      |     |               |  |            |  |     |  +-----------------MEL_Pcau_A0ABM1F0K1
+|      |     |               |  |            |  |  +--|
+|      |     |               |  |            |  |  |  |      +-------MEL_Spur_A0A7M7G4B1
+|      |     |               |  |            |  |  |  |   +--|
+|      |     |               |  |            |  |  |  |   |  |  +----------MEL_Spur_A0A7M7LT47
+|      |     |               |  |            |  |  |  |   |  +--|
+|      |     |               |  |            |  |  |  |   |     +--------MEL_Spur_A0A7M7RES6
+|      |     |               |  |            |  |  |  +---|
+|      |     |               |  |            |  |  |      +------------MEL_Spur_A0A7M7P3G0
+|      |     |               |  |            |  +--|
+|      |     |               |  |            |     +-----------MEL_Spur_A0A7M7T0U1
+|      |     |               |  |         +--|
+|      |     |               |  |         |  |                  +**MEL_Lana_A0A1S3IVR4
+|      |     |               |  |         |  |           +------|
+|      |     |               |  |         |  |           |      +--MEL_Lana_A0A1S3IVS6
+|      |     |               |  |         |  +-----------|
+|      |     |               |  |         |              +--------MEL_Myes_A0A210QSU6
+|      |     |               |  |     +---|
+|      |     |               |  |     |   +--------------------MEL_Pcau_A0ABM1F4L1
+|      |     |               |  |  +--|
+|      |     |               |  |  |  |    +------------------MEL_Cint_F6SH45
+|      |     |               |  |  |  +----|
+|      |     |               |  |  |       |  +------MEL_Cint_H2XKQ7
+|      |     |               |  |  |       +--|
+|      |     |               |  |  |          +---------MEL_Cint_H2Y1F4
+|      |     |               |  +**|
+|      |     |               |     +-----------------------------------PCDRfam_Cint_H2XQ43
+|      |     |            +--|
+|      |     |            |  |                           +**MEL_Dmel_Q9NDM2
+|      |     |            |  |  +------------------------|
+|      |     |            |  |  |                        +**MEL_Dmel_M9NGQ9
+|      |     |            |  +--|
+|      |     |            |     |               +-----------MEL_Nvec_A7RKW8
+|      |     |            |     |            +--|
+|      |     |            |     |            |  |     +----MEL_Nvec_A7SAY6
+|      |     |            |     |            |  +-----|
+|      |     |            |     |            |        +-----MEL_Nvec_A7SAY7
+|      |     |            |     |         +--|
+|      |     |            |     |         |  +------------MEL_Nvec_A7S5U9
+|      |     |            |     |    +----|
+|      |     |            |     |    |    |          +-----MEL_Nvec_A7RSP6
+|      |     |            |     |    |    |  +-------|
+|      |     |            |     |    |    |  |       +-----MEL_Nvec_A7SSI2
+|      |     |            |     |    |    +**|
+|      |     |            |     |    |       +------------------MEL_Nvec_A7S581
+|      |     |            |     +----|
+|      |     |            |          |       +-------MEL_Nvec_A7S1K2
+|      |     |            |          +-------|
+|      |     |            |                  +-------PCDRfam_Nvec_A7S5H8
+|      |     |     +------|
+|      |     |     |      |                       +-----------------cel_pcdr-1_F59D12.1
+|      |     |     |      |                    +--|
+|      |     |     |      |                    |  +-------PCDRfam_Pcau_A0ABM1EQA9
+|      |     |     |      |               +----|
+|      |     |     |      |               |    +---------PCDRfam_Dmel_Q9VZD1
+|      |     |     |      |    +----------|
+|      |     |     |      |    |          |       +--------PCDRfam_Cvir_A0A8B8D717
+|      |     |     |      |    |          +-------|
+|      |     |     |      |    |                  +-----------PCDRfam_Lana_A0A1S3KFU7
+|      |     |     |      +----|
+|      |     |     |           |    +------------PCDRfam_Spur_A0A7M7GHW5
+|      |     |     |           +----|
+|      |     |     |                |             +--hGPR52
+|      |     |     |                +-------------|
+|      |     |     |                              +--hGPR21
+|      |     |  +--|
+|      |     |  |  +-------------hHRH2
+|      |     +**|
+|      |        |   +-------hHTR4
+|      |        +---|
+|      |            |  +-------------hTAAR1
+|      |            +--|
+|      |               +----PCDRfam_Drer_A0A8M1Q794
+|   +--|
+|   |  +----------------hHTR6
++---|
+|   |       +--hDRD1
+|   +-------|
+|           +--hDRD5
+|
++-------dmDop1R1
+
+Tree in newick format:
+
+(cel_dop-1:1.5902473396,((((((((((cel_dop-2:1.5468545511,cel_dop-6:2.3155151897):0.1270611498,dmDop2R:1.1745029189):0.2944100612,((cel_ser-1:1.5864830845,dm5HT2A:1.1872830695):0.4240046274,((hHTR2A:0.7520886422,hHTR2C:0.6423424257):0.1424672775,hHTR2B:0.9745401949):1.1297108080):0.7630959542):0.0066053826,(cel_dop-3:1.9807165610,(cel_dop-5:2.6021709794,((hDRD2:0.5708241132,hDRD3:0.8167596282):0.6731482674,hDRD4:1.6594722151):0.3941934853):0.0000054960):0.1061735465):0.4548302209,((dmOctTyrR:1.6338675309,(hHTR1A:1.1194100618,((hHTR1B:0.3679503972,hHTR1D:0.5869006973):0.4838158174,(hHTR1E:0.7362044886,hHTR1F:0.5040024878):0.5869485784):0.5277262917):0.4706871876):0.2743085382,(((dmTyrR:0.6664997992,dmTyrRII:0.8915904115):1.2509595348,((hADRA1A:0.4934933790,(hADRA1B:0.4754804025,hADRA1D:0.7106328457):0.1839598878):1.3537244551,((hADRA2A:0.6432353659,hADRA2C:0.6078239768):0.1470379916,hADRA2B:0.7240248317):1.1784224028):0.1537723147):0.1938189989,((hADRB1:0.4263664255,hADRB3:1.1251437323):0.2042838266,hADRB2:0.8969639265):1.7283673797):0.0492882517):0.0226452571):0.0000046922,((cel_dop-4:1.8770091776,cel_ser-6:2.4441144331):0.3758449606,(((cel_gar-1:1.4733920469,cel_gar-2:1.0681821171):1.1342899568,((cel_gar-3:1.3658370649,(((hCHRM1:0.7473636772,hCHRM5:0.5650150767):0.0816884027,hCHRM3:0.4418297644):0.3848632075,hCHRM2:0.8696031600):0.2991094981):0.4902854023,(hHRH3:0.9062322141,hHRH4:1.4896535627):1.4083523789):0.0902364328):0.4448123244,hHRH1:1.9584246040):0.3138794724):0.2150681186):0.0000048552,(((((cel_octr-1:1.9093610146,(cel_ser-2:1.6762282542,(cel_ser-7:1.9025655981,cel_tyra-3:1.4932619764):0.2587567674):0.3500158044):0.0000040703,(cel_tyra-2:1.7239901324,hHTR5A:2.0552043141):0.4400826934):0.0001890911,((cel_ser-4:1.2606236872,(dm5HT1A:0.5026791687,dm5HT1B:0.4483748195):0.9347863738):0.5225839279,(dm5HT7:1.0727898408,hHTR7:1.6305207107):0.4131382958):0.1093718940):0.1623895646,dmOctA2R:1.7844373171):0.0486810251,(cel_ser-3:1.8617358086,(cel_ser-5:2.7518833353,dmOAMB:0.9045635333):0.1577257103):0.5163577645):0.1072951584):0.2719701908,((dmOctB1R:0.7323472439,(dmOctB2R:0.7942330822,dmOctB3R:0.7447559958):0.1863551245):1.0927236564,(((((((hGPR50:1.0647503252,((((hMTNR1A:0.3170063747,(MEL_Drer_P51046:0.1823595180,MEL_Drer_A0A8M9PN98:0.1017901160):0.1163040660):0.1026503088,MEL_Drer_A0A8M1NRI5:0.4755027699):0.1995436081,MEL_Drer_A2BGT9:0.5200906849):0.0000049271,(hMTNR1B:0.6700068533,MEL_Drer_P51049:0.3348067684):0.1517715680):0.6789537426):1.6287498720,((((PCDRfam_Bflo_A0A9J7MKC7:1.2876239186,hNPFFR2:1.2372832509):0.6404057011,hQRFPR:2.2586231228):0.0966998099,hTACR3:3.1256772795):0.1890195833,(PCDRfam_Myes_A0A210QRP2:2.1462931935,hNPY2R:1.5832662899):0.6941747090):0.9719484056):0.2926377016,(((((MEL_Bflo_A0A9J7N2W2:1.4081659068,((((MEL_Myes_A0A210PRR4:1.1376993568,MEL_Myes_A0A210QV21:0.9398093010):0.3297019824,MEL_Pcau_A0ABM1F0K1:2.5522177153):0.4271053596,((MEL_Spur_A0A7M7G4B1:1.1822026920,(MEL_Spur_A0A7M7LT47:1.5521881707,MEL_Spur_A0A7M7RES6:1.2286075484):0.1802106468):0.1288284489,MEL_Spur_A0A7M7P3G0:1.7941992404):0.5546401721):0.0569885487,MEL_Spur_A0A7M7T0U1:1.7494127515):0.0476132636):0.1144148254,((MEL_Lana_A0A1S3IVR4:0.0000044400,MEL_Lana_A0A1S3IVS6:0.0042812010):1.0546152219,MEL_Myes_A0A210QSU6:1.2266616954):1.7114836509):0.4113422500,MEL_Pcau_A0ABM1F4L1:2.8581785962):0.5877134480,(MEL_Cint_F6SH45:2.6623524312,(MEL_Cint_H2XKQ7:1.0750510110,MEL_Cint_H2Y1F4:1.4317406607):0.5330480904):0.6865432954):0.2766470069,PCDRfam_Cint_H2XQ43:4.9736894805):0.0000039964):0.1619812316,((MEL_Dmel_Q9NDM2:0.0000018813,MEL_Dmel_M9NGQ9:0.0000018813):3.4916417481,((((MEL_Nvec_A7RKW8:1.7250935479,(MEL_Nvec_A7SAY6:0.8050135787,MEL_Nvec_A7SAY7:0.9184338050):0.8152425589):0.1161680254,MEL_Nvec_A7S5U9:1.8268759814):0.2932565497,((MEL_Nvec_A7RSP6:0.9479985352,MEL_Nvec_A7SSI2:0.8322707876):1.1063425735,MEL_Nvec_A7S581:2.6247432210):0.0000050631):0.7321690141,(MEL_Nvec_A7S1K2:1.1221252947,PCDRfam_Nvec_A7S5H8:1.1584058367):1.2093186584):0.6945886574):0.0277724499):0.4133884343,((((cel_pcdr-1_F59D12.1:2.4644806480,PCDRfam_Pcau_A0ABM1EQA9:1.2021798582):0.3398240124,PCDRfam_Dmel_Q9VZD1:1.3942199992):0.7845826256,(PCDRfam_Cvir_A0A8B8D717:1.3161934893,PCDRfam_Lana_A0A1S3KFU7:1.7275299436):1.1416215565):1.6099445308,(PCDRfam_Spur_A0A7M7GHW5:1.7831746402,(hGPR52:0.3559113137,hGPR21:0.4785390527):1.9326712894):0.7547963975):0.7402255705):1.0169064181,hHRH2:1.9501438796):0.0368718159,(hHTR4:1.1491389582,(hTAAR1:1.9269206103,PCDRfam_Drer_A0A8M1Q794:0.7092465816):0.4818154584):0.6615836317):0.0000047188):0.1962928442):0.1288825811,hHTR6:2.3242370871):0.2250158873,(hDRD1:0.3848193408,hDRD5:0.3816701903):1.1705469882):0.6091964991,dmDop1R1:1.1413212714);
+
+
+USER TREES
+----------
+
+See output/tree/au_gt0.1.trees for trees with branch lengths.
+
+Tree      logL    deltaL  bp-RELL    p-KH     p-SH       c-ELW       p-AU
+-------------------------------------------------------------------------
+  1 -96543.92057       0   0.781 +   0.79 +      1 +     0.762 +        1 + 
+  2  -96547.1684  3.2478   0.219 +   0.21 +   0.21 +     0.238 +    0.178 + 
+
+deltaL  : logL difference from the maximal logl in the set.
+bp-RELL : bootstrap proportion using RELL method (Kishino et al. 1990).
+p-KH    : p-value of one sided Kishino-Hasegawa test (1989).
+p-SH    : p-value of Shimodaira-Hasegawa test (2000).
+c-ELW   : Expected Likelihood Weight (Strimmer & Rambaut 2002).
+p-AU    : p-value of approximately unbiased (AU) test (Shimodaira, 2002).
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+All tests performed 10000 resamplings using the RELL method.
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t output/tree/au_gt0.1.treefile -m "LG+F+I{0.00380143}+R7{0.0433484,0.0401505,0.0669433,0.139033,0.0443736,0.234076,0.069557,0.354064,0.137101,0.54366,0.168324,0.858811,0.466552,1.57505}" --length 776
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s output/tree/panel.gt0.1.faa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s output/tree/panel.gt0.1.faa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Nov  2 22:59:35 2026
+Total CPU time used: 19.1 seconds (0h:0m:19s)
+Total wall-clock time used: 6.43 seconds (0h:0m:6s)
+

@@ -1,0 +1,16 @@
+
+===== tree2 gt0.1: 178 unique taxa, 78 C. elegans =====
+melatonin clade: 8 tips, support 100/100
+  worm sequences inside: NONE
+  nearest worm genes: 4 nodes out, clade of 91 tips (support 88.4/93), 48 worm members
+    pcdr-1 among them? NO
+  pcdr-1 nested clades: 2/22.5/90, 3/96/100, 5/99.8/100, 8/98.3/98
+  pcdr-1 clade members: PCDRfam_Cvir_A0A8B8D717, PCDRfam_Dmel_Q9VZD1, PCDRfam_Lana_A0A1S3KFU7, PCDRfam_Pcau_A0ABM1EQA9, cel_pcdr-1_F59D12.1
+
+===== tree2 gappyout: 178 unique taxa, 78 C. elegans =====
+melatonin clade: 7 tips, support 43.5/30
+  worm sequences inside: NONE
+  nearest worm genes: 6 nodes out, clade of 91 tips (support 81.4/78), 48 worm members
+    pcdr-1 among them? NO
+  pcdr-1 nested clades: 2/32.4/94, 3/93.2/99, 5/100/100, 8/96.6/85
+  pcdr-1 clade members: PCDRfam_Cvir_A0A8B8D717, PCDRfam_Dmel_Q9VZD1, PCDRfam_Lana_A0A1S3KFU7, PCDRfam_Pcau_A0ABM1EQA9, cel_pcdr-1_F59D12.1

@@ -1,0 +1,38 @@
+
+================ gt0.1 ================
+Walking out from the melatonin clade. Support is SH-aLRT/UFBoot.
+
+step   tips       support   composition
+   0      8       100/100   {'MELATONIN': 3, 'BLAST-mel': 5}
+   1     24         88/96   {'MELATONIN': 3, 'BLAST-mel': 21}
+   2     27       39.1/58   {'MELATONIN': 3, 'BLAST-mel': 24}
+   3     37       89.4/92   {'MELATONIN': 3, 'BLAST-mel': 32, 'PCDR-nbr': 2}
+   4     91       88.4/93   {'MELATONIN': 3, 'BLAST-mel': 32, 'PCDR-nbr': 4, 'ref': 4, 'Cel-other': 48}  <-- joins the NPR/neuropeptide group here
+   5     99      98.1/100   {'MELATONIN': 3, 'BLAST-mel': 32, 'PCDR-nbr': 9, 'ref': 6, 'Cel-other': 48, 'PCDR-1': 1}  <-- joins PCDR-1 here
+   6    100       92.9/93   {'ref': 7, 'MELATONIN': 3, 'BLAST-mel': 32, 'PCDR-nbr': 9, 'Cel-other': 48, 'PCDR-1': 1}
+   7    163       94.1/99   {'ref': 60, 'Cel-other': 58, 'MELATONIN': 3, 'BLAST-mel': 32, 'PCDR-nbr': 9, 'PCDR-1': 1}
+   8    169       14.4/44   {'ref': 65, 'Cel-other': 58, 'MELATONIN': 3, 'BLAST-mel': 32, 'PCDR-nbr': 10, 'PCDR-1': 1}
+
+  melatonin + NPR group share an ancestor at 91 tips, support 88.4/93
+  melatonin + PCDR-1   share an ancestor at 99 tips, support 98.1/100
+  -> "NPRs are closer to melatonin than PCDR-1 is" rests on the nodes between them.
+  nodes separating the two: 91tips/88.4/93, 99tips/98.1/100
+
+================ gappyout ================
+Walking out from the melatonin clade. Support is SH-aLRT/UFBoot.
+
+step   tips       support   composition
+   0      7       43.5/30   {'MELATONIN': 3, 'BLAST-mel': 4}
+   1      8       100/100   {'MELATONIN': 3, 'BLAST-mel': 5}
+   2     21       80.8/72   {'MELATONIN': 3, 'BLAST-mel': 18}
+   3     24         93/96   {'MELATONIN': 3, 'BLAST-mel': 21}
+   4     34       55.8/52   {'MELATONIN': 3, 'BLAST-mel': 29, 'PCDR-nbr': 2}
+   5     37       84.3/76   {'MELATONIN': 3, 'BLAST-mel': 32, 'PCDR-nbr': 2}
+   6     91       81.4/78   {'MELATONIN': 3, 'BLAST-mel': 32, 'PCDR-nbr': 4, 'ref': 4, 'Cel-other': 48}  <-- joins the NPR/neuropeptide group here
+   7     99       100/100   {'MELATONIN': 3, 'BLAST-mel': 32, 'PCDR-nbr': 9, 'ref': 6, 'Cel-other': 48, 'PCDR-1': 1}  <-- joins PCDR-1 here
+   8    163       90.6/99   {'ref': 60, 'Cel-other': 58, 'MELATONIN': 3, 'BLAST-mel': 32, 'PCDR-nbr': 9, 'PCDR-1': 1}
+
+  melatonin + NPR group share an ancestor at 91 tips, support 81.4/78
+  melatonin + PCDR-1   share an ancestor at 99 tips, support 100/100
+  -> "NPRs are closer to melatonin than PCDR-1 is" rests on the nodes between them.
+  nodes separating the two: 91tips/81.4/78, 99tips/100/100

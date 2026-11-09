@@ -1,0 +1,93 @@
+GPR52/GPR21 orphan family - how far does it reach, and is PCDR-1 in it?
+
+Seed, each accession checked against its own UniProt record (label is only kept if the organism matches):
+  Hsap_Q9Y2T5          Q9Y2T5       Homo sapiens               GPR52       361 aa  G protein-coupled receptor 52  OK
+  Hsap_Q99679          Q99679       Homo sapiens               GPR21       349 aa  Probable G protein-coupled receptor 21  OK
+  Spur_A0A7M7GHW5      A0A7M7GHW5   Strongylocentrotus purpura -           456 aa  G-protein coupled receptors family 1 pro  OK
+  Dmel_Q9VZD1          Q9VZD1       Drosophila melanogaster    DopEcR      322 aa  Dopamine/Ecdysteroid receptor, isoform A  OK
+  Pcau_A0ABM1EQA9      A0ABM1EQA9   Priapulus caudatus         LOC106814563  311 aa  Probable G-protein coupled receptor 52  OK
+  Cvir_A0A8B8D717      A0A8B8D717   Crassostrea virginica      LOC111124641  313 aa  Probable G-protein coupled receptor 52  OK
+  Lana_A0A1S3KFU7      A0A1S3KFU7   Lingula anatina            LOC106181494  305 aa  G-protein coupled receptor 52  OK
+  (test) PCDR-1        O17899       Caenorhabditis elegans     pcdr-1      318 aa  Melatonin receptor pdcr-1  EXCLUDED FROM PROFILE
+
+CONTROL 1 - leave-one-species-out. The profile is rebuilt without each member and that member re-scored. A member the profile cannot re-find would mean the profile is blind at that distance, and no absence call could be trusted.
+
+  held-out member      score vs profile  rank in own proteome  2nd-best in that proteome
+  Hsap_Q9Y2T5                     331.6              2 of 708                      408.1
+  Hsap_Q99679                     327.1              2 of 706                      411.8
+  Spur_A0A7M7GHW5                 218.3              1 of 850                      182.8
+  Dmel_Q9VZD1                     261.0              1 of 125                      161.9
+  Pcau_A0ABM1EQA9                 278.0              1 of 277                      174.6
+  Cvir_A0A8B8D717                 240.7              1 of 540                      170.5
+  Lana_A0A1S3KFU7                 254.0              1 of 365                      167.9
+
+  Verdict deferred to control 2 (the floor is computed there).
+
+Profile from all seven: 319 positions, 7 sequences -> output/orphan/orphan7.hmm
+
+CONTROL 2 - negatives. Melatonin and aminergic receptors are real class-A GPCRs but not in this family, so they set the floor a genuine hit must clear.
+
+  P48039     MTNR1A     Melatonin receptor type 1A                              129.2
+  P49286     MTNR1B     Melatonin receptor type 1B                              120.6
+  Q13585     GPR50      Melatonin-related receptor                              112.0
+  P08908     HTR1A      5-hydroxytryptamine receptor 1A                         151.8
+  P14416     DRD2       Dopamine receptor D2                                    152.8
+  P07550     ADRB2      Beta-2 adrenergic receptor                              165.7
+  P35367     HRH1       Histamine H1 receptor                                   133.8
+
+  Highest-scoring non-member: 165.7. Treat that as the floor.
+
+CONTROL 1, verdict: 7/7 held-out members clear the 165.7 floor (range 218.3-331.6).  The profile is sensitive across the whole span it claims.
+  The two human members are each rank 2 rather than rank 1 only because GPR52 and GPR21 are co-orthologs in the same proteome: holding one out leaves the other as the top hit. That is not a sensitivity failure.
+
+==============================================================================
+EVERY AVAILABLE PROTEOME. All hits listed, not one per species, so a lineage-specific expansion cannot hide as a 1:1 ortholog.
+
+  COVERAGE GAP - not searched, proteome file is zero bytes (failed download, NOT a tested negative): Mcir, Mver, Rory
+
+  sp      n hits     best      2nd      3rd   top hit
+  Ajap         4    262.2    180.9    177.5   A0A2G8JU49   Putative G-protein coupled receptor OS=Apostic
+  Amac         0     52.1     42.5     23.0   A0A0L0SWS7   G-protein coupled receptors family 1 profile d
+  Apla         8    256.1    187.7    185.4   A0A8B7XVE6   Probable G-protein coupled receptor 52 OS=Acan
+  Aque         0     94.6     85.8     84.0   A0A1X7U891   G-protein coupled receptors family 1 profile d
+  Bflo         8    289.4    210.2    181.7   A0A9J7LMJ4   Probable G-protein coupled receptor 21 OS=Bran
+  Cele         1    217.3    162.4    161.5   O17899       Melatonin receptor pdcr-1 OS=Caenorhabditis el
+  Cint         0    157.4    142.3    133.6   H2XKQ7       G-protein coupled receptors family 1 profile d
+  Cvir         2    408.9    172.6    163.1   A0A8B8D717   Probable G-protein coupled receptor 52 OS=Cras
+  Dmel         4    432.5    173.1    170.5   Q9VZD1       Dopamine/Ecdysteroid receptor, isoform A OS=Dr
+  Drer         3    390.3    352.0    168.9   A0AB32TDE1   G-protein coupled receptor 52 OS=Danio rerio O
+  Ebur         1    301.5    156.3    154.8   A0A8C4Q531   G protein-coupled receptor 52 OS=Eptatretus bu
+  Hsap         4    418.5    415.0    172.3   Q99679       Probable G protein-coupled receptor 21 OS=Homo
+  Hvul         1    240.8    136.2    132.2   A0ABM4BQ22   Uncharacterized protein LOC124818465 isoform X
+  Lana         3    420.7    177.5    173.8   A0A1S3KFU7   G-protein coupled receptor 52 OS=Lingula anati
+  Lpol         9    347.9    333.9    333.7   A0ABM1S0K4   Octopamine receptor Oamb-like OS=Limulus polyp
+  Mlei         1    185.6    155.9    154.6   A0ACF8YAQ5   G-protein coupled receptors family 1 profile d
+  Mmus         8    411.7    396.9    169.2   P0C5J4       G protein-coupled receptor 52 OS=Mus musculus 
+  Myes         4    211.7    191.9    170.6   A0A210PUV9   Trace amine-associated receptor 7a OS=Mizuhope
+  Nvec         1    166.0    163.8    158.9   A7SM13       G-protein coupled receptors family 1 profile d
+  Pbla         0      nan      nan      nan   -
+  Pcau         3    427.9    180.5    170.2   A0ABM1EQA9   Probable G-protein coupled receptor 52 OS=Pria
+  Pmar         2    330.8    169.3    156.9   A0ACM8C3Q0   G-protein coupled receptor 52-like OS=Petromyz
+  Pmin         8    259.1    240.3    198.1   A0A913Z402   G-protein coupled receptors family 1 profile d
+  Skow        12    259.2    255.8    192.0   A0ABM0LWU4   G-protein coupled receptor 21 OS=Saccoglossus 
+  Spun         0     87.1     67.0     64.4   A0A0L0HU57   G-protein coupled receptors family 1 profile d
+  Spur         6    404.7    217.3    207.8   A0A7M7GHW5   G-protein coupled receptors family 1 profile d
+  Tadh         0    163.0    155.0    143.9   B3RZG1       G-protein coupled receptors family 1 profile d
+
+  93 hits at or above the non-member floor, across 21 of 27 proteomes -> output/orphan/scores.tsv, members.faa
+
+==============================================================================
+THE TEST - PCDR-1 against a profile it had no part in building.
+
+  PCDR-1 / O17899: score 217.3, rank 1 of 197 C. elegans hits
+  non-member floor 165.7; CLEARS it
+
+  Top C. elegans hits:
+     1. O17899          217.3  Melatonin receptor pdcr-1 OS=Caenorhabditis elegan  <-- PCDR-1
+     2. O44986          162.4  G-protein coupled receptors family 1 profile domai
+     3. Q7JP62          161.5  G-protein coupled receptors family 1 profile domai
+     4. Q7JP61          161.5  G-protein coupled receptors family 1 profile domai
+     5. O02213          154.2  Tyramine receptor Ser-2 OS=Caenorhabditis elegans 
+     6. G5EF04          153.9  G-protein coupled receptors family 1 profile domai
+     7. H2FLI4          153.3  G-protein coupled receptors family 1 profile domai
+     8. Q8T3C1          147.9  G-protein coupled receptors family 1 profile domai

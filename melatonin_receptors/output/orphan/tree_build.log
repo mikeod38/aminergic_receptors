@@ -1,0 +1,6 @@
+panel: 258 taxa  (160 aminergic backbone, 88 above-floor orphan-family hits, False PCDR-1, 7 melatonin family, 3 root)
+  (PCDR-1 already present as its orphan hit under ORPH_Cele_O17899)
+aligning (mafft L-INS-i)...
+  gt0.1: 734 columns
+  gappyout: 282 columns
+trees written to /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/orphan/tree

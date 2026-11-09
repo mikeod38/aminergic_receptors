@@ -1,0 +1,94 @@
+species	accession	score	description
+Dmel	Q9VZD1	432.5	Dopamine/Ecdysteroid receptor, isoform A OS=Drosophila melanogaster OX=7227 GN=DopEcR PE=3 SV=1
+Pcau	A0ABM1EQA9	427.9	Probable G-protein coupled receptor 52 OS=Priapulus caudatus OX=37621 GN=LOC106814563 PE=3 SV=1
+Lana	A0A1S3KFU7	420.7	G-protein coupled receptor 52 OS=Lingula anatina OX=7574 GN=LOC106181494 PE=3 SV=1
+Hsap	Q99679	418.5	Probable G protein-coupled receptor 21 OS=Homo sapiens OX=9606 GN=GPR21 PE=1 SV=1
+Hsap	Q9Y2T5	415.0	G protein-coupled receptor 52 OS=Homo sapiens OX=9606 GN=GPR52 PE=1 SV=2
+Mmus	P0C5J4	411.7	G protein-coupled receptor 52 OS=Mus musculus OX=10090 GN=Gpr52 PE=2 SV=1
+Cvir	A0A8B8D717	408.9	Probable G-protein coupled receptor 52 OS=Crassostrea virginica OX=6565 GN=LOC111124641 PE=3 SV=1
+Spur	A0A7M7GHW5	404.7	G-protein coupled receptors family 1 profile domain-containing protein OS=Strongylocentrotus purpuratus OX=7668 PE=3 SV=1
+Mmus	Q8BX79	396.9	Probable G protein-coupled receptor 21 OS=Mus musculus OX=10090 GN=Gpr21 PE=2 SV=1
+Drer	A0AB32TDE1	390.3	G-protein coupled receptor 52 OS=Danio rerio OX=7955 GN=gpr52 PE=3 SV=1
+Drer	A0A8M2BLP6	352.0	Probable G-protein coupled receptor 21 OS=Danio rerio OX=7955 GN=LOC101884949 PE=3 SV=1
+Lpol	A0ABM1S0K4	347.9	Octopamine receptor Oamb-like OS=Limulus polyphemus OX=6850 GN=LOC106477294 PE=3 SV=1
+Lpol	A0ABM1BZC6	333.9	Probable G-protein coupled receptor 21 OS=Limulus polyphemus OX=6850 GN=LOC106475392 PE=3 SV=1
+Lpol	A0ABM1BHV8	333.7	Probable G-protein coupled receptor 52 OS=Limulus polyphemus OX=6850 GN=LOC106466574 PE=3 SV=1
+Pmar	A0ACM8C3Q0	330.8	G-protein coupled receptor 52-like OS=Petromyzon marinus OX=7757 GN=LOC116953214 PE=3 SV=1
+Ebur	A0A8C4Q531	301.5	G protein-coupled receptor 52 OS=Eptatretus burgeri OX=7764 PE=3 SV=1
+Bflo	A0A9J7LMJ4	289.4	Probable G-protein coupled receptor 21 OS=Branchiostoma floridae OX=7739 GN=LOC118421331 PE=3 SV=1
+Ajap	A0A2G8JU49	262.2	Putative G-protein coupled receptor OS=Apostichopus japonicus OX=307972 GN=BSL78_23876 PE=3 SV=1
+Skow	A0ABM0LWU4	259.2	G-protein coupled receptor 21 OS=Saccoglossus kowalevskii OX=10224 GN=LOC102802527 PE=3 SV=1
+Pmin	A0A913Z402	259.1	G-protein coupled receptors family 1 profile domain-containing protein OS=Patiria miniata OX=46514 PE=3 SV=1
+Apla	A0A8B7XVE6	256.1	Probable G-protein coupled receptor 52 OS=Acanthaster planci OX=133434 GN=LOC110975765 PE=3 SV=1
+Skow	A0ABM0M2W8	255.8	G-protein coupled receptor 52-like OS=Saccoglossus kowalevskii OX=10224 GN=LOC102802375 PE=3 SV=1
+Hvul	A0ABM4BQ22	240.8	Uncharacterized protein LOC124818465 isoform X2 OS=Hydra vulgaris OX=6087 GN=LOC124818465 PE=3 SV=1
+Pmin	A0A914A3Y1	240.3	G-protein coupled receptors family 1 profile domain-containing protein OS=Patiria miniata OX=46514 PE=3 SV=1
+Spur	A0A7M7MYU3	217.3	G-protein coupled receptors family 1 profile domain-containing protein OS=Strongylocentrotus purpuratus OX=7668 PE=3 SV=1
+Cele	O17899	217.3	Melatonin receptor pdcr-1 OS=Caenorhabditis elegans OX=6239 GN=pcdr-1 PE=1 SV=1
+Myes	A0A210PUV9	211.7	Trace amine-associated receptor 7a OS=Mizuhopecten yessoensis OX=6573 GN=KP79_PYT16769 PE=3 SV=1
+Bflo	A0A9J7M4Q3	210.2	Probable G-protein coupled receptor No9 OS=Branchiostoma floridae OX=7739 GN=LOC118428331 PE=3 SV=1
+Spur	A0A7M7HNE5	207.8	G-protein coupled receptors family 1 profile domain-containing protein OS=Strongylocentrotus purpuratus OX=7668 PE=3 SV=1
+Pmin	A0A913ZN29	198.1	G-protein coupled receptors family 1 profile domain-containing protein OS=Patiria miniata OX=46514 PE=3 SV=1
+Skow	A0ABM0MTC6	192.0	Histamine H2 receptor-like OS=Saccoglossus kowalevskii OX=10224 GN=LOC102807674 PE=3 SV=1
+Myes	A0A210PUR7	191.9	Trace amine-associated receptor 7g OS=Mizuhopecten yessoensis OX=6573 GN=KP79_PYT16772 PE=3 SV=1
+Apla	A0A8B7Y3X0	187.7	Beta-4C adrenergic receptor-like OS=Acanthaster planci OX=133434 GN=LOC110977077 PE=3 SV=1
+Pmin	A0A914B5T6	185.8	G-protein coupled receptors family 1 profile domain-containing protein OS=Patiria miniata OX=46514 PE=3 SV=1
+Mlei	A0ACF8YAQ5	185.6	G-protein coupled receptors family 1 profile domain-containing protein OS=Mnemiopsis leidyi OX=27923 GN=ACHWQZ_G012590 PE=3 SV=1
+Apla	A0A8B7YTA3	185.4	Alpha-1A adrenergic receptor-like OS=Acanthaster planci OX=133434 GN=LOC110982441 PE=3 SV=1
+Apla	A0A8B7Y8S3	185.0	Beta-2 adrenergic receptor-like OS=Acanthaster planci OX=133434 GN=LOC110978244 PE=3 SV=1
+Lpol	A0ABM1B926	184.8	Beta-2 adrenergic receptor-like OS=Limulus polyphemus OX=6850 GN=LOC106461974 PE=3 SV=1
+Apla	A0A8B7YVM9	183.4	Uncharacterized protein LOC110982564 OS=Acanthaster planci OX=133434 GN=LOC110982564 PE=3 SV=1
+Pmin	A0A914ALS4	182.7	G-protein coupled receptors family 1 profile domain-containing protein OS=Patiria miniata OX=46514 PE=3 SV=1
+Pmin	A0A914ASU4	182.4	G-protein coupled receptors family 1 profile domain-containing protein OS=Patiria miniata OX=46514 PE=3 SV=1
+Bflo	A0A9J7M3N5	181.7	Histamine H2 receptor-like OS=Branchiostoma floridae OX=7739 GN=LOC118427774 PE=3 SV=1
+Ajap	A0A2G8KZX3	180.9	Putative G-protein coupled receptor OS=Apostichopus japonicus OX=307972 GN=BSL78_09599 PE=3 SV=1
+Pcau	A0ABM1F1R5	180.5	5-hydroxytryptamine receptor 1D-like OS=Priapulus caudatus OX=37621 GN=LOC106818175 PE=3 SV=1
+Lpol	A0ABM1TDG9	178.6	Alpha-2A adrenergic receptor-like OS=Limulus polyphemus OX=6850 GN=LOC106468998 PE=3 SV=1
+Lpol	A0ABM1SIP3	178.1	Alpha-2C adrenergic receptor-like OS=Limulus polyphemus OX=6850 GN=LOC106460995 PE=3 SV=1
+Ajap	A0A2G8JZ10	177.5	Putative G-protein coupled receptor OS=Apostichopus japonicus OX=307972 GN=BSL78_22200 PE=3 SV=1
+Lana	A0A1S3JUJ4	177.5	Tyramine receptor tyra-2 OS=Lingula anatina OX=7574 GN=LOC106176242 PE=3 SV=1
+Ajap	A0A2G8JEA5	176.8	Putative G-protein coupled receptor OS=Apostichopus japonicus OX=307972 GN=BSL78_29103 PE=3 SV=1
+Bflo	A0A9J7M5L2	176.8	Octopamine receptor 1-like OS=Branchiostoma floridae OX=7739 GN=LOC118427920 PE=3 SV=1
+Skow	A0ABM0M684	176.7	G-protein coupled receptor 161-like OS=Saccoglossus kowalevskii OX=10224 GN=LOC102805226 PE=3 SV=1
+Bflo	A0A9J7LHP4	176.3	5-hydroxytryptamine receptor 1D-like OS=Branchiostoma floridae OX=7739 GN=LOC118420350 PE=3 SV=1
+Apla	A0A8B7ZKZ0	175.5	Octopamine receptor beta-2R-like OS=Acanthaster planci OX=133434 GN=LOC110987598 PE=3 SV=1
+Skow	A0ABM0GU29	175.4	5-hydroxytryptamine receptor 6-like OS=Saccoglossus kowalevskii OX=10224 GN=LOC100374384 PE=3 SV=1
+Skow	A0ABM0GJE0	175.2	5-hydroxytryptamine receptor 7-like OS=Saccoglossus kowalevskii OX=10224 GN=LOC100371045 PE=3 SV=1
+Spur	A0A7M7SYV2	174.3	G-protein coupled receptors family 1 profile domain-containing protein OS=Strongylocentrotus purpuratus OX=7668 PE=3 SV=1
+Lana	A0A1S3JHZ2	173.8	Visual pigment-like receptor peropsin OS=Lingula anatina OX=7574 GN=LOC106173443 PE=3 SV=1
+Dmel	A0A0B4KHD0	173.1	Alpha2-adrenergic-like octopamine receptor, isoform B OS=Drosophila melanogaster OX=7227 GN=Octalpha2R PE=3 SV=1
+Apla	A0A8B8A7P9	173.0	Beta-3 adrenergic receptor-like OS=Acanthaster planci OX=133434 GN=LOC110991158 PE=3 SV=1
+Pmin	A0A914AIB2	172.7	G-protein coupled receptors family 1 profile domain-containing protein OS=Patiria miniata OX=46514 PE=3 SV=1
+Cvir	A0A8B8DJZ1	172.6	LOW QUALITY PROTEIN: octopamine receptor-like OS=Crassostrea virginica OX=6565 GN=LOC111127153 PE=3 SV=1
+Hsap	P25021	172.3	Histamine H2 receptor OS=Homo sapiens OX=9606 GN=HRH2 PE=1 SV=1
+Lpol	A0ABM1C3I2	171.8	Alpha-2A adrenergic receptor-like OS=Limulus polyphemus OX=6850 GN=LOC106477508 PE=3 SV=1
+Bflo	C3Y3T3	170.6	Alpha-1A adrenergic receptor-like OS=Branchiostoma floridae OX=7739 GN=LOC118413813 PE=3 SV=1
+Myes	A0A210QD58	170.6	Dopamine receptor 1 OS=Mizuhopecten yessoensis OX=6573 GN=KP79_PYT26227 PE=3 SV=1
+Dmel	A0A0B4KHQ6	170.5	Alpha2-adrenergic-like octopamine receptor, isoform C OS=Drosophila melanogaster OX=7227 GN=Octalpha2R PE=3 SV=1
+Dmel	Q9VE32	170.5	Alpha2-adrenergic-like octopamine receptor, isoform A OS=Drosophila melanogaster OX=7227 GN=Octalpha2R PE=3 SV=3
+Pcau	A0ABM1DS08	170.2	5-hydroxytryptamine receptor 1D-like OS=Priapulus caudatus OX=37621 GN=LOC106805590 PE=3 SV=1
+Skow	A0ACM8C679	169.4	Octopamine receptor beta-2R-like OS=Saccoglossus kowalevskii OX=10224 GN=LOC144342815 PE=3 SV=1
+Pmar	A0AAJ7WNT3	169.3	Uncharacterized protein LOC116939680 OS=Petromyzon marinus OX=7757 GN=LOC116939680 PE=3 SV=1
+Mmus	A0A1B0GR79	169.2	Histamine H2 receptor OS=Mus musculus OX=10090 GN=Hrh2 PE=3 SV=1
+Mmus	P97292	169.0	Histamine H2 receptor OS=Mus musculus OX=10090 GN=Hrh2 PE=2 SV=2
+Drer	A0A8M1NKD9	168.9	Beta-1 adrenergic receptor OS=Danio rerio OX=7955 GN=adrb1 PE=3 SV=1
+Mmus	A0A1B0GSX9	168.6	Histamine H2 receptor OS=Mus musculus OX=10090 GN=Hrh2 PE=3 SV=1
+Spur	A0A7M7GES3	168.6	G-protein coupled receptors family 1 profile domain-containing protein OS=Strongylocentrotus purpuratus OX=7668 PE=3 SV=1
+Mmus	P18762	168.6	Beta-2 adrenergic receptor OS=Mus musculus OX=10090 GN=Adrb2 PE=1 SV=2
+Skow	A0ACM8C7A2	168.2	Uncharacterized protein LOC102807643 OS=Saccoglossus kowalevskii OX=10224 GN=LOC102807643 PE=3 SV=1
+Bflo	A0A9J7LZ30	168.0	Octopamine receptor-like OS=Branchiostoma floridae OX=7739 GN=LOC118426224 PE=3 SV=1
+Lpol	A0ABM1BMR1	167.9	Probable G-protein coupled receptor No18 OS=Limulus polyphemus OX=6850 GN=LOC106469197 PE=3 SV=1
+Myes	A0A210QIB3	167.8	Rhodopsin, GQ-coupled OS=Mizuhopecten yessoensis OX=6573 GN=KP79_PYT05889 PE=3 SV=1
+Skow	A0ABM0MEY6	167.7	5-hydroxytryptamine receptor 1A-like OS=Saccoglossus kowalevskii OX=10224 GN=LOC102807799 PE=3 SV=2
+Mmus	P34971	167.6	Beta-1 adrenergic receptor OS=Mus musculus OX=10090 GN=Adrb1 PE=1 SV=2
+Mmus	P25962	167.4	Beta-3 adrenergic receptor OS=Mus musculus OX=10090 GN=Adrb3 PE=2 SV=2
+Apla	A0A8B7Z258	167.1	5-hydroxytryptamine receptor 4-like OS=Acanthaster planci OX=133434 GN=LOC110983800 PE=3 SV=1
+Skow	A0ABM0M628	166.9	Histamine H2 receptor OS=Saccoglossus kowalevskii OX=10224 GN=LOC100368272 PE=3 SV=1
+Pmin	A0A913ZTY1	166.8	G-protein coupled receptors family 1 profile domain-containing protein OS=Patiria miniata OX=46514 PE=3 SV=1
+Skow	A0ACM8CE37	166.7	Uncharacterized protein LOC100368723 OS=Saccoglossus kowalevskii OX=10224 GN=LOC100368723 PE=3 SV=1
+Spur	A0A7M7HGM5	166.7	G-protein coupled receptors family 1 profile domain-containing protein OS=Strongylocentrotus purpuratus OX=7668 PE=3 SV=1
+Skow	A0ABM0LZ08	166.4	G-protein coupled receptor No18 OS=Saccoglossus kowalevskii OX=10224 GN=LOC102801068 PE=3 SV=1
+Bflo	A0A9J7NCI2	166.3	Probable G-protein coupled receptor 101 OS=Branchiostoma floridae OX=7739 GN=LOC118431113 PE=3 SV=1
+Lpol	A0ABM1BQZ8	166.1	Octopamine receptor 1-like OS=Limulus polyphemus OX=6850 GN=LOC106470931 PE=3 SV=1
+Nvec	A7SM13	166.0	G-protein coupled receptors family 1 profile domain-containing protein OS=Nematostella vectensis OX=45351 GN=NEMVEDRAFT_v1g214360 PE=3 SV=1
+Hsap	P07550	165.7	Beta-2 adrenergic receptor OS=Homo sapiens OX=9606 GN=ADRB2 PE=1 SV=3

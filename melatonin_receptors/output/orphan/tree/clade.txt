@@ -1,0 +1,122 @@
+==============================================================================
+=== gt0.1 — 258 tips ===
+
+POSITIVE CONTROL — melatonin family monophyly: PASS
+  10 members, smallest containing clade has 10 tips, support 100/100
+
+ORPHAN FAMILY — smallest clade containing all 7 seed members:
+  25 tips, support 36.2/91
+  exactly monophyletic: False
+
+ABOVE-FLOOR HITS — 88 in the panel, 25 inside the family clade, 63 outside (aminergic bleed-through past the ADRB2 floor):
+  sp         in  out
+  Lpol        3    6
+  Ajap        2    2
+  Drer        2    1
+  Hsap        2    0
+  Mmus        2    6
+  Skow        2   10
+  Spur        2    4
+  Apla        1    7
+  Bflo        1    7
+  Cele        1    0
+  Cvir        1    1
+  Dmel        1    2
+  Ebur        1    0
+  Lana        1    2
+  Pcau        1    1
+  Pmar        1    1
+  Pmin        1    7
+  Hvul        0    1
+  Myes        0    4
+  Nvec        0    1
+
+PCDR-1 (ORPH_Cele_O17899): inside the family clade = True
+  +   2 tips @ 82.1/100      ORPH_Cele_O17899, ORPH_Pcau_A0ABM1EQA9
+  +   6 tips @ 97.3/100      ORPH_Cele_O17899, ORPH_Dmel_Q9VZD1, ORPH_Lpol_A0ABM1BHV8, ORPH_Lpol_A0ABM1BZC6, ORPH_Lpol_A0ABM1S0K4, ORPH_Pcau_A0ABM1EQA9
+  +   8 tips @ 99.7/100      ORPH_Cele_O17899, ORPH_Cvir_A0A8B8D717, ORPH_Dmel_Q9VZD1, ORPH_Lana_A0A1S3KFU7, ORPH_Lpol_A0ABM1BHV8, ORPH_Lpol_A0ABM1BZC6, ORPH_Lpol_A0ABM1S0K4, ORPH_Pcau_A0ABM1EQA9
+  +  10 tips @ 95.9/100      ORPH_Cele_O17899, ORPH_Cvir_A0A8B8D717, ORPH_Dmel_Q9VZD1, ORPH_Lana_A0A1S3KFU7, ORPH_Lpol_A0ABM1BHV8, ORPH_Lpol_A0ABM1BZC6, ORPH_Lpol_A0ABM1S0K4, ORPH_Pcau_A0ABM1EQA9, ORPH_Skow_A0ABM0LWU4, ORPH_Skow_A0ABM0M2W8
+  +  25 tips @ 36.2/91       ORPH_Ajap_A0A2G8JU49, ORPH_Ajap_A0A2G8KZX3, ORPH_Apla_A0A8B7XVE6, ORPH_Bflo_A0A9J7LMJ4, ORPH_Cele_O17899, ORPH_Cvir_A0A8B8D717, ORPH_Dmel_Q9VZD1, ORPH_Drer_A0A8M2BLP6, ORPH_Drer_A0AB32TDE1, ORPH_Ebur_A0A8C4Q531, ORPH_Hsap_Q99679, ORPH_Hsap_Q9Y2T5 ...
+
+DEPTH — oldest lineages with a member inside the family clade:
+  Cele   nematode                       in clade  <-- deepest
+  Dmel   insect                         in clade  
+  Lpol   chelicerate                    in clade  
+  Pcau   priapulid                      in clade  
+  Cvir   mollusc (oyster)               in clade  
+  Lana   brachiopod                     in clade  
+  Ebur   hagfish                        in clade  
+  Pmin   echinoderm (starfish)          in clade  
+  Apla   echinoderm (crown-of-thorns)   in clade  
+  Ajap   echinoderm (sea cucumber)      in clade  
+  Spur   echinoderm (sea urchin)        in clade  
+  Skow   hemichordate                   in clade  
+  Bflo   amphioxus                      in clade  
+  Pmar   lamprey                        in clade  
+  Drer   teleost                        in clade  
+  Mmus   mouse                          in clade  
+  Hsap   human                          in clade  
+
+  Not in the clade: Aque (sponge), Tadh (Trichoplax), Mlei (ctenophore), Nvec (cnidarian (Nematostella)), Hvul (cnidarian (Hydra)), Myes (mollusc (scallop)), Cint (tunicate)
+
+==============================================================================
+=== gappyout — 258 tips ===
+
+POSITIVE CONTROL — melatonin family monophyly: PASS
+  10 members, smallest containing clade has 10 tips, support 100/100
+
+ORPHAN FAMILY — smallest clade containing all 7 seed members:
+  25 tips, support 3.2/52
+  exactly monophyletic: False
+
+ABOVE-FLOOR HITS — 88 in the panel, 25 inside the family clade, 63 outside (aminergic bleed-through past the ADRB2 floor):
+  sp         in  out
+  Lpol        3    6
+  Ajap        2    2
+  Drer        2    1
+  Hsap        2    0
+  Mmus        2    6
+  Skow        2   10
+  Spur        2    4
+  Apla        1    7
+  Bflo        1    7
+  Cele        1    0
+  Cvir        1    1
+  Dmel        1    2
+  Ebur        1    0
+  Lana        1    2
+  Pcau        1    1
+  Pmar        1    1
+  Pmin        1    7
+  Hvul        0    1
+  Myes        0    4
+  Nvec        0    1
+
+PCDR-1 (ORPH_Cele_O17899): inside the family clade = True
+  +   2 tips @ 82.8/99       ORPH_Cele_O17899, ORPH_Pcau_A0ABM1EQA9
+  +   6 tips @ 97.4/100      ORPH_Cele_O17899, ORPH_Dmel_Q9VZD1, ORPH_Lpol_A0ABM1BHV8, ORPH_Lpol_A0ABM1BZC6, ORPH_Lpol_A0ABM1S0K4, ORPH_Pcau_A0ABM1EQA9
+  +   8 tips @ 99.8/100      ORPH_Cele_O17899, ORPH_Cvir_A0A8B8D717, ORPH_Dmel_Q9VZD1, ORPH_Lana_A0A1S3KFU7, ORPH_Lpol_A0ABM1BHV8, ORPH_Lpol_A0ABM1BZC6, ORPH_Lpol_A0ABM1S0K4, ORPH_Pcau_A0ABM1EQA9
+  +  10 tips @ 94.7/98       ORPH_Cele_O17899, ORPH_Cvir_A0A8B8D717, ORPH_Dmel_Q9VZD1, ORPH_Lana_A0A1S3KFU7, ORPH_Lpol_A0ABM1BHV8, ORPH_Lpol_A0ABM1BZC6, ORPH_Lpol_A0ABM1S0K4, ORPH_Pcau_A0ABM1EQA9, ORPH_Skow_A0ABM0LWU4, ORPH_Skow_A0ABM0M2W8
+  +  25 tips @ 3.2/52        ORPH_Ajap_A0A2G8JU49, ORPH_Ajap_A0A2G8KZX3, ORPH_Apla_A0A8B7XVE6, ORPH_Bflo_A0A9J7LMJ4, ORPH_Cele_O17899, ORPH_Cvir_A0A8B8D717, ORPH_Dmel_Q9VZD1, ORPH_Drer_A0A8M2BLP6, ORPH_Drer_A0AB32TDE1, ORPH_Ebur_A0A8C4Q531, ORPH_Hsap_Q99679, ORPH_Hsap_Q9Y2T5 ...
+
+DEPTH — oldest lineages with a member inside the family clade:
+  Cele   nematode                       in clade  <-- deepest
+  Dmel   insect                         in clade  
+  Lpol   chelicerate                    in clade  
+  Pcau   priapulid                      in clade  
+  Cvir   mollusc (oyster)               in clade  
+  Lana   brachiopod                     in clade  
+  Ebur   hagfish                        in clade  
+  Pmin   echinoderm (starfish)          in clade  
+  Apla   echinoderm (crown-of-thorns)   in clade  
+  Ajap   echinoderm (sea cucumber)      in clade  
+  Spur   echinoderm (sea urchin)        in clade  
+  Skow   hemichordate                   in clade  
+  Bflo   amphioxus                      in clade  
+  Pmar   lamprey                        in clade  
+  Drer   teleost                        in clade  
+  Mmus   mouse                          in clade  
+  Hsap   human                          in clade  
+
+  Not in the clade: Aque (sponge), Tadh (Trichoplax), Mlei (ctenophore), Nvec (cnidarian (Nematostella)), Hvul (cnidarian (Hydra)), Myes (mollusc (scallop)), Cint (tunicate)
+

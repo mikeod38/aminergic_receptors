@@ -1,0 +1,399 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jun 19 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Mikes-MBP-2.stdusr.yale.internal (SSE4.2, 24 GB RAM)
+Command: /Users/mikeodonnell/git/receptor_phylogeny/scripts/bin/iqtree3-mt -s /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/orphan/tree/panel.gt0.1.faa -m LG+F+I+R7 -g /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/orphan/constraint/gt0.1_calib_mel.constraint.tree -T 6 --prefix /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/orphan/constraint/gt0.1_calib_mel -redo --quiet
+Seed:    226524 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Nov  5 17:27:49 2026
+Kernel:  SSE2 - 6 threads (12 CPU cores detected)
+
+Reading alignment file /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/orphan/tree/panel.gt0.1.faa ... Fasta format detected
+Reading fasta file: done in 0.00181389 secs using 82.25% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00169706 secs using 82.14% CPU
+Alignment has 258 sequences with 734 columns, 734 distinct patterns
+725 parsimony-informative, 9 singleton sites, 0 constant sites
+                                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.10352e-05 secs using 312.9% CPU
+   1  AM_Ajap_tr_A0A2G8K4C3_A0A2G8K4C3_APOJA   51.23%    passed     24.14%
+   2  AM_Ajap_tr_A0A2G8LRS8_A0A2G8LRS8_APOJA   43.05%    passed     50.74%
+   3  AM_Apla_tr_A0A8B7YCR4_A0A8B7YCR4_ACAPL   40.74%    passed     40.12%
+   4  AM_Apla_tr_A0A8B8A0D8_A0A8B8A0D8_ACAPL   43.60%    passed     49.88%
+   5  AM_Bflo_tr_A0A9J7M236_A0A9J7M236_BRAFL   37.06%    failed      0.48%
+   6  AM_Bflo_tr_A0A9J7MN32_A0A9J7MN32_BRAFL   49.59%    passed     15.29%
+   7  AM_Bma_tyra-2                            43.46%    failed      4.85%
+   8  AM_Bma_tyra-3                            49.46%    failed      1.71%
+   9  AM_Cbn_dop-1                             41.83%    passed     94.32%
+  10  AM_Cbn_dop-3                             37.60%    passed     34.49%
+  11  AM_Cbn_dop-4                             44.82%    passed      7.91%
+  12  AM_Cbn_dop-5                             54.50%    passed     12.81%
+  13  AM_Cbn_dop-6                             22.48%    failed      1.97%
+  14  AM_Cbn_octr-1                            46.05%    failed      4.41%
+  15  AM_Cbn_ser-2                             40.46%    passed     60.39%
+  16  AM_Cbn_ser-3                             24.66%    failed      4.54%
+  17  AM_Cbn_ser-7                             43.05%    passed     96.83%
+  18  AM_Cbn_tyra-2                            44.82%    passed     17.20%
+  19  AM_Cbn_tyra-3                            30.11%    passed     96.91%
+  20  AM_Cbr_dop-4                             32.56%    passed     27.52%
+  21  AM_Cbr_dop-5                             28.75%    failed      0.00%
+  22  AM_Cbr_dop-6                             22.34%    failed      1.89%
+  23  AM_Cbr_octr-1                            45.78%    passed     14.14%
+  24  AM_Cbr_ser-3                             23.84%    failed      1.63%
+  25  AM_Cbr_ser-4                             41.96%    passed     42.17%
+  26  AM_Cbr_ser-6                             48.50%    passed     66.68%
+  27  AM_Cint_tr_F6SIL2_F6SIL2_CIOIN           43.32%    passed     28.50%
+  28  AM_Cint_tr_F6USY0_F6USY0_CIOIN           38.83%    passed     16.47%
+  29  AM_Cre_dop-1                             42.10%    passed     96.94%
+  30  AM_Cre_dop-3                             37.60%    passed     52.32%
+  31  AM_Cre_dop-4                             31.88%    passed     41.44%
+  32  AM_Cre_dop-5                             28.75%    failed      0.00%
+  33  AM_Cre_dop-6                             22.48%    failed      2.22%
+  34  AM_Cre_octr-1                            46.05%    passed      6.68%
+  35  AM_Cre_ser-2                             43.60%    passed     76.89%
+  36  AM_Cre_ser-4                             52.18%    passed     32.39%
+  37  AM_Cre_ser-7                             44.69%    passed     83.70%
+  38  AM_Cre_tyra-2                            39.92%    passed     39.54%
+  39  AM_Cre_tyra-3                            30.11%    passed     95.56%
+  40  AM_Cvir_tr_A0A8B8A4H7_A0A8B8A4H7_CRAVI   47.41%    passed     81.45%
+  41  AM_Cvir_tr_A0A8B8E7R6_A0A8B8E7R6_CRAVI   41.28%    failed      2.08%
+  42  AM_Cvir_tr_A0A8B8F0Q5_A0A8B8F0Q5_CRAVI   38.42%    passed     65.84%
+  43  AM_Drer_sp_Q90WY4_ADA2A_DANRE            47.68%    passed      5.28%
+  44  AM_Drer_tr_Q1L8Y8_Q1L8Y8_DANRE           47.68%    passed      6.74%
+  45  AM_Ebur_tr_A0A8C4N726_A0A8C4N726_EPTBU   43.60%    passed     46.17%
+  46  AM_Ebur_tr_A0A8C4NHU4_A0A8C4NHU4_EPTBU   48.23%    passed     58.39%
+  47  AM_Ebur_tr_A0A8C4QW85_A0A8C4QW85_EPTBU   44.55%    passed     58.19%
+  48  AM_Hvul_tr_A0ABM4BNS4_A0ABM4BNS4_HYDVU   28.47%    failed      0.00%
+  49  AM_Hvul_tr_A0ABM4CK96_A0ABM4CK96_HYDVU   51.91%    failed      0.04%
+  50  AM_Hvul_tr_A0ABM4CKA6_A0ABM4CKA6_HYDVU   52.45%    failed      0.24%
+  51  AM_Lana_tr_A0A1S3GY13_A0A1S3GY13_LINAN   33.51%    passed     68.71%
+  52  AM_Lana_tr_A0A1S3HJU9_A0A1S3HJU9_LINAN   35.97%    passed     97.48%
+  53  AM_Lana_tr_A0A1S3K9Y2_A0A1S3K9Y2_LINAN   31.74%    passed     93.75%
+  54  AM_Lpol_tr_A0ABM1BKJ6_A0ABM1BKJ6_LIMPO   41.55%    passed     52.50%
+  55  AM_Lpol_tr_A0ABM1RX31_A0ABM1RX31_LIMPO   36.92%    passed     64.42%
+  56  AM_Lpol_tr_A0ABM1SBT5_A0ABM1SBT5_LIMPO   42.37%    passed     73.79%
+  57  AM_Mlei_KAL5257720.1                     33.11%    failed      4.20%
+  58  AM_Mlei_KAL5268535.1                     48.50%    passed     69.25%
+  59  AM_Myes_tr_A0A210PJ23_A0A210PJ23_MIZYE   34.74%    passed     98.63%
+  60  AM_Myes_tr_A0A210PPR0_A0A210PPR0_MIZYE   49.18%    passed     56.74%
+  61  AM_Myes_tr_A0A210QLA7_A0A210QLA7_MIZYE   33.79%    passed      7.80%
+  62  AM_Nam_ser-3                             34.88%    passed     43.87%
+  63  AM_Nam_ser-7                             46.87%    passed      7.77%
+  64  AM_Nvec_tr_A7S987_A7S987_NEMVE           44.55%    passed     44.15%
+  65  AM_Nvec_tr_A7SM05_A7SM05_NEMVE           57.49%    passed     58.72%
+  66  AM_Nvec_tr_A7SM55_A7SM55_NEMVE           58.72%    failed      2.28%
+  67  AM_Pcau_tr_A0ABM1E1A1_A0ABM1E1A1_PRICU   41.69%    passed     63.54%
+  68  AM_Pcau_tr_A0ABM1EKS2_A0ABM1EKS2_PRICU   46.73%    passed     99.19%
+  69  AM_Pcau_tr_A0ABM1F1R5_A0ABM1F1R5_PRICU   38.83%    passed     38.15%
+  70  AM_Pmar_tr_A0AAJ7T1P3_A0AAJ7T1P3_PETMA   40.46%    failed      0.34%
+  71  AM_Pmar_tr_A0AAJ7WUU2_A0AAJ7WUU2_PETMA   43.73%    passed     20.34%
+  72  AM_Pmin_tr_A0A914A277_A0A914A277_PATMI   38.01%    passed     31.15%
+  73  AM_Pmin_tr_A0A914B379_A0A914B379_PATMI   43.73%    passed     30.52%
+  74  AM_Ppa_dop-3                             35.97%    passed     15.27%
+  75  AM_Ppa_dop-6                             24.66%    failed      3.14%
+  76  AM_Ppa_ser-4                             47.28%    passed     52.42%
+  77  AM_Ppa_ser-6                             41.55%    passed     39.47%
+  78  AM_Skow_tr_A0ABM0MS41_A0ABM0MS41_SACKO   50.95%    passed     54.75%
+  79  AM_Skow_tr_A0ACM8CU07_A0ACM8CU07_SACKO   41.14%    passed     78.51%
+  80  AM_Spur_tr_A0A7M7HLT0_A0A7M7HLT0_STRPU   39.92%    passed     93.89%
+  81  AM_Spur_tr_A0A7M7RBR3_A0A7M7RBR3_STRPU   37.87%    passed     74.33%
+  82  AM_Sra_ser-2                             37.74%    failed      2.61%
+  83  AM_Sra_ser-6                             39.92%    failed      3.68%
+  84  AM_Tadh_tr_B3RY65_B3RY65_TRIAD           57.49%    failed      1.19%
+  85  AM_Tadh_tr_B3S5Y6_B3S5Y6_TRIAD           49.05%    failed      3.43%
+  86  AM_Tadh_tr_B3SDK6_B3SDK6_TRIAD           50.82%    passed     44.86%
+  87  AM_Tsp_dop-2                             30.25%    failed      0.14%
+  88  AM_bmOAR1                                39.78%    passed      9.34%
+  89  cel_dop-1                                41.96%    passed     95.79%
+  90  cel_dop-2                                25.89%    passed     22.58%
+  91  cel_dop-3                                37.06%    passed     53.14%
+  92  cel_dop-4                                31.74%    passed     59.19%
+  93  cel_dop-5                                28.20%    failed      0.03%
+  94  cel_dop-6                                22.62%    failed      1.95%
+  95  cel_gar-1                                26.84%    failed      2.46%
+  96  cel_gar-2                                34.47%    failed      0.08%
+  97  cel_gar-3                                28.47%    failed      0.75%
+  98  cel_octr-1                               45.78%    passed      5.47%
+  99  cel_ser-1                                30.38%    passed     85.80%
+ 100  cel_ser-2                                40.19%    passed     79.58%
+ 101  cel_ser-3                                24.66%    failed      2.76%
+ 102  cel_ser-4                                42.10%    passed     62.23%
+ 103  cel_ser-5                                43.32%    passed     31.40%
+ 104  cel_ser-6                                48.37%    passed     49.20%
+ 105  cel_ser-7                                41.83%    passed     94.29%
+ 106  cel_tyra-2                               38.96%    passed     48.34%
+ 107  cel_tyra-3                               30.11%    passed     96.78%
+ 108  dm5HT1A                                  21.12%    failed      0.00%
+ 109  dm5HT1B                                  26.98%    failed      0.17%
+ 110  dm5HT2A                                  25.75%    failed      0.93%
+ 111  dm5HT7                                   35.42%    failed      0.54%
+ 112  dmDop1R1                                 43.73%    passed     94.69%
+ 113  dmDop2R                                  24.80%    failed      0.37%
+ 114  dmOAMB                                   33.51%    passed     80.78%
+ 115  dmOctA2R                                 23.43%    passed      5.70%
+ 116  dmOctB1R                                 40.74%    passed     56.72%
+ 117  dmOctB2R                                 37.19%    passed     34.53%
+ 118  dmOctB3R                                 19.48%    passed     55.95%
+ 119  dmOctTyrR                                28.75%    passed     16.40%
+ 120  dmTyrR                                   29.29%    passed     15.90%
+ 121  dmTyrRII                                 30.52%    passed     66.56%
+ 122  hADRA1A                                  44.55%    passed     47.52%
+ 123  hADRA1B                                  41.14%    passed     31.21%
+ 124  hADRA1D                                  37.19%    failed      0.00%
+ 125  hADRA2A                                  38.56%    failed      0.00%
+ 126  hADRA2B                                  40.19%    failed      0.01%
+ 127  hADRA2C                                  38.15%    failed      0.00%
+ 128  hADRB1                                   41.83%    failed      0.00%
+ 129  hADRB2                                   48.91%    passed     36.64%
+ 130  hADRB3                                   47.55%    failed      0.00%
+ 131  hCHRM1                                   40.19%    failed      1.48%
+ 132  hCHRM2                                   39.92%    failed      3.57%
+ 133  hCHRM3                                   28.47%    passed     26.26%
+ 134  hCHRM5                                   33.65%    failed      2.24%
+ 135  hDRD1                                    45.91%    passed     75.68%
+ 136  hDRD2                                    41.96%    passed     63.54%
+ 137  hDRD3                                    46.59%    passed     41.17%
+ 138  hDRD4                                    46.32%    failed      0.00%
+ 139  hDRD5                                    45.10%    passed     44.66%
+ 140  hGPR50                                   43.32%    passed     44.45%
+ 141  hHRH1                                    41.28%    passed     61.70%
+ 142  hHRH2                                    52.45%    passed     82.79%
+ 143  hHRH3                                    43.32%    failed      0.09%
+ 144  hHRH4                                    51.36%    passed     18.95%
+ 145  hHTR1A                                   44.28%    passed     69.35%
+ 146  hHTR1B                                   47.55%    passed     88.27%
+ 147  hHTR1D                                   49.18%    passed     13.03%
+ 148  hHTR1E                                   50.95%    passed     23.51%
+ 149  hHTR1F                                   50.95%    passed     39.26%
+ 150  hHTR2A                                   42.23%    passed     11.36%
+ 151  hHTR2B                                   40.46%    passed     56.17%
+ 152  hHTR2C                                   42.37%    passed     13.48%
+ 153  hHTR4                                    50.82%    passed     68.04%
+ 154  hHTR5A                                   51.50%    passed     74.42%
+ 155  hHTR6                                    45.23%    failed      0.00%
+ 156  hHTR7                                    43.19%    passed     99.47%
+ 157  hMTNR1A                                  54.63%    failed      1.65%
+ 158  hMTNR1B                                  53.13%    failed      4.08%
+ 159  hTAAR1                                   55.86%    failed      0.31%
+ 160  AM_plADRA1                               33.38%    passed     58.45%
+ 161  ORPH_Ajap_A0A2G8JEA5                     50.27%    passed     15.71%
+ 162  ORPH_Ajap_A0A2G8JU49                     49.05%    passed     19.00%
+ 163  ORPH_Ajap_A0A2G8JZ10                     54.22%    passed     18.18%
+ 164  ORPH_Ajap_A0A2G8KZX3                     60.63%    passed     95.01%
+ 165  ORPH_Apla_A0A8B7XVE6                     51.91%    passed     65.03%
+ 166  ORPH_Apla_A0A8B7Y3X0                     55.04%    passed      7.26%
+ 167  ORPH_Apla_A0A8B7Y8S3                     51.23%    passed     19.58%
+ 168  ORPH_Apla_A0A8B7YTA3                     38.15%    passed     39.93%
+ 169  ORPH_Apla_A0A8B7YVM9                     40.46%    passed     72.39%
+ 170  ORPH_Apla_A0A8B7Z258                     55.86%    passed     10.85%
+ 171  ORPH_Apla_A0A8B7ZKZ0                     52.04%    passed     76.53%
+ 172  ORPH_Apla_A0A8B8A7P9                     52.72%    passed     40.89%
+ 173  ORPH_Bflo_A0A9J7LHP4                     31.88%    failed      0.39%
+ 174  ORPH_Bflo_A0A9J7LMJ4                     47.68%    passed     27.57%
+ 175  ORPH_Bflo_A0A9J7LZ30                     32.83%    passed     36.45%
+ 176  ORPH_Bflo_A0A9J7M3N5                     61.31%    passed     31.64%
+ 177  ORPH_Bflo_A0A9J7M4Q3                     53.68%    failed      1.75%
+ 178  ORPH_Bflo_A0A9J7M5L2                     63.62%    passed      8.46%
+ 179  ORPH_Bflo_A0A9J7NCI2                     45.10%    failed      3.07%
+ 180  ORPH_Bflo_C3Y3T3                         45.50%    passed     99.49%
+ 181  ORPH_Cele_O17899                         57.90%    passed      6.12%
+ 182  ORPH_Cvir_A0A8B8D717                     59.67%    failed      3.95%
+ 183  ORPH_Cvir_A0A8B8DJZ1                     52.32%    passed     62.85%
+ 184  ORPH_Dmel_A0A0B4KHQ6                     26.98%    failed      2.22%
+ 185  ORPH_Dmel_Q9VE32                         26.98%    failed      2.22%
+ 186  ORPH_Dmel_Q9VZD1                         56.68%    passed     34.88%
+ 187  ORPH_Drer_A0A8M1NKD9                     51.09%    passed     73.96%
+ 188  ORPH_Drer_A0A8M2BLP6                     54.90%    passed     14.59%
+ 189  ORPH_Drer_A0AB32TDE1                     52.45%    passed     24.15%
+ 190  ORPH_Ebur_A0A8C4Q531                     49.59%    failed      0.02%
+ 191  ORPH_Hsap_Q99679                         53.95%    failed      3.16%
+ 192  ORPH_Hsap_Q9Y2T5                         53.95%    passed     11.54%
+ 193  ORPH_Hvul_A0ABM4BQ22                     41.69%    failed      0.01%
+ 194  ORPH_Lana_A0A1S3JHZ2                     40.33%    passed     27.58%
+ 195  ORPH_Lana_A0A1S3JUJ4                     37.60%    passed     88.33%
+ 196  ORPH_Lana_A0A1S3KFU7                     59.95%    failed      0.30%
+ 197  ORPH_Lpol_A0ABM1B926                     53.27%    passed     38.89%
+ 198  ORPH_Lpol_A0ABM1BHV8                     55.99%    failed      1.42%
+ 199  ORPH_Lpol_A0ABM1BMR1                     43.05%    passed     82.64%
+ 200  ORPH_Lpol_A0ABM1BQZ8                     39.37%    passed     42.08%
+ 201  ORPH_Lpol_A0ABM1BZC6                     55.99%    passed      5.08%
+ 202  ORPH_Lpol_A0ABM1C3I2                     32.56%    passed     66.29%
+ 203  ORPH_Lpol_A0ABM1S0K4                     56.54%    passed      6.79%
+ 204  ORPH_Lpol_A0ABM1SIP3                     30.11%    passed     15.35%
+ 205  ORPH_Lpol_A0ABM1TDG9                     29.97%    passed     63.17%
+ 206  ORPH_Mmus_A0A1B0GR79                     51.63%    passed     96.75%
+ 207  ORPH_Mmus_A0A1B0GSX9                     51.09%    passed     97.12%
+ 208  ORPH_Mmus_P0C5J4                         53.95%    passed      7.24%
+ 209  ORPH_Mmus_P18762                         48.23%    passed     93.23%
+ 210  ORPH_Mmus_P25962                         48.77%    failed      0.00%
+ 211  ORPH_Mmus_P34971                         43.32%    failed      0.00%
+ 212  ORPH_Mmus_P97292                         51.09%    passed     94.86%
+ 213  ORPH_Mmus_Q8BX79                         53.95%    failed      4.25%
+ 214  ORPH_Myes_A0A210PUR7                     52.59%    passed     36.35%
+ 215  ORPH_Myes_A0A210PUV9                     56.27%    passed     30.56%
+ 216  ORPH_Myes_A0A210QD58                     47.28%    passed      6.89%
+ 217  ORPH_Myes_A0A210QIB3                     42.10%    passed     62.83%
+ 218  ORPH_Nvec_A7SM13                         54.09%    passed     55.16%
+ 219  ORPH_Pcau_A0ABM1DS08                     30.93%    passed     13.96%
+ 220  ORPH_Pcau_A0ABM1EQA9                     58.45%    failed      0.41%
+ 221  ORPH_Pmar_A0AAJ7WNT3                     20.16%    failed      0.00%
+ 222  ORPH_Pmar_A0ACM8C3Q0                     43.19%    failed      0.00%
+ 223  ORPH_Pmin_A0A913Z402                     51.91%    passed     17.42%
+ 224  ORPH_Pmin_A0A913ZN29                     51.09%    passed     96.99%
+ 225  ORPH_Pmin_A0A913ZTY1                     49.05%    passed     34.84%
+ 226  ORPH_Pmin_A0A914A3Y1                     38.56%    passed     12.58%
+ 227  ORPH_Pmin_A0A914AIB2                     53.68%    passed     15.08%
+ 228  ORPH_Pmin_A0A914ALS4                     38.15%    passed     66.87%
+ 229  ORPH_Pmin_A0A914ASU4                     39.51%    failed      0.06%
+ 230  ORPH_Pmin_A0A914B5T6                     56.81%    passed     12.47%
+ 231  ORPH_Skow_A0ABM0GJE0                     53.81%    passed     51.20%
+ 232  ORPH_Skow_A0ABM0GU29                     54.22%    failed      2.22%
+ 233  ORPH_Skow_A0ABM0LWU4                     53.95%    passed     74.95%
+ 234  ORPH_Skow_A0ABM0LZ08                     35.29%    passed     43.86%
+ 235  ORPH_Skow_A0ABM0M2W8                     51.91%    passed     66.16%
+ 236  ORPH_Skow_A0ABM0M628                     51.63%    passed     22.60%
+ 237  ORPH_Skow_A0ABM0M684                     53.54%    passed     59.01%
+ 238  ORPH_Skow_A0ABM0MEY6                     44.28%    passed     43.89%
+ 239  ORPH_Skow_A0ABM0MTC6                     54.90%    passed      6.02%
+ 240  ORPH_Skow_A0ACM8C679                     55.04%    passed     42.39%
+ 241  ORPH_Skow_A0ACM8C7A2                     39.78%    passed     21.01%
+ 242  ORPH_Skow_A0ACM8CE37                     30.79%    passed     93.23%
+ 243  ORPH_Spur_A0A7M7GES3                     37.60%    failed      4.67%
+ 244  ORPH_Spur_A0A7M7GHW5                     46.32%    passed     33.14%
+ 245  ORPH_Spur_A0A7M7HGM5                     47.28%    passed     23.07%
+ 246  ORPH_Spur_A0A7M7HNE5                     43.87%    passed     54.98%
+ 247  ORPH_Spur_A0A7M7MYU3                     52.18%    passed      8.88%
+ 248  ORPH_Spur_A0A7M7SYV2                     34.74%    passed     21.87%
+ 249  MEL_MEL_Drer_A0A8M1NRI5                  56.95%    failed      4.25%
+ 250  MEL_MEL_Drer_A0A8M9PN98                  54.36%    failed      2.30%
+ 251  MEL_MEL_Drer_A2BGT9                      53.27%    passed      7.13%
+ 252  MEL_MEL_Drer_P51046                      54.63%    failed      4.19%
+ 253  MEL_MEL_Drer_P51049                      55.04%    failed      0.82%
+ 254  MEL_Pmar_A0AAJ7T8G6                      50.68%    failed      1.52%
+ 255  MEL_Pmar_A0ACM8ASR7                      47.14%    failed      0.00%
+ 256  hNPY2R                                   52.04%    passed     61.89%
+ 257  hNPFFR2                                  43.05%    failed      4.54%
+ 258  hTACR3                                   41.42%    passed     59.07%
+WARNING: 74 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                    43.12%  77 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading constraint tree /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/orphan/constraint/gt0.1_calib_mel.constraint.tree...
+Creating fast initial parsimony tree by random order stepwise addition...
+6.567 seconds, parsimony score: 40535 (based on 734 sites)
+
+NOTE: 210 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -179464.791
+2. Current log-likelihood: -172120.473
+3. Current log-likelihood: -171951.842
+4. Current log-likelihood: -171948.081
+5. Current log-likelihood: -171947.206
+6. Current log-likelihood: -171947.047
+Optimal log-likelihood: -171946.918
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.048,0.042) (0.071,0.137) (0.056,0.218) (0.087,0.345) (0.124,0.543) (0.160,0.871) (0.453,1.630)
+Parameters optimization took 6 rounds (8.683 sec)
+Wrote distance file to... 
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.975 second
+Computing log-likelihood of 99 initial trees ... 22.572 seconds
+Current best score: -171946.918
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -170934.030
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -170889.614
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -170881.530
+Iteration 10 / LogL: -170903.658 / Time: 0h:2m:49s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -170843.494
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 15: -170841.964
+Iteration 20 / LogL: -170948.836 / Time: 0h:4m:29s
+Finish initializing candidate tree set (20)
+Current best tree score: -170841.964 / CPU time: 253.746
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -170838.624
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -170834.554
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -170804.035
+Iteration 30 / LogL: -170829.624 / Time: 0h:5m:42s (0h:18m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -170791.685
+Iteration 40 / LogL: -170801.907 / Time: 0h:6m:48s (0h:16m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -170786.329
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -170777.110
+Iteration 50 / LogL: -170787.595 / Time: 0h:7m:57s (0h:15m:3s left)
+Iteration 60 / LogL: -170802.522 / Time: 0h:9m:0s (0h:12m:39s left)
+Iteration 70 / LogL: -170791.485 / Time: 0h:10m:6s (0h:10m:43s left)
+Iteration 80 / LogL: -170871.445 / Time: 0h:11m:15s (0h:9m:1s left)
+Iteration 90 / LogL: -170801.883 / Time: 0h:12m:20s (0h:7m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 96: -170773.687
+Iteration 100 / LogL: -170789.168 / Time: 0h:13m:25s (0h:12m:54s left)
+Iteration 110 / LogL: -170775.170 / Time: 0h:14m:30s (0h:11m:21s left)
+Iteration 120 / LogL: -170786.101 / Time: 0h:15m:41s (0h:9m:57s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 129: -170773.272
+Iteration 130 / LogL: -170778.799 / Time: 0h:16m:48s (0h:12m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 139: -170772.943
+Iteration 140 / LogL: -170779.495 / Time: 0h:17m:53s (0h:12m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 150: -170772.054
+Iteration 150 / LogL: -170772.054 / Time: 0h:19m:2s (0h:12m:42s left)
+Iteration 160 / LogL: -170781.454 / Time: 0h:20m:10s (0h:11m:21s left)
+Iteration 170 / LogL: -170800.515 / Time: 0h:21m:18s (0h:10m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 180: -170771.966
+Iteration 180 / LogL: -170771.966 / Time: 0h:22m:22s (0h:12m:26s left)
+Iteration 190 / LogL: -170781.770 / Time: 0h:23m:25s (0h:11m:6s left)
+Iteration 200 / LogL: -170794.071 / Time: 0h:24m:29s (0h:9m:48s left)
+Iteration 210 / LogL: -170784.590 / Time: 0h:25m:32s (0h:8m:31s left)
+Iteration 220 / LogL: -170810.410 / Time: 0h:26m:35s (0h:7m:15s left)
+Iteration 230 / LogL: -170779.240 / Time: 0h:27m:40s (0h:6m:1s left)
+Iteration 240 / LogL: -170787.470 / Time: 0h:28m:41s (0h:4m:47s left)
+Iteration 250 / LogL: -170778.883 / Time: 0h:29m:40s (0h:3m:33s left)
+Iteration 260 / LogL: -170776.373 / Time: 0h:30m:38s (0h:2m:21s left)
+Iteration 270 / LogL: -170775.526 / Time: 0h:31m:37s (0h:1m:10s left)
+Iteration 280 / LogL: -170773.775 / Time: 0h:32m:43s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 281 ITERATIONS / Time: 0h:32m:49s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -170771.966
+2. Current log-likelihood: -170771.947
+3. Current log-likelihood: -170771.935
+Optimal log-likelihood: -170771.921
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.043,0.031) (0.059,0.107) (0.069,0.188) (0.091,0.317) (0.136,0.529) (0.198,0.905) (0.404,1.730)
+Parameters optimization took 3 rounds (2.377 sec)
+BEST SCORE FOUND : -170771.921
+Total tree length: 370.436
+
+Total number of iterations: 281
+CPU time used for tree search: 5037.721 sec (1h:23m:57s)
+Wall-clock time used for tree search: 1954.347 sec (0h:32m:34s)
+Total CPU time used: 5085.722 sec (1h:24m:45s)
+Total wall-clock time used: 1972.007 sec (0h:32m:52s)
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/orphan/constraint/gt0.1_calib_mel.iqtree
+  Maximum-likelihood tree:       /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/orphan/constraint/gt0.1_calib_mel.treefile
+  Screen log file:               /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/orphan/constraint/gt0.1_calib_mel.log
+
+Date and Time: Thu Nov  5 18:00:41 2026

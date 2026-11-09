@@ -1,0 +1,24 @@
+3.32 anchored to alignment column 646
+  positive control: 35/35 human aminergic receptors carry D (all four reference structures agree)
+  cross-check: 71/71 taxa shared with the structurally anchored run in ../dop6_c24a8_6 return the same residue
+
+position 3.32:
+  aminergic receptors (human)                          D  (100% of 35)  [DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD]
+  melatonin clade (3 human + 5 zebrafish, 100/100)     M  (88% of 8)  [MMMMMMMT]
+  neuropeptide receptors (human)                       Q  (50% of 6)  [IPQQQV]
+  PCDR-1 family (10 taxa)                              E  (20% of 10)  [DEELLNNQTY]
+  C. elegans PCDR-1 / F59D12.1                         Q
+
+TM3 pocket window (3.32 marked ^), consensus residue per column where >=60% agree, "." otherwise:
+                                                            ^        
+  aminergic receptors (human)                         ..W...DV...TASI
+  melatonin clade (verified)                          Q.SGFLMGLSVIGSI
+  neuropeptide receptors (human)                      ..........V..S.
+  PCDR-1 family (10 taxa)                             .............S.
+  C. elegans PCDR-1 / F59D12.1                        KSAAYLQIALFCSTV
+
+agreement with each group consensus across the window (columns where that group reaches >=60%):
+  PCDR-1 matches aminergic        0/7
+  PCDR-1 matches melatonin        1/14
+  PCDR-1 matches neuropeptide     0/2
+  PCDR-1 matches PCDR-1 family    0/1

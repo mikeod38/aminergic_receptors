@@ -1,0 +1,48 @@
+
+=========== gt0.1 ===========
+melatonin clade: 8 tips, support 100/100
+   {'human melatonin': 3, 'melatonin-RBH': 5}
+   members: Drer_A0A8M1NRI5, Drer_A0A8M9PN98, Drer_A2BGT9, Drer_P51046, Drer_P51049, hGPR50, hMTNR1A, hMTNR1B
+   pcdr-1 inside? False
+
+nested clades containing pcdr-1:
+  n=  2 support=     37.6/94  {'PCDR-1': 1, 'PCDR1-family': 1}
+  n=  3 support=     96.8/99  {'PCDR-1': 1, 'PCDR1-family': 2}
+  n=  5 support=    99.7/100  {'PCDR-1': 1, 'PCDR1-family': 4}
+  n=  8 support=     97.9/99  {'PCDR-1': 1, 'PCDR1-family': 5, 'neuropeptide': 2}
+  n= 51 support=    99.9/100  {'human melatonin': 3, 'melatonin-RBH': 32, 'PCDR1-family': 9, 'neuropeptide': 6, 'PCDR-1': 1}
+
+fate of the 32 melatonin reciprocal-best-hits:
+   Bflo  0/1 in the melatonin clade
+   Cint  0/3 in the melatonin clade
+   Dmel  0/3 in the melatonin clade
+   Drer  5/5 in the melatonin clade
+   Lana  0/2 in the melatonin clade
+   Myes  0/3 in the melatonin clade
+   Nvec  0/8 in the melatonin clade
+   Pcau  0/2 in the melatonin clade
+   Spur  0/5 in the melatonin clade
+
+=========== gappyout ===========
+melatonin clade: 8 tips, support 100/100
+   {'human melatonin': 3, 'melatonin-RBH': 5}
+   members: Drer_A0A8M1NRI5, Drer_A0A8M9PN98, Drer_A2BGT9, Drer_P51046, Drer_P51049, hGPR50, hMTNR1A, hMTNR1B
+   pcdr-1 inside? False
+
+nested clades containing pcdr-1:
+  n=  2 support=     44.1/92  {'PCDR-1': 1, 'PCDR1-family': 1}
+  n=  3 support=    94.5/100  {'PCDR-1': 1, 'PCDR1-family': 2}
+  n=  5 support=    99.9/100  {'PCDR-1': 1, 'PCDR1-family': 4}
+  n=  8 support=    97.7/100  {'PCDR-1': 1, 'PCDR1-family': 5, 'neuropeptide': 2}
+  n= 51 support=    99.9/100  {'human melatonin': 3, 'melatonin-RBH': 32, 'PCDR1-family': 9, 'neuropeptide': 6, 'PCDR-1': 1}
+
+fate of the 32 melatonin reciprocal-best-hits:
+   Bflo  0/1 in the melatonin clade
+   Cint  0/3 in the melatonin clade
+   Dmel  0/3 in the melatonin clade
+   Drer  5/5 in the melatonin clade
+   Lana  0/2 in the melatonin clade
+   Myes  0/3 in the melatonin clade
+   Nvec  0/8 in the melatonin clade
+   Pcau  0/2 in the melatonin clade
+   Spur  0/5 in the melatonin clade

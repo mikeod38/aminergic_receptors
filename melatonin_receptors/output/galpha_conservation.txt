@@ -1,0 +1,26 @@
+Would a human melatonin receptor find a G protein partner in C. elegans?
+
+Sequences, each resolved by query and verified against its own record:
+  GNAI1    P63096   Homo sapiens           Guanine nucleotide-binding protein G(i) subu
+  GNAO1    P09471   Homo sapiens           Guanine nucleotide-binding protein G(o) subu
+  GNAQ     P50148   Homo sapiens           Guanine nucleotide-binding protein G(q) subu
+  GNAS     P84996   Homo sapiens           Protein ALEX
+  goa-1    P51875   Caenorhabditis elegans Guanine nucleotide-binding protein G(o) subu
+  gpa-16   Q9N2V6   Caenorhabditis elegans Guanine nucleotide-binding protein alpha-16 
+  egl-30   NOT FOUND
+  gsa-1    NOT FOUND
+  gpa-7    Q9BIG5   Caenorhabditis elegans Guanine nucleotide-binding protein alpha-4 s
+
+6DDF: Galpha chain A (100.0% to GNAI1), receptor chain B (336 res) -> 27 Galpha contact positions
+6OIJ: chains not identified (('A', 64.28571428571429), ('B', 339)) - SKIPPED
+
+Receptor-contact positions on Galpha(i): 27 found in both structures, 27 in either. Conservation is scored on the 27 shared ones.
+
+protein     whole-protein id   identity at the   contact residues differing
+                    vs GNAI1     contact sites
+GNAO1                  72.8%            85.2% (23/27)   D9E V13L D20E W258F
+GNAQ                   54.9%            74.1% (20/27)   D9A V13R R15I S16N D20E G27K ...
+GNAS                   23.1%            23.1% (6/26)   V13L R15Q S16K I19C D20P D26L ...
+goa-1                  70.5%            88.9% (24/27)   D9E V13L D20E
+gpa-16                 66.9%            96.3% (26/27)   V13K
+gpa-7                  63.6%            84.6% (22/26)   D9S A12K G27H E216D

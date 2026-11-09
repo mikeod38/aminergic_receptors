@@ -1,0 +1,273 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jun 19 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Mikes-MacBook-Pro-2.local (SSE4.2, 24 GB RAM)
+Command: /Users/mikeodonnell/git/receptor_phylogeny/scripts/bin/iqtree3-mt -s /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/panel.gappyout.faa -m LG+F+I+R7 -B 1000 --alrt 1000 -T 6 --prefix /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/gappyout -redo --quiet
+Seed:    47476 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Nov  2 22:36:52 2026
+Kernel:  SSE2 - 6 threads (12 CPU cores detected)
+
+Reading alignment file /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/panel.gappyout.faa ... Fasta format detected
+Reading fasta file: done in 0.000329971 secs using 92.74% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000426054 secs using 77.22% CPU
+Alignment has 120 sequences with 316 columns, 316 distinct patterns
+309 parsimony-informative, 5 singleton sites, 2 constant sites
+                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.29018e-05 secs using 127.7% CPU
+   1  cel_dop-1                  8.23%    passed     98.81%
+   2  cel_dop-2                  1.90%    passed     99.52%
+   3  cel_dop-3                  5.70%    passed     84.44%
+   4  cel_dop-4                  0.00%    passed     99.07%
+   5  cel_dop-5                  6.01%    passed     78.25%
+   6  cel_dop-6                  2.53%    passed     79.81%
+   7  cel_gar-1                  0.32%    passed     44.58%
+   8  cel_gar-2                  6.33%    failed      2.72%
+   9  cel_gar-3                  1.27%    passed     29.00%
+  10  cel_octr-1                 4.11%    passed     25.40%
+  11  cel_ser-1                  2.85%    passed     99.61%
+  12  cel_ser-2                  0.32%    passed     95.51%
+  13  cel_ser-3                  1.27%    passed     99.38%
+  14  cel_ser-4                  2.85%    passed     52.79%
+  15  cel_ser-5                  1.90%    passed     91.53%
+  16  cel_ser-6                  7.59%    passed     89.79%
+  17  cel_ser-7                  1.90%    passed     59.16%
+  18  cel_tyra-2                 3.16%    passed     70.07%
+  19  cel_tyra-3                 1.27%    passed     63.77%
+  20  dm5HT1A                    0.95%    passed     73.75%
+  21  dm5HT1B                    0.95%    passed     53.32%
+  22  dm5HT2A                    1.58%    passed     96.05%
+  23  dm5HT7                     1.27%    passed     55.03%
+  24  dmDop1R1                   0.00%    passed     95.83%
+  25  dmDop2R                    3.16%    passed     80.82%
+  26  dmOAMB                     4.11%    passed     68.78%
+  27  dmOctA2R                   0.00%    passed     21.09%
+  28  dmOctB1R                   0.00%    passed     50.64%
+  29  dmOctB2R                   0.00%    passed     79.55%
+  30  dmOctB3R                   0.00%    passed     99.40%
+  31  dmOctTyrR                  2.53%    passed     81.83%
+  32  dmTyrR                     1.58%    passed     99.95%
+  33  dmTyrRII                   1.27%    passed     60.48%
+  34  hADRA1A                    2.53%    passed     67.24%
+  35  hADRA1B                    1.27%    passed     84.01%
+  36  hADRA1D                    0.95%    failed      0.89%
+  37  hADRA2A                    1.27%    passed     54.26%
+  38  hADRA2B                    6.65%    passed     15.11%
+  39  hADRA2C                    1.27%    failed      4.99%
+  40  hADRB1                     0.32%    passed      9.81%
+  41  hADRB2                     0.32%    passed     76.09%
+  42  hADRB3                     2.85%    failed      0.00%
+  43  hCHRM1                     0.95%    passed     19.95%
+  44  hCHRM2                     0.32%    passed     33.35%
+  45  hCHRM3                     0.00%    passed     37.76%
+  46  hCHRM5                     0.00%    passed     90.66%
+  47  hDRD1                      3.48%    passed     52.76%
+  48  hDRD2                      5.38%    passed     97.39%
+  49  hDRD3                      3.16%    passed     46.47%
+  50  hDRD4                      4.11%    failed      0.00%
+  51  hDRD5                      5.06%    passed     82.38%
+  52  hGPR50                     6.65%    passed     35.80%
+  53  hHRH1                      3.48%    passed     62.29%
+  54  hHRH2                      5.38%    passed     93.79%
+  55  hHRH3                      1.58%    passed     16.13%
+  56  hHRH4                      5.38%    passed     40.56%
+  57  hHTR1A                     2.53%    passed     84.50%
+  58  hHTR1B                     1.90%    passed     72.70%
+  59  hHTR1D                     3.16%    passed     11.55%
+  60  hHTR1E                     5.06%    passed     25.50%
+  61  hHTR1F                     4.75%    passed     44.99%
+  62  hHTR2A                     2.22%    passed     97.82%
+  63  hHTR2B                     1.90%    passed     74.71%
+  64  hHTR2C                     4.11%    passed     66.41%
+  65  hHTR4                      1.27%    passed     98.96%
+  66  hHTR5A                     3.48%    passed     86.38%
+  67  hHTR6                      4.43%    failed      0.02%
+  68  hHTR7                      2.53%    passed     99.95%
+  69  hMTNR1A                    6.01%    passed     44.42%
+  70  hMTNR1B                    6.01%    passed     42.81%
+  71  hTAAR1                     4.43%    passed     19.56%
+  72  MEL_Bflo_A0A9J7N2W2        1.27%    passed     10.31%
+  73  MEL_Cint_F6SH45            1.90%    passed      5.66%
+  74  MEL_Cint_H2XKQ7            2.85%    passed     22.46%
+  75  MEL_Cint_H2Y1F4           11.08%    passed     29.72%
+  76  MEL_Dmel_Q9NDM2            1.27%    passed     99.37%
+  77  MEL_Dmel_M9NGQ9            1.27%    passed     99.37%
+  78  MEL_Dmel_X2JIG6            1.27%    passed     99.37%
+  79  MEL_Drer_P51046            6.01%    passed     53.64%
+  80  MEL_Drer_P51049            6.01%    passed     12.21%
+  81  MEL_Drer_A0A8M1NRI5        7.91%    passed     49.76%
+  82  MEL_Drer_A0A8M9PN98        6.01%    passed     33.57%
+  83  MEL_Drer_A2BGT9            6.65%    passed     82.45%
+  84  MEL_Lana_A0A1S3IVR4        2.85%    passed     59.99%
+  85  MEL_Lana_A0A1S3IVS6        2.85%    passed     58.00%
+  86  MEL_Myes_A0A210PRR4        2.22%    passed     65.14%
+  87  MEL_Myes_A0A210QSU6        2.22%    failed      0.57%
+  88  MEL_Myes_A0A210QV21        2.85%    passed     21.35%
+  89  MEL_Nvec_A7RKW8            4.43%    passed     76.26%
+  90  MEL_Nvec_A7RSP6            4.43%    passed     36.36%
+  91  MEL_Nvec_A7S1K2            7.91%    passed     46.91%
+  92  MEL_Nvec_A7S581            7.28%    passed     29.27%
+  93  MEL_Nvec_A7S5U9           12.03%    passed     86.11%
+  94  MEL_Nvec_A7SAY6            6.01%    passed     75.66%
+  95  MEL_Nvec_A7SAY7            5.70%    passed     59.48%
+  96  MEL_Nvec_A7SSI2           10.13%    passed     77.96%
+  97  MEL_Pcau_A0ABM1F0K1       20.89%    passed     67.14%
+  98  MEL_Pcau_A0ABM1F4L1        3.16%    passed     20.97%
+  99  MEL_Spur_A0A7M7G4B1        0.95%    passed     25.15%
+ 100  MEL_Spur_A0A7M7LT47        2.53%    passed     54.35%
+ 101  MEL_Spur_A0A7M7P3G0        1.27%    passed     31.89%
+ 102  MEL_Spur_A0A7M7RES6        2.53%    passed     30.88%
+ 103  MEL_Spur_A0A7M7T0U1        1.27%    passed     37.70%
+ 104  cel_pcdr-1_F59D12.1        8.54%    passed     33.81%
+ 105  PCDRfam_Dmel_Q9VZD1        5.70%    passed     80.91%
+ 106  PCDRfam_Pcau_A0ABM1EQA9    7.59%    passed     18.36%
+ 107  PCDRfam_Cvir_A0A8B8D717   12.66%    passed     55.80%
+ 108  PCDRfam_Lana_A0A1S3KFU7    9.49%    failed      1.87%
+ 109  PCDRfam_Bflo_A0A9J7MKC7    6.33%    passed     75.91%
+ 110  PCDRfam_Nvec_A7S5H8       13.92%    passed     83.01%
+ 111  PCDRfam_Drer_A0A8M1Q794    1.27%    passed     83.28%
+ 112  PCDRfam_Spur_A0A7M7GHW5    1.27%    passed     96.69%
+ 113  PCDRfam_Cint_H2XQ43       57.28%    passed     27.37%
+ 114  PCDRfam_Myes_A0A210QRP2    5.38%    passed     47.17%
+ 115  hNPY2R                     4.11%    passed     65.92%
+ 116  hNPFFR2                    2.53%    passed     34.49%
+ 117  hTACR3                     3.48%    passed     60.28%
+ 118  hQRFPR                     1.27%    failed      4.64%
+ 119  hGPR52                     2.53%    passed     11.77%
+ 120  hGPR21                     3.80%    passed     21.03%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                      4.14%  9 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: MEL_Dmel_M9NGQ9 is identical to MEL_Dmel_Q9NDM2 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000132799 secs using 71.54% CPU
+Identifying sites to remove: done in 0.000267029 secs using 94.37% CPU
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: MEL_Dmel_X2JIG6 (identical to MEL_Dmel_Q9NDM2) is ignored but added at the end
+Alignment was printed to /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/gappyout.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/gappyout.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.012 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 47476)...
+
+NOTE: 44 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -63684.406
+2. Current log-likelihood: -62927.282
+3. Current log-likelihood: -62909.117
+4. Current log-likelihood: -62907.757
+5. Current log-likelihood: -62907.588
+Optimal log-likelihood: -62907.499
+Proportion of invariable sites: 0.005
+Site proportion and rates:  (0.070,0.056) (0.126,0.204) (0.110,0.376) (0.155,0.581) (0.216,0.911) (0.183,1.521) (0.135,2.696)
+Parameters optimization took 5 rounds (2.301 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.557632 secs using 579.7% CPU
+Computing ML distances took 0.558181 sec (of wall-clock time) 3.232677 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000196934 secs using 206.7% CPU
+Constructing RapidNJ tree: done in 0.013519 secs using 46.38% CPU
+Computing RapidNJ tree took 0.013750 sec (of wall-clock time) 0.006687 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -62606.005
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.549 second
+Computing log-likelihood of 98 initial trees ... 8.510 seconds
+Current best score: -62606.005
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -62573.288
+Iteration 10 / LogL: -62641.919 / Time: 0h:0m:40s
+Iteration 20 / LogL: -62623.879 / Time: 0h:1m:5s
+Finish initializing candidate tree set (20)
+Current best tree score: -62573.288 / CPU time: 62.029
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -62564.253
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -62563.544
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -62562.957
+Iteration 30 / LogL: -62564.921 / Time: 0h:1m:29s (0h:4m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -62562.015
+Iteration 40 / LogL: -62567.218 / Time: 0h:1m:50s (0h:4m:32s left)
+Iteration 50 / LogL: -62566.422 / Time: 0h:2m:11s (0h:3m:51s left)
+Log-likelihood cutoff on original alignment: -62632.998
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 53: -62559.378
+Iteration 60 / LogL: -62559.988 / Time: 0h:2m:33s (0h:4m:2s left)
+Iteration 70 / LogL: -62566.479 / Time: 0h:2m:53s (0h:3m:28s left)
+Iteration 80 / LogL: -62560.227 / Time: 0h:3m:14s (0h:2m:59s left)
+Iteration 90 / LogL: -62560.716 / Time: 0h:3m:34s (0h:2m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 98: -62559.219
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 100: -62558.698
+Iteration 100 / LogL: -62558.698 / Time: 0h:3m:56s (0h:3m:58s left)
+Log-likelihood cutoff on original alignment: -62632.998
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 110 / LogL: -62560.610 / Time: 0h:4m:16s (0h:3m:31s left)
+Iteration 120 / LogL: -62560.778 / Time: 0h:4m:37s (0h:3m:6s left)
+Iteration 130 / LogL: -62559.558 / Time: 0h:4m:57s (0h:2m:41s left)
+Iteration 140 / LogL: -62559.328 / Time: 0h:5m:18s (0h:2m:17s left)
+Iteration 150 / LogL: -62563.704 / Time: 0h:5m:38s (0h:1m:53s left)
+Log-likelihood cutoff on original alignment: -62632.998
+Iteration 160 / LogL: -62563.346 / Time: 0h:6m:0s (0h:1m:30s left)
+Iteration 170 / LogL: -62559.068 / Time: 0h:6m:20s (0h:1m:7s left)
+Iteration 180 / LogL: -62560.102 / Time: 0h:6m:40s (0h:0m:44s left)
+Iteration 190 / LogL: -62562.494 / Time: 0h:7m:0s (0h:0m:22s left)
+Iteration 200 / LogL: -62609.740 / Time: 0h:7m:21s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -62632.998
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 201 ITERATIONS / Time: 0h:7m:23s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -62558.698
+2. Current log-likelihood: -62558.684
+Optimal log-likelihood: -62558.671
+Proportion of invariable sites: 0.005
+Site proportion and rates:  (0.068,0.054) (0.121,0.202) (0.115,0.355) (0.165,0.584) (0.199,0.918) (0.187,1.496) (0.141,2.649)
+Parameters optimization took 2 rounds (0.611 sec)
+BEST SCORE FOUND : -62558.671
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.481 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/gappyout.splits.nex
+Total tree length: 120.392
+
+Total number of iterations: 201
+CPU time used for tree search: 560.866 sec (0h:9m:20s)
+Wall-clock time used for tree search: 440.020 sec (0h:7m:20s)
+Total CPU time used: 575.801 sec (0h:9m:35s)
+Total wall-clock time used: 444.916 sec (0h:7m:24s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/gappyout.splits.nex...
+119 taxa and 633 splits.
+Consensus tree written to /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/gappyout.contree
+Reading input trees file /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/gappyout.contree
+Log-likelihood of consensus tree: -62558.703
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/gappyout.iqtree
+  Maximum-likelihood tree:       /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/gappyout.treefile
+  Likelihood distances:          /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/gappyout.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/gappyout.splits.nex
+  Consensus tree:                /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/gappyout.contree
+  Screen log file:               /Users/mikeodonnell/git/Malaiwong_Oglu_2026/melatonin_receptors/output/tree/gappyout.log
+
+Date and Time: Mon Nov  2 22:44:17 2026

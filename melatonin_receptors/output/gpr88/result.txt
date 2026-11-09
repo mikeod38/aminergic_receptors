@@ -1,0 +1,95 @@
+GPR88 - how deep, and is it anywhere near the GPR52/GPR21 family?
+
+Seed, each checked against its own record:
+  Hsap_Q9GZN0        Q9GZN0       Homo sapiens             GPR88     384 aa  G protein-coupled receptor 88
+  Mmus_Q9EPB7        Q9EPB7       Mus musculus             Gpr88     384 aa  G protein-coupled receptor 88
+  Drer_A0A8M9Q9X5    A0A8M9Q9X5   Danio rerio              gpr88     345 aa  ?
+
+CONTROL 1 - leave-one-out (only 3 seeds, so each rebuild uses 2):
+  Hsap_Q9GZN0        score    714.8  rank 1 of 124
+  Mmus_Q9EPB7        score    711.0  rank 1 of 193
+  Drer_A0A8M9Q9X5    score    227.8  rank 1 of 325
+
+Profile: 384 positions, 3 sequences -> output/gpr88/gpr88.hmm
+
+CONTROL 2 - non-member floor. Includes GPR52 and GPR21, so this also measures how far GPR88 sits from the family PCDR-1 is in.
+  P48039     MTNR1A                 41.6
+  Q13585     GPR50                  29.2
+  Q9Y2T5     GPR52       below threshold
+  Q99679     GPR21       below threshold
+  P08908     HTR1A                  36.6
+  P28221     HTR1D                  46.1
+  P25100     ADRA1D                 56.5
+  P07550     ADRB2                  40.6
+
+  Floor (highest non-member): 56.5
+  CONTROL 1 verdict: 3/3 held-out orthologs clear it
+
+==========================================================================
+Every available proteome, oldest lineage first.
+
+NOTE on the floor: 56.5 is useless as a membership criterion HERE, unlike in
+orphan_family.py. This profile is built from three close jawed-vertebrate
+orthologs, so it is narrow, and hundreds of ordinary class-A receptors score
+57-130 against it. The "n>=floor" column is therefore noise and is reported
+only to show that it is - a starfish does not have 118 GPR88 genes. What
+carries the signal is the gap: the three seeds score 528-792 and the next
+lineage down manages 128.
+
+  sp     lineage                best  n>=floor   top hit
+  Aque   sponge                 31.7         0   A0AAN0JF70   G-protein coupled receptors family 1 pro
+  Tadh   Trichoplax             37.5         0   B3S5Y6       G-protein coupled receptors family 1 pro
+  Mlei   ctenophore             45.7         0   A0ACF8Z5H6   G-protein coupled receptors family 1 pro
+  Nvec   cnidarian              53.7         0   A7RFW1       G-protein coupled receptors family 1 pro
+  Hvul   cnidarian (Hydra)      65.5         1   A0ABM4BQ22   Uncharacterized protein LOC124818465 iso
+  Cele   nematode               53.1         0   Q22188       G-protein coupled receptors family 1 pro
+  Dmel   insect                 68.3         4   M9MS14       Moody, isoform C OS=Drosophila melanogas
+  Lpol   chelicerate            63.4         6   A0ABM1STT9   Protein trapped in endoderm-1-like OS=Li
+  Pcau   priapulid              50.2         0   A0ABM1F1R5   5-hydroxytryptamine receptor 1D-like OS=
+  Cvir   oyster                 53.5         0   A0A8B8E029   Alpha-2A adrenergic receptor-like OS=Cra
+  Myes   scallop                64.7         1   A0A210PUD4   Allatostatin-A receptor OS=Mizuhopecten 
+  Lana   brachiopod             55.6         0   A0A1S3HTF6   Octopamine receptor beta-2R OS=Lingula a
+  Spur   sea urchin             91.8        40   A0A7M7PVL1   G-protein coupled receptors family 1 pro
+  Pmin   starfish               97.0       118   A0A913ZTQ1   G-protein coupled receptors family 1 pro
+  Apla   crown-of-thorns       128.3        57   A0A8B7XKR8   Uncharacterized protein LOC110973769 OS=
+  Ajap   sea cucumber           82.4        18   A0A2G8KV57   Putative alpha-1D adrenergic receptor-li
+  Skow   hemichordate           82.8         6   A0ACM8CCF2   Uncharacterized protein LOC100372012 OS=
+  Bflo   amphioxus              83.9        22   A0A9J7L3I7   G-protein coupled receptor moody-like OS
+  Cint   tunicate               52.8         0   H2XKQ7       G-protein coupled receptors family 1 pro
+  Ebur   hagfish                63.9         1   A0A8C4Q7C7   5-hydroxytryptamine receptor 7 OS=Eptatr
+  Pmar   lamprey                62.1         1   A0AAJ7U4T0   5-hydroxytryptamine receptor 1F-like OS=
+  Drer   teleost               528.8         7   A0A8M9Q9X5   G protein-coupled receptor 88 OS=Danio r
+  Mmus   mouse                 792.0         4   Q9EPB7       G protein-coupled receptor 88 OS=Mus mus
+  Hsap   human                 790.9         3   Q9GZN0       G protein-coupled receptor 88 OS=Homo sa
+
+VERDICT. GPR88 is detectable only in jawed vertebrates: human 790.9, mouse
+792.0, zebrafish 528.8. Every other lineage, lamprey (62.1) and hagfish (63.9)
+included, falls in the 31-128 class-A background, 4x below zebrafish. There is
+no intermediate score anywhere, so this is not a gradient being cut by a
+threshold - it is a gap.
+
+  C. elegans: best 53.1 (Q22188), below even the porous floor. BLAST agrees
+  independently at 53.9 bits / 24.9% id. No GPR88 ortholog in C. elegans.
+
+LIMIT, and it is a real one. Three jawed-vertebrate sequences make this the
+most narrowly anchored profile in the project - more so than the melatonin
+one, which had eight to ten. A sufficiently divergent invertebrate GPR88
+ortholog would be invisible to it, so the invertebrate negative is
+method-limited, NOT a confirmed absence. Treat it as weaker than the
+C. elegans melatonin negative, which had two orthogonal axes and a tree.
+
+One lead if that is worth chasing: the top invertebrate hits are Drosophila
+Moody (68.3) and an amphioxus "GPCR moody-like" (83.9), and the earlier BLAST
+also returned Moody first in the fly (57.4). Two methods pointing at the same
+family at twilight-zone scores is weak but consistent, and moody is where an
+invertebrate relative of GPR88 would be looked for. Not tested here.
+
+AND: GPR88 is not related to the family PCDR-1 is in, tested both ways.
+GPR52 and GPR21 score BELOW THRESHOLD against this profile, and GPR88 scores
+14.5 against the orphan7 family profile (rank 691 of 707 in human). The two
+families are mutually undetectable - a symmetric negative.
+
+Read against the other two families in this project:
+  GPR52/GPR21 family (PCDR-1 in it): cnidarian to human
+  melatonin receptors:                base of vertebrates (lamprey) to human
+  GPR88:                              as read off the table above

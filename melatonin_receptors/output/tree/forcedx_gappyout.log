@@ -1,0 +1,267 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jun 19 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Mikes-MacBook-Pro-2.local (SSE4.2, 24 GB RAM)
+Command: /Users/mikeodonnell/git/receptor_phylogeny/scripts/bin/iqtree3-mt -s output/tree/panel.gappyout.faa -m LG+F+I+R7 -g output/tree/constraint_excl_gappyout.nwk -T 5 --prefix output/tree/forcedx_gappyout -redo --quiet
+Seed:    73079 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Nov  3 07:54:02 2026
+Kernel:  SSE2 - 5 threads (12 CPU cores detected)
+
+Reading alignment file output/tree/panel.gappyout.faa ... Fasta format detected
+Reading fasta file: done in 0.000469923 secs using 66.82% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000692129 secs using 78.31% CPU
+Alignment has 120 sequences with 316 columns, 316 distinct patterns
+309 parsimony-informative, 5 singleton sites, 2 constant sites
+                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.91142e-05 secs using 205.6% CPU
+   1  cel_dop-1                  8.23%    passed     98.81%
+   2  cel_dop-2                  1.90%    passed     99.52%
+   3  cel_dop-3                  5.70%    passed     84.44%
+   4  cel_dop-4                  0.00%    passed     99.07%
+   5  cel_dop-5                  6.01%    passed     78.25%
+   6  cel_dop-6                  2.53%    passed     79.81%
+   7  cel_gar-1                  0.32%    passed     44.58%
+   8  cel_gar-2                  6.33%    failed      2.72%
+   9  cel_gar-3                  1.27%    passed     29.00%
+  10  cel_octr-1                 4.11%    passed     25.40%
+  11  cel_ser-1                  2.85%    passed     99.61%
+  12  cel_ser-2                  0.32%    passed     95.51%
+  13  cel_ser-3                  1.27%    passed     99.38%
+  14  cel_ser-4                  2.85%    passed     52.79%
+  15  cel_ser-5                  1.90%    passed     91.53%
+  16  cel_ser-6                  7.59%    passed     89.79%
+  17  cel_ser-7                  1.90%    passed     59.16%
+  18  cel_tyra-2                 3.16%    passed     70.07%
+  19  cel_tyra-3                 1.27%    passed     63.77%
+  20  dm5HT1A                    0.95%    passed     73.75%
+  21  dm5HT1B                    0.95%    passed     53.32%
+  22  dm5HT2A                    1.58%    passed     96.05%
+  23  dm5HT7                     1.27%    passed     55.03%
+  24  dmDop1R1                   0.00%    passed     95.83%
+  25  dmDop2R                    3.16%    passed     80.82%
+  26  dmOAMB                     4.11%    passed     68.78%
+  27  dmOctA2R                   0.00%    passed     21.09%
+  28  dmOctB1R                   0.00%    passed     50.64%
+  29  dmOctB2R                   0.00%    passed     79.55%
+  30  dmOctB3R                   0.00%    passed     99.40%
+  31  dmOctTyrR                  2.53%    passed     81.83%
+  32  dmTyrR                     1.58%    passed     99.95%
+  33  dmTyrRII                   1.27%    passed     60.48%
+  34  hADRA1A                    2.53%    passed     67.24%
+  35  hADRA1B                    1.27%    passed     84.01%
+  36  hADRA1D                    0.95%    failed      0.89%
+  37  hADRA2A                    1.27%    passed     54.26%
+  38  hADRA2B                    6.65%    passed     15.11%
+  39  hADRA2C                    1.27%    failed      4.99%
+  40  hADRB1                     0.32%    passed      9.81%
+  41  hADRB2                     0.32%    passed     76.09%
+  42  hADRB3                     2.85%    failed      0.00%
+  43  hCHRM1                     0.95%    passed     19.95%
+  44  hCHRM2                     0.32%    passed     33.35%
+  45  hCHRM3                     0.00%    passed     37.76%
+  46  hCHRM5                     0.00%    passed     90.66%
+  47  hDRD1                      3.48%    passed     52.76%
+  48  hDRD2                      5.38%    passed     97.39%
+  49  hDRD3                      3.16%    passed     46.47%
+  50  hDRD4                      4.11%    failed      0.00%
+  51  hDRD5                      5.06%    passed     82.38%
+  52  hGPR50                     6.65%    passed     35.80%
+  53  hHRH1                      3.48%    passed     62.29%
+  54  hHRH2                      5.38%    passed     93.79%
+  55  hHRH3                      1.58%    passed     16.13%
+  56  hHRH4                      5.38%    passed     40.56%
+  57  hHTR1A                     2.53%    passed     84.50%
+  58  hHTR1B                     1.90%    passed     72.70%
+  59  hHTR1D                     3.16%    passed     11.55%
+  60  hHTR1E                     5.06%    passed     25.50%
+  61  hHTR1F                     4.75%    passed     44.99%
+  62  hHTR2A                     2.22%    passed     97.82%
+  63  hHTR2B                     1.90%    passed     74.71%
+  64  hHTR2C                     4.11%    passed     66.41%
+  65  hHTR4                      1.27%    passed     98.96%
+  66  hHTR5A                     3.48%    passed     86.38%
+  67  hHTR6                      4.43%    failed      0.02%
+  68  hHTR7                      2.53%    passed     99.95%
+  69  hMTNR1A                    6.01%    passed     44.42%
+  70  hMTNR1B                    6.01%    passed     42.81%
+  71  hTAAR1                     4.43%    passed     19.56%
+  72  MEL_Bflo_A0A9J7N2W2        1.27%    passed     10.31%
+  73  MEL_Cint_F6SH45            1.90%    passed      5.66%
+  74  MEL_Cint_H2XKQ7            2.85%    passed     22.46%
+  75  MEL_Cint_H2Y1F4           11.08%    passed     29.72%
+  76  MEL_Dmel_Q9NDM2            1.27%    passed     99.37%
+  77  MEL_Dmel_M9NGQ9            1.27%    passed     99.37%
+  78  MEL_Dmel_X2JIG6            1.27%    passed     99.37%
+  79  MEL_Drer_P51046            6.01%    passed     53.64%
+  80  MEL_Drer_P51049            6.01%    passed     12.21%
+  81  MEL_Drer_A0A8M1NRI5        7.91%    passed     49.76%
+  82  MEL_Drer_A0A8M9PN98        6.01%    passed     33.57%
+  83  MEL_Drer_A2BGT9            6.65%    passed     82.45%
+  84  MEL_Lana_A0A1S3IVR4        2.85%    passed     59.99%
+  85  MEL_Lana_A0A1S3IVS6        2.85%    passed     58.00%
+  86  MEL_Myes_A0A210PRR4        2.22%    passed     65.14%
+  87  MEL_Myes_A0A210QSU6        2.22%    failed      0.57%
+  88  MEL_Myes_A0A210QV21        2.85%    passed     21.35%
+  89  MEL_Nvec_A7RKW8            4.43%    passed     76.26%
+  90  MEL_Nvec_A7RSP6            4.43%    passed     36.36%
+  91  MEL_Nvec_A7S1K2            7.91%    passed     46.91%
+  92  MEL_Nvec_A7S581            7.28%    passed     29.27%
+  93  MEL_Nvec_A7S5U9           12.03%    passed     86.11%
+  94  MEL_Nvec_A7SAY6            6.01%    passed     75.66%
+  95  MEL_Nvec_A7SAY7            5.70%    passed     59.48%
+  96  MEL_Nvec_A7SSI2           10.13%    passed     77.96%
+  97  MEL_Pcau_A0ABM1F0K1       20.89%    passed     67.14%
+  98  MEL_Pcau_A0ABM1F4L1        3.16%    passed     20.97%
+  99  MEL_Spur_A0A7M7G4B1        0.95%    passed     25.15%
+ 100  MEL_Spur_A0A7M7LT47        2.53%    passed     54.35%
+ 101  MEL_Spur_A0A7M7P3G0        1.27%    passed     31.89%
+ 102  MEL_Spur_A0A7M7RES6        2.53%    passed     30.88%
+ 103  MEL_Spur_A0A7M7T0U1        1.27%    passed     37.70%
+ 104  cel_pcdr-1_F59D12.1        8.54%    passed     33.81%
+ 105  PCDRfam_Dmel_Q9VZD1        5.70%    passed     80.91%
+ 106  PCDRfam_Pcau_A0ABM1EQA9    7.59%    passed     18.36%
+ 107  PCDRfam_Cvir_A0A8B8D717   12.66%    passed     55.80%
+ 108  PCDRfam_Lana_A0A1S3KFU7    9.49%    failed      1.87%
+ 109  PCDRfam_Bflo_A0A9J7MKC7    6.33%    passed     75.91%
+ 110  PCDRfam_Nvec_A7S5H8       13.92%    passed     83.01%
+ 111  PCDRfam_Drer_A0A8M1Q794    1.27%    passed     83.28%
+ 112  PCDRfam_Spur_A0A7M7GHW5    1.27%    passed     96.69%
+ 113  PCDRfam_Cint_H2XQ43       57.28%    passed     27.37%
+ 114  PCDRfam_Myes_A0A210QRP2    5.38%    passed     47.17%
+ 115  hNPY2R                     4.11%    passed     65.92%
+ 116  hNPFFR2                    2.53%    passed     34.49%
+ 117  hTACR3                     3.48%    passed     60.28%
+ 118  hQRFPR                     1.27%    failed      4.64%
+ 119  hGPR52                     2.53%    passed     11.77%
+ 120  hGPR21                     3.80%    passed     21.03%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                      4.14%  9 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading constraint tree output/tree/constraint_excl_gappyout.nwk...
+Creating fast initial parsimony tree by random order stepwise addition...
+1.340 seconds, parsimony score: 14948 (based on 314 sites)
+
+NOTE: 43 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -63908.749
+2. Current log-likelihood: -63067.930
+3. Current log-likelihood: -63050.020
+4. Current log-likelihood: -63049.502
+Optimal log-likelihood: -63049.423
+Proportion of invariable sites: 0.006
+Site proportion and rates:  (0.069,0.056) (0.109,0.194) (0.105,0.333) (0.170,0.568) (0.217,0.905) (0.179,1.481) (0.147,2.595)
+Parameters optimization took 4 rounds (3.989 sec)
+Wrote distance file to... 
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.231 second
+Computing log-likelihood of 99 initial trees ... 11.034 seconds
+Current best score: -63049.423
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -62729.571
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -62722.197
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -62712.623
+Iteration 10 / LogL: -62716.920 / Time: 0h:0m:57s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -62701.167
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 19: -62696.585
+Iteration 20 / LogL: -62768.448 / Time: 0h:1m:40s
+Finish initializing candidate tree set (20)
+Current best tree score: -62696.585 / CPU time: 95.513
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -62675.727
+Iteration 30 / LogL: -62688.672 / Time: 0h:2m:9s (0h:6m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -62668.964
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -62661.072
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -62660.024
+Iteration 40 / LogL: -62660.280 / Time: 0h:2m:40s (0h:6m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -62658.502
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -62658.458
+BETTER TREE FOUND at iteration 47: -62658.449
+Iteration 50 / LogL: -62664.202 / Time: 0h:3m:8s (0h:6m:9s left)
+Iteration 60 / LogL: -62660.979 / Time: 0h:3m:34s (0h:5m:14s left)
+UPDATE BEST LOG-LIKELIHOOD: -62658.449
+UPDATE BEST LOG-LIKELIHOOD: -62658.449
+Iteration 70 / LogL: -62660.806 / Time: 0h:4m:0s (0h:4m:26s left)
+Iteration 80 / LogL: -62681.977 / Time: 0h:4m:28s (0h:3m:46s left)
+BETTER TREE FOUND at iteration 81: -62658.449
+Iteration 90 / LogL: -62660.398 / Time: 0h:4m:55s (0h:5m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -62658.449
+Iteration 100 / LogL: -62662.527 / Time: 0h:5m:22s (0h:4m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 108: -62657.501
+Iteration 110 / LogL: -62667.841 / Time: 0h:5m:52s (0h:5m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 117: -62656.927
+Iteration 120 / LogL: -62658.441 / Time: 0h:6m:20s (0h:5m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 129: -62656.486
+Iteration 130 / LogL: -62656.679 / Time: 0h:9m:12s (0h:7m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 138: -62656.117
+Iteration 140 / LogL: -62657.258 / Time: 0h:9m:41s (0h:6m:48s left)
+Iteration 150 / LogL: -62671.754 / Time: 0h:10m:9s (0h:5m:59s left)
+UPDATE BEST LOG-LIKELIHOOD: -62656.112
+Iteration 160 / LogL: -62656.216 / Time: 0h:10m:38s (0h:5m:12s left)
+Iteration 170 / LogL: -62656.215 / Time: 0h:11m:5s (0h:4m:27s left)
+BETTER TREE FOUND at iteration 176: -62656.112
+Iteration 180 / LogL: -62659.718 / Time: 0h:11m:32s (0h:6m:10s left)
+UPDATE BEST LOG-LIKELIHOOD: -62656.111
+BETTER TREE FOUND at iteration 188: -62656.111
+Iteration 190 / LogL: -62656.215 / Time: 0h:12m:0s (0h:6m:12s left)
+Iteration 200 / LogL: -62656.111 / Time: 0h:12m:28s (0h:5m:30s left)
+Iteration 210 / LogL: -62661.738 / Time: 0h:12m:55s (0h:4m:49s left)
+Iteration 220 / LogL: -62659.612 / Time: 0h:13m:23s (0h:4m:8s left)
+Iteration 230 / LogL: -62656.187 / Time: 0h:13m:50s (0h:3m:30s left)
+Iteration 240 / LogL: -62656.112 / Time: 0h:14m:18s (0h:2m:52s left)
+Iteration 250 / LogL: -62658.405 / Time: 0h:14m:46s (0h:2m:15s left)
+Iteration 260 / LogL: -62658.528 / Time: 0h:15m:12s (0h:1m:38s left)
+Iteration 270 / LogL: -62656.187 / Time: 0h:15m:39s (0h:1m:2s left)
+UPDATE BEST LOG-LIKELIHOOD: -62656.111
+Iteration 280 / LogL: -62659.580 / Time: 0h:16m:6s (0h:0m:27s left)
+TREE SEARCH COMPLETED AFTER 289 ITERATIONS / Time: 0h:16m:31s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -62656.111
+2. Current log-likelihood: -62656.094
+3. Current log-likelihood: -62656.083
+Optimal log-likelihood: -62656.074
+Proportion of invariable sites: 0.005
+Site proportion and rates:  (0.066,0.052) (0.110,0.194) (0.117,0.333) (0.179,0.578) (0.205,0.933) (0.187,1.535) (0.131,2.700)
+Parameters optimization took 3 rounds (1.041 sec)
+BEST SCORE FOUND : -62656.074
+Total tree length: 122.766
+
+Total number of iterations: 289
+CPU time used for tree search: 953.234 sec (0h:15m:53s)
+Wall-clock time used for tree search: 986.154 sec (0h:16m:26s)
+Total CPU time used: 967.502 sec (0h:16m:7s)
+Total wall-clock time used: 992.540 sec (0h:16m:32s)
+
+Analysis results written to: 
+  IQ-TREE report:                output/tree/forcedx_gappyout.iqtree
+  Maximum-likelihood tree:       output/tree/forcedx_gappyout.treefile
+  Screen log file:               output/tree/forcedx_gappyout.log
+
+Date and Time: Tue Nov  3 08:10:34 2026
