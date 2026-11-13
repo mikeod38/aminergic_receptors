@@ -6,7 +6,7 @@ it. Where I already know a claim is weak, that is stated — referees should not
 have to rediscover a weakness I am aware of, and should spend their budget on the
 ones I believe are solid.
 
-**Repo root for all paths:** `/Users/mikeodonnell/git/Malaiwong_Oglu_2026/dop6_c24a8_6/`
+**Repo root for all paths:** `dop6_c24a8_6/` in this repository (these paths were written when the sub-project lived under Malaiwong_Oglu_2026).
 
 ## Background in one paragraph
 
